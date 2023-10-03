@@ -1,0 +1,43 @@
+encoding  utf-8
+survey D32 -title "FJS MO10"
+input D32.th2
+input D32-e.th2
+
+
+map D32_MP
+  D32_SP1
+endmap
+
+#map D32_ME-
+  #D32_SE1
+#endmap
+
+#map D32_ME
+ # D32_ME- [900 0 m] none
+#endmap
+
+centerline
+    cs UTM31
+    fix 0 0704761 5008860 1438
+    station 0 "D32" entrance
+    
+    date 2017.07.23 
+    #declination 1.627 degrees
+    declination 0.00 degrees
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+    extend right
+    0 - 1.00 1 0.1
+    extend left
+    0 - 1.00 91 0.1
+    extend right
+    extend right
+    0 - 1.00 181 0.1
+    extend left
+    0 - 1.00 271 0.1
+    extend right
+endcenterline
+
+endsurvey
+
