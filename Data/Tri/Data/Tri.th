@@ -1,0 +1,24 @@
+encoding  utf-8
+
+survey Tri
+  
+  #input "20160711fromagere.th2"
+  #input "20170513fromagere-e.th2"
+
+centerline
+  #cs UTM31
+  #date 2012.10.06
+  cs lat-long
+  fix Tri 45.222 5.602 1465
+  station Tri "gouffre du Tri" entrance
+  
+    #declination 0.00 degrees
+    #units length meters
+    #units compass clino degrees
+    #calibrate length 0 0.3
+    #data normal from to length compass clino left up down right
+             #Bronto1              Bronto2    22.97     0.00   -90.00     6.56     9.84     9.84     6.56
+             #Bronto2                  fin     0.00     0.00     0.00     1.64     6.56     6.56     1.64
+    endcenterline
+
+endsurvey
