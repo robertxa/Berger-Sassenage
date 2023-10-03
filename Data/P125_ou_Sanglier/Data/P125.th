@@ -1,0 +1,19 @@
+encoding utf-8
+
+survey P125
+     centerline
+          cs lat-long
+          fix P125 45.2186 5.6001 1480
+          station P125 "gouffre P125 ou des Sangliers" entrance
+
+#P125ousanglier
+#SURVEY NAME: P125croquis
+#SURVEY DATE: 11 11 2014  COMMENT:
+#SURVEY TEAM: 
+#?
+#DECLINATION:    0.00  FORMAT: DMMDUDRLLADNF  CORRECTIONS:  0.00 0.00 0.00  CORRECTIONS2:  0.00 0.00
+#FROM                   TO   LENGTH  BEARING      INC     LEFT       UP     DOWN    RIGHT   FLAGS  COMMENTS
+
+          # Sanglier1            sanglier2   410.10     0.00   -89.00    13.12    13.12    13.12    13.12
+     endcenterline
+endsurvey
