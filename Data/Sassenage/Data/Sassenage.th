@@ -1,0 +1,3762 @@
+encoding utf-8
+#Version 5.09
+
+survey Sassenage -title "Cuves de Sassenage" -entrance Sassenage
+
+    centerline
+    cs lat-long
+
+    fix Sassenage 45.20835 5.65154 298
+    
+    station Sassenage "Cuves de Sassenage" entrance
+
+    date 2002.06.06
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Trou Face à l'entrée supérieure des Cuves,0.860,0.328,308
+        #Param Deca Degd Clino Degd 2.5200 Dir,Dir,Dir Inc 0,0,0 06/06/2002 M ;AD,BL BL 
+        Sassenage      1_1              0.00    0.00   90.00    # départ face à l'entrée sup des Cuves depuis l'entrée sup jusqu'aux Enfers, simple raccord de topo
+        1_1        2_1              0.00    0.00   90.00
+        2_1        2_2              2.31  306.00    0.00    # {397.03}entrée sup au pied de l'escalier Rata
+        2_2        3_1              0.00  180.00   90.00    # {629.58}
+    endcenterline
+
+
+    centerline
+    date 2003.09.28
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.4300 Dir,Dir,Dir Inc 0,0,0 28/09/2003 M ;S., J. BL BL 
+        3_1        3_2              3.00  130.50   -9.90      #615.24}
+        3_2        3_3             12.34  353.70    7.20      # pt géomètre-entrée sup vers la grotte sup des chauve-souris
+        3_3        3_4              0.00    0.00   90.00      
+        3_4        3_5             10.75  314.10   29.70      #668.65}
+        3_5        3_6              8.03  266.40   25.20      #679.76}
+        3_6        3_7              3.26  310.50    0.90      
+    endcenterline
+
+
+    centerline
+    date 2002.06.06
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5200 Dir,Dir,Dir Inc 0,0,0 06/06/2002 M ;AD,BL BL 
+        2_2        4_1              0.00  180.00   90.00      
+    endcenterline
+
+
+    centerline
+    date 2003.09.28
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.4300 Dir,Dir,Dir Inc 0,0,0 28/09/2003 M ;S., J. BL BL 
+        4_1        4_2              0.40  180.00   90.00      
+        4_2        4_3             17.47  135.00  -18.90      #632.62}
+        4_3        4_4             18.56   29.70  -25.20      # porche inf-entr�e sup
+
+    endcenterline
+
+
+    centerline
+    date 2002.06.06
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5200 Dir,Dir,Dir Inc 0,0,0 06/06/2002 M ;AD,BL BL 
+        2_2        5_1              0.00  180.00   90.00      #665.65}
+
+    endcenterline
+
+
+    centerline
+    date 2003.01.26
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5020 Dir,Dir,Dir Inc 0,0,0 26/01/2003 M ;P.-O. S; B.L. B.L. 
+        5_1        5_2              0.00  180.00   90.00      
+        5_2        5_3              0.00  180.00   90.00      # raccord entrée topo vers le canal des Enfers
+        5_3        8_1              5.46  132.30   -5.40      
+        8_1        8_2              4.68  351.90    3.60      
+        8_2        8_3             12.31  161.10  -19.80      
+        8_3        8_4             14.34  129.60   -1.80      # boyau vers Moine Rouge
+    endcenterline
+
+
+    centerline
+    date 2003.07.07
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.4300 Dir,Dir,Dir Inc 0,0,0 20/07/2003 M ;Y.C, T.V. B.L. B.L. 
+        8_4        39_1             0.00    0.00   90.00      
+        39_1       39_2             2.74   13.50   65.70      #260.27}
+        39_2       39_3             3.53  127.80  -18.00      
+        39_3       39_4             7.79  104.40  -32.40      
+        39_4       39_5             6.93  104.40  -33.30      
+        39_5       39_6            13.41  306.90   -2.70      
+        39_6       39_7             9.90  302.40    6.30      
+        39_7       39_8            11.83  147.60   43.20      
+    endcenterline
+
+
+    centerline
+    date 2003.01.26
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5020 Dir,Dir,Dir Inc 0,0,0 26/01/2003 M ;P.-O. S; B.L. B.L. 
+        8_4        46_1             6.72  234.00   15.30      #658.93}
+    endcenterline
+
+
+    centerline
+    date 2002.06.06
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5200 Dir,Dir,Dir Inc 0,0,0 06/06/2002 M ;AD,BL BL 
+        46_1       47_1             0.00  180.00   90.00      
+    endcenterline
+
+
+    centerline
+    date 2003.04.06
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5020 Dir,Dir,Dir Inc 0,0,0 06/04/2003 M ;BH,BL 
+        47_1       47_2             8.22  305.10   12.60      
+        47_2       47_3             4.11  323.10   11.70      
+        47_3       47_4             7.27  318.60   16.20      
+        47_4       47_5             9.43  302.40    2.70      # barrage
+        47_5       79_1             3.81  345.60    2.70      #818.18}
+        79_1       79_2            21.54  295.20    3.60      
+        79_2       79_3             0.70  180.00   90.00      
+        79_3       79_4            12.62  309.60    0.90      
+        79_4       79_5            11.98  292.50   12.60      
+        79_5       79_6             4.37  240.30   -0.00      
+        79_6       79_7            11.12  297.00   -2.70      
+        79_7       79_8             2.19  278.10   18.00      
+        79_8       79_9             1.45  206.10   23.40      
+        79_9       79_10            0.50  180.00   90.00      
+        79_10      79_11            1.37   17.10   31.50      #769.86}
+        79_11      79_12            2.72  251.10   35.10      # galerie fenêtre
+        47_5       75_1             0.00    0.00   90.00      
+        75_1       75_2             2.69  303.30   69.30      #872.56}
+        75_2       80_1             2.49  182.70   13.50      # simple visée raccord
+        80_1       80_2             0.00    0.00   90.00      
+        80_2       84_1             0.01  126.00    0.00      #881.90}
+        80_1       90_1            10.23  187.20    5.40      #881.90}
+        90_1       90_2             4.76    1.80  -17.10      
+        90_2       90_3             8.84  121.50   -7.20      #901.66}
+        90_3       90_4             3.67   25.20  -11.70      
+        90_4       126_1           18.50  119.70  -18.90      
+    endcenterline
+
+
+    centerline
+    date 2002.06.06
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5200 Dir,Dir,Dir Inc 0,0,0 06/06/2002 M ;AD,BL BL 
+        126_1      46_1             0.00    0.00   90.00      #658.93}
+    endcenterline
+
+
+    centerline
+    date 2003.04.06
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5020 Dir,Dir,Dir Inc 0,0,0 06/04/2003 M ;BH,BL 
+        80_1       81_1             0.00    0.00   90.00      
+        81_1       81_2             4.16  289.80   51.30      #877.74}
+    endcenterline
+
+
+    centerline
+    date 2002.06.06
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5200 Dir,Dir,Dir Inc 0,0,0 06/06/2002 M ;AD,BL BL 
+        81_2       81_3             0.00  180.00   90.00      
+    endcenterline
+
+
+    centerline
+    date 2003.01.19
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5020 Dir,Dir,Dir Inc 0,0,0 19/01/2003 M ;S., D.F., B.L. B.L. 
+        81_3       81_4             2.52  172.80   -5.40      
+        81_4       81_5             4.81  180.00   -8.10      
+        81_5       81_6             7.23  159.30   -2.70      #584.52}
+        81_6       81_7             2.40  180.00  -90.00      
+        81_7       81_8             5.17  120.60    3.60      
+        81_8       81_9             2.88  122.40   -9.90      
+        81_9       81_10           11.22  116.10   -9.00      
+        81_10      81_11            5.88  127.80   -7.20      
+        81_11      81_12            4.45  113.40  -22.50      
+        81_12      81_13            4.80  121.50  -48.60      
+        81_13      81_14            7.70  117.00  -17.10      
+        81_14      81_15            7.30  115.20   -7.20      
+        81_15      81_16            3.37  148.50   -8.10      
+        81_16      81_17           19.42  121.50   -3.60      #508.17}
+        81_17      81_18            4.96   86.40  -34.20      
+        81_18      81_19            2.51  332.10   -3.60      #502.38}
+        81_19      81_20            1.73    8.10  -20.70      # réseau Fonné siphon bas bout série 42
+        81_20      81_21            0.00    0.00   90.00      
+        81_21      81_22            6.00  351.00    0.00      
+    endcenterline
+
+
+    centerline
+    date 2002.06.06
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5200 Dir,Dir,Dir Inc 0,0,0 06/06/2002 M ;AD,BL BL 
+        84_1       82_1             0.00    0.00   90.00      # galerie des Dames
+        82_1       82_2            12.98  359.10   -4.50      #553.02}
+        82_2       103_1           10.25  122.40  -13.50      
+        103_1      2_2              0.00  180.00   90.00      #397.03}entrée sup au pied de l'escalier Rata
+        82_1       87_1             6.70  298.80   29.70      
+        87_1       87_2            20.52  300.60    0.90      
+        87_2       87_3            18.57  297.00    9.90      
+        87_3       87_4             1.52  297.00   17.10      # début au bas escalier ratapla, fin juste après St Bruno
+        87_4       87_5             0.00    0.00   90.00      
+        87_5       87_6             2.93  289.80   44.10      #55.74}
+        87_6       87_7             4.88  198.00   24.30      
+        87_7       87_8             6.29  220.50    6.30      #63.62}diaclase au-dessus enfers
+        87_8       150_1            8.59  268.20  -39.60      #69.93}
+        150_1      150_2           13.49  254.70    3.60      #78.66}
+        150_2      150_3            8.59  255.60   19.80      #92.26}
+        150_3      150_4           16.58  274.50    7.20      #101.17}
+        150_4      150_5            6.32  288.90    1.80      #117.90}
+        150_5      150_6            4.56  292.50   33.30      #124.40}
+        150_6      200_1            0.00  180.00   90.00      
+    endcenterline
+
+
+    centerline
+    date 2003.04.06
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5020 Dir,Dir,Dir Inc 0,0,0 06/04/2003 M ;BH,BL 
+        200_1      200_2            1.50  220.50  -36.00      
+        200_2      200_3            0.00  180.00   90.00      #703.04}raccord
+        200_3      208_1            6.87   94.50  -23.40      # parloir des fées
+        200_3      207_1            5.58   25.20   57.60      
+        207_1      207_2            3.12   77.40   -1.80      
+        207_2      207_3            2.62    5.40   54.90      
+        207_3      207_4            3.69   97.20   28.80      
+        207_4      207_5            4.32   46.80   18.00      
+        207_5      207_6            4.43   85.50   31.50      
+    endcenterline
+
+
+    centerline
+    date 2002.12.08
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5200 Dir,Dir,Dir Inc 0,0,0 08/12/2002 M ;A.D., S., B.L. B.L. 
+        150_6      209_1            9.04  221.40    4.50      #129.06}
+        209_1      209_2           18.62  246.60    4.50      #138.25}
+        209_2      227_1            0.00  180.00   90.00      
+    endcenterline
+
+
+    centerline
+    date 2006.02.26
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.2950 Dir,Dir,Dir Inc 0,0,0 26/02/2006 M ;EF,BL BL 
+        227_1      227_2            1.00   90.00   -0.00  #27.98 300.00 100.00
+        227_2      227_3            3.96  139.50  -29.70      #17.03}
+        227_3      227_4            5.99  166.50  -13.50      
+        227_4      227_5            4.00  210.60   18.00      
+        227_5      227_6            1.83  234.00  -18.00      
+        227_6      227_7            2.62  171.00   -0.00      
+        227_7      227_8            1.00  118.80   27.00      #8.70}
+        227_8      227_9            2.06  118.80   27.00      # 0
+        227_9      250_1            0.00    0.00   90.00      
+        250_1      250_2            4.73   64.80  -18.00      #3.97}
+        227_9      254_1            4.76  195.30   -0.00      # 0
+        254_1      259_1            4.23  202.50   -0.00      
+        259_1      259_2            9.88  238.50   -0.00      #980.27}0
+        259_2      273_1            4.83  177.30   -0.00      # 0
+        273_1      274_1            0.00    0.00   90.00      
+        274_1      274_2            3.00  175.50    0.00      #966.81}0
+        274_2      285_1            8.20  117.00    0.00      
+        274_2      276_1            0.00    0.00   90.00      
+        276_1      276_2            2.26  181.80    0.00      #978.01}
+        273_1      278_1            5.14   79.20   -0.00      #950.50}
+        278_1      278_2           11.17  160.20   -0.00      # 00
+        278_2      278_3            0.00    0.00   90.00      
+        278_3      278_4            8.00  180.00    0.00      
+        259_2      268_1            0.00    0.00   90.00      
+        268_1      268_2            4.74  330.30   23.40      #985.10}
+        254_1      255_1            0.00    0.00   90.00      
+        255_1      255_2            6.79  256.50    0.00      #999.21}
+    endcenterline
+
+
+    centerline
+    date 2002.06.06
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5200 Dir,Dir,Dir Inc 0,0,0 06/06/2002 M ;AD,BL BL 
+        209_2      228_1            0.00  180.00   90.00      
+    endcenterline
+
+
+    centerline
+    date 2003.09.28
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.4300 Dir,Dir,Dir Inc 0,0,0 28/09/2003 M ;S., J. BL BL 
+        228_1      228_2            2.24  289.80   -6.30      
+        228_2      228_3            1.54  261.90   14.40      
+        228_3      228_4            2.30  343.80   -0.00      
+        228_4      228_5            6.40   79.20  -12.60      
+        228_5      228_6            2.69   34.20  -10.80      
+        228_6      228_7            2.33   57.60   -4.50      
+        228_7      228_8            3.27   44.10    0.90      #746.42}
+        228_8      228_9            5.12   63.90    9.00      # boyau parallèle à la gal du Styx
+    endcenterline
+
+
+    centerline
+    date 2002.12.08
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5200 Dir,Dir,Dir Inc 0,0,0 08/12/2002 M ;A.D., S., B.L. B.L. 
+        209_2      231_1            4.10  284.40    8.10      #156.97}
+        231_1      231_2            5.39  238.50   23.40      #161.16}
+        231_2      231_3            4.08  179.10    8.10      #166.84}
+        231_3      231_4            3.41  164.70  -11.70      #171.04}
+        231_4      231_5            4.02  188.10   -6.30      #174.62}
+        231_5      231_6            2.73  170.10   42.30      #178.78}
+        231_6      231_7            6.39  229.50   38.70      #181.61}sous la salle de la série 6
+        231_7      262_1            4.81  167.40   31.50      # salle en amont de la cascade Edouard salle éboulis->st Bruno
+    endcenterline
+
+
+    centerline
+    date 2003.04.06
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5020 Dir,Dir,Dir Inc 0,0,0 06/04/2003 M ;BH,BL 
+        262_1      263_1            0.00    0.00   90.00      
+        263_1      263_2            5.80  251.10    4.50      #653.54}
+        263_2      263_3            3.95  209.70  -63.00      
+        263_3      263_4            4.80  221.40   -9.00      
+        263_4      263_5            1.48    0.00  -90.00      
+        263_5      263_6            2.50  210.60   -6.30      
+        263_6      263_7            1.83  199.80  -27.90      
+        263_7      263_8            3.69  261.90    5.40      
+        263_8      263_9           14.18  194.40   -3.60      
+        263_9      263_10           8.38  144.90   46.80      
+        263_10     263_11           2.89  109.80  -15.30      
+    endcenterline
+
+
+    centerline
+    date 2002.12.08
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5200 Dir,Dir,Dir Inc 0,0,0 08/12/2002 M ;A.D., S., B.L. B.L. 
+        262_1      264_1            0.00    0.00   90.00      
+        264_1      264_2           12.06   36.00   18.00      #192.91}
+        264_2      264_3            4.07   74.70   21.60      #205.02}
+        264_3      264_4            6.17  105.30   13.50      #210.03}
+        264_4      264_5            3.80    0.00   90.00      
+        264_5      264_6            4.00  288.00   45.00      
+        264_6      264_7            3.00   18.00   45.00      
+        262_1      267_1            4.76  234.00   13.50      #228.51}
+        267_1      267_2            6.72  175.50    1.80      #233.42}
+        267_2      267_3            1.80  108.90   13.50      #240.30}
+        267_3      267_4            9.26  203.40    2.70      #242.54}
+        267_4      267_5            1.57  170.10    7.20      #252.01}
+        267_5      267_6            4.00  212.40   -8.10      #255.67}
+        267_6      267_7            7.12  222.30  -23.40      #260.12}sous et avant salle st Bruno
+        267_7      301_1            3.60  226.80   25.20      #314.01}
+        301_1      301_2           10.02  178.20   21.60      #317.76}
+        301_2      301_3            3.71  211.50   -9.00      #328.00}début salle St Bruno vers réseau casteret
+        301_3      315_1            0.00  180.00   90.00      
+    endcenterline
+
+
+    centerline
+    date 2003.07.20
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.4300 Dir,Dir,Dir Inc 0,0,0 20/07/2003 M ;Y.C, T.V. B.L. B.L. 
+        315_1      315_2            5.32  135.00   -0.00      
+        315_2      315_3            4.01   57.60  -54.00      #552.15}
+        315_3      315_4           14.42  121.50  -36.00      # 2e descente de St Bruno
+    endcenterline
+
+
+    centerline
+    date 2002.12.08
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5200 Dir,Dir,Dir Inc 0,0,0 08/12/2002 M ;A.D., S., B.L. B.L. 
+        301_3      322_1            7.69  211.50  -27.00      #331.93}
+        322_1      322_2            3.98   85.50  -39.60      #339.76}
+        322_2      322_3            3.56  153.00  -63.90      #343.84}bas de l'échelle
+    endcenterline
+
+
+    centerline
+    date 2003.02.02
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5020 Dir,Dir,Dir Inc 0,0,0 02/02/2003 M ;B.L. B.L. 
+        322_3      330_1            0.00    0.00   90.00      
+        330_1      330_2            7.71   73.80  -10.80      #42.70}
+        330_2      330_3            7.20   63.00  -23.40      
+        330_3      330_4            0.00    0.00   90.00      
+
+    endcenterline
+
+
+    centerline
+    date 2002.12.08
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5200 Dir,Dir,Dir Inc 0,0,0 08/12/2002 M ;A.D., S., B.L. B.L. 
+        322_3      341_1           11.17  130.50   -5.40      #347.93}vers le luirographe sous salle st Bruno arrivée grande galerie 3/33 raccord série 125
+    endcenterline
+
+
+    centerline
+    date 2003.07.20
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.4300 Dir,Dir,Dir Inc 0,0,0 20/07/2003 M ;Y.C, T.V. B.L. B.L. 
+        341_1      342_1            0.00    0.00   90.00      
+        342_1      342_2           13.44  207.00  -18.00      #538.71}
+    endcenterline
+
+
+    centerline
+    date 2003.02.02
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5020 Dir,Dir,Dir Inc 0,0,0 02/02/2003 M ;B.L. B.L. 
+        341_1      343_1            0.00    0.00   90.00      
+        343_1      343_2            6.62  100.80  -39.60      #30.18}
+        343_2      343_3            5.81   88.20  -26.10      
+        343_3      343_4            2.00   88.20   -9.00      
+    endcenterline
+
+
+    centerline
+    date 2003.06.29
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.4300 Dir,Dir,Dir Inc 0,0,0 29/06/2003 M ;B.L. B.L. 
+        343_4      343_5            5.20  342.00    0.00      #800.00}
+    endcenterline
+
+
+    centerline
+    date 2002.12.22
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5200 Dir,Dir,Dir Inc 0,0,0 22/12/2002 M ;A.D, S.T., B.L. B.L. 
+        341_1      344_1            0.00    0.00   90.00      
+        344_1      344_2            8.71   53.10   -9.00      #416.82}descente au Luiro sous st Bruno
+        344_2      350_1            0.00    0.00   90.00      
+        350_1      350_2            4.61   99.90  -35.10      #425.68}
+        350_2      350_3            3.75    0.00  -90.00      #430.30}
+        344_2      354_1            4.13   61.20    0.00      #434.05}
+        354_1      367_1           13.17  358.20   -1.80      # vers le plan d'eau-siphon
+        367_1      367_2            6.02  198.90   -3.60      #460.04}
+        367_2      367_3            4.02  243.00    0.90      #466.16}
+        367_3      367_4            8.45  170.10    0.00      
+        367_4      393_1            6.94  228.60   11.70      
+        393_1      341_1            0.00    0.00   90.00      #347.93}vers le luirographe sous salle st Bruno arrivée grande galerie 3/33 raccord série 125
+        367_1      368_1            0.00    0.00   90.00      
+        368_1      368_2            5.80   83.70  -27.00      #451.35}
+        368_2      368_3            2.58    0.00  -90.00      
+        368_3      368_4            8.00   58.50    0.00      
+        341_1      356_1           14.41  216.90   -7.20      #359.43}affluent du Furon
+        356_1      363_1            7.05  207.90   18.90      #401.39}suite topo 15 jours avant boyau vers affluent Furon
+    endcenterline
+
+
+    centerline
+    date 2003.02.02
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5020 Dir,Dir,Dir Inc 0,0,0 02/02/2003 M ;B.L. B.L. 
+        363_1      364_1            0.00    0.00   90.00      
+        364_1      364_2            0.92    0.00   90.00      #8.08}
+        364_2      364_3            7.00  100.80   -9.00      
+        364_3      364_4            3.28  131.40  -24.30      
+        364_4      364_5            3.43  165.60    5.40      
+        364_5      364_6            7.17  225.90   13.50      #23.01}
+    endcenterline
+
+
+    centerline
+    date 2002.12.22
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5200 Dir,Dir,Dir Inc 0,0,0 22/12/2002 M ;A.D, S.T., B.L. B.L. 
+        363_1      365_1            0.00    0.00   90.00      
+        365_1      365_2           12.68  155.70   -1.80      #485.64}
+        365_2      365_3            9.46  232.20   -1.80      #498.55}perte face Casteret raccord casteret
+        365_3      385_1            0.00  180.00   90.00      
+    endcenterline
+
+
+    centerline
+    date 2003.01.26
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5020 Dir,Dir,Dir Inc 0,0,0 26/01/2003 M ;P.-O. S; B.L. B.L. 
+        385_1      385_2            9.04   51.30    4.50      #815.63}
+        385_2      385_3            2.49   84.60  -10.80      
+        385_3      385_4            2.67  243.00  -56.70      # raccord
+        385_4      399_1            0.00    0.00   90.00      
+        399_1      399_2            6.77  344.70   -0.90      #827.16}
+        399_2      399_3            3.50  297.90   25.20      
+        385_4      402_1            3.02   52.20  -25.20      
+        402_1      408_1            6.21   82.80  -10.80      # raccord boyaux face à la Triperie
+        408_1      408_2            5.02  171.00   -0.00      #792.20}
+        408_2      421_1            6.31  154.80    4.50      
+    endcenterline
+
+
+    centerline
+    date 2003.06.29
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.4300 Dir,Dir,Dir Inc 0,0,0 29/06/2003 M ;B.L. B.L. 
+        408_1      409_1            0.00    0.00   90.00      
+        409_1      409_2            6.65   73.80    0.00      #236.50}
+        409_2      409_3            2.05   73.80    0.00      # suite série 125
+        409_3      409_4            0.00    0.00   90.00      
+        409_4      409_5            2.45  338.40    1.80      #511.76}
+        409_5      409_6            2.71  259.20    9.90      
+        409_6      409_7            4.21  286.20    7.20      
+        409_7      409_8            0.70  196.20   -0.90      
+        409_8      409_9            4.25  333.00    0.90      #521.13}
+        409_9      409_10           2.32  281.70    9.00      
+        409_10     409_11           3.89  315.90    3.60      
+        409_11     409_12           3.71  330.30   14.40      #535.00}
+    endcenterline
+
+
+    centerline
+    date 2003.01.26
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5020 Dir,Dir,Dir Inc 0,0,0 26/01/2003 M ;P.-O. S; B.L. B.L. 
+        421_1      420_1            0.00  180.00   90.00      # raccord série 51/6
+        420_1      420_2            7.30  272.70   -0.90      
+        420_2      420_3            4.63  225.00    7.20      
+        420_3      420_4            6.07  224.10    6.30      
+        420_4      420_5            4.81  261.00    3.60      
+        420_5      420_6            2.77  273.60   44.10      #744.54}
+        420_6      457_1           10.99    7.20    2.70      
+        457_1      365_3            0.00  180.00   90.00      #498.55}perte face Casteret raccord casteret
+        420_1      422_1            2.16  131.40    2.70      
+        422_1      422_2            4.55   63.00   -5.40      # raccord siphons face à la Triperie
+    endcenterline
+
+
+    centerline
+    date 2003.06.29
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.4300 Dir,Dir,Dir Inc 0,0,0 29/06/2003 M ;B.L. B.L. 
+        422_2      426_1            0.00    0.00   90.00      
+        426_1      426_2            4.63   61.20    0.00      #243.17}
+        426_2      426_3            6.65   44.10    0.00      
+        426_3      426_4            7.55  101.70    0.00      
+    endcenterline
+
+
+    centerline
+    date 2003.01.26
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5020 Dir,Dir,Dir Inc 0,0,0 26/01/2003 M ;P.-O. S; B.L. B.L. 
+        422_2      432_1            5.38   94.50   -7.20      
+        432_1      432_2            6.00  333.00    0.00      
+        432_2      432_3            6.00   99.00    0.00      
+    endcenterline
+
+
+    centerline
+    date 2002.06.06
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5200 Dir,Dir,Dir Inc 0,0,0 06/06/2002 M ;AD,BL BL 
+        365_3      386_1            0.00  180.00   90.00      #139.40}
+    endcenterline
+
+
+    centerline
+    date 2003.01.05
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5020 Dir,Dir,Dir Inc 0,0,0 05/01/2003 M ;E.F, B.L. B.L. 
+        386_1      386_2           11.90  211.50   23.40      
+        386_2      386_3           14.05  304.20   16.20      
+        386_3      386_4            6.48  271.80   54.00      #113.28}
+        386_4      386_5            4.84  285.30   15.30      # salle casteret quad
+        386_5      425_1            3.02  300.60  -13.50      
+        425_1      425_2            6.84  337.50   -7.20      
+        425_2      438_1            5.94  344.70   41.40      #70.76}
+        438_1      447_1            9.24  323.10   20.70      #61.52}salle casteret ter
+        447_1      448_1            0.00    0.00   90.00      
+        448_1      448_2            8.00  243.00    0.00      
+        448_2      448_3            3.00    0.00  -90.00      
+        447_1      455_1            8.33   54.00    3.60      #9.10}salle Casteret
+        455_1      456_1            0.00    0.00   90.00      
+        456_1      462_1            6.79  273.60   -5.40      #14.86}salle Casteret bis
+        462_1      462_2            0.00    0.00   90.00      
+        462_2      462_3            5.88   45.00   30.60      #38.03}
+        462_3      462_4            7.08   72.00  -22.50      
+        462_4      462_5            5.20   98.10  -36.00      
+        462_5      491_1            5.33   64.80   -9.00      
+        462_1      469_1            7.20  246.60   35.10      #17.75}
+        469_1      469_2            7.14  248.40   17.10      
+        469_2      469_3            5.94  252.00   34.20      
+    endcenterline
+
+
+    centerline
+    date 2002.06.06
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5200 Dir,Dir,Dir Inc 0,0,0 06/06/2002 M ;AD,BL BL 
+        491_1      486_1            0.00    0.00   90.00      # raccord
+    endcenterline
+
+
+    centerline
+    date 2003.01.05
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5020 Dir,Dir,Dir Inc 0,0,0 05/01/2003 M ;E.F, B.L. B.L. 
+        486_1      486_2            9.32   46.80  -67.50      
+        486_2      486_3           13.21   53.10   -4.50      
+        486_3      486_4            4.83   64.80    6.30      #966.80}
+        486_4      524_1           11.15   54.00   27.00      
+        524_1      301_3            0.00  180.00   90.00      #328.00}début salle St Bruno vers réseau casteret
+        486_1      499_1           13.11  212.40   27.90      #995.99}rés casteret raccord 18/5 à 18/8 encore
+        499_1      455_1            5.76  289.80  -14.40      #9.10}salle Casteret
+    endcenterline
+
+
+    centerline
+    date 2002.06.06
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5200 Dir,Dir,Dir Inc 0,0,0 06/06/2002 M ;AD,BL BL 
+        499_1      500_1            0.00  180.00   90.00      
+    endcenterline
+
+
+    centerline
+    date 2003.06.15
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5020 Dir,Dir,Dir Inc 0,0,0 15/06/2003 M ;S.T, B.L. C?F? B.L. 
+        500_1      500_2            2.07  111.60  -11.70      
+        500_2      500_3            8.65  150.30   69.30      
+        500_3      500_4            7.19  150.30   -2.70      
+        500_4      500_5            9.65  181.80    4.50      #162.45}
+        500_5      500_6            5.03  180.00    9.90      
+        500_6      500_7            6.30  122.40   -8.10      
+        500_7      500_8            6.31  102.60  -23.40      
+        500_8      500_9            5.97  288.00  -81.00      
+        500_9      500_10           7.05  295.20  -47.70      #130.05}
+        500_10     500_11           5.77  289.80   -9.00      # réseau sup des fistuleuses
+        499_1      501_1            0.00    0.00   90.00      
+        501_1      501_2           11.40  285.30    0.00      
+        499_1      502_1            0.00    0.00   90.00      
+        502_1      502_2            6.11  207.00  -27.90      #848.54}
+        502_2      502_3            6.59  212.40  -18.90      
+        486_1      487_1            0.00    0.00   90.00      
+        487_1      487_2           10.80   46.80  -58.50      
+        386_5      423_1            0.00    0.00   90.00      
+        423_1      423_2            8.80  199.80    6.30      #95.80}
+        423_2      423_3            8.68  288.00   27.90      
+    endcenterline
+
+
+    centerline
+    date 2002.12.22
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5200 Dir,Dir,Dir Inc 0,0,0 22/12/2002 M ;A.D, S.T., B.L. B.L. 
+        365_3      401_1           15.80  216.00    0.00      #439.02}série 14/3 (en double)
+        401_1      429_1           28.41  202.50    8.10      #410.61}
+        429_1      429_2            6.81  200.70    5.40      #403.80}
+        429_2      429_3           10.23  186.30   21.60      #393.57}puits remontant départ 14/6
+        429_3      453_1            6.55  207.00  -14.40      #387.02}
+        453_1      453_2           16.25  114.30   -9.00      #370.77}petite galerie
+    endcenterline
+
+
+    centerline
+    date 2003.01.26
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5020 Dir,Dir,Dir Inc 0,0,0 26/01/2003 M ;P.-O. S; B.L. B.L. 
+        453_2      470_1            0.00    0.00   90.00      
+        470_1      470_2            9.75  298.80   -9.00      #672.89}
+        470_2      470_3            3.74   34.20  -18.90      
+        470_3      470_4            9.15  328.50    0.00      
+        470_4      470_5            3.28  258.30   29.70      
+    endcenterline
+
+
+    centerline
+    date 2002.12.22
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5200 Dir,Dir,Dir Inc 0,0,0 22/12/2002 M ;A.D, S.T., B.L. B.L. 
+        453_2      488_1           19.48  209.70   -4.50      #574.97}galerie en dessous de l'autreperte (14/9)
+        488_1      503_1           11.29  162.90   -1.80      #631.23}topo boucle du shunt  corde (se referme sur 14/10)
+    endcenterline
+
+
+    centerline
+    date 2003.01.19
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5020 Dir,Dir,Dir Inc 0,0,0 19/01/2003 M ;S., D.F., B.L. B.L. 
+        503_1      504_1            0.00    0.00   90.00      
+        504_1      504_2           18.78  131.40   -7.20      #281.06}raccord série 36
+        504_2      518_1            0.00    0.00   90.00      
+        518_1      518_2            5.08   80.10    0.00      #299.84}
+        518_2      518_3            4.40  316.80  -20.70      
+        518_3      518_4            2.85  315.00    0.00      
+        518_4      518_5            3.97  312.30   46.80      #844.88}
+        518_5      518_6            6.15  285.30   30.60      
+        504_2      529_1           10.79  272.70    6.30      #312.17}
+        529_1      529_2            6.68  288.90    3.60      
+        529_2      529_3           11.14  303.30   11.70      
+        529_3      529_4            6.40   22.50   45.00      
+        529_4      529_5            4.71   68.40  -13.50      
+        529_5      529_6            7.74  118.80  -27.90      
+    endcenterline
+
+
+    centerline
+    date 2002.12.22
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5200 Dir,Dir,Dir Inc 0,0,0 22/12/2002 M ;A.D, S.T., B.L. B.L. 
+        503_1      510_1           10.10  281.70   27.90      #642.63}
+        510_1      510_2            3.93  271.80   32.40      
+        510_2      514_1            0.00  180.00   90.00      
+    endcenterline
+
+
+    centerline
+    date 2003.01.05
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5020 Dir,Dir,Dir Inc 0,0,0 05/01/2003 M ;E.F, B.L. B.L. 
+        514_1      514_2            1.00  103.50   -0.00      
+        514_2      514_3            9.70  212.40  -41.40      #269.60}
+        514_3      514_4            1.91  265.50  -27.00      
+        514_4      514_5            5.85  193.50   -0.00      
+        514_5      514_6            2.16  217.80   23.40      
+        514_6      514_7            3.53  214.20   50.40      
+        514_7      514_8            2.62  191.70   -0.00      
+        514_8      514_9            8.66  140.40  -14.40      #247.12}
+        514_9      514_10           5.51   87.30   22.50      #233.44}divert 23 ter
+        514_10     561_1            6.41  270.00   26.10      
+        561_1      562_1            0.00  180.00   90.00      # diverticule 23 bis
+        562_1      562_2            8.06  207.00   -5.40      
+        562_2      562_3            3.56  297.90   -0.00      
+        562_3      562_4            5.33  266.40    0.90      
+        562_4      562_5            6.17  318.60   17.10      #151.30}
+        562_5      593_1            3.52  328.50  -63.90      
+        562_1      568_1            7.14  129.60    7.20      
+        568_1      568_2           10.72  360.00   -1.80      # salle Hervé
+        568_2      591_1           11.87  292.50   20.70      # diverticule 23
+        591_1      592_1            0.00    0.00   90.00      
+        592_1      592_2            5.93  226.80   11.70      #207.67}
+        591_1      595_1            4.57    1.80   13.50      #213.60}
+        595_1      595_2            6.50    2.70  -10.80      
+        595_2      595_3            8.77  245.70   23.40      
+        568_2      579_1            0.00    0.00   90.00      
+        579_1      579_2            7.25  129.60   -7.20      #665.65}
+        579_2      579_3            8.03  137.70  -54.00      
+        593_1      588_1            0.00  180.00   90.00      #721.01}Canyon-bas éboulis-corde raccorde 16/1 à 14/13raccord corde (16/1)
+    endcenterline
+
+
+    centerline
+    date 2002.12.22
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5200 Dir,Dir,Dir Inc 0,0,0 22/12/2002 M ;A.D, S.T., B.L. B.L. 
+        588_1      608_1           19.47  198.00   -3.60      
+        588_1      589_1            0.00  180.00   90.00      #364.65}
+        589_1      589_2           29.05  198.00   -0.00      
+        589_2      589_3            0.00  180.00   90.00      
+        589_3      589_4            0.00  180.00   90.00      
+        589_4      589_5            0.00  180.00   90.00      # raccord sur la vire
+    endcenterline
+
+
+    centerline
+    date 2003.02.02
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5020 Dir,Dir,Dir Inc 0,0,0 02/02/2003 M ;B.L. B.L. 
+        588_1      590_1            0.00    0.00   90.00      
+        590_1      590_2            5.10   32.40   -8.10      #933.50}
+        590_2      590_3            3.60   43.20    4.50      
+        590_3      590_4            0.30    0.00   90.00      
+        590_4      590_5            3.60   85.50   18.00      #942.20}
+        590_5      590_6            3.00   85.50    9.00      
+        590_6      590_7            4.00  135.00  -81.00      #947.80}
+    endcenterline
+
+
+    centerline
+    date 2002.12.2
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5200 Dir,Dir,Dir Inc 0,0,0 22/12/2002 M ;A.D, S.T., B.L. B.L. 
+        608_1      607_1            0.00  180.00   90.00      # raccord vers corde
+        607_1      641_1           34.13    0.90   10.80      
+        607_1      627_1           20.22  207.00    1.80      #740.48}
+        627_1      627_2           10.22  189.90    0.90      #771.03}
+        627_2      627_3           14.09  205.20   15.30      # vers spit vire salle à Manger départ salle à manger vers P13
+        627_3      663_1           10.92  248.40   -7.20      #798.98}
+        663_1      663_2            4.44  292.50   28.80      
+        663_2      663_3            5.20  265.50   12.60      
+        663_3      663_4            3.26  258.30  -26.10      # siphon Bonnevalle
+        663_4      689_1           13.44  270.00   -3.60      
+        689_1      689_2            3.80  225.00    0.00      # siphon SAM
+    endcenterline
+
+
+    centerline
+    date 2003.04.14
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.7800 Dir,Dir,Dir Inc 0,0,0 14/04/2003 M ;P. Clec'h 
+        689_2      689_3            0.00    0.00   90.00      
+        689_3      689_4            5.00  190.00  -51.26      
+        689_4      689_5           10.00  260.00    4.59      
+        689_5      689_6            3.00  240.00   36.87      
+        689_6      689_7            2.00  240.00   40.54      #3.00}
+        689_7      689_8            5.00  270.00  -10.37      
+        689_8      689_9            2.00  225.00   26.74      
+        689_9      689_10          12.00  155.00    0.00      # topo Pascal Clec'h
+    endcenterline
+
+
+    centerline
+    date 2003.04.14
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5020 Dir,Dir,Dir Inc 0,0,0 14/04/2003 M ;P. Clec'h 
+        689_10     689_11           0.00    0.00   90.00      
+        689_11     689_12          20.24  147.60   16.20      #943.23}
+        689_12     689_13           8.16  153.90  -18.00      
+        689_13     689_14           8.37  137.70  -15.30      
+        689_14     689_15          19.96  151.20   25.20      
+        689_15     689_16           9.45  153.00    6.30      
+        689_16     689_17          16.86  154.80  -27.00      #9.41}
+        689_17     689_18           7.32  144.00  -26.10      # topo siphon Bonnevalle
+    endcenterline
+
+
+    centerline
+    date 2004.11.28
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.6600 Dir,Dir,Dir Inc 0,0,0 28/11/2004 M ;LT,SL LT 
+        689_18     689_19           0.00    0.00   90.00      
+        689_19     689_20           9.00  150.00  -26.39      
+        689_20     689_21          15.50  155.00  -11.16      
+        689_21     689_22          17.50  140.00  -10.87      
+        689_22     689_23          13.40  145.00   -2.99      
+        689_23     689_24          16.50  155.00   -4.52      
+        689_24     689_25           6.80  157.00  -49.88      
+        689_25     689_26          21.00  260.00  -68.21      
+    endcenterline
+
+
+    centerline
+    date 2002.12.2
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5200 Dir,Dir,Dir Inc 0,0,0 22/12/2002 M ;A.D, S.T., B.L. B.L. 
+        663_4      675_1            0.00    0.00   90.00      
+        675_1      675_2            0.00    0.00   90.00      
+        675_2      675_3            0.00    0.00   90.00 # 80.00      *      *      * N I * N ;
+        675_3      675_4            0.00    0.00   90.00      
+        675_4      675_5            0.00    0.00   90.00      
+    endcenterline
+
+
+    centerline
+    date 2003.01.19
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5020 Dir,Dir,Dir Inc 0,0,0 19/01/2003 M ;S., D.F., B.L. B.L. 
+        675_5      675_6            4.68   38.70  -18.00      #359.97}
+        675_6      675_7            5.60   90.00    0.00      
+        627_3      652_1            0.00    0.00   90.00      
+        652_1      652_2            9.36  163.80   34.20      #57.83}
+        652_2      676_1           13.98  179.10    1.80      
+        676_1      681_1            6.42  132.30   -1.80      
+        681_1      681_2            5.20  152.10    7.20      
+        681_2      681_3            3.64  188.10    1.80      
+        681_3      681_4            6.95  134.10    2.70      
+        681_4      681_5            1.96  125.10    7.20      
+        681_5      681_6            1.58   99.00   58.50      
+        681_6      681_7            7.30  112.50   -0.90      
+        681_7      681_8           10.35  119.70   -2.70      # branché sur 68/10
+        681_8      718_1            0.00    0.00   90.00      
+        718_1      725_1            6.68   39.60   -8.10      #255.68}branché sur 73/1
+        725_1      725_2           11.64   24.30   -9.00      
+        725_2      725_3            7.29  290.70    8.10      
+        725_3      725_4            7.40  303.30    3.60      
+        725_4      725_5            3.88    0.00  -90.00      # petite galerie salle à manger raccord 68/1
+        725_5      725_6            0.00    0.00   90.00      
+        725_6      725_7            3.00  310.50    0.00      
+        725_7      725_8            5.00  310.50    0.00      #5.00}
+        725_8      725_9            3.72  294.30   28.80      #342.60}
+        725_9      725_10           4.13    9.00   -4.50      
+        725_10     725_11           3.44  322.20  -17.10      
+        725_11     791_1           16.88  288.00    8.10      
+    endcenterline
+
+
+    centerline
+    date 2002.06.06
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5200 Dir,Dir,Dir Inc 0,0,0 06/06/2002 M ;AD,BL BL 
+        791_1      652_2            0.00    0.00   90.00      #57.83}
+    endcenterline
+
+
+    centerline
+    date 2003.02.09
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5020 Dir,Dir,Dir Inc 0,0,0 09/02/2003 M ;
+        725_1      726_1            0.00    0.00   90.00      
+        726_1      726_2            0.40    0.00   90.00      #288.69}
+        726_2      726_3            8.24  276.30    9.00      #288.69}
+        726_3      726_4            5.17  261.90   -4.50      
+        681_8      734_1           15.59  124.20   -2.70      # branché sur 68/11
+        734_1      735_1            0.00    0.00   90.00      
+        735_1      735_2            3.56   28.80    0.90      #235.51}
+        735_2      735_3            5.41  314.10   -6.30      
+        735_3      735_4           11.20  279.90   10.80      
+        734_1      742_1            8.12  235.80    0.00      #142.45}
+        742_1      742_2            5.98  228.60   11.70      
+        742_2      742_3            9.58  270.90   13.50      
+    endcenterline
+
+
+    centerline
+    date 2002.06.06
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5200 Dir,Dir,Dir Inc 0,0,0 06/06/2002 M ;AD,BL BL 
+        742_3      758_1            0.00  180.00   90.00      
+    endcenterline
+
+
+    centerline
+    date 2003.02.09
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5020 Dir,Dir,Dir Inc 0,0,0 09/02/2003 M ;
+        758_1      758_2            4.62  271.80  -36.00      # sous le P13 bis
+        758_2      765_1            3.09   93.60  -27.90      
+        765_1      765_2            0.97    6.30  -31.50      
+        765_2      765_3            5.28  323.10   -0.00      #166.54}
+        765_3      765_4            6.06   48.60  -11.70      # 0
+        758_2      762_1            0.00    0.00   90.00      
+        762_1      762_2            6.16  294.30   -2.70      #186.56}
+        762_2      762_3            6.62  239.40    9.00      # 0
+        762_3      786_1           11.41  283.50    0.00      
+        762_3      775_1            0.00    0.00   90.00      
+        775_1      775_2           12.79  100.80   -0.90      #204.75}
+        775_2      775_3            3.52   89.10  -23.40      
+        742_3      763_1            4.16  211.50    6.30      #221.06}
+        763_1      763_2           10.29  289.80   23.40      
+        763_2      773_1            0.00    0.00   90.00      
+    endcenterline
+
+
+    centerline
+    date 2002.06.06
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5200 Dir,Dir,Dir Inc 0,0,0 06/06/2002 M ;AD,BL BL 
+        763_2      772_1            0.00  180.00   90.00      
+    endcenterline
+
+
+    centerline
+    date 2003.02.16
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5020 Dir,Dir,Dir Inc 0,0,0 16/02/2003 M ;A.D,B.L. B.L. 
+        772_1      772_2            1.91  180.00   90.00      #654.91}
+        772_2      772_3           10.98  288.90   39.60      
+        772_3      772_4            8.02  261.00   57.60      #647.81}
+        772_4      772_5            2.75  279.90   18.90      
+        772_5      772_6           11.70  180.00  -90.00      
+        772_6      772_7            1.00  243.00   -0.00      
+        772_7      772_8            9.27  270.90    9.90      
+        772_8      772_9            3.24  269.10   44.10      #626.97}
+        772_9      772_10           8.33  242.10  -32.40      #601.07}branché sur série 81/9 jonction réseaux P13 et réseau Bergerpetite galerie boyau rond P 13
+        772_10     833_1            3.27  198.00    8.10      
+        833_1      833_2            3.02  249.30   27.00      
+        833_2      833_3            3.82  271.80   59.40      #583.66}
+        833_3      833_4           10.07  263.70   45.00      
+        833_4      833_5            1.00  249.30   10.80      
+        833_5      833_6           15.76  249.30   10.80      #555.17}
+        833_6      833_7           12.73  271.80    3.60      # branché sur série 82
+    endcenterline
+
+
+    centerline
+    date 2002.06.06
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5200 Dir,Dir,Dir Inc 0,0,0 06/06/2002 M ;AD,BL BL 
+        833_7      879_1            0.00  180.00   90.00      #800.70}
+    endcenterline
+
+
+    centerline
+    date 2003.02.16
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5020 Dir,Dir,Dir Inc 0,0,0 16/02/2003 M ;A.D,B.L. B.L. 
+        879_1      879_2            0.01  180.00   -0.00      
+        879_2      879_3            0.00  180.00   90.00      # raccord séries 85 et 81
+    endcenterline
+
+
+    centerline
+    date 1975.01.01
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 5.8500 Dir,Dir,Dir Inc 0,0,0 01/01/1975 M ;B.L. X ? décl 3,36 g B.L. 
+        879_3      891_1           11.70   98.10   -3.00      
+        891_1      891_2           19.80   76.50  -10.00      
+        891_2      891_3           10.90   99.00  -50.00      
+        891_3      891_4            2.00    0.00  -90.00      #800.71}
+        879_3      895_1           15.80  225.00   35.00      
+        895_1      895_2            9.90  227.70    9.00      
+        895_2      895_3           10.60  252.00    2.00      
+        895_3      895_4            5.70  214.20  -48.00      
+        895_4      895_5            8.60  268.20    0.00      
+        895_5      895_6           10.90  309.60  -24.00      
+        895_6      895_7            8.60  289.80    6.00      
+        895_7      895_8           15.10  253.80  -52.00      
+        895_8      895_9           22.80  198.00  -12.00      #636.50}
+        895_9      895_10          13.80  270.00   19.00      
+        895_10     895_11          11.50  217.80   53.00      
+        895_11     895_12           5.40  253.80   -8.00      #614.40}
+        895_12     895_13           4.20  185.40  -18.00      # topo 75 du puits Lavigne au boyau rond
+    endcenterline
+
+
+    centerline
+    date 2003.02.16
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5020 Dir,Dir,Dir Inc 0,0,0 16/02/2003 M ;A.D,B.L. B.L. 
+        833_7      893_1           13.99  227.70   37.80      #496.08}
+        893_1      893_2           16.43  237.60    9.00      # départ plan d'eau câble
+    endcenterline
+
+
+    centerline
+    date 2002.06.06
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5200 Dir,Dir,Dir Inc 0,0,0 06/06/2002 M ;AD,BL BL 
+        893_2      893_3            0.00  180.00   90.00      
+    endcenterline
+
+
+    centerline
+    date 2003.03.02
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5020 Dir,Dir,Dir Inc 0,0,0 02/03/2003 M ;P.-O. S., B.L. B.L. 
+        893_3      893_4            2.22  244.80   -0.00      
+        893_4      893_5            4.68  237.60  -46.80      
+        893_5      893_6            6.58  256.50   -0.00      
+        893_6      893_7            4.49  284.40   10.80      
+        893_7      893_8            8.38  296.10   36.90      
+        893_8      893_9            6.46  288.90  -11.70      #605.40}
+        893_9      893_10          15.19  269.10  -41.40      
+        893_10     893_11           0.60  179.10  -15.30      
+        893_11     893_12          14.70  179.10  -15.30      
+        893_12     893_13           7.56  202.50   -9.00      
+        893_13     893_14           5.93  262.80    3.60      
+    endcenterline
+
+
+    centerline
+    date 2002.06.06
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5200 Dir,Dir,Dir Inc 0,0,0 06/06/2002 M ;AD,BL BL 
+        893_14     986_1            0.00  180.00   90.00      
+    endcenterline
+
+
+    centerline
+    date 1975.01.01
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 5.8500 Dir,Dir,Dir Inc 0,0,0 01/01/1975 M ;B.L. X ? d�cl 3,36 g B.L. 
+        986_1      986_2            7.84  128.70    0.00      
+        986_2      986_3            6.17   64.80   34.00      
+        986_3      986_4            5.49   62.10  -30.00      
+        986_4      986_5           15.19   63.00   11.00      
+        986_5      986_6            6.47   53.10   -5.00      
+        986_6      1032_1           4.61  166.50    0.00      
+        1032_1     1032_2           4.41  135.00   18.00      
+        1032_2     1032_3          11.27  160.20   -6.00      
+        1032_3     1032_4           5.19  166.50   11.00      
+        1032_4     1032_5           6.37  115.20    2.00      
+        1032_5     1032_6           2.45  162.00  -11.00      
+        1032_6     1032_7          18.13  163.80   -7.00      
+        1032_7     1032_8           8.33  106.20   -7.00      
+        1032_8     1032_9           0.98  218.70    0.00      
+        1032_9     1032_10          6.86  128.70   -5.00      
+        1032_10    1032_11          5.68  112.50   38.00      
+        1032_11    1032_12          4.90  132.30   -2.00      
+        1032_12    1032_13         12.74   72.00  -11.00      
+        1032_13    1032_14          3.92   99.00   80.00      
+        1032_14    1032_15          1.96   95.40   21.00      
+        1032_15    1032_16          3.92   72.00  -23.00      
+        1032_16    1032_17         12.94   72.00  -12.00      
+        1032_17    1149_1           7.15   60.30   -5.00      
+        1149_1     1149_2           2.16  180.00   90.00      
+        1149_2     1149_3           4.41   90.00  -12.00      
+        1149_3     1149_4           3.92  117.00  -18.00      
+        1149_4     1149_5           2.94  180.00  -90.00      
+        1149_5     1149_6           4.21   90.00  -16.00      
+        1149_6     1149_7           4.31   97.20  -38.00      
+        1149_7     1149_8           5.39   99.00   -5.00      
+        1149_8     1149_9           0.49    9.00    0.00      
+        1149_9     1149_10          6.08  100.80   -6.00      
+        1149_10    1149_11          2.55   72.00   -8.00      
+        1149_11    1149_12          3.92  111.60   -8.00      
+        1149_12    1149_13          1.47  180.00  -90.00      
+        1149_13    1149_14          1.57   13.50    0.00      
+        1149_14    1149_15          2.35   82.80    0.00      # diverticule sur 87
+        1149_15    1202_1           7.35  342.90   13.00      
+        1202_1     1202_2           4.41   88.20  -20.00      
+        1202_2     1202_3           3.43  351.00    0.00      
+        1202_3     1202_4           1.57   79.20  -25.00      
+        1202_4     1202_5           1.96   29.70    0.00      
+        1202_5     1202_6           2.45  180.00  -90.00      
+        1202_6     1202_7           6.17  353.70    0.00      
+        1202_7     1202_8          10.19   90.00   -5.00      
+        1202_8     1202_9           1.57    4.50    0.00      
+        1202_9     1202_10          6.17   58.50  -70.00      
+        1202_10    1202_11         11.27  333.00   -4.00      
+    endcenterline
+
+
+    centerline
+    date 2002.06.06
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5200 Dir,Dir,Dir Inc 0,0,0 06/06/2002 M ;AD,BL BL 
+        1202_11    1252_1           0.00  180.00   90.00      
+    endcenterline
+
+
+    centerline
+    date 1975.01.01
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 5.8500 Dir,Dir,Dir Inc 0,0,0 01/01/1975 M ;B.L. X ? d�cl 3,36 g B.L. 
+        1252_1     1252_2           7.84  311.40    3.00      
+        1252_2     1252_3           5.59  304.20   22.00      
+        1252_3     1252_4           4.41  315.00   13.00      # petite galerie sur 87
+        1202_11    1256_1           4.51   79.20   -4.00      
+        1256_1     1256_2           7.35  344.70   -3.00      
+    endcenterline
+
+
+    centerline
+    date 2002.06.06
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5200 Dir,Dir,Dir Inc 0,0,0 06/06/2002 M ;AD,BL BL 
+        1256_2     1263_1           0.00  180.00   90.00      
+    endcenterline
+
+
+    centerline
+    date 1975.01.01
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 5.8500 Dir,Dir,Dir Inc 0,0,0 01/01/1975 M ;B.L. X ? d�cl 3,36 g B.L. 
+        1263_1     1263_2           5.59   70.20   -1.00      # simple raccord
+        1256_2     1266_1           2.45  301.50    0.00      
+        1266_1     1266_2           1.47  180.00  -90.00      
+        1266_2     1266_3           4.70  326.70   -5.00      
+        1266_3     1266_4           4.61  278.10    0.00      
+        1266_4     1266_5           9.31  293.40   38.00      
+        1266_5     1266_6           4.41   11.70    0.00      
+        1266_6     1266_7           6.08   58.50  -15.00      
+        1266_7     1266_8           4.12  180.00  -90.00      
+        1266_8     1266_9          17.64  327.60    0.00      
+        1266_9     1266_10          1.47  180.00  -90.00      
+        1266_10    1266_11         10.10  313.20    0.00      
+        1266_11    1266_12          1.50  328.50    0.00      
+        1266_12    1266_13         11.60  297.00   42.00      
+        1266_13    1266_14          3.10  244.80   30.00      
+        1266_14    1266_15          8.33  253.80   26.00      # galerie est
+        1149_15    1195_1           0.00    0.00   90.00      
+        1195_1     1195_2          18.62  162.90    2.00      
+        1195_2     1195_3           8.33  289.80    0.00      
+    endcenterline
+
+
+    centerline
+    date 2002.06.06
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5200 Dir,Dir,Dir Inc 0,0,0 06/06/2002 M ;AD,BL BL 
+        1032_17    1142_1           0.00  180.00   90.00      
+    endcenterline
+
+
+    centerline
+    date 1975.01.01
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 5.8500 Dir,Dir,Dir Inc 0,0,0 01/01/1975 M ;B.L. X ? d�cl 3,36 g B.L. 
+        1142_1     1142_2           8.43  107.10   -5.00      
+        1142_2     1142_3           0.98   37.80    0.00      
+        1142_3     1142_4           5.10   90.00  -22.00      # diverticule sur 87
+    endcenterline
+
+
+    centerline
+    date 2002.06.06
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5200 Dir,Dir,Dir Inc 0,0,0 06/06/2002 M ;AD,BL BL 
+        986_6      1027_1           0.00  180.00   90.00      
+    endcenterline
+
+
+    centerline
+    date 1975.01.01
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 5.8500 Dir,Dir,Dir Inc 0,0,0 01/01/1975 M ;B.L. X ? d�cl 3,36 g B.L. 
+        1027_1     1027_2           5.29  328.50   20.00      
+        1027_2     1027_3           5.88  346.50   53.00      # diverticule sur 87
+    endcenterline
+
+
+    centerline
+    date 2003.03.02
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5020 Dir,Dir,Dir Inc 0,0,0 02/03/2003 M ;P.-O. S., B.L. B.L. 
+        893_14     998_1           12.20  260.10   34.20      
+        998_1      998_2            8.47  205.20   45.00      
+        998_2      998_3            6.38  232.20  -11.70      
+        998_3      998_4            6.79  243.00  -58.50      #530.70}
+        998_4      998_5           12.67  201.60  -67.50      # raccord chatière Benjamin
+        998_5      1042_1           9.34  279.90  -24.30      
+        1042_1     1042_2          14.56  230.40  -63.00      
+        1042_2     1042_3          17.33  277.20    8.10      
+        1042_3     1042_4           9.40  310.50   -7.20      #436.68}
+        1042_4     1042_5          17.28  272.70    9.90      
+        1042_5     1042_6           0.40  360.00   -0.00      #418.88}
+        1042_6     1042_7          17.80  270.00    2.70      
+        1042_7     1042_8           0.40  180.00   -0.00      
+        1042_8     1042_9           5.43  288.90   41.40      
+        1042_9     1042_10         25.61  268.20   14.40      
+        1042_10    1042_11         14.32  266.40   18.00      
+        1042_11    1042_12         20.50  265.50    7.20      #340.21}
+        1042_12    1042_13         12.81  270.00    4.50      
+        1042_13    1042_14          0.60  180.00   -0.00      
+        1042_14    1042_15         17.93  273.60  -13.50      
+        1042_15    1042_16         22.03  264.60    2.70      
+        1042_16    1042_17         24.46  276.30    3.60      
+        1042_17    1042_18         18.60  266.40  -27.00      #237.43}
+        1042_18    1042_19         19.76  279.00  -19.80      
+        1042_19    1042_20          6.80  252.00  -16.20      # siphon de la galerie Ouest (le pt 1 est  fil d'ariane) siphon 1 galerie Ouest
+        1042_20    1042_21          0.00    0.00   90.00      
+        1042_21    1042_22         90.00  270.00    0.00      # gal. Ouest entre S1 et S2
+    endcenterline
+
+
+    centerline
+    date 2003.11.16
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.4300 Dir,Dir,Dir Inc 0,0,0 16/11/2003 M ;PC, FP 
+        1042_22    1042_23          0.00    0.00   90.00      
+        1042_23    1042_24         21.22  276.30   20.70      #905.61}
+        1042_24    1042_25          4.38  274.50   -1.80      #927.10}
+        1042_25    1042_26         13.63  268.20  -11.70      #931.57}
+        1042_26    1042_27          6.02  265.50   -5.40      
+        1042_27    1042_28         12.44  266.40  -27.00      #951.32}
+        1042_28    1042_29          7.38  127.80   -9.00      #963.99}
+    endcenterline
+
+
+    centerline
+    date 2003.03.02
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5020 Dir,Dir,Dir Inc 0,0,0 02/03/2003 M ;P.-O. S., B.L. B.L. 
+        998_5      1033_1           0.00    0.00   90.00      
+        1033_1     1033_2          20.91  108.00  -27.90      #504.59}
+        1033_2     1033_3           5.20  271.80   -1.80      # Benjamins. pellegri 1
+    endcenterline
+
+
+    centerline
+    date 2004.02.07
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.6600 Dir,Dir,Dir Inc 0,0,0 07/02/2004 M ;Pellegri Pellegri 
+        1033_3     1033_4           0.00    0.00   90.00      
+        1033_4     1033_5           1.00  170.00  -57.00      
+        1033_5     1033_6           1.56  155.00  -36.00      
+        1033_6     1033_7           1.85  305.00  -23.00      
+        1033_7     1033_8           2.70  210.00  -90.00      
+        1033_8     1033_9           3.83   93.00  -23.00      
+        1033_9     1033_10         10.20  185.00  -32.00      # raccord Benjamin Pellegri 1
+        1033_10    1091_1          11.00  187.00    0.00      
+        1091_1     1091_2           6.95  188.00    0.00      # raccord Benjamins
+        1091_2     1103_1           5.37  190.00    0.00      
+        1103_1     1103_2          15.00  190.00    0.00      
+        1103_2     1103_3          16.00  200.00    0.00      
+        1103_3     1103_4           6.00  196.00    0.00      
+        1103_4     1103_5           8.00  194.00    0.00      
+        1103_5     1103_6           5.30  141.00    9.00      
+        1103_6     1103_7           5.90    0.00   90.00      
+        1103_7     1103_8          19.00  142.00   36.00      
+        1103_8     1103_9           5.60  125.00    5.00      
+        1103_9     1103_10          4.00    0.00   90.00      
+        1103_10    1103_11          8.70  139.00    3.00      
+        1103_11    1103_12          8.84  184.00    0.00      
+        1103_12    1103_13          4.38  179.00   26.00      
+        1103_13    1103_14          8.65  146.00   -1.00      
+        1103_14    1103_15          9.87  155.00   -3.00      
+        1103_15    1103_16          3.80  182.00    0.00      # raccord benjamins. suite topo Pellegri
+        1103_16    1240_1           7.60  196.00    0.00      
+    endcenterline
+
+
+    centerline
+    date 2002.06.06
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5200 Dir,Dir,Dir Inc 0,0,0 06/06/2002 M ;AD,BL BL 
+        1240_1     1241_1           0.00  180.00   90.00      
+    endcenterline
+
+
+    centerline
+    date 2004.04.03
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.6600 Dir,Dir,Dir Inc 0,0,0 03/04/2004 M ;Pellegri2 idem 
+        1241_1     1241_2           0.00  180.00   90.00      
+        1241_2     1241_3           0.00  180.00   90.00      
+        1241_3     1241_4           0.00  180.00   90.00      
+        1241_4     1241_5           2.00  290.00    0.00      
+        1241_5     1241_6           9.22  197.00   -4.00      # Pellegri 2 Raccord
+        1241_6     1255_1           3.63   35.00    1.00      
+        1255_1     1255_2           8.20  148.00    3.00      
+        1255_2     1255_3           1.98  239.00    3.00      
+        1255_3     1275_1           8.62  152.00   14.00      
+        1275_1     1274_1           0.00  180.00   90.00      # simple raccord 3 Pellegri2
+        1274_1     1276_1           1.75   35.50   -7.00      
+        1274_1     1279_1           5.41  228.00   -1.00      
+        1279_1     1279_2           6.11  225.00    3.00      
+        1279_2     1290_1           5.20  193.50    1.00      
+    endcenterline
+
+
+    centerline
+    date 2002.06.06
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5200 Dir,Dir,Dir Inc 0,0,0 06/06/2002 M ;AD,BL BL 
+        1290_1     1290_2           0.00  180.00   90.00      
+    endcenterline
+
+
+    centerline
+    date 2004.04.03
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.6600 Dir,Dir,Dir Inc 0,0,0 03/04/2004 M ;Pellegri2 idem 
+        1290_2     1290_3          10.75  354.00   10.00      
+        1290_3     1310_1           6.35   21.00   27.00      
+        1290_1     1307_1          16.53  170.50    2.00      
+        1307_1     1307_2           3.93  192.00    7.00      
+        1307_2     1307_3          10.68  287.00    1.00      
+        1307_3     1307_4           8.47  181.00    7.00      
+        1307_4     1307_5           4.88  177.00   14.00      
+        1307_5     1307_6           2.89  174.00   20.00      # simple raccord 4 Pellegri 2
+        1307_6     1338_1           0.00    0.00   90.00      
+        1338_1     1338_2           6.28  138.00   47.00      
+        1338_2     1338_3           3.68   15.00    7.00      
+        1307_6     1345_1           7.82  177.00    2.00      
+        1345_1     1345_2          10.81  146.50    3.00      
+        1345_2     1345_3           8.44  117.00    8.00      # simple racord 5 Pellegri 2
+        1345_3     1365_1           0.00    0.00   90.00      
+        1365_1     1372_1           6.93  330.00   18.00      # 0
+        1372_1     1372_2           0.00    0.00   90.00      
+        1372_2     1372_3           5.94  329.00    8.00      
+        1372_3     1372_4           9.10  321.00  -19.00      
+        1372_4     1392_1           4.83  331.00  -40.00      
+    endcenterline
+
+
+    centerline
+    date 2002.06.06
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5200 Dir,Dir,Dir Inc 0,0,0 06/06/2002 M ;AD,BL BL 
+        1392_1     1307_6           0.00    0.00   90.00      # simple raccord 4 Pellegri 2
+    endcenterline
+
+
+    centerline
+    date 2004.04.03
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.6600 Dir,Dir,Dir Inc 0,0,0 03/04/2004 M ;Pellegri2 idem 
+        1372_1     1373_1           0.00    0.00   90.00      
+        1373_1     1373_2           4.67   83.00   32.00      
+        1345_3     1371_1           6.66  119.00   21.00      
+        1371_1     1371_2           5.54  232.00    5.00      
+        1371_2     1371_3          14.60  285.00   10.00      
+        1371_3     1371_4          14.50  282.00    2.00      
+        1371_4     1371_5           5.65  310.00   45.00      
+        1371_5     1371_6           5.40  320.00    8.00      # Réseau face aux Diedres
+        1371_6     1427_1           9.40  164.00   -8.00      
+        1427_1     1427_2           2.50    0.00   90.00      
+        1427_2     1427_3          27.40  162.00    3.00      
+        1427_3     1427_4           7.00    0.00   90.00      
+        1427_4     1427_5           5.60  310.00   25.00      
+        1427_5     1427_6           8.70    0.00   90.00      # topo Pellegri 3, du 2 octobre 04
+        1427_6     1427_7           0.00    0.00   90.00      
+        1427_7     1427_8          11.55  270.00   15.00      
+        1427_8     1427_9          11.50  285.00    5.00      
+        1427_9     1427_10          4.20  215.00   18.00      
+        1427_10    1427_11         10.40  203.00    2.00      
+        1427_11    1427_12          8.10  200.00   15.00      
+        1427_12    1526_1           2.90  145.00   19.00      
+        1526_1     1526_2          34.70  203.00   10.00      
+        1526_2     1526_3           3.40  220.00  -10.00      
+        1526_3     1526_4           3.10  162.00   30.00      
+        1526_4     1526_5           5.10  335.00    3.00      
+        1526_5     1526_6          13.00  336.00   -6.00      
+        1526_6     1526_7           6.50    0.00   90.00      
+        1526_7     1526_8           7.80  330.00    0.00      
+        1526_8     1526_9           6.75  270.00   31.00      
+        1526_9     1526_10         13.70  318.00    2.00      
+        1526_10    1526_11          7.60  275.00  -12.00      
+        1526_11    1526_12          5.10  252.00    1.00      
+        1526_12    1526_13          3.60  286.00   16.00      # topo David deR, B.L. 22/5/4
+    endcenterline
+
+
+    centerline
+    date 2002.06.06
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5200 Dir,Dir,Dir Inc 0,0,0 06/06/2002 M ;AD,BL BL 
+        1526_13    1637_1           0.00  180.00   90.00      
+    endcenterline
+
+
+    centerline
+    date 2005.04.10
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.2950 Dir,Dir,Dir Inc 0,0,0 10/04/2005 M ;P-O.S, B.L. 
+        1637_1     1637_2           4.42  270.00    1.80      # Rés. sous Thermomètre 3
+        1637_2     1660_1          18.53  242.10   -9.00      
+        1660_1     1660_2           4.27  338.40  -18.00      
+        1660_2     1660_3           5.58  316.80    2.70      
+        1660_3     1660_4           3.83   45.00  -18.00      
+        1660_4     1660_5           9.10   35.10  -11.70      
+        1660_5     1660_6           1.96  130.50  -12.60      
+        1660_6     1660_7           4.67   36.00  -12.60      
+        1660_7     1660_8           2.89  110.70   -9.00      #721.45}
+        1660_8     1660_9           7.93   30.60  -13.50      
+        1660_9     1660_10          0.50  120.60   -0.00      
+        1660_10    1660_11         18.62   30.60  -11.70      
+        1660_11    1660_12         13.93   69.30  -18.00      
+        1660_12    1660_13         16.65  180.00  -90.00      #669.65}
+    endcenterline
+
+
+    centerline
+    date 2002.06.06
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5200 Dir,Dir,Dir Inc 0,0,0 06/06/2002 M ;AD,BL BL 
+        1660_13    1750_1           0.00  180.00   90.00      
+    endcenterline
+
+
+    centerline
+    date 2005.04.10
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.2950 Dir,Dir,Dir Inc 0,0,0 10/04/2005 M ;P-O.S, B.L. 
+        1750_1     1750_2          17.11  159.30   10.80      
+        1750_2     1750_3          13.02  168.30   -4.50      
+        1750_3     1750_4           5.21  144.90   -0.00      
+        1750_4     1750_5          13.61  197.10   -0.00      
+        1750_5     1750_6          10.07  177.30    8.10      #590.80}
+        1750_6     1750_7          19.83  159.30    6.30      # réseau sous therm.2
+        1660_13    1752_1           2.60  316.80   -0.00      
+        1752_1     1752_2           8.30   27.00   -9.00      #576.53}
+        1752_2     1752_3           5.97   45.90  -37.80      # R�s sous Therm 5
+        1752_3     1783_1          16.06  319.50   20.70      
+        1783_1     1783_2           4.81  324.00   -1.80      #541.24}
+        1783_2     1783_3           7.95  321.30   -4.50      #525.10}rés sous Therm 4
+        1783_3     1802_1           6.64  289.80  -27.90      #511.33}
+        1802_1     1802_2          13.28  278.10  -31.50      # Réseau sous Thermometre
+        1783_3     1795_1           0.00    0.00   90.00      
+        1795_1     1795_2           9.50   89.10  -14.40      #531.74}
+        1752_3     1766_1           0.00    0.00   90.00      
+        1766_1     1766_2           6.47    7.20    0.00      #570.06}
+        1637_2     1641_1           0.00    0.00   90.00      
+        1641_1     1641_2           9.43  248.40  -15.30      #784.63}
+        1641_2     1641_3           1.00    0.00  -90.00      
+        1641_3     1641_4           8.56   26.10  -13.50      
+        1641_4     1641_5           6.33  340.20  -35.10      
+    endcenterline
+
+
+    centerline
+    date 2004.05.22
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.3940 Dir,Dir,Dir Inc 0,0,0 22/05/2004 M ;D. de R., B.L. B.L. 
+        1526_13    1638_1           0.00    0.00   90.00      
+        1638_1     1638_2           6.42  265.50    1.80      #977.91}
+        1638_2     1638_3          27.02  243.00    6.75      
+        1638_3     1638_4           6.16  180.00    9.00      #11.35}
+        1638_4     1638_5          20.71  183.60   -5.40      
+        1638_5     1638_6           7.69  166.50   -1.80      # raccord affiches
+    endcenterline
+
+
+    centerline
+    date 2005.03.13
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.3220 Dir,Dir,Dir Inc 0,0,0 13/03/2005 M ;BL Ph C 
+        1638_6     1705_1           0.00    0.00   90.00      
+        1705_1     1705_2           3.50  360.00    0.00      # galerie Affiches et Zeldjko
+        1705_2     1705_3           0.00    0.00   90.00      
+        1705_3     1705_4           7.36  162.90    0.90      #143.24}
+        1705_4     1705_5           4.96  175.50    2.70      
+        1705_5     1705_6           3.96  175.50    4.50      
+        1705_6     1705_7           5.46  316.80    2.70      
+        1705_7     1705_8           5.87  297.00   10.80      # raccord affiche
+        1705_8     1738_1           2.18  290.70  -18.00      #183.31}
+        1738_1     1738_2           5.10  188.10   21.60      
+        1738_2     1738_3           6.67  219.60    9.00      
+        1738_3     1738_4           5.83  174.60    7.20      
+        1738_4     1738_5           5.71  182.70    0.00      
+        1738_5     1738_6           6.10  104.40    0.00      
+        1738_6     1738_7           5.45  191.70    2.70      
+        1738_7     1738_8          10.93  150.30    0.00      
+        1738_8     1738_9           5.37  137.70    0.00      
+        1738_9     1738_10          8.92  172.80    0.00      
+        1738_10    1738_11          5.47  121.50    0.00      
+        1738_11    1738_12         10.08  224.10    2.70      
+        1738_12    1738_13          2.84  332.10    5.40      
+        1738_13    1738_14          8.17  220.50   13.50      
+        1738_14    1738_15          5.12    0.00  -90.00      
+        1738_15    1738_16          2.13  180.90  -22.50      
+        1738_16    1738_17          8.69  124.20  -31.50      
+        1738_17    1738_18          4.95  135.00  -26.10      
+        1738_18    1738_19          4.36  179.10  -25.20      
+        1738_19    1738_20          4.52  250.20    0.00      
+        1738_20    1738_21          4.83  177.30    0.00      
+        1738_21    1738_22          4.00  120.60    0.00      
+        1738_22    1738_23          2.00  149.40    0.00      #391.92}
+        1738_23    1738_24          2.00   72.00    0.00      #394.92}
+        1705_8     1736_1           0.00    0.00   90.00      
+        1736_1     1736_2           2.78   29.70   25.20      #170.85}
+        1736_2     1736_3           3.33   41.40   -9.00      
+        1736_3     1736_4           2.90    6.30  -28.80      
+        1736_4     1736_5           3.45   42.30  -26.10      
+    endcenterline
+
+
+    centerline
+    date 2004.05.22
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.3940 Dir,Dir,Dir Inc 0,0,0 22/05/2004 M ;D. de R., B.L. B.L. 
+        1638_6     1714_1           9.03  124.20   20.70      
+        1714_1     1714_2           5.55  157.50    2.70      
+        1714_2     1714_3           9.06  203.40   14.40      
+        1714_3     1714_4           7.16  181.80    9.00      
+        1714_4     1714_5           0.20    0.00  -90.00      
+        1714_5     1714_6          12.86  221.40    0.00      #76.71}
+        1714_6     1714_7           6.67  184.50   15.30      
+        1714_7     1714_8          11.50  183.60    9.00      
+        1714_8     1714_9           6.21  201.60   -0.90      
+        1714_9     1714_10         11.90  149.40    9.90      # raccord baionnette
+    endcenterline
+
+
+    centerline
+    date 2005.03.13
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.3220 Dir,Dir,Dir Inc 0,0,0 13/03/2005 M ;BL Ph C 
+        1714_10    1785_1           0.00    0.00   90.00      
+        1785_1     1785_2           4.40   81.00    7.20      #344.38}
+        1785_2     1785_3           2.79  115.20   18.00      
+        1785_3     1785_4           4.37   87.30    8.10      
+        1785_4     1785_5           1.96  169.20    0.00      
+        1785_5     1785_6           4.35  241.20  -43.20      
+    endcenterline
+
+
+    centerline
+    date 2002.06.06
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5200 Dir,Dir,Dir Inc 0,0,0 06/06/2002 M ;AD,BL BL 
+        1714_10    1786_1           0.00  180.00   90.00      
+    endcenterline
+
+
+    centerline
+    date 2005.03.13
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.3220 Dir,Dir,Dir Inc 0,0,0 13/03/2005 M ;BL Ph C 
+        1786_1     1786_2           6.68  127.80   -8.10      
+        1786_2     1786_3           3.57   80.10   -0.90      #325.81}
+        1786_3     1786_4           8.32  106.20   -4.50      
+        1786_4     1786_5           7.27  117.00   13.50      #306.80}
+        1786_5     1786_6           5.28  196.20   11.70      # raccord Baionnette
+    endcenterline
+
+
+    centerline
+    date 2004.05.22
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.3940 Dir,Dir,Dir Inc 0,0,0 22/05/2004 M ;D. de R., B.L. B.L. 
+        1714_10    1796_1           9.83  234.90   25.20      # affluent entre rotonde et jacqueliner accord salle baionnette
+        1796_1     1800_1           4.88  158.40  -16.20      
+        1800_1     1800_2          15.66  221.40   12.60      # petite galerie avant Jacqueline
+        1800_2     1825_1           9.32  126.90   -6.30      
+        1825_1     1825_2          12.24  210.60    5.40      
+        1825_2     1825_3           3.49  259.20   -5.40      
+        1825_3     1825_4           7.70  192.60    2.70      
+        1825_4     1825_5           7.06  288.90   20.70      
+        1825_5     1825_6           4.15  251.10  -31.50      
+    endcenterline
+
+
+    centerline
+    date 2002.06.06
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5200 Dir,Dir,Dir Inc 0,0,0 06/06/2002 M ;AD,BL BL 
+        1825_6     1859_1           0.00  180.00   90.00      
+    endcenterline
+
+
+    centerline
+    date 2005.03.13
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.3220 Dir,Dir,Dir Inc 0,0,0 13/03/2005 M ;BL Ph C 
+        1859_1     1859_2           6.00   58.50  -45.00      
+        1859_2     1859_3           2.53  180.00  -90.00      
+        1859_3     1859_4           3.91  297.00   -1.80      
+        1859_4     1859_5           9.79  308.70  -54.00      
+        1859_5     1859_6           2.83  359.10  -31.50      
+        1859_6     1859_7           3.90  114.30  -39.60      
+        1859_7     1859_8           5.19   93.60   -0.00      
+        1859_8     1859_9          10.40   56.70  -17.10      #396.40}
+        1859_9     1859_10         11.95   80.10   -7.20      
+        1859_10    1859_11          0.80  342.00   -0.00      
+        1859_11    1859_12          4.48   72.00  -28.80      #383.92}
+        1859_12    1859_13          8.00   72.00   -4.50      # galerie Zeldjko amont
+    endcenterline
+
+
+    centerline
+    date 2004.05.22
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.3940 Dir,Dir,Dir Inc 0,0,0 22/05/2004 M ;D. de R., B.L. B.L. 
+        1825_6     1869_1           9.35  190.80   29.70      
+        1869_1     1869_2          18.74  182.70   -9.00      #209.90}
+        1869_2     1869_3          11.90  265.50    0.00      
+        1869_3     1869_4          13.32  142.20    1.80      
+        1869_4     1869_5          13.35  126.90    0.90      # simple visée
+        1869_5     1926_1           0.00    0.00   90.00      
+        1926_1     1926_2          12.00   67.50    9.00      
+        1869_5     1931_1           4.76  159.30   31.50      
+        1931_1     1931_2          23.41  204.30   11.70      
+        1931_2     1931_3          14.17  220.50   12.60      
+        1931_3     1931_4           8.72  288.90    7.20      
+        1931_4     1931_5           8.23  192.60   27.90      
+        1931_5     1931_6          11.41  201.60   13.50      
+        1931_6     1931_7           2.16  184.50    0.00      
+        1931_7     1931_8           9.26  275.40    6.30      
+    endcenterline
+
+
+    centerline
+    date 2002.06.06
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5200 Dir,Dir,Dir Inc 0,0,0 06/06/2002 M ;AD,BL BL 
+        1931_8     2008_1           0.00  180.00   90.00      
+    endcenterline
+
+
+    centerline
+    date 1973.02.25
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 5.9400 Dir,Dir,Dir Inc 0,0,0 25/02/1973 M ;B. Lismonde idem 
+        2008_1     2008_2           4.90  279.00   37.00      
+        2008_2     2008_3           3.92  279.00    0.00      
+        2008_3     2008_4           3.43  180.00   90.00      
+        2008_4     2008_5           0.98   58.50    0.00      
+        2008_5     2008_6          11.76    0.00    4.80      
+        2008_6     2008_7           6.86  297.00   25.00      
+        2008_7     2008_8          10.78   22.50   60.00      
+        2008_8     2008_9           2.94  342.00    0.00      
+        2008_9     2008_10          9.80  328.50   44.00      
+        2008_10    2008_11          4.90  324.00   37.00      
+        2008_11    2008_12          4.90   72.00   90.00      
+        2008_12    2008_13          2.94  103.50   19.50      
+        2008_13    2008_14          2.94   81.00   19.50      
+        2008_14    2008_15          6.86  148.50    0.00      
+        2008_15    2008_16          3.92   85.50    0.00      
+        2008_16    2008_17          5.88  112.50   19.50      
+        2008_17    2008_18          5.88   45.00   70.00      
+        2008_18    2008_19          6.86  308.70   16.60      
+        2008_19    2008_20          6.86  328.50   16.60      
+        2008_20    2008_21          5.88   36.00   42.00      
+        2008_21    2008_22          5.88  103.50    9.60      
+        2008_22    2008_23          3.92  292.50   90.00      
+        2008_23    2008_24          5.88    0.00   30.00      
+        2008_24    2008_25         12.74   22.50   70.00      
+        2008_25    2008_26          9.80  198.00   11.50      
+        2008_26    2008_27          8.82  292.50    0.00      
+        2008_27    2008_28          1.96  234.00   90.00      
+        2008_28    2008_29          9.80  144.00   11.50      
+        2008_29    2008_30         16.66  180.00   90.00      
+        2008_30    2008_31          3.92  308.70    0.00      
+        2008_31    2008_32         19.60  180.00   90.00      # topo bas affluent des Trois, 25 février 1973
+    endcenterline
+
+
+    centerline
+    date 2002.06.06
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5200 Dir,Dir,Dir Inc 0,0,0 06/06/2002 M ;AD,BL BL 
+        2008_32    2008_33          0.00  180.00   90.00      
+    endcenterline
+
+
+    centerline
+    date 1973.03.18
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 5.9400 Dir,Dir,Dir Inc 0,0,0 18/03/1973 M ;FR. Bertaud, B. Lismonde idem 
+        2008_33    2008_34          6.86  234.00   12.80      
+        2008_34    2008_35          1.96  135.00   12.80      
+        2008_35    2008_36          7.84  232.20    0.00      
+        2008_36    2008_37          3.92  225.00   30.00      
+        2008_37    2008_38          4.90  139.50    0.00      
+        2008_38    2008_39          1.96  180.00   90.00      
+        2008_39    2008_40          4.61  238.50    0.00      
+        2008_40    2008_41          4.31  312.30    8.00      
+        2008_41    2008_42          8.13  234.00   15.00      
+        2008_42    2008_43          3.04  180.00   90.00      
+        2008_43    2008_44          3.23  180.00   28.00      
+        2008_44    2008_45          0.98  180.00  -90.00      
+        2008_45    2008_46          7.55  220.50   20.00      
+        2008_46    2008_47          7.64  226.80    4.00      
+        2008_47    2008_48          2.84  189.00    0.00      
+        2008_48    2008_49          4.51  241.20    5.00      
+        2008_49    2008_50          4.61  207.00    5.00      
+        2008_50    2008_51         14.41  225.00   30.00      
+        2008_51    2008_52          4.21  207.00   26.00      
+        2008_52    2008_53          2.45  238.50   10.00      
+        2008_53    2008_54          5.88  220.50   30.00      
+        2008_54    2008_55          6.57  207.00   15.00      
+        2008_55    2008_56          4.12  200.70   15.00      
+        2008_56    2008_57          7.84  208.80   25.00      
+        2008_57    2008_58          0.98  297.00    0.00      
+        2008_58    2008_59          5.19  234.00   15.00      
+        2008_59    2008_60          0.98  315.00    0.00      
+        2008_60    2008_61          5.39  253.80   20.00      
+        2008_61    2008_62          4.61  229.50   15.00      
+        2008_62    2008_63          7.06  216.00    5.00      
+        2008_63    2008_64          4.02  198.00   12.00      
+        2008_64    2008_65          2.65  247.50   10.00      
+        2008_65    2008_66          2.74  228.60   12.00      
+        2008_66    2008_67          5.68  220.50   15.00      
+        2008_67    2008_68          5.10  200.70   24.00      
+        2008_68    2008_69          4.21  201.60   10.00      
+        2008_69    2008_70          3.04  221.40   12.00      
+        2008_70    2008_71          3.33  207.00   10.00      
+        2008_71    2008_72          5.98  189.00   12.00      
+        2008_72    2008_73          6.76  227.70   25.00      
+        2008_73    2008_74          5.00  198.00   22.00      
+        2008_74    2008_75          4.41  117.00   90.00      
+        2008_75    2008_76          2.65   94.50    2.00      
+        2008_76    2008_77          4.90  166.50    4.00      
+        2008_77    2008_78          6.86  225.00    4.00      
+        2008_78    2008_79          6.86  319.50    6.00      
+        2008_79    2008_80          3.92  333.00   15.00      
+        2008_80    2008_81          5.10  280.80    0.00      
+        2008_81    2008_82          7.06  243.00   20.00      
+        2008_82    2008_83          3.23  148.50   40.00      
+        2008_83    2008_84          2.94  310.50   16.00      
+        2008_84    2008_85          4.41  225.00   20.00      
+        2008_85    2008_86          1.96  306.00   80.00      
+        2008_86    2008_87          3.72  247.50   40.00      
+        2008_87    2008_88          2.94  315.00    0.00      # Sommet affluent des Trois 18 mars 1973
+    endcenterline
+
+
+    centerline
+    date 2004.05.22
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.3940 Dir,Dir,Dir Inc 0,0,0 22/05/2004 M ;D. de R., B.L. B.L. 
+        1931_8     2023_1          15.10  187.20    6.30      
+        2023_1     2023_2           1.10   72.00    0.00      
+    endcenterline
+
+
+    centerline
+    date 2002.06.06
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5200 Dir,Dir,Dir Inc 0,0,0 06/06/2002 M ;AD,BL BL 
+        2023_2     2023_3           0.00  180.00   90.00      
+    endcenterline
+
+
+    centerline
+    date 2004.06.16
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.3940 Dir,Dir,Dir Inc 0,0,0 16/06/2004 M ;Matthieu B.L. 
+        2023_3     2023_4           6.38  180.00   90.00      
+        2023_4     2023_5           6.55  194.40   18.90      
+        2023_5     2023_6           4.40  212.40    4.50      #540.56}
+        2023_6     2023_7           8.92  196.20    4.50      
+        2023_7     2023_8           1.22  180.00   90.00      
+        2023_8     2023_9          12.87  268.20   -1.80      
+        2023_9     2023_10          7.38  288.90   17.10      # simple visée
+        2023_10    2077_1           5.53  248.40   15.30      # simples visées
+        2077_1     2092_1          14.65  183.60  -17.10      # simple visée simple visée bis
+        2092_1     2113_1          21.25  203.40   18.00      # simple visée simple visée
+        2113_1     2122_1           8.97  238.50   -6.30      
+        2122_1     2122_2          10.32  288.90  -37.80      
+    endcenterline
+
+
+    centerline
+    date 2002.06.06
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5200 Dir,Dir,Dir Inc 0,0,0 06/06/2002 M ;AD,BL BL 
+        2122_2     2133_1           0.00  180.00   90.00      
+    endcenterline
+
+
+    centerline
+    date 1972.03.12
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 6.7000 Dir,Dir,Dir Inc 0,0,0 12/03/1972 M ;B.L. et ? B.L. 
+        2133_1     2133_2          12.00   90.00   35.00      
+        2133_2     2133_3           5.00  193.00   47.00      
+        2133_3     2133_4           7.20  193.00   32.00      
+        2133_4     2133_5          22.00  198.00   10.00      
+        2133_5     2133_6          18.00  228.00   10.00      
+        2133_6     2133_7           1.00  180.00   90.00      
+        2133_7     2133_8           7.50  242.00   10.00      
+        2133_8     2133_9           9.00  211.00   15.00      
+        2133_9     2133_10          4.00  171.00    3.00      
+        2133_10    2133_11          9.00  239.00   25.00      
+        2133_11    2133_12          6.00  246.00   63.00      
+        2133_12    2133_13         12.00  261.00   27.00      
+        2133_13    2133_14          8.00  231.00   29.00      
+        2133_14    2133_15          5.00  283.00    6.00      
+        2133_15    2133_16         15.00  211.00    7.00      
+        2133_16    2133_17          7.50  211.00    6.00      
+        2133_17    2133_18          9.00  163.00    0.00      
+        2133_18    2133_19          3.50  173.00    1.50      # topo 12/3/72 rés. foss.  s. des 3
+    endcenterline
+
+
+    centerline
+    date 2004.06.16
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.3940 Dir,Dir,Dir Inc 0,0,0 16/06/2004 M ;Matthieu B.L. 
+        2122_2     2140_1           7.17  210.60   -1.80      
+        2140_1     2140_2           9.38  275.40    0.90      
+        2140_2     2140_3           5.77  189.90    1.80      
+        2140_3     2140_4           5.56  262.80    0.90      
+        2140_4     2140_5           7.95  242.10   13.50      
+        2140_5     2140_6           9.63  196.20   18.90      # topo SC Vienne
+        2140_6     2189_1          11.28  188.10   -2.70      
+        2189_1     2189_2          30.41  143.10   -0.00      #364.90}
+        2189_2     2189_3           7.54  151.20   -2.70      # salles 3 siphon des 4
+        2140_6     2178_1           0.00    0.00   90.00      
+        2178_1     2178_2           7.90  253.80   45.00      
+        2178_2     2178_3           2.86  238.50    9.00      
+        2178_3     2178_4           5.51  288.00  -22.50      
+        2178_4     2178_5           6.40  270.00   -8.10      
+        2178_5     2178_6           5.70  212.40  -20.70      
+        2178_6     2178_7           8.40  198.00    4.50      
+        2178_7     2178_8           5.67  202.50   18.00      
+        2178_8     2178_9           3.76  279.00   13.50      
+        2178_9     2178_10          6.57  229.50    3.60      
+        2178_10    2178_11          1.86  265.50  -24.30      
+        2178_11    2178_12          6.20  191.70    4.50      
+        2178_12    2178_13          5.16  229.50   25.20      
+        2178_13    2178_14          8.26  202.50   13.50      
+        2178_14    2178_15          8.96  193.50   10.80      
+        2178_15    2178_16          6.90  171.00   -5.40      
+        2178_16    2178_17          3.70  175.50   13.50      
+        2178_17    2178_18          6.64  159.30   -5.40      
+        2178_18    2178_19          1.81  153.00  -27.00      
+        2178_19    2178_20         10.78  178.20   -0.90      
+        2178_20    2178_21          9.50  217.80   23.40      
+        2178_21    2178_22          2.44  180.00  -72.00      
+        2178_22    2178_23          9.10  181.80    9.90      
+        2178_23    2178_24         10.53  189.00    5.40      
+        2178_24    2178_25          2.46   99.00   29.70      
+        2178_25    2178_26          7.95  189.00  -63.00      
+        2178_26    2178_27          7.60  241.20   10.80      
+        2178_27    2178_28          7.71  248.40   13.50      
+        2178_28    2178_29          5.07  270.00   27.00      
+        2178_29    2178_30          3.60  225.00    7.20      
+        2178_30    2178_31         22.66  176.40    0.00      
+        2178_31    2178_32         13.85  228.60   10.80      
+        2178_32    2178_33         13.45  234.00    0.00      
+        2178_33    2178_34          5.78  225.00   73.80      
+        2178_34    2178_35          8.40  211.50   13.50      
+        2178_35    2178_36         13.45  189.00    9.00      
+        2178_36    2178_37          5.66  207.90   -5.40      
+        2178_37    2178_38          9.49  238.50    3.60      
+        2178_38    2178_39          3.72  235.80   18.00      
+        2178_39    2178_40          7.30  207.00    7.20      
+        2178_40    2178_41          6.60  211.50    6.30      
+        2178_41    2178_42          6.40  216.00   73.80      
+        2178_42    2178_43          5.55  216.00   18.00      
+        2178_43    2178_44          5.71  234.00   10.80      
+        2178_44    2178_45          7.30  189.00    3.60      
+        2178_45    2178_46         11.30  202.50    0.00      
+        2178_46    2178_47          7.65  196.20   38.70      
+        2178_47    2178_48         12.73  218.70   18.00      
+        2178_48    2178_49          1.52  156.60   13.50      # salle Carrel
+    endcenterline
+
+
+    centerline
+    date 2004.09.30
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.6600 Dir,Dir,Dir Inc 0,0,0 30/09/2004 M ;Barnab� Fourgous 
+        2178_49    2178_50          0.00    0.00   90.00      
+        2178_50    2178_51         10.80  215.00   14.00      
+        2178_51    2178_52          7.29  213.00    4.00      
+        2178_52    2178_53         10.80  213.00   85.00      
+        2178_53    2178_54         13.11  213.00   85.00      
+        2178_54    2178_55          6.28  213.00   85.00      
+        2178_55    2178_56          4.82  116.00   61.00      
+        2178_56    2178_57          6.44  139.00   58.00      
+        2178_57    2178_58         10.00  139.00   58.00      
+        2178_58    2178_59         10.20  168.00   57.00      
+        2178_59    2178_60          4.92   88.00   15.00      
+        2178_60    2178_61          6.46  139.00    0.00      
+        2178_61    2178_62          5.47  134.00   13.00      
+        2178_62    2178_63          2.68  210.00  -10.00      
+        2178_63    2178_64          9.00  210.00  -10.00      
+        2178_64    2178_65         10.42  219.00   55.00      # topo amont cascade de 23 m à faire
+        2178_65    2656_1          11.52  227.00   43.00      
+        2656_1     2656_2           7.34  201.00   34.00      
+    endcenterline
+
+
+    centerline
+    date 2002.06.06
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5200 Dir,Dir,Dir Inc 0,0,0 06/06/2002 M ;AD,BL BL 
+        2656_2     2656_3           0.00  180.00   90.00      
+    endcenterline
+
+
+    centerline
+    date 2005.08.20
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5500 Dir,Dir,Dir Inc 0,0,0 20/08/2005 M ;St.Lips, Xavier Robert idem 
+        2656_3     2656_4           2.73  238.00    3.00      
+        2656_4     2656_5           7.06   95.00   42.00      
+        2656_5     2656_6           5.75  146.00   22.00      
+        2656_6     2656_7          10.07  120.00    9.00      #505.51}
+        2656_7     2656_8           7.93  153.00   50.00      
+        2656_8     2656_9           2.21  177.00  -13.00      
+        2656_9     2656_10          4.28  100.00  -11.00      
+        2656_10    2656_11         12.57   62.00    6.00      
+        2656_11    2656_12          5.59  130.00   32.00      
+        2656_12    2656_13         13.32  211.00    4.00      
+        2656_13    2656_14         11.21  190.00    7.00      
+        2656_14    2656_15         15.72  193.00    9.00      
+        2656_15    2656_16          7.79  204.00  -10.00      
+        2656_16    2656_17          9.30  235.00   33.00      
+        2656_17    2656_18         11.80  208.00    7.00      
+        2656_18    2656_19         13.62  207.00   29.00      #263.78}
+        2656_19    2656_20          9.10  190.00   -3.00      # gal espérance
+        2656_20    2833_1          19.91  250.00   17.00      #8.40}
+        2833_1     2833_2          16.98  231.00   21.00      
+        2833_2     2833_3          18.07  208.00   21.00      
+        2833_3     2833_4          31.26  214.00    0.00      
+        2833_4     2833_5          11.07  238.00    3.00      
+        2833_5     2833_6          13.26  180.00   37.00      
+        2833_6     2833_7          13.83  214.00    8.00      
+        2833_7     2833_8          17.69  184.00  -16.00      
+        2833_8     2833_9          14.80  207.00    3.00      
+        2833_9     2833_10         15.38  204.00    3.00      
+        2833_10    2833_11          9.97  120.00    8.00      
+        2833_11    2833_12          9.51  118.00   13.00      
+        2833_12    2833_13          5.59  173.00   35.00      
+        2833_13    2833_14         13.00  185.00   11.00      #631.44}
+        2833_14    2833_15         15.10  218.00    7.00      #573.09}visée escalade
+        2833_15    3054_1          15.39  157.00  -17.00      # aval siphon terminaltopo gal des 5 réseau sup
+    endcenterline
+
+
+    centerline
+    date 2004.09.11
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.3940 Dir,Dir,Dir Inc 0,0,0 11/09/2004 M ;Fr Bedon 
+        3054_1     3055_1           0.00    0.00   90.00      
+        3055_1     3055_2           0.00    1.80   90.00      
+        3055_2     3055_3           0.00    2.70   90.00      
+        3055_3     3055_4           0.00   13.50   90.00      
+        3055_4     3055_5           0.00   37.80   90.00      
+        3055_5     3055_6           0.00  349.20   90.00      
+        3055_6     3055_7           0.00  333.90   90.00      
+        3055_7     3055_8           0.00  292.50   90.00      
+        3055_8     3055_9           0.00  310.50   90.00      
+        3055_9     3055_10          0.00  309.60   90.00      
+        3055_10    3055_11          0.00  319.50   90.00      
+        3055_11    3055_12          0.00   18.00   90.00      
+        3055_12    3055_13          0.00   36.00   90.00      
+        3055_13    3055_14          0.00   20.70   90.00      
+        3055_14    3055_15          0.00   13.50   90.00      
+        3055_15    3055_16          0.00   15.30   90.00      
+    endcenterline
+
+
+    centerline
+    date 1986.02.15
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 4.7800 Dir,Dir,Dir Inc 0,0,0 15/02/1986 M ;CG, PA 
+        3054_1     3056_1           0.00    0.00   90.00      
+        3056_1     3056_2          22.00  291.00   23.50      
+        3056_2     3056_3           8.50  194.00   56.00      
+        3056_3     3056_4           9.00  142.00   71.00      
+        3056_4     3056_5           4.40  189.00   37.00      
+        3056_5     3056_6          11.00  187.00  -10.00      
+        3056_6     3056_7           5.00  177.00  -10.00      
+        3056_7     3056_8           1.50  133.00   -2.00      
+        3056_8     3056_9           7.50  175.00   -2.00      
+        3056_9     3056_10          8.50  259.00   17.00      
+        3056_10    3056_11         16.80  241.00   17.00      
+        3056_11    3056_12         10.00  210.00   21.50      
+        3056_12    3056_13          8.00  247.00    9.00      # 0
+        3056_13    3176_1          10.00  245.00   11.00      
+        3176_1     3176_2          11.60  244.00   19.00      
+        3176_2     3176_3           4.20  220.00  -21.00      
+        3176_3     3176_4          20.00  300.00  -30.00      
+        3056_13    3166_1           0.00    0.00   90.00      
+        3166_1     3166_2          11.50  135.00   37.00      
+        3166_2     3166_3           9.00    0.00   90.00      
+    endcenterline
+
+
+    centerline
+    date 2002.06.06
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5200 Dir,Dir,Dir Inc 0,0,0 06/06/2002 M ;AD,BL BL 
+        3054_1     3057_1           0.00  180.00   90.00      
+    endcenterline
+
+
+    centerline
+    date 1971.10.31
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 6.8000 Dir,Dir,Dir Inc 0,0,0 31/10/1971 M ;Chiron 
+        3057_1     3057_2           7.90  164.00    1.00      
+        3057_2     3057_3          18.10  124.00    1.00      
+        3057_3     3057_4          29.40  155.00    1.00      
+        3057_4     3057_5          10.45  110.00    1.00      
+        3057_5     3057_6          12.00  175.00    1.00      
+        3057_6     3057_7          25.10  264.00    1.00      
+        3057_7     3057_8          27.00  146.00    1.00      
+        3057_8     3057_9          21.00  100.00    1.00      
+        3057_9     3057_10         10.30  185.00    1.00      
+        3057_10    3057_11          5.20  142.00    1.00      
+        3057_11    3057_12          7.80  202.00    1.00      
+        3057_12    3057_13          8.40  136.00    1.00      
+        3057_13    3057_14          7.40  205.00    1.00      
+        3057_14    3057_15          7.10  138.00    1.00      
+        3057_15    3057_16          6.90  272.00    1.00      
+        3057_16    3057_17          4.30  194.00    1.00      
+        3057_17    3057_18          9.60  204.00    1.00      
+        3057_18    3057_19          9.90  140.00    1.00      
+        3057_19    3057_20         10.80  182.00    1.00      
+        3057_20    3057_21          9.70  104.00    1.00      # derrière siphon
+    endcenterline
+
+
+    centerline
+    date 2005.08.20
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5500 Dir,Dir,Dir Inc 0,0,0 20/08/2005 M ;St.Lips, Xavier Robert idem 
+        2833_15    3039_1           0.00    0.00   90.00      
+        3039_1     3039_2          13.79  339.00   30.00      #603.87}
+        2656_20    2813_1           0.00    0.00   90.00      
+        2813_1     2813_2          16.32  322.00   18.00      #82.17}
+        2813_2     2813_3          17.78   23.00  -23.00      
+        2813_3     2813_4          20.44  354.00  -29.00      
+        2813_4     2813_5          15.82  336.00  -23.00      
+        2813_5     2813_6          10.69  318.00  -34.00      
+        2813_6     2813_7           9.78  245.00  -17.00      
+    endcenterline
+
+
+    centerline
+    date 2004.11.28
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.3940 Dir,Dir,Dir Inc 0,0,0 28/11/2004 M ;LT,SL LT 
+        2178_65    2644_1           0.00    0.00   90.00      
+        2644_1     2644_2           0.00  211.50   90.00      
+        2644_2     2644_3           0.00  211.50   90.00      
+        2644_3     2644_4           0.00  211.50   90.00      
+        2113_1     2114_1           0.00    0.00   90.00      
+        2114_1     2114_2          12.50  217.80    9.00      
+        2113_1     2115_1           0.00    0.00   90.00      
+        2115_1     2115_2          12.00  285.30    0.00      
+        2092_1     2093_1           0.00    0.00   90.00      
+        2093_1     2093_2           8.00   34.20    0.00      
+        2092_1     2094_1           0.00    0.00   90.00      
+        2094_1     2094_2           8.50   78.30    0.00      
+        2077_1     2078_1           0.00    0.00   90.00      
+        2078_1     2078_2           3.00   36.00    0.00      
+        2078_2     2078_3          15.00    3.60    9.00      
+        2023_10    2072_1           0.00    0.00   90.00      
+        2072_1     2072_2          10.00  196.20    0.00      
+        1800_2     1815_1           0.00    0.00   90.00      
+        1815_1     1815_2           5.00  241.20    0.00      # simple visée
+        1815_2     1829_1           8.33  171.00    4.50      
+        1829_1     1829_2           6.17  171.00    4.50      
+        1815_2     1820_1           0.00    0.00   90.00      
+        1820_1     1820_2           5.00  290.70    0.00      
+    endcenterline
+
+
+    centerline
+    date 2005.03.13
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.3220 Dir,Dir,Dir Inc 0,0,0 13/03/2005 M ;BL Ph C 
+        1796_1     1797_1           0.00    0.00   90.00      
+        1797_1     1797_2           6.60  359.10   -9.00      #368.52}
+        1797_2     1797_3           5.09  322.20    1.80      
+        1797_3     1797_4          11.70   31.50  -22.50      
+    endcenterline
+
+
+    centerline
+    date 2004.06.16
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.3940 Dir,Dir,Dir Inc 0,0,0 16/06/2004 M ;Matthieu B.L. 
+        1796_1     1798_1           0.00    0.00   90.00      
+        1798_1     1798_2           3.83  344.70    0.00      #561.76}
+        1798_2     1798_3          11.72  226.80   13.50      
+        1798_3     1798_4           4.08  206.10    8.10      
+        1798_4     1798_5          16.44  240.30    7.20      
+        1798_5     1798_6           8.73  248.40   19.80      
+        1798_6     1798_7           3.97  243.00  -15.30      
+        1798_7     1798_8           4.56  244.80   14.40      
+        1798_8     1798_9           2.00  244.80    0.00      
+        1798_9     1798_10         10.00  313.20   18.00      #2.00}
+    endcenterline
+
+
+    centerline
+    date 2002.06.06
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5200 Dir,Dir,Dir Inc 0,0,0 06/06/2002 M ;AD,BL BL 
+        1427_12    1523_1           0.00  180.00   90.00      
+    endcenterline
+
+
+    centerline
+    date 1972.02.21
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 6.0300 Dir,Dir,Dir Inc 0,0,0 21/02/1972 M ;BL,WL,BM 
+        1523_1     1523_2           3.92  180.00   90.00      
+        1523_2     1523_3          13.43   90.90   42.00      
+        1523_3     1523_4           6.27  121.50    0.00      
+        1523_4     1523_5           1.96   54.00   80.00      
+        1523_5     1523_6           7.55  108.90  -14.00      
+        1523_6     1523_7           3.53  124.20  -27.00      
+        1523_7     1563_1           2.74   43.20    5.00      
+        1563_1     1563_2           8.92   27.00  -15.00      # rés Belemnites 3
+        1563_2     1572_1           0.00    0.00   90.00      
+        1572_1     1572_2           2.84  150.30  -37.00      
+        1572_2     1572_3           5.19   98.10  -28.00      
+        1572_3     1572_4           3.92    0.00  -90.00      
+        1572_4     1572_5          11.76    0.00  -90.00      
+        1572_5     1572_6           5.39    0.00  -90.00      
+        1572_6     1572_7          10.00  336.60  -15.00      
+        1572_7     1572_8           6.96  346.50  -34.00      
+        1572_8     1572_9           1.96  342.00    0.00      
+        1563_2     1578_1           5.98   39.60  -13.00      
+        1578_1     1578_2           5.39   37.80    5.00      
+        1578_2     1578_3          20.58   29.70  -15.00      
+        1578_3     1578_4           3.04  299.70    0.00      
+        1578_4     1578_5           3.53  290.70  -25.00      
+        1578_5     1578_6           4.31  306.00    8.00      
+        1578_6     1578_7           4.41  324.00    0.00      
+        1578_7     1578_8           2.16  296.10    0.00      
+        1578_8     1578_9           3.63  335.70  -10.00      
+        1578_9     1578_10          6.37   45.90   14.00      
+        1578_10    1578_11          6.08   30.60  -19.00      
+        1578_11    1578_12          8.82   28.80   -5.00      
+        1578_12    1578_13          3.92  105.30  -19.00      
+        1578_13    1578_14          2.84   33.30   -6.00      # réseau des Belemnites 1
+    endcenterline
+
+
+    centerline
+    date 2002.06.06
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5200 Dir,Dir,Dir Inc 0,0,0 06/06/2002 M ;AD,BL BL 
+        1523_7     1560_1           0.00  180.00   90.00      
+    endcenterline
+
+
+    centerline
+    date 1972.02.21
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 6.0300 Dir,Dir,Dir Inc 0,0,0 21/02/1972 M ;BL,WL,BM 
+        1560_1     1560_2           3.43  211.50    0.00      
+        1560_2     1560_3           8.04  211.50   15.00      
+        1560_3     1560_4           6.17  211.50   -5.00      
+        1560_4     1560_5          10.58  211.50   15.00      
+        1560_5     1560_6           1.86  301.50   -5.00      
+        1560_6     1560_7           2.06  261.00    0.00      
+        1560_7     1560_8           2.74  270.00   10.00      
+        1560_8     1560_9           1.86  332.10   35.00      
+        1560_9     1560_10          3.43  316.80    0.00      
+        1560_10    1560_11          1.47  180.00  -90.00      
+        1560_11    1560_12          4.70  302.40   -3.00      
+        1560_12    1560_13          5.10  277.20  -15.00      
+        1560_13    1560_14          3.33  208.80    0.00      # rés Belemnites 4
+        1560_14    1623_1           8.13  214.20    0.00      # rés. Belemnites 2
+        1560_14    1615_1           0.00    0.00   90.00      
+        1615_1     1615_2           7.84  297.00  -60.00      
+    endcenterline
+
+
+    centerline
+    date 2005.03.13
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.3220 Dir,Dir,Dir Inc 0,0,0 13/03/2005 M ;BL Ph C 
+        1371_6     1417_1           0.00    0.00   90.00      
+        1417_1     1417_2           7.56  350.10   43.20      #447.08}
+        1417_2     1417_3           0.60  260.10    0.00      
+        1417_3     1417_4          12.75  339.30    9.00      #454.64}
+        1417_4     1417_5          11.13  336.60    9.90      
+        1417_5     1417_6          11.83  336.60    6.30      
+        1417_6     1417_7          10.71  351.90   11.70      
+        1417_7     1417_8           7.52  343.80    8.10      
+    endcenterline
+
+
+    centerline
+    date 2002.06.06
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5200 Dir,Dir,Dir Inc 0,0,0 06/06/2002 M ;AD,BL BL 
+        1417_8     1417_9           0.00  180.00   90.00      
+    endcenterline
+
+
+    centerline
+    date 2005.04.10
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.2950 Dir,Dir,Dir Inc 0,0,0 10/04/2005 M ;Ph.C, DdeR. 
+        1417_9     1417_10          3.46  153.00   -1.80      
+        1417_10    1417_11         12.58  174.60  -12.60      
+        1417_11    1417_12          4.83  104.40   66.60      #777.47}
+        1417_12    1417_13          7.51  138.60   54.00      
+        1417_13    1417_14          0.00  180.00   90.00      # salle du Mât, 11{747.99} salle du Mât, 13
+        1417_14    1511_1           3.70   77.40   -7.20      
+        1511_1     1511_2           0.00  180.00   90.00      # salle du Mât, 12
+        1511_2     1514_1           2.75   63.00   -9.00      
+    endcenterline
+
+
+    centerline
+    date 2002.06.06
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5200 Dir,Dir,Dir Inc 0,0,0 06/06/2002 M ;AD,BL BL 
+        1514_1     1514_2           0.00    0.00   90.00      
+    endcenterline
+
+
+    centerline
+    date 2005.04.10
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.2950 Dir,Dir,Dir Inc 0,0,0 10/04/2005 M ;Ph.C, DdeR. 
+        1514_2     1514_3           4.57   63.00  -12.60      
+        1514_3     1514_4          10.30   55.80   -7.20      #683.90}
+        1514_4     1514_5           8.07   55.80  -12.60      #645.00}
+        1514_5     1542_1           5.31   40.50  -11.70      #611.71}
+        1542_1     1556_1          13.33   59.40  -11.70      
+        1556_1     1556_2           0.00  180.00   90.00      # Salle du Mât, réseau sup2
+        1556_2     1562_1           6.28  208.53  -14.40      
+        1562_1     1562_2           8.55  213.75   -2.70      #561.49}
+        1562_2     1562_3           6.59   15.30   84.60      # Topo au-dessus salle du Mât,1
+        1556_2     1559_1           3.79  347.40   -3.60      
+        1559_1     1559_2           2.72  293.40  -33.30      
+        1559_2     1559_3          22.29    0.00  -90.00      
+    endcenterline
+
+
+    centerline
+    date 2002.06.06
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5200 Dir,Dir,Dir Inc 0,0,0 06/06/2002 M ;AD,BL BL 
+        1542_1     1543_1           0.00  180.00   90.00      #634.78}
+    endcenterline
+
+
+    centerline
+    date 2005.04.10
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.2950 Dir,Dir,Dir Inc 0,0,0 10/04/2005 M ;Ph.C, DdeR. 
+        1543_1     1543_2          10.22  157.50   -2.70      # salle du Mât sup, 3 salle du Mât sup, 4 salle du Mât 5
+        1543_2     1553_1           0.00    0.00   90.00      
+        1553_1     1553_2           4.89    0.00  -90.00      #629.89}
+        1543_2     1554_1           0.00    0.00   90.00      
+        1554_1     1554_2           4.85  157.50   -5.40      #625.04}
+    endcenterline
+
+
+    centerline
+    date 2002.06.06
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5200 Dir,Dir,Dir Inc 0,0,0 06/06/2002 M ;AD,BL BL 
+        1514_5     1537_1           0.00  180.00   90.00      
+    endcenterline
+
+
+    centerline
+    date 2005.04.10
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.2950 Dir,Dir,Dir Inc 0,0,0 10/04/2005 M ;Ph.C, DdeR. 
+        1537_1     1537_2           4.37  119.70   -9.00      
+        1537_2     1537_3           3.44  180.00  -90.00      
+        1537_3     1537_4           6.69  115.20  -12.60      
+        1537_4     1537_5           5.06  153.00  -47.70      #658.56}
+        1537_5     1537_6           5.78   76.50  -48.60      # réseau salle du Mât 6 (suite série 31) salle du Mât 7
+        1537_6     1537_7           0.00    0.00   90.00      
+        1537_7     1537_8           8.25    0.00  -90.00      #650.31}
+        1511_2     1521_1           9.86  340.20    8.10      
+        1521_1     1521_2           4.20  346.50   -1.80      
+        1521_2     1521_3           6.50  351.00   -0.00      
+        1521_3     1521_4           3.82  349.20   11.70      
+        1521_4     1521_5           8.46  338.40   -0.90      
+    endcenterline
+
+
+    centerline
+    date 2002.06.06
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5200 Dir,Dir,Dir Inc 0,0,0 06/06/2002 M ;AD,BL BL 
+        1521_5     1544_1           0.00  180.00   90.00      
+    endcenterline
+
+
+    centerline
+    date 2005.04.10
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.2950 Dir,Dir,Dir Inc 0,0,0 10/04/2005 M ;Ph.C, DdeR. 
+        1544_1     1544_2           5.00  337.50    4.50      # salle du Mât 9
+        1521_5     1547_1           3.06  315.00   18.00      #706.84}
+        1547_1     1547_2           2.50  297.00   -9.90      # salle du Mât, 8
+    endcenterline
+
+
+    centerline
+    date 2002.06.06
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5200 Dir,Dir,Dir Inc 0,0,0 06/06/2002 M ;AD,BL BL 
+        1417_14    1508_1           0.00  180.00   90.00      
+    endcenterline
+
+
+    centerline
+    date 2005.04.10
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.2950 Dir,Dir,Dir Inc 0,0,0 10/04/2005 M ;Ph.C, DdeR. 
+        1508_1     1508_2           0.00  180.00   90.00      
+    endcenterline
+
+
+    centerline
+    date 2002.06.06
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5200 Dir,Dir,Dir Inc 0,0,0 06/06/2002 M ;AD,BL BL 
+        1508_2     1509_1           0.00  180.00   90.00      
+    endcenterline
+
+
+    centerline
+    date 2005.05.29
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.2950 Dir,Dir,Dir Inc 0,0,0 29/05/2005 M ;E.D., B.L. B.L. 
+        1509_1     1509_2           5.02  179.10    3.60      
+        1509_2     1509_3           2.21  118.80    7.20      #858.16}
+        1509_3     1509_4           9.84   72.00   76.50      
+        1509_4     1509_5           6.75  299.70   76.50      
+        1509_5     1509_6           3.52  112.50    6.30      
+        1509_6     1509_7           4.34  119.70    4.50      
+        1509_7     1509_8           5.29  121.50  -12.60      
+        1509_8     1509_9           6.80  117.00  -25.20      
+        1509_9     1509_10          7.83  117.00   -1.80      
+        1509_10    1509_11          2.97  135.90  -27.90      
+        1509_11    1509_12          3.26  130.50  -28.80      
+        1509_12    1509_13          4.45  148.50  -51.30      
+        1509_13    1509_14          1.60  178.20    0.90      
+        1509_14    1509_15          4.48  253.80   18.90      #810.16}
+        1509_15    1509_16          3.46  207.00    8.10      # diaclase entre réseau du Mât et celui des Belemnites
+        1508_2     1513_1           5.71  226.80   18.00      
+        1513_1     1513_2           3.60  230.40   13.50      
+        1513_2     1513_3           2.28  222.30   22.50      
+        1513_3     1513_4           5.90  275.40    9.00      
+        1513_4     1513_5           1.68  355.50   32.40      
+        1513_5     1513_6           3.21  277.20    2.70      #751.99}
+        1513_6     1513_7           3.10  319.50   14.40      
+        1513_7     1513_8           0.00   77.40   90.00      # salle du Mât, 10
+        1417_14    1510_1           0.00    0.00   90.00      
+        1510_1     1510_2           3.00  185.40   18.00      
+    endcenterline
+
+
+    centerline
+    date 2004.04.03
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.6600 Dir,Dir,Dir Inc 0,0,0 03/04/2004 M ;Pellegri2 idem 
+        1310_1     1308_1           0.00  180.00   90.00      # TOPO Pellegri 2. 3 avril 2004 topo Pellegri 2. Raccord
+        1308_1     1311_1           0.00    0.00   90.00      
+        1308_1     1316_1           8.50   10.00  -22.00      # raccord Benjamins
+        1316_1     1316_2           2.50    8.00  -10.00      
+        1316_2     1325_1           6.30   35.00    0.00      
+        1325_1     1240_1           2.90   20.00  -30.00      
+        1316_1     1317_1           0.00    0.00   90.00      
+        1317_1     1317_2           3.00  250.00  -15.00      
+        1308_1     1309_1           0.00    0.00   90.00      
+        1309_1     1309_2           3.10  134.00   -9.00      
+        1309_2     1309_3           9.89   77.50    3.00      
+        1309_3     1309_4           4.63   82.00   -4.00      
+        1309_4     1330_1           5.10   82.50   -2.00      # simple raccord 1 pellegri2
+        1330_1     1330_2           6.90  161.00   19.00      
+        1330_2     1330_3           7.76  164.00  -28.00      
+        1330_3     1330_4           5.60  167.00  -10.00      
+        1330_4     1330_5           3.36  305.00   18.00      
+        1330_5     1330_6           4.24  352.50  -13.00      
+        1330_6     1361_1           2.94  283.00  -10.00      
+        1330_1     1331_1           0.00    0.00   90.00      
+        1331_1     1331_2           6.05  332.00   28.00      
+        1331_2     1331_3           2.56   29.00   -2.00      
+        1331_3     1331_4           3.90    0.00  -90.00      
+        1331_4     1331_5           8.02  332.00   15.00      
+        1331_5     1331_6           2.70  152.00  -60.00      
+        1331_6     1331_7           5.50  338.00  -48.00      
+        1331_7     1331_8           4.04  323.00  -17.00      
+        1331_8     1331_9           4.97  319.00    8.00      
+        1331_9     1331_10         12.11  319.00    8.00      
+        1331_10    1331_11          1.00  319.00    0.00      
+        1361_1     1374_1          12.12  339.00  -12.00      # topo2 Pellegri. simple raccord
+        1374_1     1374_2           0.00    0.00   90.00      
+        1374_2     1377_1           5.23  350.00   77.00      
+    endcenterline
+
+
+    centerline
+    date 2002.06.06
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5200 Dir,Dir,Dir Inc 0,0,0 06/06/2002 M ;AD,BL BL 
+        1377_1     1309_4           0.00    0.00   90.00      
+    endcenterline
+
+
+    centerline
+    date 2004.04.03
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.6600 Dir,Dir,Dir Inc 0,0,0 03/04/2004 M ;Pellegri2 idem 
+        1374_1     1375_1           0.00    0.00   90.00      
+        1375_1     1276_2           2.15  276.00   17.00      # simple raccord2 Pellegri2
+        1276_2     1276_1           5.50  266.00  -15.00      
+        1276_2     1376_1           0.00    0.00   90.00      
+        1376_1     1376_2           7.95  147.00   72.00      
+        1376_2     1376_3          10.00  158.00   -3.00      
+        1376_3     1376_4           4.00  158.00   18.00      
+        1376_4     1376_5           3.00  153.00   30.00      
+        1376_5     1376_6           4.50  172.00   -9.00      
+        1241_6     1251_1           0.00    0.00   90.00      
+        1251_1     1251_2           5.30  271.00    0.00      
+        1103_16    1232_1           0.00    0.00   90.00      
+        1232_1     1232_2          16.40  141.00   -8.00      
+        1232_2     1232_3           1.00    0.00   90.00      
+        1232_3     1232_4           4.30  114.00  -15.00      
+        1232_4     1232_5           5.25   72.00  -39.00      
+        1232_5     1232_6           3.72   65.00  -39.00      
+        1232_6     1232_7           2.58  165.00  -53.00      
+        1232_7     1232_8           4.85  145.00  -20.00      
+        1232_8     1232_9           3.00    0.00  -90.00      
+        1232_9     1232_10          3.42  133.00    0.00      
+        1232_10    1232_11          1.00  133.00    0.00      
+        1232_11    1232_12          1.50  133.00    0.00      
+        1103_16    1233_1           0.00    0.00   90.00      
+        1233_1     1233_2          18.10  141.00   -8.00      
+        1233_2     1233_3           0.00    0.00   90.00      
+        1233_3     1233_4           0.00    0.00   90.00      
+        1233_4     1233_5           0.00    0.00   90.00      
+        1233_5     1233_6           0.00    0.00   90.00      
+        1233_6     1233_7           0.00    0.00   90.00      
+        1233_7     1233_8           0.00    0.00   90.00      
+        1233_8     1233_9           0.00    0.00   90.00      
+        1233_9     1233_10          0.00    0.00   90.00      
+        1233_10    1233_11          0.00    0.00   90.00      
+        1233_11    1233_12          0.00    0.00   90.00      
+        1091_2     1098_1           0.00    0.00   90.00      
+        1098_1     1098_2           2.00  133.00   30.00      
+        1098_2     1098_3           4.55  120.00    2.00      
+        1098_3     1098_4           2.43  240.00   50.00      
+        1098_4     1098_5           5.41  160.00   10.00      
+        1098_5     1098_6           2.34  290.00    0.00      
+        1033_10    1080_1           0.00    0.00   90.00      
+        1080_1     1080_2           7.17  350.00   20.00      
+        1080_2     1080_3          20.00  275.00    0.00      
+    endcenterline
+
+
+    centerline
+    date 2003.02.16
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5020 Dir,Dir,Dir Inc 0,0,0 16/02/2003 M ;A.D,B.L. B.L. 
+        833_7      880_1            0.00    0.00   90.00      
+        880_1      880_2            6.42   60.30    0.90      #526.50}
+        880_2      880_3            5.03   63.90  -28.80      # branché sur 82
+        880_3      897_1            6.51   91.80   -6.30      #548.66}
+        880_3      890_1            0.00    0.00   90.00      
+        890_1      890_2            5.80   63.00   -1.80      #537.95}
+        890_2      890_3            4.91   66.60   37.80      
+        890_3      890_4            8.00   66.60    9.00      
+        890_4      890_5            3.00   66.60   45.00      #10.00}
+        890_5      890_6            4.00   66.60    0.00      #14.00}
+        890_6      890_7            2.30   84.60  -45.00      #19.00}
+        772_10     829_1            0.00    0.00   90.00      
+        829_1      829_2            4.50  192.60   11.70      #35.85}
+        829_2      829_3            4.89  121.50  -14.40      
+        829_3      829_4            5.36   77.40  -33.30      
+        829_4      829_5            6.26  113.40  -27.90      #49.60}
+        829_5      829_6            1.97   73.80  -34.20      
+        829_6      829_7            3.39  116.10  -28.80      
+        829_7      829_8            4.11   94.50  -24.30      
+        829_8      829_9            6.30  106.20  -17.10      
+        829_9      829_10           3.12  346.50   -9.00      
+        829_10     829_11           3.48  307.80  -19.80      
+        829_11     829_12           6.24  306.00    5.40      
+        772_10     830_1            0.00    0.00   90.00      
+        830_1      830_2            7.60   74.70  -23.40      #604.34}
+        830_2      830_3            2.62   70.20  -34.20      # simple raccord 84/2 = 87/2
+    endcenterline
+
+
+    centerline
+    date 1975.01.01
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 5.8500 Dir,Dir,Dir Inc 0,0,0 01/01/1975 M ;B.L. X ? d�cl 3,36 g B.L. 
+        830_3      840_1            0.00    0.00   90.00      
+        840_1      840_2            0.01   90.00    0.00      
+    endcenterline
+
+
+    centerline
+    date 2003.02.12
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5020 Dir,Dir,Dir Inc 0,0,0 16/02/2003 M ;A.D,B.L. B.L. 
+        830_3      846_1            6.09  103.50  -42.30      
+        846_1      846_2            0.50  193.50    0.00      
+        846_2      846_3            6.32  117.90  -21.60      #620.65}
+        846_3      846_4            0.50  207.90    0.00      
+        846_4      846_5           10.00  126.00    0.00      
+        772_10     831_1            0.00    0.00   90.00      
+        831_1      831_2            3.54  283.50   23.40      #148.00}
+        831_2      831_3            1.32  337.50   28.80      
+        831_3      831_4            5.95    0.00   67.50      
+        831_4      831_5            4.94  279.00   29.70      
+        831_5      831_6            8.48    0.00   90.00      
+        831_6      831_7            9.66   25.20   72.00      
+        831_7      831_8            4.53  334.80   25.20      
+        831_8      831_9            5.07  325.80  -30.60      
+        831_9      831_10          13.82  298.80    3.60      
+    endcenterline
+
+
+    centerline
+    date 2002.06.06
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5200 Dir,Dir,Dir Inc 0,0,0 06/06/2002 M ;AD,BL BL 
+        831_10     831_11           0.00    0.00   90.00      
+    endcenterline
+
+
+    centerline
+    date 2003.02.23
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5020 Dir,Dir,Dir Inc 0,0,0 23/02/2003 M ;S.T., B.L. B.L. 
+        831_11     906_1           19.41  295.20   18.90      
+        906_1      916_1            9.57  302.40   18.00      
+        916_1      929_1           13.50  286.20  -27.00      
+        929_1      929_2            6.87   55.80    9.00      
+        929_2      929_3            2.40   57.60   -3.60      #3.80}
+        929_3      929_4            9.87   82.80  -13.50      
+        929_4      929_5            6.10  310.50  -75.60      
+        929_5      929_6            1.61  198.90  -22.50      
+        929_6      929_7            2.39   83.70  -41.40      
+        929_7      929_8            1.16  101.70  -52.20      
+        929_8      929_9            4.80  126.90  -43.20      
+        929_9      929_10           2.02  310.50  -40.50      
+        929_10     929_11           3.24  350.10  -30.60      
+        929_11     929_12           2.53  107.10  -36.90      
+        929_12     929_13           2.89  289.80  -33.30      
+        929_13     929_14           4.54    6.30  -36.90      #969.35}
+        929_14     929_15           3.17  108.00  -63.90      
+        929_15     929_16           6.70   63.90  -27.90      
+        929_16     996_1            6.92   53.10   -4.50      #945.86}
+    endcenterline
+
+
+    centerline
+    date 2002.06.06
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5200 Dir,Dir,Dir Inc 0,0,0 06/06/2002 M ;AD,BL BL 
+        929_1      930_1            0.00  180.00   90.00      
+    endcenterline
+
+
+    centerline
+    date 2003.02.26
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5020 Dir,Dir,Dir Inc 0,0,0 26/02/2003 M ;B.L. B.L. 
+        930_1      930_2            3.26  247.50  -54.00      
+        930_2      930_3            4.89  180.00  -90.00      
+        930_3      930_4           12.15  247.50  -28.80      
+        930_4      930_5            6.49  260.10    0.90      
+        930_5      930_6           10.82  301.50    3.60      
+    endcenterline
+
+
+    centerline
+    date 2002.06.06
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5200 Dir,Dir,Dir Inc 0,0,0 06/06/2002 M ;AD,BL BL 
+        930_6      967_1            0.00  180.00   90.00      
+    endcenterline
+
+
+    centerline
+    date 2003.06.15
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5020 Dir,Dir,Dir Inc 0,0,0 15/06/2003 M ;S.T, B.L. C?F? B.L. 
+        967_1      967_2            2.28  190.80   26.10      
+        967_2      967_3            5.60  181.80   62.10      
+        967_3      967_4            4.76  111.60   37.80      
+        967_4      967_5            4.48  181.80   71.10      
+        967_5      967_6            4.27  225.90   27.00      
+        967_6      967_7            2.92  253.80   30.60      #84.47}
+        967_7      967_8            3.90  243.00   22.50      # habillage salle au-dessus réseau FJS (berger)
+        930_6      974_1            7.40  302.40  -11.70      
+        974_1      974_2            4.03  324.00   18.90      #95.03}
+        974_2      974_3            3.25  328.50   22.50      # salle Berger, chantier sable
+        996_1      1005_1           8.48   64.80   14.40      #886.87}
+        1005_1     1011_1           6.22   82.80    9.00      # raccord 94
+        1011_1     1016_1           4.80  122.40  -17.10      
+        1011_1     1012_1           0.00    0.00   90.00      
+        1012_1     1012_2           3.58  103.50   40.50      #876.15}
+        1012_2     1012_3           7.14   72.90    9.90      
+        1016_1     1034_1          17.40  131.40  -24.30      #832.60}
+        1034_1     1034_2          21.35   54.00  -35.10      
+        1034_2     1034_3           0.00  180.00   90.00      #920.98}r�seau Berger
+        1034_3     1068_1          10.90   29.70  -18.00      
+        1068_1     627_3            0.00  180.00   90.00      # vers spit viresalle à Manger départ salle à manger vers P13
+    endcenterline
+
+
+    centerline
+    date 2002.06.06
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5200 Dir,Dir,Dir Inc 0,0,0 06/06/2002 M ;AD,BL BL 
+        1034_1     1035_1           0.00  180.00   90.00      #907.70}
+    endcenterline
+
+
+    centerline
+    date 2003.02.23
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5020 Dir,Dir,Dir Inc 0,0,0 23/02/2003 M ;S.T., B.L. B.L. 
+        1035_1     1035_2          10.06  340.20   17.10      
+        1035_2     1035_3           1.50  180.00  -90.00      
+        1035_3     1054_1           9.24   21.60  -15.30      #893.09}
+        1054_1     1062_1           5.37  356.40   -1.80      
+        1062_1     1060_1           0.00  180.00   90.00      # raccord série 96
+        1060_1     1070_1           9.40   83.70  -31.50      # fenêtre salle à Manger
+        1060_1     1060_2          15.38  247.50   27.90      #917.76}
+        1060_2     1060_3           6.58  263.70    8.10      
+        1060_3     1092_1           6.14  209.70   12.60      
+    endcenterline
+
+
+    centerline
+    date 2002.06.06
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5200 Dir,Dir,Dir Inc 0,0,0 06/06/2002 M ;AD,BL BL 
+        1092_1     1005_1           0.00    0.00   90.00      #886.87}
+        1035_3     1045_1           0.00  180.00   90.00      
+    endcenterline
+
+
+    centerline
+    date 2003.02.26
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5020 Dir,Dir,Dir Inc 0,0,0 26/02/2003 M ;B.L. B.L. 
+        1045_1     1045_2           4.69  143.10  -34.20      
+        1045_2     1045_3           3.49  286.20  -45.00      
+        1045_3     1045_4           1.06  205.20  -41.40      
+        1045_4     1045_5           3.28  166.50   -0.00      
+        1045_5     1045_6           1.00  163.80  -42.30      
+        1045_6     1045_7           4.23  295.20  -55.80      
+        1045_7     1045_8           2.21  341.10  -18.00      #204.68}
+        1045_8     1045_9          12.73   16.20  -29.70      # trémie vers siphon salle à Manger
+    endcenterline
+
+
+    centerline
+    date 2002.06.06
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5200 Dir,Dir,Dir Inc 0,0,0 06/06/2002 M ;AD,BL BL 
+        1034_1     1036_1           0.00  180.00   90.00      
+    endcenterline
+
+
+    centerline
+    date 2003.02.23
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5020 Dir,Dir,Dir Inc 0,0,0 23/02/2003 M ;S.T., B.L. B.L. 
+        1036_1     1036_2           8.52  198.00   28.80      
+        1036_2     1036_3           6.33  117.90   11.70      #810.86}
+        1036_3     1036_4           5.91  248.40   23.40      # réseau berger 2 réseau berger 2b
+    endcenterline
+
+
+    centerline
+    date 2002.06.06
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5200 Dir,Dir,Dir Inc 0,0,0 06/06/2002 M ;AD,BL BL 
+        1036_4     1055_1           0.00  180.00   90.00      
+    endcenterline
+
+
+    centerline
+    date 2003.02.23
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5020 Dir,Dir,Dir Inc 0,0,0 23/02/2003 M ;S.T., B.L. B.L. 
+        1055_1     1055_2           1.53  162.00   37.80      #709.91}
+        1055_2     1055_3           5.54  246.60   30.60      
+        1055_3     1061_1           0.00  180.00   90.00      # raccord série 99
+        1061_1     1073_1           5.85  252.00   18.90      #716.98}
+        1061_1     1066_1           4.86  167.40  -27.00      #692.16}raccord série 99
+        1066_1     1067_1           0.00    0.00   90.00      
+        1067_1     1067_2           7.90  284.40   29.70      #702.01}
+        1066_1     1071_1           4.99   89.10   -6.30      # raccord sur série 99
+        1071_1     1071_2           1.28   76.50   27.00      
+        1071_2     1071_3           3.45   61.20   49.50      
+        1071_3     1071_4           1.72  321.30   24.30      
+        1071_4     1071_5           2.51   28.80   -0.00      #670.00}
+        1071_5     1093_1           8.24  298.80  -39.60      
+        1093_1     1036_4           0.00  180.00   90.00      # réseau berger 2 réseau berger 2b
+        1071_1     1072_1           0.00    0.00   90.00      
+        1072_1     1072_2           4.96  137.70  -14.40      #687.20}
+        1073_1     1069_1           1.73  190.80    9.90      
+    endcenterline
+
+
+    centerline
+    date 2002.06.06
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5200 Dir,Dir,Dir Inc 0,0,0 06/06/2002 M ;AD,BL BL 
+        1069_1     1069_2           0.00  180.00   90.00      
+    endcenterline
+
+
+    centerline
+    date 2003.02.23
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5020 Dir,Dir,Dir Inc 0,0,0 23/02/2003 M ;S.T., B.L. B.L. 
+        1069_2     1069_3           5.50  209.70   23.40      
+        1069_3     1077_1           1.41  133.20   20.70      
+        1069_1     1075_1           5.98  296.10   14.40      # raccord série 99
+    endcenterline
+
+
+    centerline
+    date 2002.06.06
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5200 Dir,Dir,Dir Inc 0,0,0 06/06/2002 M ;AD,BL BL 
+        1075_1     1076_1           0.00  180.00   90.00      
+    endcenterline
+
+
+    centerline
+    date 2003.02.23
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5020 Dir,Dir,Dir Inc 0,0,0 23/02/2003 M ;S.T., B.L. B.L. 
+        1076_1     1076_2           3.97  241.20   10.80      #754.63}
+        1076_2     1088_1           9.09  267.30   18.00      # raccord série 103
+        1088_1     1088_2           4.19  117.00  -13.50      
+        1088_2     1088_3           6.32  103.50  -15.30      #730.54}
+        1088_3     1105_1           6.38   18.90  -12.60      
+        1105_1     1075_1           0.00  180.00   90.00      # raccord série 99
+        1088_1     1089_1           0.00    0.00   90.00      
+        1089_1     1089_2           4.50  278.10   48.60      #747.43}
+        1089_2     1089_3           2.70  279.00   25.20      
+        1075_1     1079_1           3.87    5.40   19.80      #770.26}
+        1079_1     1079_2           8.43  304.20   56.70      
+        1079_2     1079_3           3.06  301.50   17.10      
+        1079_3     1079_4           3.64  112.50   58.50      
+        1079_4     1079_5           2.64  102.60   -8.10      
+        1079_5     1079_6           9.77  103.50    9.90      
+        1079_6     1079_7           8.53  120.60  -15.30      
+        1079_7     1079_8           7.05  124.20  -50.40      
+        1079_8     1079_9           0.00    0.00   90.00      
+        1077_1     1081_1           4.57  227.70   69.30      
+        1081_1     1081_2           5.49  292.50   74.70      
+        1081_2     1090_1           4.08  252.90   45.00      
+        1090_1     831_11           8.56  279.00   24.30      
+    endcenterline
+
+
+    centerline
+    date 2002.06.06
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5200 Dir,Dir,Dir Inc 0,0,0 06/06/2002 M ;AD,BL BL 
+        1081_1     1082_1           0.00  180.00   90.00      
+    endcenterline
+
+
+    centerline
+    date 2003.06.15
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5020 Dir,Dir,Dir Inc 0,0,0 15/06/2003 M ;S.T, B.L. C?F? B.L. 
+        1082_1     1082_2           2.21  257.40  -16.20      
+        1082_2     1082_3           2.09  153.00  -28.80      
+        1082_3     1082_4           4.95  235.80  -33.30  #62.00  63.00
+        1082_4     1082_5           3.41  217.80    9.90      #112.68}
+        1082_5     1082_6           4.70  254.70  -67.50      # petit bout dans la montée réseau Berger
+    endcenterline
+
+
+    centerline
+    date 2002.06.06
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5200 Dir,Dir,Dir Inc 0,0,0 06/06/2002 M ;AD,BL BL 
+        676_1      677_1            0.00  180.00   90.00      #342.60}
+    endcenterline
+
+
+    centerline
+    date 2003.02.09
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5020 Dir,Dir,Dir Inc 0,0,0 09/02/2003 M ;
+        677_1      677_2            1.00  286.20   -0.00      #333.75}
+        677_2      677_3            8.35  180.00   90.00      # branchement sur 76
+        677_3      693_1            8.46  115.20   -6.30      #316.10}
+        693_1      693_2            3.56  252.00    9.00      #317.10}
+        693_2      693_3            9.00  247.50    9.00      # branché sur 68/2 (au-dessus)
+        677_3      684_1            0.00    0.00   90.00      
+        684_1      684_2            5.63    0.00   -1.80      #328.12}
+    endcenterline
+
+
+    centerline
+    date 2002.06.06
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5200 Dir,Dir,Dir Inc 0,0,0 06/06/2002 M ;AD,BL BL 
+        676_1      678_1            0.00  180.00   90.00      
+    endcenterline
+
+
+    centerline
+    date 2003.02.09
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5020 Dir,Dir,Dir Inc 0,0,0 09/02/2003 M ;
+        678_1      678_2            1.00  247.50   -0.00      
+        678_2      678_3            4.25  151.20  -24.30      #302.10}
+        678_3      678_4            9.75  130.50  -18.00      # branché sur 68/2
+    endcenterline
+
+
+    centerline
+    date 2002.12.22
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5200 Dir,Dir,Dir Inc 0,0,0 22/12/2002 M ;A.D, S.T., B.L. B.L. 
+        627_3      653_1            0.00    0.00   90.00      
+        653_1      653_2            3.64   63.00    0.00      #795.34}
+        641_1      654_1           11.70   63.90   23.40      # raccord col grand éboulis
+        654_1      510_2           18.52   73.80  -19.80      
+    endcenterline
+
+
+    centerline
+    date 2003.01.19
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5020 Dir,Dir,Dir Inc 0,0,0 19/01/2003 M ;S., D.F., B.L. B.L. 
+        654_1      655_1            0.00    0.00   90.00      
+        655_1      655_2            5.03  146.70   22.50      #488.50}
+        655_2      655_3            7.88  168.30  -31.50      
+        655_3      655_4            0.00    0.00   90.00      
+        655_4      655_5            0.00    0.00   90.00      
+        655_5      655_6            0.00    0.00   90.00      
+        655_6      655_7            0.00    0.00   90.00      
+        655_7      655_8            0.00    0.00   90.00      
+        655_8      655_9            0.00    0.00   90.00      
+        655_9      655_10           0.00    0.00   90.00      
+    endcenterline
+
+
+    centerline
+    date 2002.06.06
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5200 Dir,Dir,Dir Inc 0,0,0 06/06/2002 M ;AD,BL BL 
+        654_1      656_1            0.00  180.00   90.00      
+    endcenterline
+
+
+    centerline
+    date 2003.01.19
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5020 Dir,Dir,Dir Inc 0,0,0 19/01/2003 M ;S., D.F., B.L. B.L. 
+        656_1      656_2            5.63  313.20   31.50      
+        656_2      656_3           10.54   33.30   45.00      
+        656_3      656_4            7.54   14.40   36.00      #457.56}
+        656_4      656_5            7.23   31.50   -9.00      
+        656_5      656_6            4.85  111.60  -16.20      
+        656_6      656_7            3.61  357.30  -38.70      
+        656_7      656_8            6.80   36.90    5.40      #393.73}
+        656_8      656_9            8.21   17.10   -8.10      # En haut du Grand Eboulis raccord sur série 38, raccord avec 50/3
+        656_9      656_10           0.00    0.00   90.00      
+        656_10     656_11           9.98  193.50   29.70      #417.20}
+        656_11     656_12           5.82  277.20   36.90      
+        656_12     656_13           4.50  237.60   -5.40      
+        656_13     656_14           3.89  218.70   -9.00      
+        656_14     736_1            3.46  122.40  -59.40      #454.10}
+    endcenterline
+
+
+    centerline
+    date 2002.06.06
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5200 Dir,Dir,Dir Inc 0,0,0 06/06/2002 M ;AD,BL BL 
+        656_14     731_1            0.00  180.00   90.00      #441.39}
+    endcenterline
+
+
+    centerline
+    date 2003.01.19
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5020 Dir,Dir,Dir Inc 0,0,0 19/01/2003 M ;S., D.F., B.L. B.L. 
+        731_1      731_2           12.71  302.40  -18.90      # raccord série 39 raccord
+        731_2      731_3            0.00    0.00   90.00      
+        731_3      731_4            8.00  302.40   63.00      
+        514_10     555_1            0.00    0.00   90.00      
+        555_1      555_2            4.30  130.50  -37.80      #239.85}
+        555_2      555_3            2.97   72.00  -47.70      
+        555_3      555_4            4.00   72.00    0.00      
+        488_1      489_1            0.00    0.00   90.00      
+        489_1      489_2            6.60  130.50  -18.00      #945.80}
+        489_2      489_3            0.30  181.80    0.00      # perte du Shunt (à l'étiage)
+        489_3      505_1            5.12   82.80  -24.30      #952.40}
+        505_1      505_2            7.26   56.70   -8.10      
+        505_2      505_3            8.00   49.50   -8.10      
+    endcenterline
+
+
+    centerline
+    date 2003.06.29
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.4300 Dir,Dir,Dir Inc 0,0,0 29/06/2003 M ;B.L. B.L. 
+        489_3      495_1            0.00    0.00   90.00      
+        495_1      495_2            7.12   66.60  -22.50      #195.20}
+        495_2      495_3            5.50   56.70   -9.90      
+        495_3      495_4           14.72   51.30   -6.30      
+        495_4      495_5            5.71   49.50    0.00      
+        495_5      495_6            8.24   49.50   -2.70      
+        495_6      495_7            3.01   63.00    0.00      
+    endcenterline
+
+
+    centerline
+    date 2002.12.22
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5200 Dir,Dir,Dir Inc 0,0,0 22/12/2002 M ;A.D, S.T., B.L. B.L. 
+        488_1      490_1            0.00    0.00   90.00      
+        490_1      490_2           11.57    6.30  -11.70      #594.88}
+        490_2      490_3            6.54  340.20   -1.80      
+        490_3      490_4           11.06  324.00    1.80      
+        490_4      490_5            7.18   17.10   -0.90      
+        490_5      490_6            3.00  107.10   18.00      
+    endcenterline
+
+
+    centerline
+    date 2003.01.26
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5020 Dir,Dir,Dir Inc 0,0,0 26/01/2003 M ;P.-O. S; B.L. B.L. 
+        429_3      446_1            0.00    0.00   90.00      
+        446_1      446_2            3.43  199.80   -7.20      #698.81}
+        446_2      446_3           12.06  234.90   17.10      #705.40}se raccorde à 49/2
+        446_3      467_1            5.25  345.60   13.50      
+        467_1      467_2            4.31  293.40   -2.70      
+        467_2      467_3            3.71  275.40   30.60      
+        467_3      467_4            6.00    0.00   90.00      
+        467_4      467_5            2.00   95.40    0.00      #737.73}
+        467_5      467_6            2.00  185.40    0.00      
+        467_6      467_7            2.00   77.40   45.00      #742.73}
+        467_7      467_8            3.00   45.00    0.00      #747.73}
+        446_3      463_1            0.00    0.00   90.00      
+        463_1      463_2            8.00    8.10    8.10      #730.73}
+        463_2      463_3            5.81    4.50    6.30      # salle des Géants salle des Géants bis0
+        463_3      492_1           17.00  167.40   45.90      
+        463_3      475_1            0.00    0.00   90.00      
+        475_1      475_2            6.00    7.20   -2.70      #900.00}
+        475_2      475_3            8.86  244.80   31.50      
+        475_3      475_4            5.72  277.20   25.20      
+        475_4      475_5            1.00  277.20   25.20      
+        463_3      476_1            0.00    0.00   90.00      
+        476_1      476_2            8.51   10.80    0.00      #861.79}
+        476_2      476_3            3.93  321.30   -2.70      
+        476_3      476_4            6.67  300.60    7.20      
+        476_4      476_5           12.16  331.20   -1.80      
+        476_5      476_6            6.81  283.50   12.60      
+        476_6      476_7            2.50  283.50   12.60      
+    endcenterline
+
+
+    centerline
+    date 1997.01.01
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 3.1950 Dir,Dir,Dir Inc 0,0,0 01/01/1997 M ;géomètres 
+        463_3      477_1            0.00    0.00   90.00      
+        477_1      477_2            1.01  189.00    0.00      
+    endcenterline
+
+
+    centerline
+    date 2002.06.06
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5200 Dir,Dir,Dir Inc 0,0,0 06/06/2002 M ;AD,BL BL 
+        477_2      477_3            0.00    0.00   90.00      
+    endcenterline
+
+
+    centerline
+    date 1997.01.01
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 3.1950 Dir,Dir,Dir Inc 0,0,0 01/01/1997 M ;g�om�tres 
+        477_3      506_1           24.42  127.96  -16.98      
+        477_3      519_1           42.32   23.40  -16.08      
+        519_1      519_2           35.03   43.06   -1.70      
+        519_2      519_3           14.36  323.42    8.89      
+        519_3      519_4           24.08   57.29   -7.73      
+        519_4      519_5            8.41   13.14    6.42      
+        519_5      519_6           15.67  299.47   46.09      
+        519_6      519_7           11.55  345.60   -6.01      # topo des géomètres
+    endcenterline
+
+
+    centerline
+    date 2003.02.02
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5020 Dir,Dir,Dir Inc 0,0,0 02/02/2003 M ;B.L. B.L. 
+        401_1      403_1            0.00    0.00   90.00      
+        403_1      403_2            0.00  200.70   90.00      
+        403_2      403_3            0.00  191.70   90.00      
+        365_3      387_1            0.00    0.00   90.00      
+        387_1      387_2           11.11  210.60   24.30      #837.43}
+    endcenterline
+
+
+    centerline
+    date 2002.12.08
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5200 Dir,Dir,Dir Inc 0,0,0 08/12/2002 M ;A.D., S., B.L. B.L. 
+        356_1      357_1            0.00    0.00   90.00      
+        357_1      357_2            3.94  297.00   13.50      #374.69}
+        357_2      357_3            0.55    0.00  -90.00      #378.88}
+        357_3      357_4            6.14  281.70   10.80      #378.88}
+        357_4      357_5            0.60   12.60   45.00      
+        357_5      357_6            8.11  275.40    7.20      #385.12}
+        357_6      357_7            1.50  293.40    9.00      
+        357_7      357_8            0.30    0.00   90.00      
+        357_8      357_9            2.00  270.00    0.00      
+        267_7      297_1            0.00    0.00   90.00      
+        297_1      297_2            2.29  301.50    3.60      #267.46}
+        297_2      297_3            8.08  312.30  -49.50      #272.81}sous et avant salle st bruno (suite)
+        297_3      323_1           13.95   17.10    3.60      #281.02}
+        297_3      308_1            0.00    0.00   90.00      
+        308_1      308_2            5.31   67.50   36.00      #295.04}
+        308_2      308_3           13.45   54.90   14.40      #300.39}
+        308_3      308_4            3.40  270.00    0.00      
+        308_4      308_5            2.00    9.00   45.00      
+        308_5      308_6            5.00  279.00   36.00      
+        308_6      308_7            2.00    9.00    0.00      
+        231_7      257_1            0.00    0.00   90.00      
+        257_1      257_2            5.93  241.20  -33.30      #216.45}
+        257_2      257_3            5.94  243.00   -4.50      #222.48}
+    endcenterline
+
+
+    centerline
+    date 2003.04.06
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5020 Dir,Dir,Dir Inc 0,0,0 06/04/2003 M ;BH,BL 
+        87_8       141_1            0.00    0.00   90.00      
+        141_1      141_2            8.89  272.70   49.50      #735.36}
+        141_2      141_3            4.40  274.50   -1.80      
+        141_3      141_4            0.70  184.50    0.00      
+        141_4      141_5           12.50  260.10    1.80      #748.65}
+        141_5      141_6            0.70    0.00   90.00      #762.15}
+        141_6      141_7            7.71  248.40   -7.20      #762.15}
+    endcenterline
+
+
+    centerline
+    date 2003.09.28
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.4300 Dir,Dir,Dir Inc 0,0,0 28/09/2003 M ;S., J. BL BL 
+        82_1       83_1             0.00    0.00   90.00      
+        83_1       83_2             1.96   16.20  -10.80      #691.04}
+        83_2       83_3             9.50  167.40  -27.90      
+        83_3       83_4             5.70  305.10    4.50      
+        83_4       83_5             3.38  346.50   14.40      
+        83_5       83_6            12.13  301.50   12.60      
+        83_6       83_7             0.60    0.00   90.00      
+        83_7       83_8             7.89  301.50   22.50      #723.71}
+    endcenterline
+
+
+    centerline
+    date 2002.06.06
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5200 Dir,Dir,Dir Inc 0,0,0 06/06/2002 M ;AD,BL BL 
+        5_3        6_1              0.00  180.00   90.00      
+    endcenterline
+
+
+    centerline
+    date 2003.11.09
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.4300 Dir,Dir,Dir Inc 0,0,0 09/11/2003 M ;ST, BL 
+        6_1        6_2              3.82  126.90  -11.70      #877.51}
+        6_2        6_3             13.79  355.50    2.70      # 0
+        6_3        20_1             0.00    0.00   90.00      
+        20_1       20_2             1.88  216.00   29.70      #875.63}
+        6_3        56_1            36.28   11.70  -12.60      
+        56_1       56_2             4.32  135.00  -15.30      #818.03}
+        56_2       56_3            17.00  163.80  -15.30      
+        56_3       56_4            14.88  131.40   -1.80      
+        56_4       56_5            16.63   47.70   -0.90      #772.93}
+        56_5       56_6            13.61   52.20   -9.00      # 0
+    endcenterline
+
+
+    centerline
+    date 2003.01.26
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5020 Dir,Dir,Dir Inc 0,0,0 26/01/2003 M ;P.-O. S; B.L. B.L. 
+        5_3        12_1             9.79  305.10   12.60      #601.61}
+        12_1       12_2             6.08  187.20    5.40      # entre les deux entrées
+    endcenterline
+
+
+    centerline
+    date 2003.07.20
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.4300 Dir,Dir,Dir Inc 0,0,0 20/07/2003 M ;Y.C, T.V. B.L. B.L. 
+        5_3        7_1              0.00    0.00   90.00      
+        7_1        7_2              9.88  302.40   11.70      #316.40}galerie d'entrée sèche
+        7_2        22_1             9.96  180.00    2.70      #337.30}
+        22_1       22_2            15.78  191.70    4.50      
+        22_2       22_3            19.15  294.30    0.90      
+        22_3       22_4             1.56  338.40    5.40      
+        22_4       22_5            23.41  299.70    0.00      
+        22_5       22_6             6.18  295.20   15.30      
+        22_6       22_7             2.57  323.10   24.30      # raccord escalier rataplanade canal des enfers
+        22_7       93_1             2.58  243.90   -9.00      
+        93_1       93_2             3.77  288.90    5.40      
+        93_2       93_3             3.93  285.30   59.40      
+        93_3       93_4             2.83   95.40   31.50      
+        93_4       93_5             7.30   82.80   36.00      
+        93_5       93_6            11.94   50.40   -7.20      
+        93_6       93_7             3.70  297.00    0.00      
+        93_7       93_8             4.15  296.10   -7.20      
+        93_8       93_9             5.48  286.20  -12.60      
+        93_9       93_10            3.27  249.30   27.00      # raccord série 128/18
+        93_10      147_1            7.19  113.40  -28.80      #473.88}raccord série 128/19
+        147_1      148_1            0.00    0.00   90.00      
+        148_1      148_2            0.50  198.00    0.00      #481.07}
+        148_2      148_3            3.63  263.70   24.30      #481.07}
+        148_3      148_4            2.50  297.00   13.50      
+        147_1      151_1            4.41  123.30    8.10      #498.27}
+        151_1      151_2            3.38   76.50   -2.70      
+        151_2      151_3            3.61   80.10   62.10      
+        93_10      140_1            0.00    0.00   90.00      
+        140_1      140_2            2.46  306.00   11.70      #464.86}
+        140_2      140_3            7.56  276.30    2.70      
+        22_7       91_1             0.00    0.00   90.00      
+        91_1       91_2             2.51  326.70   44.10      #731.60}
+        91_2       91_3             1.43  319.50   69.30      
+        91_3       91_4             2.46   67.50   30.60      
+        91_4       91_5             4.78   58.50  -11.70      
+        91_5       91_6             4.64   41.40   12.60      
+        91_6       91_7             1.00   41.40   63.00      
+        7_2        13_1             0.00    0.00   90.00      
+        13_1       13_2            12.92  304.20   19.80      #575.90}
+        13_2       13_3             3.18  297.00    4.50      
+        13_3       13_4             3.06  298.80   62.10      #592.28}
+        13_4       13_5             7.02  293.40    7.20      
+        13_5       13_6             2.00  293.40   25.20      
+        13_6       13_7             3.96  299.70   -3.60      
+        13_7       13_8             0.40  209.70    0.00      
+        13_8       13_9             2.38  284.40    1.80      #608.32}
+        13_9       13_10            4.14  307.80    1.80      
+        13_10      13_11            2.00  307.80    0.00      
+    endcenterline
+
+
+    centerline
+    date 2002.06.08
+        
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+        #Param Deca Degd Clino Degd 2.5200 Dir,Dir,Dir Inc 0,0,0 08/06/2002 M ;PC,BL BL 
+        1_1        9_1              0.00    0.00   90.00      
+        9_1        9_2             11.47  298.80   17.10      #72.71}
+        9_2        9_3              1.80  286.20   11.70      
+        9_3        9_4             12.41  180.90    6.30      
+        9_4        9_5              6.14  293.40   33.30      
+        9_5        9_6             17.58  302.40    0.00      
+        9_6        9_7             15.92  292.50    4.50      
+        9_7        9_8             11.13  292.50   23.40      
+        9_8        9_9              4.48  155.70   27.00      
+        9_9        9_10             7.52  220.50    7.20      
+        9_10       9_11             8.41  269.10  -43.20      
+        9_11       9_12             0.00    0.00   90.00      
+        9_12       9_13             0.00    0.00   90.00      
+        9_13       9_14             0.00    0.00   90.00      
+        1_1        10_1             4.33    0.00    0.00      #875.35}
+        10_1       10_2            26.16  328.50   25.20      
+        10_2       10_3             1.00   58.50    0.00      
+        10_3       10_4             6.67  331.20   16.20      #905.84}
+        10_4       10_5             4.54  252.00   37.80      
+        10_5       10_6             8.38  321.30   21.60      
+        10_6       10_7             8.74  240.30   35.10      
+        10_7       10_8             6.94  226.80   39.60      
+        10_8       10_9             9.17  243.00   42.30      
+        10_9       10_10            6.25  191.70   44.10      
+        10_10      10_11            7.97  225.90   37.80      
+        10_11      10_12            6.70  288.90   29.70      
+        10_12      10_13            4.35  269.10   40.50      
+        10_13      10_14            3.56  220.50   42.30      
+        10_14      10_15            5.14  275.40   45.00      
+        10_15      10_16            1.00  185.40    0.00      
+        10_16      10_17            7.00  280.80   28.80      #984.25}
+        10_17      10_18            5.59  230.40   30.60      
+        10_18      10_19            9.29  290.70  -13.50      
+        10_19      10_20            6.92  279.00   -1.80      #6.13}
+        10_20      10_21            0.50  189.00    0.00      
+        10_21      10_22            5.72  261.00   25.20      #13.05}
+        10_22      10_23           10.08  260.10   12.60      
+        10_23      10_24           13.37  257.40   29.70      
+        10_24      10_25           10.17  234.00   33.30      #47.06}
+        10_25      10_26            9.64  244.80   36.90      
+        10_26      10_27            4.34  218.70   43.20      
+        10_27      10_28           20.00  204.30   40.50      
+        10_28      10_29            0.00    0.00   90.00      #691.05}
+    endcenterline
+
+endsurvey

@@ -1,0 +1,18 @@
+encoding  utf-8
+
+# Copyright (C) 2021 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+map MP-Bidon-plan-tot -title "Scialet Bidon"
+	SP-Bidon-1
+	#break
+	#SP-Bidon-M2021-1
+endmap
+
+#map MC-Bidon-coupe-tot -title "Scialet Bidon"
+#	SC-Bidon-Entree-1
+#	break	
+#	SC-Bidon-S1S2-1
+#endmap
+   
