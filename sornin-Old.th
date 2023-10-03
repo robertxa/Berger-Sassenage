@@ -1,0 +1,49 @@
+encoding  utf-8
+survey reseau_sornin  -title "Réseau du Sornin"
+
+  #surface
+    #cs UTM31
+    #grid 724331 5024546 2.326295 2.326295 2053 3528  # fonction initialement commenter
+    #grid-units m                                     # fonction initialement commenter
+    #bitmap "../surface/carrepourcomplexbergerNetB.png" [0 0 701825 5004931 5184 4992 710828 5013634]
+  #endsurface
+
+  #****************************
+  # Import des fichiers MAPS :
+  #****************************
+
+  input "sornin-map.th"
+  input surface/DEM-Berger.th
+  
+  #----------------------------------------
+  # assemblage Fromagère - D35
+  #----------------------------------------
+
+  input "Fromagere/fromagere.th"
+  input "D35/d35.th"
+  
+  equate 49@D35_20161012.reseau_D35 A182@Fromagere_20170131.reseau_fromagere
+
+    #*************************************
+    # Jointure des fichiers dessins PLAN :
+    #*************************************
+    
+    join D35_20161012SP13@D35_20161012.reseau_D35    fromagereSP19@Fromagere_20170131.reseau_fromagere
+    join D35_20161012SP13@D35_20161012.reseau_D35    fromagereSP19bis@Fromagere_20170131.reseau_fromagere
+    
+    #*************************************
+    # Jointure des fichiers dessins COUPE :
+    #*************************************
+    
+    join D35_20161012SE12@D35_20161012.reseau_D35 FromSE1@Fromagere_20170131.reseau_fromagere
+    join D35_20161012SE12@D35_20161012.reseau_D35 FromSE1bis@Fromagere_20170131.reseau_fromagere
+    join FromSE40@Fromagere_20170131.reseau_fromagere D35_20161012SE13@D35_20161012.reseau_D35
+
+  #----------------------------------------
+  # assemblage Berger
+  #----------------------------------------
+
+  #import "Berger20141030.plt"
+
+endsurvey
+
