@@ -1,0 +1,20 @@
+encoding  utf-8
+
+survey P60
+
+centerline
+  #cs UTM31
+  #date 2012.10.06
+  cs lat-long
+  fix P60 45.228 5.601 1495
+  station P60 "Puits P60" entrance
+  
+    #declination 0.00 degrees
+    units length meters
+    units compass clino degrees
+    #calibrate length 0 0.3
+    data normal from to length compass clino left up down right
+      P60 1    60     0.00   -90.00     2 2 60  0
+    endcenterline
+
+endsurvey
