@@ -1,0 +1,146 @@
+encoding  utf-8
+# 2017.02.06 created by TopoDroid v 3.3.0
+
+survey 20170206collecteuramont-from -title "collecteuramont"
+input 20170206collecteuramont-from.th2
+
+  centerline
+    date 2017.02.06 
+    declination 0.00 degrees
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+    extend left
+    A74 - 2.99 254.0 0.0
+    extend right
+    A74 - 2.99 74.0 0.0
+    extend vertical
+    A74 - 6.00 0.0 90.0
+    extend right
+    A74 collecamont2 12.29 344.0 4.7
+    extend left
+    collecamont2 - 2.99 222.0 0.0
+    extend right
+    collecamont2 - 2.99 42.0 0.0
+    extend vertical
+    collecamont2 - 6.00 0.0 90.0
+    extend right
+    collecamont2 collecamont3 15.21 312.0 7.6
+    extend left
+    collecamont3 - 2.99 261.7 0.0
+    extend right
+    collecamont3 - 2.99 81.7 0.0
+    extend vertical
+    collecamont3 - 6.00 0.0 90.0
+    extend right
+    collecamont3 collecamont4 17.37 351.7 6.6
+    extend vertical
+    collecamont4 - 2.01 183.7 0.0
+    collecamont4 - 2.01 3.7 0.0
+    collecamont4 - 5.00 0.0 90.0
+    extend right
+    collecamont4 collecamont5 15.97 273.7 7.2
+    extend vertical
+    collecamont5 - 2.99 187.8 0.0
+    collecamont5 - 2.99 7.8 0.0
+    collecamont5 - 6.00 0.0 90.0
+    extend right
+    collecamont5 collecamont6 19.90 277.8 5.8
+    extend left
+    collecamont6 - 2.99 234.7 0.0
+    extend right
+    collecamont6 - 2.99 54.7 0.0
+    extend vertical
+    collecamont6 - 6.00 0.0 90.0
+    extend right
+    collecamont6 collecamont7 22.67 324.7 5.1
+    extend left
+    collecamont7 - 2.99 202.4 0.0
+    extend right
+    collecamont7 - 2.99 22.4 0.0
+    extend vertical
+    collecamont7 - 6.00 0.0 90.0
+    extend right
+    collecamont7 collecamont8 16.34 292.4 3.5
+    extend left
+    collecamont8 - 1.01 224.5 0.0
+    extend right
+    collecamont8 - 1.01 44.5 0.0
+    extend vertical
+    collecamont8 - 3.99 0.0 90.0
+    extend right
+    collecamont8 collecamont9 25.43 314.5 2.3
+    extend left
+    collecamont9 - 1.01 239.7 0.0
+    extend right
+    collecamont9 - 1.01 59.7 0.0
+    extend vertical
+    collecamont9 - 2.01 0.0 90.0
+    extend right
+    collecamont9 collecamont10 7.37 329.7 15.7
+    extend left
+    collecamont10 - 0.09 272.8 0.0
+    extend right
+    collecamont10 - 0.09 92.8 0.0
+    extend vertical
+    collecamont10 - 0.21 0.0 90.0
+    extend right
+    collecamont10 collecamont11 30.68 2.8 1.9
+    collecamont11 collecamont12 8.60 347.6 6.7
+    collecamont9 - 1.01 122.7 0.0
+    extend left
+    collecamont9 - 1.01 302.7 0.0
+    extend vertical
+    collecamont9 - 3.99 0.0 90.0
+    extend left
+    collecamont9 collecamont13 8.76 212.7 20.0
+    extend right
+    collecamont13 - 0.49 133.0 0.0
+    extend left
+    collecamont13 - 0.49 313.0 0.0
+    extend vertical
+    collecamont13 - 2.99 0.0 90.0
+    extend left
+    collecamont13 collecamont14 6.53 223.1 17.8
+    extend right
+    collecamont14 collecamont15 21.16 334.0 10.9
+    collecamont5 - 2.01 61.9 0.0
+    extend left
+    collecamont5 - 2.01 241.9 0.0
+    extend vertical
+    collecamont5 - 5.00 0.0 90.0
+    extend left
+    collecamont5 collecamont16 7.63 151.9 0.0
+    extend right
+    collecamont16 - 3.99 40.1 0.0
+    extend left
+    collecamont16 - 3.99 220.1 0.0
+    extend vertical
+    collecamont16 - 3.99 0.0 90.0
+    collecamont16 - 3.99 0.0 -90.0
+    extend left
+    collecamont16 collecamont17 8.21 130.1 0.0
+    collecamont17 collecamont18 20.20 128.2 82.0
+  endcenterline
+  
+map 20170206collecteuramont-fromMP
+  20170206collecteuramont-fromSP1
+  20170206collecteuramont-fromSP2
+  20170206collecteuramont-fromSP3
+  20170206collecteuramont-fromSP4
+  20170206collecteuramont-fromSP5
+  20170206collecteuramont-fromSP6
+  20170206collecteuramont-fromSP7
+  20170206collecteuramont-fromSP8
+  20170206collecteuramont-fromSP9
+  20170206collecteuramont-fromSP10
+  20170206collecteuramont-fromSP11
+  20170206collecteuramont-fromSP12
+  
+  20170206collecteuramont-fromSP13
+  20170206collecteuramont-fromSP14
+  
+endmap
+
+endsurvey
+

@@ -1,0 +1,307 @@
+encoding  utf-8
+# 2017.02.06 created by TopoDroid v 3.3.0
+survey 20160202affluent-cache-from
+
+  input 20160202affluent-cache-from.th2
+
+  centerline
+    date 2017.02.06 
+    declination 0.00 degrees
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+    extend left
+    actif_cache1 - 1.01 245.5 0.0
+    extend right
+    actif_cache1 - 1.01 65.5 0.0
+    extend vertical
+    actif_cache1 - 8.02 0.0 90.0
+    extend right
+    actif_cache1 actif_cache2 14.76 335.5 -3.9
+    extend left
+    actif_cache2 - 1.01 267.7 0.0
+    extend vertical
+    actif_cache2 - 8.02 0.0 90.0
+    extend right
+    actif_cache2 actif_cache3 5.21 357.7 -11.1
+    extend left
+    actif_cache3 - 1.01 236.7 0.0
+    extend vertical
+    actif_cache3 - 8.02 0.0 90.0
+    extend right
+    actif_cache3 actif_cache4 6.00 326.7 -30.0
+    extend left
+    actif_cache4 - 1.01 285.8 0.0
+    extend vertical
+    actif_cache4 - 8.02 0.0 90.0
+    extend right
+    actif_cache4 actif_cache5 5.75 15.8 -44.1
+    extend left
+    actif_cache5 - 1.01 289.1 0.0
+    extend vertical
+    actif_cache5 - 8.02 0.0 90.0
+    extend right
+    actif_cache5 actif_cache6 5.66 19.1 -45.0
+    extend vertical
+    actif_cache6 - 1.01 3.2 0.0
+    actif_cache6 - 1.01 183.2 0.0
+    actif_cache6 - 8.02 0.0 90.0
+    extend left
+    actif_cache6 actif_cache7 6.44 93.2 0.0
+    actif_cache7 - 1.01 250.2 0.0
+    extend right
+    actif_cache7 - 1.01 70.2 0.0
+    extend vertical
+    actif_cache7 - 10.00 0.0 90.0
+    actif_cache7 - 1.01 0.0 -90.0
+    extend right
+    actif_cache7 A67XX 2.81 340.2 0.0
+    extend vertical
+    actif_cache7 - 1.01 354.6 0.0
+    actif_cache7 - 1.01 174.6 0.0
+    actif_cache7 - 8.02 0.0 90.0
+    extend right
+    actif_cache7 actif_cache9 2.09 84.6 0.0
+    actif_cache9 - 1.01 56.1 0.0
+    extend left
+    actif_cache9 - 1.01 236.1 0.0
+    extend vertical
+    actif_cache9 - 8.02 0.0 90.0
+    extend left
+    actif_cache9 actif_cache10 7.57 146.1 -7.6
+    extend right
+    actif_cache10 - 1.01 15.2 0.0
+    extend left
+    actif_cache10 - 1.01 195.2 0.0
+    extend vertical
+    actif_cache10 - 8.02 0.0 90.0
+    extend left
+    actif_cache10 actif_cache11 5.69 105.2 0.0
+    extend right
+    actif_cache11 - 1.01 53.3 0.0
+    extend left
+    actif_cache11 - 1.01 233.3 0.0
+    extend vertical
+    actif_cache11 - 8.02 0.0 90.0
+    extend left
+    actif_cache11 actif_cache12 20.11 143.3 -5.7
+    extend vertical
+    actif_cache12 - 1.01 351.5 0.0
+    actif_cache12 - 1.01 171.5 0.0
+    actif_cache12 - 8.02 0.0 90.0
+    extend right
+    actif_cache12 actif_cache13 7.90 81.5 -7.3
+    actif_cache13 - 1.01 58.4 0.0
+    extend left
+    actif_cache13 - 1.01 238.4 0.0
+    extend vertical
+    actif_cache13 - 8.02 0.0 90.0
+    extend left
+    actif_cache13 actif_cache14 12.14 148.4 -9.5
+    extend right
+    actif_cache14 - 1.01 25.8 0.0
+    extend left
+    actif_cache14 - 1.01 205.8 0.0
+    extend vertical
+    actif_cache14 - 8.02 0.0 90.0
+    extend left
+    actif_cache14 actif_cache15 8.68 115.8 -6.6
+    extend right
+    actif_cache15 - 1.01 57.2 0.0
+    extend left
+    actif_cache15 - 1.01 237.2 0.0
+    extend vertical
+    actif_cache15 - 8.02 0.0 90.0
+    extend left
+    actif_cache15 actif_cache16 25.00 147.2 -4.6
+    extend right
+    actif_cache16 - 1.01 55.4 0.0
+    extend left
+    actif_cache16 - 1.01 235.4 0.0
+    extend vertical
+    actif_cache16 - 8.02 0.0 90.0
+    extend left
+    actif_cache16 actif_cache17 20.50 145.4 -5.6
+    extend right
+    actif_cache17 - 1.01 58.6 0.0
+    extend left
+    actif_cache17 - 1.01 238.6 0.0
+    extend vertical
+    actif_cache17 - 8.02 0.0 90.0
+    extend left
+    actif_cache17 actif_cache18 9.71 148.6 -11.9
+    extend right
+    actif_cache18 - 1.01 43.8 0.0
+    extend left
+    actif_cache18 - 1.01 223.8 0.0
+    extend vertical
+    actif_cache18 - 8.02 0.0 90.0
+    extend left
+    actif_cache18 actif_cache19 7.16 133.7 -8.0
+    extend right
+    actif_cache19 - 1.01 58.2 0.0
+    extend left
+    actif_cache19 - 1.01 238.2 0.0
+    extend vertical
+    actif_cache19 - 8.02 0.0 90.0
+    extend left
+    actif_cache19 actif_cache20 17.43 148.2 -6.6
+    actif_cache20 - 1.01 338.0 0.0
+    extend right
+    actif_cache20 - 1.01 158.0 0.0
+    extend vertical
+    actif_cache20 - 8.02 0.0 90.0
+    extend right
+    actif_cache20 actif_cache21 2.04 68.0 -2.8
+    actif_cache21 - 1.01 56.5 0.0
+    extend left
+    actif_cache21 - 1.01 236.4 0.0
+    extend vertical
+    actif_cache21 - 8.02 0.0 90.0
+    extend left
+    actif_cache21 actif_cache22 36.57 146.4 -4.6
+    extend right
+    actif_cache22 - 1.01 43.8 0.0
+    extend left
+    actif_cache22 - 1.01 223.8 0.0
+    extend vertical
+    actif_cache22 - 8.02 0.0 90.0
+    extend left
+    actif_cache22 actif_cache23 14.75 133.8 -3.9
+    extend right
+    actif_cache23 - 1.01 75.5 0.0
+    extend left
+    actif_cache23 - 1.01 255.5 0.0
+    extend vertical
+    actif_cache23 - 8.02 0.0 90.0
+    extend left
+    actif_cache23 actif_cache24 9.39 165.5 -12.3
+    extend right
+    actif_cache24 - 1.01 62.3 0.0
+    extend left
+    actif_cache24 - 1.01 242.3 0.0
+    extend vertical
+    actif_cache24 - 8.02 0.0 90.0
+    extend left
+    actif_cache24 actif_cache25 10.28 152.3 -5.6
+    actif_cache25 - 1.01 346.5 0.0
+    extend right
+    actif_cache25 - 1.01 166.6 0.0
+    extend vertical
+    actif_cache25 - 8.02 0.0 90.0
+    extend right
+    actif_cache25 actif_cache26 3.86 76.5 -31.2
+    actif_cache26 - 1.01 73.0 0.0
+    extend left
+    actif_cache26 - 1.01 253.0 0.0
+    extend vertical
+    actif_cache26 - 8.02 0.0 90.0
+    extend left
+    actif_cache26 actif_cache27 8.55 163.0 -6.7
+    extend right
+    actif_cache27 - 1.01 51.5 0.0
+    extend left
+    actif_cache27 - 1.01 231.5 0.0
+    extend vertical
+    actif_cache27 - 8.02 0.0 90.0
+    extend left
+    actif_cache27 actif_cache28 10.56 141.5 -10.9
+    extend right
+    actif_cache28 - 1.01 119.5 0.0
+    extend left
+    actif_cache28 - 1.01 299.5 0.0
+    extend vertical
+    actif_cache28 - 5.00 0.0 90.0
+    extend left
+    actif_cache28 actif_cache29 4.99 209.5 -23.6
+    extend right
+    actif_cache29 - 1.01 49.8 0.0
+    extend left
+    actif_cache29 - 1.01 229.8 0.0
+    extend vertical
+    actif_cache29 - 1.01 0.0 90.0
+    extend left
+    actif_cache29 actif_cache30 16.90 139.8 -6.8
+    extend right
+    actif_cache30 - 1.01 34.8 0.0
+    extend left
+    actif_cache30 - 1.01 214.8 0.0
+    extend vertical
+    actif_cache30 - 5.00 0.0 90.0
+    extend left
+    actif_cache30 actif_cache31 4.72 124.8 -12.2
+    extend right
+    actif_cache31 - 1.01 60.0 0.0
+    extend left
+    actif_cache31 - 1.01 240.1 0.0
+    extend vertical
+    actif_cache31 - 5.00 0.0 90.0
+    extend left
+    actif_cache31 actif_cache32 4.99 150.1 -23.6
+    extend right
+    actif_cache32 - 1.01 40.4 0.0
+    extend left
+    actif_cache32 - 1.01 220.4 0.0
+    extend vertical
+    actif_cache32 - 5.00 0.0 90.0
+    extend left
+    actif_cache32 actif_cache33 10.65 130.4 -10.8
+    extend right
+    actif_cache33 - 1.01 46.9 0.0
+    extend left
+    actif_cache33 - 1.01 226.9 0.0
+    extend vertical
+    actif_cache33 - 5.00 0.0 90.0
+    extend left
+    actif_cache33 actif_cache34 18.44 136.9 -6.2
+    extend right
+    actif_cache34 - 1.01 52.5 0.0
+    extend left
+    actif_cache34 - 1.01 232.5 0.0
+    extend vertical
+    actif_cache34 - 5.00 0.0 90.0
+    extend left
+    actif_cache34 actif_cache35 33.12 142.5 -3.5
+    extend right
+    actif_cache35 - 1.01 132.8 0.0
+    extend left
+    actif_cache35 - 1.01 312.8 0.0
+    extend vertical
+    actif_cache35 - 5.00 0.0 90.0
+    extend left
+    actif_cache35 actif_cache36 4.01 222.8 -14.4
+    actif_cache36 actif_cache37 9.15 136.5 -6.3
+  endcenterline
+  
+map 20160202affluent-cache-fromMP
+  20160202affluent-cache-fromSP1
+  20160202affluent-cache-fromSP2
+  20160202affluent-cache-fromSP3
+  20160202affluent-cache-fromSP4
+  20160202affluent-cache-fromSP5
+  20160202affluent-cache-fromSP6
+  20160202affluent-cache-fromSP7
+  20160202affluent-cache-fromSP8
+  20160202affluent-cache-fromSP9
+  20160202affluent-cache-fromSP10
+  20160202affluent-cache-fromSP11
+  20160202affluent-cache-fromSP12
+  20160202affluent-cache-fromSP13
+  20160202affluent-cache-fromSP14
+  20160202affluent-cache-fromSP15
+  20160202affluent-cache-fromSP16
+  20160202affluent-cache-fromSP17
+  20160202affluent-cache-fromSP18
+  20160202affluent-cache-fromSP19
+  20160202affluent-cache-fromSP20
+  20160202affluent-cache-fromSP21
+  20160202affluent-cache-fromSP22
+  20160202affluent-cache-fromSP23
+  20160202affluent-cache-fromSP24
+  20160202affluent-cache-fromSP25
+  20160202affluent-cache-fromSP26
+  
+endmap  
+
+endsurvey
+

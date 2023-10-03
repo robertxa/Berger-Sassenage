@@ -1,0 +1,197 @@
+encoding  utf-8
+# 2022.01.25 created by TopoDroid v 5.1.40
+
+survey From_22-01-22 -title "From 22-01-22"
+
+  input "From_22-01-22-plan.th2"
+  input "From_22-01-22-coupe.th2"
+  
+  map From_22-01-22-MP
+    From_22-01-22-s1
+    break
+    From_22-01-22-s2
+  endmap
+  
+  map From_22-01-22-ME
+    From_22-01-22-coupe-s1
+    From_22-01-22-coupe-s2
+    From_22-01-22-coupe-s3
+    From_22-01-22-coupe-s4
+  endmap
+
+  centerline
+    date 2022.01.22 
+    
+    team "Léa Varnerot"
+    team "Barnabé Fourgous"
+    team "Emmanuel Tessanne"
+    
+    explo-team "David Parrot"
+    explo-team "Léa Varnerot"
+    explo-team "Cédric Lachat"
+    explo-team "Alex Lopez"
+    explo-team "Hervé Vico"
+    explo-team "Barnabé Fourgous"
+    explo-team "Emmanuel Tessanne"
+    
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+    # extend auto
+    From-22-01-22 . 1.39 90.5 6.8
+    From-22-01-22 . 3.92 267.1 0.1
+    From-22-01-22 . 14.96 177.3 82.3
+    extend left
+    From-22-01-22 From-22-01-23 4.04 175.1 26.9
+    # extend auto
+    From-22-01-23 . 1.80 284.8 3.1
+    From-22-01-23 . 14.35 318.1 87.4
+    From-22-01-23 . 1.53 280.6 -67.2
+    extend left
+    From-22-01-23 From-22-01-25 6.06 313.8 46.2
+    # extend auto
+    From-22-01-25 . 4.79 137.2 -4.1
+    From-22-01-25 . 1.68 85.4 80.9
+    From-22-01-25 . 2.06 65.6 -84.7
+    From-22-01-25 . 12.27 203.2 60.0
+    extend left
+    From-22-01-25 From-22-01-27 10.29 213.9 56.5
+    # extend auto
+    From-22-01-27 . 0.16 340.4 6.2
+    From-22-01-27 . 0.92 152.4 -0.8
+    From-22-01-27 . 1.98 46.5 85.7
+    From-22-01-27 . 0.60 80.1 -84.8
+    extend vertical
+    From-22-01-27 From-22-01-28 9.22 225.8 46.1
+    # extend auto
+    From-22-01-28 . 1.49 137.2 -1.1
+    From-22-01-28 . 0.32 159.8 81.0
+    From-22-01-28 . 2.21 31.9 -83.5
+    extend left
+    From-22-01-28 From-22-01-30 1.32 160.4 -25.0
+    From-22-01-30 From-22-01-32 15.02 184.9 78.3
+    # extend auto
+    From-22-01-32 . 1.85 137.9 -0.5
+    From-22-01-32 . 11.49 97.2 83.9
+    From-22-01-32 . 1.65 183.0 -60.9
+    extend left
+    From-22-01-32 From-22-01-34 2.08 172.9 -7.7
+    From-22-01-34 From-22-01-36 13.96 244.1 -6.9
+    # extend auto
+    From-22-01-36 . 6.00 327.2 3.6
+    From-22-01-36 . 20.10 250.2 87.2
+    From-22-01-36 . 2.47 326.0 -65.4
+    From-22-01-36 . 1.41 238.3 6.9
+    From-22-01-36 . 16.50 238.5 6.9
+    extend left
+    From-22-01-36 From-22-01-37 16.50 238.5 6.9
+    # extend auto
+    From-22-01-36 . 3.97 322.0 -0.5
+    From-22-01-36 . 18.47 221.8 83.9
+    From-22-01-36 . 1.49 1.6 -83.2
+    extend left
+    From-22-01-37 From-22-01-38 3.56 253.3 -9.2
+    # extend auto
+    From-22-01-38 . 0.65 155.4 2.0
+    From-22-01-38 . 2.45 324.3 3.2
+    From-22-01-38 . 10.71 285.9 -73.8
+    extend left
+    From-22-01-38 From-22-01-39 10.27 296.3 -69.3
+    # extend auto
+    From-22-01-39 . 2.41 145.3 5.6
+    From-22-01-39 . 0.75 332.3 7.4
+    From-22-01-39 . 1.06 156.2 -43.9
+    extend left
+    From-22-01-39 From-22-01-40 11.67 234.4 9.9
+    # extend auto
+    From-22-01-40 . 2.67 314.0 0.7
+    From-22-01-40 . 4.85 228.0 85.3
+    From-22-01-40 . 0.58 314.9 -87.1
+    From-22-01-40 . 4.52 244.7 80.3
+    extend left
+    From-22-01-40 From-22-01-41 4.51 245.2 80.2
+    # extend auto
+    From-22-01-41 . 4.50 242.8 77.5
+    From-22-01-41 . 1.38 150.7 -2.6
+    From-22-01-41 . 0.69 177.2 83.8
+    From-22-01-41 . 1.46 200.1 -80.5
+    extend left
+    From-22-01-41 From-22-01-42 7.02 245.9 23.5
+    # extend auto
+    From-22-01-42 . 0.86 156.7 5.7
+    From-22-01-42 . 1.11 333.8 3.0
+    From-22-01-42 . 1.43 194.1 88.5
+    From-22-01-42 . 0.92 330.7 -73.6
+    extend left
+    From-22-01-42 From-22-01-43 7.83 220.2 5.4
+    # extend auto
+    From-22-01-43 . 0.28 132.0 20.7
+    From-22-01-43 . 1.35 311.4 3.4
+    From-22-01-43 . 3.98 194.0 83.9
+    From-22-01-43 . 0.96 23.1 -68.2
+    extend left
+    From-22-01-43 From-22-01-45 5.24 218.1 32.8
+    # extend auto
+    From-22-01-45 . 0.22 129.7 7.0
+    From-22-01-45 . 0.58 315.8 3.8
+    From-22-01-45 . 2.28 219.8 88.6
+    From-22-01-45 . 0.19 134.4 -79.4
+    extend left
+    From-22-01-45 From-22-01-46 3.66 149.5 54.0
+    # extend auto
+    From-22-01-46 . 1.98 307.3 1.1
+    From-22-01-46 . 6.08 346.6 86.0
+    From-22-01-46 . 2.68 307.1 -61.6
+    extend left
+    From-22-01-46 From-22-01-47 11.63 240.7 -11.1
+    # extend auto
+    From-22-01-47 . 1.26 143.8 2.7
+    From-22-01-47 . 0.44 320.0 5.9
+    From-22-01-47 . 2.59 144.5 73.7
+    From-22-01-50 . 1.49 72.2 -87.9
+    extend left
+    From-22-01-47 From-22-01-48 4.37 222.1 -19.0
+    # extend auto
+    From-22-01-48 . 1.85 320.0 4.1
+    From-22-01-48 . 1.54 316.6 79.2
+    From-22-01-48 . 1.54 299.3 -86.3
+    extend left
+    From-22-01-48 From-22-01-50 3.05 265.5 40.8
+    # extend auto
+    From-22-01-50 . 0.71 147.7 4.7
+    From-22-01-50 . 1.98 152.3 72.3
+    From-22-01-50 . 1.36 335.4 -84.0
+    From-22-01-50 . 5.85 247.2 -25.5
+    extend left
+    From-22-01-50 From-22-01-52 8.09 246.5 -24.8
+    # extend auto
+    From-22-01-52 . 5.31 156.4 74.2
+    From-22-01-52 . 1.28 285.7 -58.8
+    From-22-01-52 . 0.25 150.9 3.8
+    From-22-01-52 . 0.44 322.3 2.3
+    extend left
+    From-22-01-52 From-22-01-54 9.37 235.8 2.2
+    # extend auto
+    From-22-01-54 . 3.07 126.3 67.2
+    From-22-01-54 . 1.29 302.3 -63.2
+    From-22-01-54 . 1.54 137.3 17.2
+    extend left
+    From-22-01-54 From-22-01-56 3.49 177.9 46.7
+    # extend auto
+    From-22-01-56 . 1.13 159.4 -67.0
+    From-22-01-56 . 0.52 144.2 3.1
+    From-22-01-56 . 0.86 330.5 5.3
+    extend left
+    From-22-01-56 From-22-01-57 2.06 274.0 1.1
+    # extend auto
+    From-22-01-57 . 0.42 181.3 71.6
+    From-22-01-57 . 1.10 219.8 -81.6
+    From-22-01-57 . 0.34 167.8 1.5
+    extend left
+    From-22-01-57 From-22-01-59 3.78 234.9 4.1
+  endcenterline
+
+
+
+endsurvey
+

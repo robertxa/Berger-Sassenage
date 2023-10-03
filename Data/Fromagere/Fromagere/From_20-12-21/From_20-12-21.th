@@ -1,0 +1,132 @@
+encoding  utf-8
+# 2021.12.22 created by TopoDroid v 5.1.40
+
+survey From_20-12-21 -title "From 20-12-21"
+
+  input "From_20-12-21-plan.th2"
+  input "From_20-12-21-coupe.th2"
+  
+  map From_20-12-21-MP
+    From_20-12-21-s1
+    break
+    From_20-12-21-s2
+  endmap
+  
+  map From_20-12-21-ME
+    From_20-12-21-coupe-s1
+  endmap
+
+  centerline
+    date 2021.12.20
+    
+    team "Hervé Vico"
+    team "David Parrot"
+    explo-team "David Parrot"
+    explo-team "Charles Buttin"
+    explo-team "Cédric Lachat"
+    explo-team "Alex Lopez"
+    explo-team "Hervé Vico"
+    
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+    
+    # extend auto
+    dp_stat_ . 1.32 178.2 3.9
+    dp_stat_ . 3.35 226.8 -0.1
+    dp_stat_ . 0.73 271.8 6.4
+    dp_stat_ . 3.03 229.6 -26.4
+    dp_stat_ . 1.49 236.7 -63.4
+    dp_stat_ . 3.05 159.6 75.1
+    dp_stat_ . 0.54 142.9 -1.1
+    dp_stat_ . 0.52 308.4 5.6
+    extend left
+    dp_stat_ dp_stat_1 5.47 60.3 26.2
+    # extend auto
+    dp_stat_1 . 0.68 145.9 -0.8
+    dp_stat_1 . 0.65 322.4 -0.4
+    dp_stat_1 . 0.93 114.5 87.5
+    dp_stat_1 . 1.08 17.4 -85.3
+    extend left
+    dp_stat_1 dp_stat_3 7.31 51.7 -1.1
+    # extend auto
+    dp_stat_3 . 0.61 328.9 1.1
+    dp_stat_3 . 0.70 141.9 1.8
+    dp_stat_3 . 0.51 60.4 70.1
+    dp_stat_3 . 0.48 143.9 -78.8
+    extend left
+    dp_stat_3 dp_stat_5 6.49 55.0 -0.4
+    # extend auto
+    dp_stat_5 . 0.43 155.0 -8.9
+    dp_stat_5 . 0.69 327.5 3.2
+    dp_stat_5 . 2.51 123.2 78.0
+    dp_stat_5 . 0.40 213.6 -70.4
+    dp_stat_5 . 6.45 58.2 3.2
+    extend left
+    dp_stat_5 dp_stat_7 3.63 62.7 3.0
+    # extend auto
+    dp_stat_7 . 0.51 159.3 -16.6
+    dp_stat_7 . 0.55 340.2 -2.4
+    dp_stat_7 . 0.84 30.6 -78.6
+    dp_stat_7 . 1.32 128.9 79.4
+    extend left
+    dp_stat_7 dp_stat_9 5.57 204.2 65.5
+    # extend auto
+    dp_stat_9 . 0.30 103.6 -2.9
+    dp_stat_9 . 1.03 261.7 4.8
+    dp_stat_9 . 0.95 351.4 88.4
+    dp_stat_9 . 0.72 187.7 -79.0
+    dp_stat_9 . 0.90 327.9 2.5
+    dp_stat_9 . 0.26 147.8 -14.3
+    dp_stat_9 . 0.43 107.2 81.5
+    dp_stat_9 . 0.35 317.2 -73.3
+    extend left
+    dp_stat_9 dp_stat_11 2.92 250.9 -4.8
+    # extend auto
+    dp_stat_11 . 0.59 157.0 -1.8
+    dp_stat_11 . 0.41 338.0 8.4
+    dp_stat_11 . 0.34 195.5 80.3
+    dp_stat_11 . 0.24 106.1 -86.1
+    extend left
+    dp_stat_11 dp_stat_13 5.26 235.6 1.1
+    # extend auto
+    dp_stat_13 . 0.45 154.9 6.9
+    dp_stat_13 . 0.21 330.3 22.0
+    dp_stat_13 . 0.72 160.4 73.2
+    dp_stat_13 . 0.33 18.2 -83.2
+    extend left
+    dp_stat_13 dp_stat_15 4.87 233.5 2.8
+    # extend auto
+    dp_stat_15 . 0.27 149.9 -9.4
+    dp_stat_15 . 1.66 323.8 -1.5
+    dp_stat_15 . 0.85 138.6 84.8
+    dp_stat_15 . 0.34 214.3 -76.7
+    extend left
+    dp_stat_15 dp_stat_17 5.78 237.0 12.2
+    dp_stat_17 dp_stat_19 4.32 213.4 9.8
+    # extend auto
+    dp_stat_19 . 3.52 239.5 -4.2
+    dp_stat_19 . 3.30 278.1 -2.3
+    dp_stat_19 . 1.91 327.9 -2.7
+    dp_stat_19 . 2.89 25.9 -1.7
+    dp_stat_19 . 2.45 65.6 -0.3
+    dp_stat_19 . 1.63 106.0 1.0
+    dp_stat_19 . 1.68 198.4 4.4
+    dp_stat_19 . 0.95 150.8 -83.5
+    dp_stat_19 . 1.49 120.5 87.9
+    extend left
+    dp_stat_19 dp_stat_21 6.11 223.4 23.6
+    # extend auto
+    dp_stat_21 . 0.56 146.3 -1.6
+    dp_stat_21 . 1.32 324.7 5.9
+    dp_stat_21 . 1.76 245.9 80.5
+    dp_stat_21 . 1.07 268.1 -80.9
+    dp_stat_21 . 8.26 231.8 8.9
+    extend left
+    dp_stat_21 dp_stat_23 5.97 231.8 8.8
+  endcenterline
+
+
+
+endsurvey
+

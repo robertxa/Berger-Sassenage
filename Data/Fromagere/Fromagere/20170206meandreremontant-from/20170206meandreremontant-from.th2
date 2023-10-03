@@ -1,0 +1,212 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -132.0 -132.0 2765.7967 2450.8359
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {2362.2 1 1.0} {314.9599999999999 A64} 20170206meandreremontant-from-th_p.xvi 0 {}
+
+
+
+scrap 20170206meandreremontant-fromSP1 -projection plan -scale [0 0 393.7 393.7 0.0 0.0 10 10 m]
+
+point 2362.2 314.9599999999999 station -name A64
+
+endscrap
+
+
+
+scrap 20170206meandreremontant-fromSP2 -projection plan -scale [0 0 393.7 393.7 0.0 0.0 10 10 m]
+
+line wall
+  2302.0 366.0
+  2196.0 436.0
+endline
+
+line wall
+  2182.0 386.0
+  2290.0 336.0
+endline
+
+line wall -reverse on
+  2182.0 386.0
+  2182.0 386.0 2106.0 430.0 2078.0 446.0
+  2050.0 462.0 1828.0 596.0 1828.0 596.0
+  smooth off
+endline
+
+line wall
+  2196.0 436.0
+  2196.0 436.0 2098.0 486.0 2062.0 520.0
+  2026.0 554.0 1862.0 634.0 1842.0 644.0
+endline
+
+point 1854.85 596.1 station -name meandrerem3
+
+point 2130.89 440.55999999999995 station -name meandrerem2
+
+endscrap
+
+
+
+scrap 20170206meandreremontant-fromSP3 -projection plan -scale [0 0 393.7 393.7 0.0 0.0 10 10 m]
+
+line wall
+  1577.0 764.0
+  1577.0 764.0 1615.0 742.0 1620.0 737.0
+  1625.0 732.0 1668.0 704.0 1678.0 700.0
+  1688.0 696.0 1796.0 617.0 1796.0 617.0
+  smooth off
+  1828.0 596.0
+endline
+
+line wall
+  1842.0 644.0
+  1842.0 644.0 1706.0 732.0 1696.0 738.0
+  1686.0 744.0 1614.0 786.0 1602.0 798.0
+endline
+
+point 1608.51 759.15 station -name meandrerem4
+
+endscrap
+
+
+
+scrap 20170206meandreremontant-fromSP4 -projection plan -scale [0 0 393.7 393.7 0.0 0.0 10 10 m]
+
+line wall
+  1162.0 965.0
+  1162.0 965.0 1291.0 949.0 1326.0 949.0
+  1361.0 949.0 1403.0 956.0 1429.0 924.0
+  1455.0 892.0 1506.0 838.0 1518.0 826.0
+  1530.0 814.0 1577.0 764.0 1577.0 764.0
+  smooth off
+endline
+
+line wall
+  1602.0 798.0
+  1602.0 798.0 1554.0 820.0 1523.0 867.0
+  1492.0 914.0 1450.0 952.0 1439.0 959.0
+  1428.0 966.0 1435.0 974.0 1371.0 984.0
+  1307.0 994.0 1172.0 989.0 1172.0 989.0
+  smooth off
+endline
+
+point 1414.47 959.37 station -name meandrerem5
+
+endscrap
+
+
+
+scrap 20170206meandreremontant-fromSP5 -projection plan -scale [0 0 393.7 393.7 0.0 0.0 10 10 m]
+
+line wall
+  886.0 1099.0
+  886.0 1099.0 951.0 1040.0 973.0 1028.0
+  995.0 1016.0 1027.0 971.0 1090.0 968.0
+  1153.0 965.0 1162.0 965.0 1162.0 965.0
+  smooth off
+endline
+
+line wall
+  1172.0 989.0
+  1172.0 989.0 1107.0 986.0 1082.0 991.0
+  1057.0 996.0 1056.0 1002.0 1013.0 1029.0
+  970.0 1056.0 899.0 1119.0 899.0 1119.0
+  smooth off
+endline
+
+point 1042.04 988.03 station -name meandrerem6
+
+endscrap
+
+
+
+scrap 20170206meandreremontant-fromSP6 -projection plan -scale [0 0 393.7 393.7 0.0 0.0 10 10 m]
+
+line wall
+  660.0 1382.0
+  711.0 1300.0
+  763.0 1211.0
+  763.0 1211.0 773.0 1185.0 800.0 1167.0
+  827.0 1149.0 886.0 1099.0 886.0 1099.0
+  smooth off
+endline
+
+line wall
+  899.0 1119.0
+  899.0 1119.0 851.0 1151.0 841.0 1164.0
+  831.0 1177.0 810.0 1184.0 781.0 1239.0
+  752.0 1294.0 682.0 1398.0 682.0 1398.0
+  smooth off
+endline
+
+point 788.39 1188.35 station -name meandrerem7
+
+endscrap
+
+
+
+scrap 20170206meandreremontant-fromSP7 -projection plan -scale [0 0 393.7 393.7 0.0 0.0 10 10 m]
+
+line wall
+  417.0 1721.0
+  417.0 1721.0 470.0 1654.0 483.0 1641.0
+  496.0 1628.0 532.0 1588.0 548.0 1556.0
+  564.0 1524.0 585.0 1521.0 594.0 1500.0
+  603.0 1479.0 660.0 1382.0 660.0 1382.0
+  smooth off
+endline
+
+line wall
+  682.0 1398.0
+  622.0 1505.0
+  622.0 1505.0 545.0 1606.0 531.0 1632.0
+  517.0 1658.0 449.0 1715.0 431.0 1739.0
+endline
+
+point 578.4799999999999 1537.7 station -name meandrerem8
+
+endscrap
+
+
+
+scrap 20170206meandreremontant-fromSP8 -projection plan -scale [0 0 393.7 393.7 0.0 0.0 10 10 m]
+
+line wall
+  301.0 1981.0
+  301.0 1981.0 319.0 1925.0 324.0 1896.0
+  329.0 1867.0 359.0 1810.0 369.0 1792.0
+  379.0 1774.0 417.0 1721.0 417.0 1721.0
+  smooth off
+endline
+
+line wall
+  431.0 1739.0
+  431.0 1739.0 373.0 1810.0 362.0 1843.0
+  351.0 1876.0 330.0 1984.0 330.0 1984.0
+  smooth off
+endline
+
+point 361.80999999999995 1820.08 station -name meandrerem9
+
+endscrap
+
+
+
+scrap 20170206meandreremontant-fromSP9 -projection plan -scale [0 0 393.7 393.7 0.0 0.0 10 10 m]
+
+line wall
+  272.0 2116.0
+  285.0 2046.0
+  301.0 1981.0
+endline
+
+line wall
+  330.0 1984.0
+  309.0 2046.0
+  292.0 2102.0
+endline
+
+point 294.19000000000005 2065.55 station -name meandrerem10
+
+endscrap
+
+

@@ -1,0 +1,67 @@
+encoding  utf-8
+survey reseau_fromagere -title "Scialet de la Fromagère"
+
+  #****************************
+  # Import des fichiers topo :
+  #****************************
+  
+  input "Fromagere/Fromagere_20170131/Fromagere_20170131.th"
+  input "Fromagere/20160202affluent-cache-from/20160202affluent-cache-from.th"
+  input "Fromagere/20170206collecteuramont-from/20170206collecteuramont-from.th"
+  input "Fromagere/20170206meandreremontant-from/20170206meandreremontant-from.th"
+  input "Fromagere/From affluent -900 (2020)/fromagere.th"
+  input "Fromagere/From_12-11-21/topo121121.th"
+  input "Fromagere/From_12-11-21/topo121121_inf.th"
+  input "Fromagere/From_20-12-21/From_20-12-21.th"
+  input "Fromagere/From_22-01-22/From_22-01-22.th"
+
+  #****************************
+  # Import des fichiers MAPS :
+  #****************************
+
+  input "fromagere-map.th"
+
+  #************************************
+  # Jointure des fichiers dessins PLAN :
+  #************************************
+  
+  join fromagereSP67@Fromagere_20170131 20160202affluent-cache-fromSP5@20160202affluent-cache-from
+  join fromagereSP64@Fromagere_20170131 20170206collecteuramont-fromSP1@20170206collecteuramont-from 
+  join fromagereSP69@Fromagere_20170131 20170206meandreremontant-fromSP2@20170206meandreremontant-from
+  join aff-liaison1@from-aff-900:end    aff-liaison2@topo121121:0
+  join aff-liaison3@from-aff-900:end    aff-liaison4@topo121121:end
+  join From_20-12-21-s1@From_20-12-21   scrap1@topo121121_inf
+  
+  #*************************************
+  # Jointure des fichiers dessins COUPE :
+  #*************************************
+  
+  join entreeFrom@from-aff-900:0              bas@Fromagere_20170131:0
+  join entreeFrom@from-aff-900:end            haut@Fromagere_20170131:end
+  join scrap5-c@topo121121_inf                scrap4-c@topo121121
+  join from-aff-900-c10@from-aff-900          From_22-01-22-coupe-s1@From_22-01-22
+  join From_20-12-21-coupe-s1@From_20-12-21   scrap6-c@topo121121_inf
+  join faille3@from-aff-900:end               faille1@topo121121:end
+  join faille4@from-aff-900:end               faille2@topo121121:end
+  #join faille4@from-aff-900:end faille5@Fromagere_20170131:end
+
+  #****************************
+  # EQUATE des fichiers topo :
+  #****************************
+
+  centreline
+  
+    cs UTM31
+    equate A67@Fromagere_20170131 A67XX@20160202affluent-cache-from
+    equate A74@Fromagere_20170131 A74@20170206collecteuramont-from
+    equate A64@Fromagere_20170131 A64@20170206meandreremontant-from
+    equate 113@topo121121 113@from-aff-900
+    equate 11@topo121121_inf 11@topo121121
+    equate A257@Fromagere_20170131  115@from-aff-900
+    equate dp_stat_23@From_20-12-21   32@topo121121_inf
+    equate From-22-01-22@From_22-01-22 14@from-aff-900
+    
+  endcentreline
+
+endsurvey
+

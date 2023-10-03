@@ -1,0 +1,406 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -129.0 -129.0 581.25 816.9749999999999
+##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_image_insert {334.647 1 1.0} {78.74000000000001 11} xvi-plan-from12112021_inf.xvi 0 {}
+
+
+
+scrap scrap1 -projection plan -scale [-128.0 -128.0 561.0699999999999 -128.0 0.0 0.0 17.502377999999997 0.0 m]
+
+line rock-edge
+endline
+
+line rock-edge
+  375.5 630.5
+  382.0 621.25
+endline
+
+line rock-edge
+  376.5 638.0
+  375.5 630.5
+  366.0 624.5
+endline
+
+line rock-border -close on
+  376.5 638.0
+  367.25 633.75
+  364.75 625.5
+  370.25 617.25
+  382.0 621.25
+  384.5 629.0
+  376.5 638.0
+endline
+
+point 305.5 531.75 spring -orientation 276.3
+
+point 295.75 533.25 water-flow -orientation 285.2
+
+line wall
+  355.5 409.5
+  344.25 410.25 291.5 389.25 266.5 385.5
+  252.92 383.46 243.29 384.89 229.5 385.0
+  altitude .
+  221.98 385.06 210.83 386.17 203.5 384.5
+  smooth off
+  188.67 383.83 176.33 383.19 161.5 384.0
+  145.85 384.86 131.0 386.0 116.0 387.0
+  108.02 387.53 100.91 387.39 95.5 391.0
+  92.5 393.0 98.66 397.78 101.5 400.0
+  122.49 416.41 142.64 430.93 163.5 447.5
+  185.01 464.58 205.26 482.71 227.0 499.5
+  242.88 511.76 275.25 542.0 284.5 533.75
+  smooth off
+endline
+
+line wall
+  286.5 537.75
+  286.5 537.75 276.68 538.99 288.75 547.5
+  325.64 573.49 363.25 604.25 395.0 629.75
+  smooth off
+endline
+
+line pit
+  334.75 136.75
+  335.92 132.42 335.35 128.67 338.25 125.25
+  348.53 113.14 355.66 116.19 368.25 109.75
+  371.04 108.32 374.7 106.78 375.5 103.75
+  376.43 100.23 369.0 96.75 374.5 92.5
+  smooth off
+  374.5 92.49 385.5 88.0 384.5 97.75
+  384.35 99.22 361.08 137.44 357.75 143.5
+  smooth off
+endline
+
+point 375.5 648.25 map-connection
+
+point 328.5 103.75 map-connection
+
+line overhang -clip off
+  336.25 112.0
+  328.25 108.0 331.75 93.75 341.5 97.5
+  smooth off
+endline
+
+line border
+  309.5 180.0
+  309.5 180.0 307.5 203.75 327.0 214.25
+  smooth off
+endline
+
+line border
+  314.25 178.25
+  314.25 178.25 309.5 200.25 333.0 213.75
+  smooth off
+endline
+
+line arrow
+  332.0 195.0
+  304.0 202.0
+endline
+
+line border
+  318.5 177.5
+  318.5 177.5 313.0 196.0 337.25 212.0
+  smooth off
+endline
+
+line border -id l39-185-183 -reverse on -subtype invisible
+  183.25 184.25
+  194.5 179.25
+  205.75 180.25
+  214.5 176.5
+endline
+
+point 171.75 160.5 water-flow -orientation 233.0
+
+point 152.75 146.25 label -text imp.
+
+line overhang -reverse on
+  214.0 215.75
+  212.1 194.13 216.25 196.5 229.75 187.25
+  smooth off
+endline
+
+area water
+  l39-185-183
+  l38-177-173
+endarea
+
+line border -id l38-177-173 -subtype invisible
+  175.25 175.0
+  187.5 160.0
+endline
+
+line wall -subtype presumed
+  184.0 164.75
+  192.5 169.5
+endline
+
+line wall -subtype presumed
+  186.0 178.0
+  179.75 169.75
+endline
+
+line overhang
+  255.0 207.5
+  255.87 222.89 264.33 229.95 280.5 229.0
+  283.93 228.8 286.57 224.78 290.0 225.0
+  293.76 225.24 296.39 229.17 300.0 230.25
+  303.2 231.21 306.67 230.75 310.0 231.0
+  smooth off
+endline
+
+point 340.5 188.5 water-flow -orientation 303.8
+
+point 346.5 150.0 water-flow -orientation 340.3
+
+point 380.75 138.0 water-flow -orientation 226.6
+
+line wall
+  341.75 96.5
+  343.5 105.0 387.5 79.98 387.5 94.0
+  387.5 99.1 383.34 103.97 381.0 108.5
+  377.76 114.78 370.73 122.53 374.5 128.5
+  smooth off
+endline
+
+line wall
+  370.75 133.0
+  366.75 130.75 362.37 138.81 361.0 144.0
+  357.47 157.43 355.66 196.41 353.0 201.5
+  350.14 206.97 344.16 207.57 338.0 208.0
+  329.75 208.58 321.0 210.0 313.5 212.0
+  smooth off
+  300.0 212.0 310.15 232.67 304.5 240.5
+  298.0 249.5 296.0 255.5 280.0 254.5
+  268.03 253.75 273.9 303.39 271.5 309.0
+  266.25 321.25 275.15 337.41 269.0 349.5
+  261.75 363.75 274.0 361.5 363.0 378.5
+  smooth off
+endline
+
+point 439.5 78.5 rope
+
+point 452.0 78.75 label -align right -text P13
+
+line rock-edge -clip off
+endline
+
+point 441.75 394.0 label -align right -text [siphon plongé 22/01/22]
+
+line rock-edge -clip off
+  399.25 400.5
+  406.0 394.0
+  430.0 394.0
+endline
+
+area sump
+  l97-398-453
+endarea
+
+line border -id l97-398-453 -close on -subtype invisible
+  354.5 414.0
+  356.29 406.92 356.51 398.58 361.5 393.25
+  370.15 384.02 418.74 399.03 419.75 411.25
+  424.28 466.14 385.28 458.49 351.0 434.25
+  345.41 430.3 352.82 420.64 354.5 414.0
+endline
+
+line overhang -reverse on
+  395.75 392.5
+  378.5 391.54 378.0 377.5 378.0 377.5
+  smooth off
+endline
+
+point 424.75 359.75 continuation
+
+point 386.75 449.25 narrow-end -orientation 344.1
+
+line wall
+endline
+
+line wall -subtype presumed
+  399.0 381.25
+  395.92 383.0 392.45 383.51 391.0 386.75
+  384.5 401.25 386.73 398.27 402.75 406.0
+  408.23 408.65 404.25 412.25 394.25 439.5
+  smooth off
+endline
+
+line wall -subtype presumed
+  363.0 378.5
+  383.75 382.5
+  393.0 375.5
+endline
+
+line wall -reverse on -subtype presumed
+  355.5 409.5
+  361.5 410.75 364.75 407.25 372.25 406.75
+  376.17 406.49 378.32 409.57 382.25 409.75
+  397.23 410.44 395.25 407.75 386.75 437.5
+  smooth off
+endline
+
+area mudcrack
+endarea
+
+line arrow
+  219.0 262.75
+  229.0 277.0
+endline
+
+line border
+  191.25 276.25
+  221.25 268.75 229.5 267.25 236.25 238.25
+  smooth off
+endline
+
+line border
+  279.0 258.5
+  258.25 258.25 252.57 280.43 233.25 287.75
+  227.42 289.96 203.0 300.75 186.25 289.75
+  smooth off
+endline
+
+line rock-edge -clip off
+  382.0 88.0
+  388.25 78.75
+  426.75 78.75
+endline
+
+line wall
+  375.5 648.25
+  346.0 623.25 306.27 588.57 275.5 563.75
+  254.63 546.92 235.33 530.93 214.75 513.75
+  186.2 489.91 135.07 436.52 126.75 451.5
+  smooth off
+endline
+
+point 120.25 459.0 water-flow -orientation 155.4
+
+line wall
+endline
+
+point 311.25 382.75 water-flow -orientation 77.4
+
+line arrow
+endline
+
+point 135.75 429.75 blocks -orientation 277.6
+
+point 327.75 579.75 blocks -orientation 49.0
+
+point 407.5 372.75 label -text ch. -align center
+
+area clay
+  l85-253-353
+endarea
+
+line border -id l85-253-353 -close on -subtype invisible
+  205.75 366.0
+  183.25 257.75
+  283.25 249.0
+  276.75 365.75
+  205.75 366.0
+endline
+
+point 227.5 370.5 water-flow -orientation 85.0
+
+point 139.0 376.0 water-flow -orientation 102.7
+
+point 99.0 408.75 water-flow -orientation 226.4
+
+point 171.25 465.25 water-flow -orientation 226.4
+
+point 254.0 532.75 water-flow -orientation 226.4
+
+line arrow
+  219.0 506.5
+  197.75 487.25
+endline
+
+line border
+  209.25 513.0
+  209.25 513.0 208.5 499.25 224.5 492.25
+  smooth off
+endline
+
+line border
+  204.5 510.0
+  204.5 510.0 205.5 495.5 220.0 490.0
+  smooth off
+endline
+
+line border -reverse on
+  200.75 508.0
+  200.75 508.0 199.5 494.75 217.0 486.25
+  smooth off
+endline
+
+point 116.0 466.25 spring -orientation 148.2
+
+line wall
+endline
+
+line wall
+  122.25 448.5
+  125.5 435.0 91.5 414.0 78.5 398.0
+  75.45 394.25 65.0 389.0 77.5 382.5
+  85.42 378.38 90.79 375.97 99.5 374.0
+  114.04 370.71 183.0 358.0 206.5 350.5
+  212.97 348.43 213.5 335.75 208.5 331.0
+  204.13 326.85 208.96 315.87 206.5 309.25
+  203.19 300.33 185.5 303.5 205.25 264.5
+  212.3 250.57 230.0 250.5 243.5 243.0
+  251.53 238.54 238.01 229.44 230.5 223.0
+  223.5 217.0 215.49 208.79 207.5 203.0
+  200.86 198.19 189.5 187.0 186.0 178.0
+  smooth off
+endline
+
+line wall
+  192.5 169.5
+  200.5 175.0 206.08 174.77 210.5 178.5
+  226.5 192.0 228.34 192.54 242.0 203.0
+  245.58 205.74 250.52 208.0 255.0 207.5
+  264.0 206.5 261.39 200.0 267.5 196.0
+  275.66 190.66 285.83 188.83 295.5 187.5
+  302.75 186.5 313.75 183.75 320.25 181.5
+  326.66 179.28 329.5 174.5 330.5 166.5
+  331.93 155.07 332.3 143.02 332.5 131.5
+  332.87 110.78 377.68 110.54 372.75 102.0
+  371.46 99.77 368.25 97.75 361.0 101.25
+  353.12 105.05 357.25 104.0 347.5 107.25
+  342.65 108.87 342.25 109.75 336.25 112.0
+  smooth off
+endline
+
+point 377.35699999999997 627.98 station -name 32
+
+point 281.127 557.55 station -name 30
+
+point 75.11700000000002 387.74 station -name 28
+
+point 356.457 407.67 station -name 26
+
+point 232.717 357.68 station -name 24
+
+point 191.637 177.07000000000002 station -name 22
+
+point 255.997 243.25000000000003 station -name 20
+
+point 282.047 211.3 station -name 18
+
+point 338.297 203.60000000000002 station -name 16
+
+point 341.66700000000003 134.65000000000003 station -name 14
+
+point 375.52700000000004 92.70000000000005 station -name 13
+
+point 320.467 117.90000000000003 station -name 12
+
+point 334.647 78.74000000000001 station -name 11
+
+endscrap
+
+

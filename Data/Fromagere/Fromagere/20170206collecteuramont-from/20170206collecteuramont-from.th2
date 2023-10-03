@@ -1,0 +1,451 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -136.0 -136.0 6230.3655 6748.0
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {5314.959999999999 1 1.0} {748.0300000000002 A74} 20170206collecteuramont-from-th_p.xvi 0 {}
+
+
+
+scrap 20170206collecteuramont-fromSP1 -projection plan -scale [0 0 393.7 393.7 0.0 0.0 10 10 m]
+
+line wall
+  4930.0 1342.0
+  4930.0 1342.0 5034.0 1240.0 5038.0 1228.0
+  5042.0 1216.0 5114.0 1130.0 5130.0 1056.0
+  5146.0 982.0 5164.0 890.0 5164.0 890.0
+  smooth off
+endline
+
+point 5108.0 3276.0 label -text [Affluent 0.5 lps à l'étiage] -align top
+
+line rock-edge -clip off
+  5192.0 1498.0
+  5192.0 2086.0
+  5192.0 3188.0
+endline
+
+line water-flow
+  4720.0 1762.0
+  4720.0 1762.0 4762.0 1560.0 4930.0 1424.0
+  5098.0 1288.0 5174.0 1212.0 5226.0 1074.0
+  smooth off
+endline
+
+line wall
+  5352.0 954.0
+  5352.0 954.0 5322.0 1162.0 5296.0 1200.0
+  5270.0 1238.0 5220.0 1402.0 5102.0 1454.0
+  smooth off
+endline
+
+line wall
+endline
+
+point 5182.04 1211.58 station -name collecamont2
+
+point 5314.959999999999 748.0300000000002 station -name A74
+
+endscrap
+
+
+
+scrap 20170206collecteuramont-fromSP2 -projection plan -scale [0 0 393.7 393.7 0.0 0.0 10 10 m]
+
+area water
+endarea
+
+line wall
+  4586.0 2058.0
+  4586.0 2058.0 4620.0 1836.0 4634.0 1726.0
+  4648.0 1616.0 4670.0 1534.0 4724.0 1500.0
+  4778.0 1466.0 4930.0 1342.0 4930.0 1342.0
+  smooth off
+endline
+
+line wall
+  5102.0 1454.0
+  5102.0 1454.0 4902.0 1536.0 4882.0 1558.0
+  4862.0 1580.0 4808.0 1750.0 4796.0 1804.0
+  4784.0 1858.0 4746.0 2084.0 4746.0 2084.0
+  smooth off
+endline
+
+point 4740.94 1608.75 station -name collecamont3
+
+endscrap
+
+
+
+scrap 20170206collecteuramont-fromSP3 -projection plan -scale [0 0 393.7 393.7 0.0 0.0 10 10 m]
+
+line wall
+  4220.0 2256.0
+  4220.0 2256.0 4480.0 2236.0 4496.0 2240.0
+  4512.0 2244.0 4578.0 2264.0 4582.0 2178.0
+  4586.0 2092.0 4586.0 2058.0 4586.0 2058.0
+  smooth off
+endline
+
+point 4706.0 2328.0 altitude -align top-right
+
+line rock-edge -clip off
+endline
+
+line wall
+  4746.0 2084.0
+  4746.0 2084.0 4730.0 2206.0 4720.0 2250.0
+  4710.0 2294.0 4696.0 2368.0 4612.0 2356.0
+  4528.0 2344.0 4276.0 2398.0 4276.0 2398.0
+  smooth off
+endline
+
+point 4642.87 2280.96 station -name collecamont4
+
+endscrap
+
+
+
+scrap 20170206collecteuramont-fromSP4 -projection plan -scale [0 0 393.7 393.7 0.0 0.0 10 10 m]
+
+point 4409.12 1848.03 station -name collecamont17
+
+line wall
+  3634.0 2316.0
+  3634.0 2316.0 3794.0 2314.0 3848.0 2300.0
+  3902.0 2286.0 3966.0 2276.0 3986.0 2242.0
+  4006.0 2208.0 4082.0 2106.0 4084.0 2092.0
+  4086.0 2078.0 4128.0 2022.0 4144.0 2012.0
+  4160.0 2002.0 4236.0 1968.0 4248.0 1952.0
+  4260.0 1936.0 4314.0 1874.0 4314.0 1874.0
+  smooth off
+endline
+
+line wall
+  4276.0 2398.0
+  4276.0 2398.0 4112.0 2414.0 4074.0 2420.0
+  4036.0 2426.0 3820.0 2420.0 3792.0 2422.0
+  3764.0 2424.0 3646.0 2442.0 3646.0 2442.0
+  smooth off
+endline
+
+line wall
+  4390.0 1934.0
+  4390.0 1934.0 4352.0 1902.0 4332.0 1970.0
+  4312.0 2038.0 4232.0 2042.0 4212.0 2082.0
+  4192.0 2122.0 4140.0 2158.0 4134.0 2172.0
+  4128.0 2186.0 4088.0 2232.0 4116.0 2242.0
+  4144.0 2252.0 4220.0 2256.0 4220.0 2256.0
+  smooth off
+endline
+
+point 4161.88 2056.23 station -name collecamont16
+
+point 4020.39 2321.21 station -name collecamont5
+
+endscrap
+
+
+
+scrap 20170206collecteuramont-fromSP5 -projection plan -scale [0 0 393.7 393.7 0.0 0.0 10 10 m]
+
+line rock-edge -clip off
+  1304.0 5948.0
+  1930.0 6580.0
+endline
+
+point 1964.0 6610.0 label -text Boyau -align top-right
+
+point 3182.0 2006.0 label -text PR -align left
+
+line rock-edge -clip off
+  3398.0 1790.0
+  3218.0 1976.0
+endline
+
+line rock-edge -clip off
+  4316.0 1790.0
+  3398.0 1790.0
+endline
+
+line wall
+  4388.0 1744.0
+  4388.0 1744.0 4336.0 1818.0 4314.0 1874.0
+  smooth off
+endline
+
+point 4458.0 1690.0 altitude -align bottom
+
+line pit -reverse on
+  4412.0 1916.0
+  4412.0 1916.0 4474.0 1966.0 4518.0 1914.0
+  4562.0 1862.0 4584.0 1788.0 4552.0 1740.0
+  4520.0 1692.0 4422.0 1726.0 4388.0 1774.0
+  4354.0 1822.0 4336.0 1864.0 4336.0 1864.0
+  smooth off
+endline
+
+line wall
+  4388.0 1744.0
+  4388.0 1744.0 4524.0 1636.0 4550.0 1700.0
+  4576.0 1764.0 4630.0 1838.0 4576.0 1896.0
+  4522.0 1954.0 4458.0 1970.0 4458.0 1970.0
+  smooth off
+  4458.0 1970.0 4414.0 1976.0 4390.0 1934.0
+  smooth off
+endline
+
+point 4496.1 1779.5800000000002 station -name collecamont18
+
+endscrap
+
+
+
+scrap 20170206collecteuramont-fromSP6 -projection plan -scale [0 0 393.7 393.7 0.0 0.0 10 10 m]
+
+line wall
+  2862.0 2876.0
+  2862.0 2876.0 2956.0 2692.0 2990.0 2642.0
+  3024.0 2592.0 3112.0 2508.0 3136.0 2470.0
+  3160.0 2432.0 3154.0 2408.0 3274.0 2366.0
+  3394.0 2324.0 3634.0 2316.0 3634.0 2316.0
+  smooth off
+endline
+
+line water-flow
+  2872.0 2946.0
+  2872.0 2946.0 3038.0 2682.0 3074.0 2626.0
+  3110.0 2570.0 3194.0 2422.0 3332.0 2396.0
+  smooth off
+endline
+
+line wall
+  3646.0 2442.0
+  3646.0 2442.0 3458.0 2452.0 3412.0 2456.0
+  3366.0 2460.0 3246.0 2404.0 3194.0 2546.0
+  3142.0 2688.0 2952.0 2924.0 2952.0 2924.0
+  smooth off
+endline
+
+point 3248.1499999999996 2427.0 station -name collecamont6
+
+endscrap
+
+
+
+scrap 20170206collecteuramont-fromSP7 -projection plan -scale [0 0 393.7 393.7 0.0 0.0 10 10 m]
+
+line wall
+  2286.0 3268.0
+  2286.0 3268.0 2434.0 3200.0 2506.0 3164.0
+  2578.0 3128.0 2702.0 3068.0 2762.0 3000.0
+  2822.0 2932.0 2862.0 2876.0 2862.0 2876.0
+  smooth off
+endline
+
+point 2808.0 3168.0 altitude -align top-right
+
+line wall
+  2952.0 2924.0
+  2952.0 2924.0 2880.0 3038.0 2840.0 3090.0
+  2800.0 3142.0 2822.0 3160.0 2646.0 3230.0
+  2470.0 3300.0 2356.0 3388.0 2356.0 3388.0
+  smooth off
+endline
+
+point 2734.4399999999996 3152.53 station -name collecamont7
+
+endscrap
+
+
+
+scrap 20170206collecteuramont-fromSP8 -projection plan -scale [0 0 393.7 393.7 0.0 0.0 10 10 m]
+
+line wall
+  1576.0 3896.0
+  1576.0 3896.0 1766.0 3748.0 1780.0 3714.0
+  1794.0 3680.0 1926.0 3600.0 1978.0 3536.0
+  2030.0 3472.0 2108.0 3364.0 2182.0 3324.0
+  2256.0 3284.0 2286.0 3268.0 2286.0 3268.0
+  smooth off
+endline
+
+line wall
+  2356.0 3388.0
+  2356.0 3388.0 2266.0 3398.0 2218.0 3436.0
+  2170.0 3474.0 1996.0 3594.0 1974.0 3618.0
+  1952.0 3642.0 1796.0 3818.0 1760.0 3850.0
+  1724.0 3882.0 1658.0 3952.0 1658.0 3952.0
+  smooth off
+endline
+
+point 2140.7799999999997 3397.2200000000003 station -name collecamont8
+
+endscrap
+
+
+
+scrap 20170206collecteuramont-fromSP9 -projection plan -scale [0 0 393.7 393.7 0.0 0.0 10 10 m]
+
+line wall -reverse on
+  1262.0 3910.0
+  1262.0 3910.0 1328.0 4006.0 1346.0 4026.0
+  1364.0 4046.0 1396.0 4122.0 1382.0 4142.0
+  1368.0 4162.0 1298.0 4264.0 1298.0 4264.0
+  smooth off
+endline
+
+line wall
+  1304.0 3866.0
+  1304.0 3866.0 1380.0 3970.0 1388.0 3990.0
+  1396.0 4010.0 1422.0 4062.0 1470.0 3998.0
+  1518.0 3934.0 1576.0 3896.0 1576.0 3896.0
+  smooth off
+endline
+
+line water-flow
+  1316.0 4302.0
+  1316.0 4302.0 1412.0 4164.0 1424.0 4142.0
+  1436.0 4120.0 1584.0 3942.0 1628.0 3898.0
+  smooth off
+endline
+
+line wall
+  1658.0 3952.0
+  1658.0 3952.0 1586.0 4028.0 1554.0 4044.0
+  1522.0 4060.0 1448.0 4170.0 1448.0 4170.0
+  smooth off
+  1362.0 4286.0
+endline
+
+point 1427.2699999999998 4098.39 station -name collecamont9
+
+endscrap
+
+
+
+scrap 20170206collecteuramont-fromSP10 -projection plan -scale [0 0 393.7 393.7 0.0 0.0 10 10 m]
+
+line wall
+endline
+
+line wall
+  1304.0 3866.0
+  1304.0 3866.0 1274.0 3822.0 1252.0 3806.0
+  1230.0 3790.0 1196.0 3728.0 1196.0 3728.0
+  smooth off
+  1196.0 3728.0 1178.0 3714.0 1152.0 3694.0
+  smooth off
+endline
+
+line wall
+  1262.0 3910.0
+  1262.0 3910.0 1246.0 3862.0 1238.0 3842.0
+  1230.0 3822.0 1142.0 3728.0 1130.0 3718.0
+  smooth off
+endline
+
+point 1252.1799999999998 3825.67 station -name collecamont13
+
+endscrap
+
+
+
+scrap 20170206collecteuramont-fromSP11 -projection plan -scale [0 0 393.7 393.7 0.0 0.0 10 10 m]
+
+line wall
+  1152.0 3694.0
+  1152.0 3694.0 1142.0 3684.0 1114.0 3672.0
+  1086.0 3660.0 1042.0 3636.0 1010.0 3692.0
+  978.0 3748.0 888.0 3842.0 862.0 3914.0
+  836.0 3986.0 826.0 4090.0 826.0 4090.0
+  smooth off
+endline
+
+line wall
+  1130.0 3718.0
+  1130.0 3718.0 1126.0 3684.0 1068.0 3680.0
+  1010.0 3676.0 870.0 3894.0 850.0 4088.0
+  smooth off
+endline
+
+point 1084.9299999999998 3646.94 station -name collecamont14
+
+endscrap
+
+
+
+scrap 20170206collecteuramont-fromSP12 -projection plan -scale [0 0 393.7 393.7 0.0 0.0 10 10 m]
+
+point 764.0 4306.0 altitude -align bottom-left
+
+line wall
+  826.0 4090.0
+  826.0 4090.0 794.0 4312.0 738.0 4372.0
+  smooth off
+endline
+
+line wall
+  850.0 4088.0
+  850.0 4088.0 814.0 4298.0 754.0 4390.0
+  smooth off
+endline
+
+point 726.3299999999999 4382.1900000000005 station -name collecamont15
+
+endscrap
+
+
+
+scrap 20170206collecteuramont-fromSP13 -projection plan -scale [0 0 393.7 393.7 0.0 0.0 10 10 m]
+
+line wall -reverse on
+  1298.0 4264.0
+  1298.0 4264.0 1232.0 4336.0 1250.0 4424.0
+  1268.0 4512.0 1294.0 4728.0 1294.0 4728.0
+  smooth off
+  1294.0 5020.0
+endline
+
+line wall
+  1362.0 4286.0
+  1362.0 4286.0 1318.0 4314.0 1312.0 4434.0
+  1306.0 4554.0 1348.0 5008.0 1358.0 5064.0
+  smooth off
+endline
+
+point 1286.3299999999997 4339.56 station -name collecamont10
+
+endscrap
+
+
+
+scrap 20170206collecteuramont-fromSP14 -projection plan -scale [0 0 393.7 393.7 0.0 0.0 10 10 m]
+
+point 1273.1 5873.76 station -name collecamont12
+
+point 1320.0 5784.0 altitude -align right
+
+line wall
+  1254.0 5866.0
+  1254.0 5866.0 1284.0 5768.0 1290.0 5738.0
+  1296.0 5708.0 1334.0 5560.0 1334.0 5500.0
+  1334.0 5440.0 1308.0 5246.0 1308.0 5246.0
+  smooth off
+  1294.0 5020.0
+endline
+
+line wall
+endline
+
+line wall
+  1358.0 5064.0
+  1358.0 5064.0 1358.0 5406.0 1362.0 5446.0
+  1366.0 5486.0 1356.0 5596.0 1344.0 5644.0
+  1332.0 5692.0 1292.0 5884.0 1292.0 5884.0
+  smooth off
+endline
+
+point 1345.3099999999997 5545.33 station -name collecamont11
+
+endscrap
+
+
