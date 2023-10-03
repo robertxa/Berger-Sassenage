@@ -1,0 +1,25 @@
+encoding  utf-8
+
+survey Delta9
+  
+  #input "20160711fromagere.th2"
+  #input "20170513fromagere-e.th2"
+
+centerline
+  cs UTM31
+  date 2014.06.25
+  
+  fix Delta9 704738 5008785 1435
+  station Delta9 "Delta9" entrance
+  
+    declination 0.00 degrees
+    units length meters
+    units compass clino degrees
+    calibrate length 0 0.3
+    data normal from to length compass clino left up down right
+        #DECLINATION:    0.00  FORMAT: DMMDUDRLLADNF  CORRECTIONS:  0.00 0.00 0.00  CORRECTIONS2:  0.00 0.00
+        #FROM                   TO   LENGTH  BEARING      INC     LEFT       UP     DOWN    RIGHT   FLAGS  COMMENTS
+            Delta9                    B    55.77     0.00   -90.00     4.92    16.40     3.28     4.92
+                   B                    C     0.00     0.00     0.00     4.92     9.84     3.28     4.92
+    endcenterline
+endsurvey
