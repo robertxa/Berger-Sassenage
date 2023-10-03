@@ -1,0 +1,41 @@
+encoding  utf-8
+
+survey A2
+  
+  #input "20160711fromagere.th2"
+  #input "20170513fromagere-e.th2"
+
+centerline
+  cs UTM31
+  date 2014.10.30
+  
+  fix A2 704322 5010225 1505
+  station A2 "A2" entrance
+  
+    declination 0.00 degrees
+    units length meters
+    units compass clino degrees
+    calibrate length 0 0.29
+    data normal from to length compass clino left up down right
+  #DECLINATION:    0.00  FORMAT: DMMDLRUDLADNF  CORRECTIONS:  0.00 0.00 0.00  CORRECTIONS2:  0.00 0.00
+   #             FROM                   TO   LENGTH  BEARING      INC     LEFT       UP     DOWN    RIGHT   FLAGS  COMMENTS
+                A2                 A2_2    23.87   326.69   -72.22     6.56     6.56     6.56     6.56
+                A2_2                 A2_3   100.57   328.33   -83.06     6.56     9.84     6.56     9.84
+                A2_3                 A2_4    39.68    79.31   -59.23     6.56     6.56     6.56     6.56
+                A2_4                 A2_5    52.84    59.63   -67.38     9.84     9.84     6.56     6.56
+                A2_5                 A2_6    15.87    60.59   -15.33     3.28    16.40     0.00     3.28
+                A2_6                 A2_7    12.91   151.88   -81.46     6.56     6.56     6.56     6.56
+                A2_7                 A2_8    10.94   149.42     0.00     3.28    16.40     0.00     3.28
+                A2_8                 A2_9    49.96   101.69    85.78     6.56     6.56     6.56     6.56
+                A2_9                A2_10    21.30   101.69   -80.05     6.56     6.56     6.56     6.56
+               A2_10                A2_11   211.56   108.03   -89.40     6.56     6.56     6.56     6.56
+               A2_11                A2_12    12.44     2.60    -2.42     3.28    16.40     0.00     3.28
+               A2_12                A2_13    98.10    39.99   -88.94     6.56     6.56     6.56     6.56
+               A2_13                A2_14     5.36    27.63     0.00     3.28    16.40     0.00     3.28
+               A2_14                A2_15     5.47   349.17    -5.50     1.64     6.56     0.00     1.64
+               A2_15                A2_16     6.81   318.56   -43.89     1.64     6.56     0.00     1.64
+               A2_16                A2_17    10.01    65.66     0.00     1.64     3.28     0.00     1.64
+               A2_17                A2_18     6.65     9.57    -4.52     0.66     1.64     0.00     0.66
+    endcenterline
+
+endsurvey

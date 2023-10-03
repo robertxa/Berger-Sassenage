@@ -18,6 +18,7 @@
 **.dwg
 **.dgn
 **.cvx
+**.plt
 
 # Images.
 **.jpg
@@ -128,6 +129,7 @@ config-old.thc
 **.error2
 **.tar.gz
 **.backup
+Docs/bergertopo
 
 # Folders
 **/OLD/
