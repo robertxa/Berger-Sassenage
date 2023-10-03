@@ -1,0 +1,50 @@
+%!PS
+%%BoundingBox: -103 -46 26 34 
+%%HiResBoundingBox: -102.4588 -45.73145 25.59666 33.31145 
+%%Creator: MetaPost 1.209
+%%CreationDate: 2016.12.13:2120
+%%Pages: 1
+%*Font: cmss10 6.97382 9.96265 2f:fbb0000058003e67ff
+%*Font: csss10 6.97382 9.96265 e9:8
+%*Font: cmss10 3.985 9.96265 31:d4
+%%BeginProlog
+%%EndProlog
+%%Page: 1 1
+ 0 0 0 setrgbcolor
+-102.4588 -12.97345 moveto
+(Squelette) cmss10 6.97382 fshow
+-73.0524 -12.97345 moveto
+(chauve) cmss10 6.97382 fshow
+-50.7554 -12.97345 moveto
+(souris) cmss10 6.97382 fshow
+-98.01581 28.46855 moveto
+(bas) cmss10 6.97382 fshow
+-86.06342 28.46855 moveto
+(de) cmss10 6.97382 fshow
+-77.0361 28.46855 moveto
+(m) cmss10 6.97382 fshow
+-71.4958 28.46855 moveto
+(\351) csss10 6.97382 fshow
+-68.3963 28.46855 moveto
+(andre) cmss10 6.97382 fshow
+-50.03181 28.46855 moveto
+(\351) csss10 6.97382 fshow
+-46.93231 28.46855 moveto
+(troit) cmss10 6.97382 fshow
+newpath 25.59666 -23.38 moveto
+25.59666 -23.2695 25.55276 -23.16351 25.47462 -23.08537 curveto
+25.39648 -23.00723 25.2905 -22.96333 25.18 -22.96333 curveto
+25.06949 -22.96333 24.9635 -23.00723 24.88536 -23.08537 curveto
+24.80722 -23.16351 24.76332 -23.2695 24.76332 -23.38 curveto
+24.76332 -23.49051 24.80722 -23.5965 24.88536 -23.67464 curveto
+24.9635 -23.75278 25.06949 -23.79668 25.18 -23.79668 curveto
+25.2905 -23.79668 25.39648 -23.75278 25.47462 -23.67464 curveto
+25.55276 -23.5965 25.59666 -23.49051 25.59666 -23.38 curveto closepath fill
+16.5849 -24.6862 moveto
+(1264) cmss10 3.985 fshow
+-42.26091 -7.26144 moveto
+(R2) cmss10 6.97382 fshow
+-42.2109 -45.73145 moveto
+(R3) cmss10 6.97382 fshow
+showpage
+%%EOF

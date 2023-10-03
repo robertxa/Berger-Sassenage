@@ -1,0 +1,228 @@
+encoding  utf-8
+survey D35projet 
+
+input "D35/entree-60/entree-60.th"
+input "D35/50a-85/50a-85.th"
+input "D35/D32/D32.th"
+input "D35/D35_20160703/D35_20160703.th"
+
+#input 20161022fromagere.th
+
+input "../Fromagere/Fromagere_20170131/Fromagere_20170131.th"
+input "../Fromagere/20160202affluent-cache-from/20160202affluent-cache-from.th"
+input "../Fromagere/20170206collecteuramont-from/20170206collecteuramont-from.th"
+input "../Fromagere/20170206meandreremontant-from/20170206meandreremontant-from.th"
+
+input "../Fromagere/From affluent -900 (2020)/fromagere.th"
+input "../Fromagere/From_12-11-21/topo121121.th"
+input "../Fromagere/From_12-11-21/topo121121_inf.th"
+input "../Fromagere/From_20-12-21/From_20-12-21.th"
+input "../Fromagere/From_22-01-22/From_22-01-22.th"
+
+
+input "D35/d35___020816/d35___020816.th"
+input "D35/D35_080816/D35_080816.th"
+input "D35/D35_20160913/D35_20160913.th"
+input "D35/D35__20160913_/D35__20160913_.th"
+input "D35/D35_20161012/D35_20161012.th"
+input "D35/D35_20161012__2/D35_20161012__2.th"
+input "D35/D35_20161210/D35_20161210.th"
+input "D35/D35_20170107A/D35_20170107A.th"
+input "D35/D35_20170107B/D35_20170107B.th"
+input "D35/D35_20170220A/D35_20170220A.th"
+input "D35/D35_20170720A/D35_20170720A.th"
+input "D35/D35_20171222/D35_20171222.th"
+input "D35/D35_20180602/D35_20180602.th"
+input "D35/D35_20180603C/D35_20180603C.th"
+input "D35/D35_20180601/D35_20180601.th"
+
+#surface
+  #cs UTM31
+  #grid 724331 5024546 2.326295 2.326295 2053 3528  # fonction initialement commenter
+  #grid-units m                                     # fonction initialement commenter
+  #bitmap "../surface/carrepourcomplexbergerNetB.png" [0 0 701825 5004931 5184 4992 710828 5013634]
+#endsurface
+
+join entree-60SP6@entree-60 50a-85SP1@50a-85
+join 50a-85SP6@50a-85 D35_20160703_SP1@D35_20160703
+join D35_20160703_SP15@D35_20160703 D35_20160802_SP1@d35___020816
+join D35_20160703_SP13@D35_20160703 D35_20160808_SP1@D35_080816
+join D35_20160808_SP6@D35_080816 D35_20160913_SP1@D35_20160913
+join D35_20160913_SP9@D35_20160913 D35_20160913-_SP2@D35__20160913_  #jonction scrap puits scrap collecteur
+join D35_20160913-_SP5@D35__20160913_ D35_20161012SP1@D35_20161012
+#join D35_20161012SP13@D35_20161012 fromagereSP19@20161022fromagere
+join D35_20161012SP13@D35_20161012 fromagereSP19@Fromagere_20170131
+#join D35_20161012SP13@D35_20161012 fromagereSP19bis@20161022fromagere
+join D35_20161012SP13@D35_20161012 fromagereSP19bis@Fromagere_20170131
+join D35_20160913-_SP1@D35__20160913_ D35_20161012__2_SP2@D35_20161012__2
+join D35_20161012__2_SP2@D35_20161012__2 D35_20161210SP1@D35_20161210
+join D35_20161210SP24@D35_20161210 D35_20170107A-SP1@D35_20170107A
+join D35_20170107A-SP2@D35_20170107A D35_20170107B-SP1@D35_20170107B
+join fromagereSP67@Fromagere_20170131 20160202affluent-cache-fromSP5@20160202affluent-cache-from
+join fromagereSP64@Fromagere_20170131 20170206collecteuramont-fromSP1@20170206collecteuramont-from 
+join fromagereSP69@Fromagere_20170131 20170206meandreremontant-fromSP2@20170206meandreremontant-from
+join D35_20170220A-SP11@D35_20170220A D35_20160802_SP8@d35___020816
+join D35_20170720A_SP2@D35_20170720A D35_20160703_SP8@D35_20160703
+join D35_20171222_SP10@D35_20171222 D35_20170107B-SP23@D35_20170107B
+join D35_20180602_SP4@D35_20180602 D35_20171222_SP1@D35_20171222
+join D35_20180603C_SP2@D35_20180603C D35_20171222_SP5@D35_20171222
+join D35_20180601_SP2@D35_20180601 D35_20170107B-SP6@D35_20170107B
+
+# FROM PROJET DAVID
+
+join aff-liaison1@from-aff-900:end          aff-liaison2@topo121121:0
+join aff-liaison3@from-aff-900:end          aff-liaison4@topo121121:end
+
+join entreeFrom@from-aff-900:0              bas@Fromagere_20170131:0
+join entreeFrom@from-aff-900:end            haut@Fromagere_20170131:end
+
+join scrap5-c@topo121121_inf                scrap4-c@topo121121
+join from-aff-900-c10@from-aff-900          From_22-01-22-coupe-s1@From_22-01-22
+
+join From_20-12-21-s1@From_20-12-21         scrap1@topo121121_inf
+join From_20-12-21-coupe-s1@From_20-12-21   scrap6-c@topo121121_inf
+
+join faille3@from-aff-900:end faille1@topo121121:end
+join faille4@from-aff-900:end faille2@topo121121:end
+#join faille4@from-aff-900:end faille5@Fromagere_20170131:end
+
+map from_121121mtot-p
+  from_121121MP@topo121121
+  from_121121_infMP@topo121121_inf [40 0 m] below
+  From_20-12-21-MP@From_20-12-21
+  From_22-01-22-MP@From_22-01-22
+  from-aff-900MP@from-aff-900
+endmap
+
+map from_121121mtot-e
+  from_121121ME@topo121121
+  from_121121_infME@topo121121_inf
+  From_20-12-21-ME@From_20-12-21
+  From_22-01-22-ME@From_22-01-22
+  from-aff-900ME@from-aff-900
+  projetdav_fromME@Fromagere_20170131
+endmap
+
+map D35projetMP -title "Gouffre Delta35 et de la Fromagère"
+ 
+  entree-60MP@entree-60
+  50a-85MP@50a-85
+  D35_20160703MP@D35_20160703
+  D35_20160802MP@d35___020816
+  
+  D35_20160808MP@D35_080816 
+                                  #D35_20160913decaleMP@D35_20160913
+  D35_20160913-MP@D35__20160913_
+  D35_20161012MP@D35_20161012
+  D35_20161012__2MP@D35_20161012__2
+                                     #fromageredecaleMP@20161022fromagere 
+  D35_20161210MP@D35_20161210
+  D35_20170107A-MP@D35_20170107A
+  D35_20170107B-MP@D35_20170107B
+  
+  20160202affluent-cache-fromMP@20160202affluent-cache-from
+  20170206collecteuramont-fromMP@20170206collecteuramont-from
+   
+  20170206meandreremontant-fromMP@20170206meandreremontant-from
+  break
+  fromagereMP@Fromagere_20170131
+  break
+  D35_20170220A-MP@D35_20170220A [-180 -144 m] below
+  #D35_20170220A-MP@D35_20170220A [-60 -48 m] below
+  #D35_20170720A_MP@D35_20170720A
+  D32_MP@D32
+  D35_20171222_MP@D35_20171222
+  D35_20180602_MP@D35_20180602
+  D35_20180603C_MP@D35_20180603C
+  D35_20180601_MP@D35_20180601
+  
+  from_121121MP@topo121121
+  from_121121_infMP@topo121121_inf [40 0 m] below
+  From_20-12-21-MP@From_20-12-21
+  From_22-01-22-MP@From_22-01-22
+  from-aff-900MP@from-aff-900
+  
+endmap
+
+join entree-60-SE6@entree-60 50a-85SE1@50a-85
+join 50a-85SE6@50a-85 D35_20160703_SE1@D35_20160703
+join D35_20160703_SE15@D35_20160703 D35_20160802_SE1@d35___020816
+join D35_20160703_SE13@D35_20160703 D35_20160808_SE1@D35_080816
+join D35_20160808_SE7@D35_080816 D35_20160913_SE1@D35_20160913
+join D35_20160913_SE13@D35_20160913 D35_20160913-_SE2@D35__20160913_
+join D35_20160913-_SE4@D35__20160913_ D35_20161012SE1@D35_20161012
+join D35_20160913-_SE1@D35__20160913_ D35_20161012__2_SE1@D35_20161012__2
+join D35_20161210SE1@D35_20161210 D35_20161012__2_SE1@D35_20161012__2
+join D35_20170220A-SE1@D35_20170220A D35_20160802_SE6@d35___020816
+join D35_20161012SE12@D35_20161012 FromSE1@Fromagere_20170131
+join D35_20161012SE12@D35_20161012 FromSE1bis@Fromagere_20170131
+
+join D35_20170107B-SE1@D35_20170107B D35_20170107A-SE1@D35_20170107A
+join D35_20170107A-SE1@D35_20170107A D35_20161210SE12@D35_20161210
+join FromSE40@Fromagere_20170131 D35_20161012SE13@D35_20161012
+join D35_20160703_SE7@D35_20160703 D35_20170720A_SE2@D35_20170720A
+join D35_20171222_SE1@D35_20171222 D35_20170107B-SE22@D35_20170107B
+
+
+
+map D35projetME -title "Coupe développé du Gouffre Delta35"
+
+  entree-60ME@entree-60
+  50a-85ME@50a-85
+  D35_20160703ME@D35_20160703
+  D35_20160802ME@d35___020816
+  D35_20160808ME@D35_080816
+  D35_20160913ME@D35_20160913
+  D35_20160913-ME@D35__20160913_
+  D35_20161012_ME@D35_20161012
+  D35_20161012__2ME@D35_20161012__2
+  D35_20161210-ME@D35_20161210
+  D35_20170107B-ME@D35_20170107B
+  D35_20170107A-ME@D35_20170107A
+  D35_20170220A-ME@D35_20170220A
+  D35_20170720A_ME@D35_20170720A
+  D35_20171222_ME@D35_20171222
+  FromagereME@Fromagere_20170131
+  
+  
+  
+  #fromagereME@20161022fromagere
+endmap
+
+centreline 
+  cs UTM31
+  #equate ent 5@exemple
+  equate 105@entree-60 105@50a-85
+  equate 315@50a-85 66@D35_20160703
+  equate 101@D35_20160703 16@d35___020816
+  equate 0@D35_20160703 43@D35_080816
+  equate 22@D35_080816 0@D35_20160913
+  equate 20@D35_20160913 5@D35__20160913_
+  equate 16@D35__20160913_ 0@D35_20161012
+  #equate 49@D35_20161012 A182@20161022fromagere
+  equate 49@D35_20161012 A182@Fromagere_20170131
+  
+  equate 6@D35_20161012__2 0@D35__20160913_
+  equate 0@D35__20160913_ 1.0@D35_20161210
+  equate 1.50@D35_20161210 0@D35_20170107A
+  equate 5@D35_20170107A 139@D35_20170107B
+  equate A67@Fromagere_20170131 A67XX@20160202affluent-cache-from
+  equate A74@Fromagere_20170131 A74@20170206collecteuramont-from
+  equate A64@Fromagere_20170131 A64@20170206meandreremontant-from
+  equate 21@D35_20170220A 13@d35___020816
+  equate 0@D35_20170720A 43@D35_20160703
+  equate 98@D35_20171222 0@D35_20170107B
+  equate 25@D35_20180602 B0@D35_20171222
+  equate 38@D35_20171222 10@D35_20180603C
+  equate 106@D35_20170107B 0@D35_20180601
+  
+  
+  equate 113@topo121121 113@from-aff-900
+  equate 11@topo121121_inf 11@topo121121
+  equate A257@Fromagere_20170131  115@from-aff-900
+  equate dp_stat_23@From_20-12-21   32@topo121121_inf
+  equate From-22-01-22@From_22-01-22 14@from-aff-900
+   
+endcentreline
+endsurvey
+

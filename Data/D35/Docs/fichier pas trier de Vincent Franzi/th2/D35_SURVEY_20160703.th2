@@ -1,0 +1,29 @@
+encoding utf-8
+##XTHERION## xth_me_area_adjust 236,2 -185,5 406,4 19,2
+##XTHERION## xth_me_area_zoom_to 25
+
+# 2016.07.04 created by TopoDroid v. 3.1.4
+
+#P  u:user label clay blocks water-flow continuation air-draught debris entrance sand stalactite stalagmite
+#L  u:user wall border rock-border arrow slope pit
+#A  u:user water clay blocks debris sand
+scrap d35-1p -projection plan -scale [0 0 100 0 0 0 1 0 m]
+
+line wall
+  338.67 -317.33
+  321.31 -327.26
+  304.95 -340.66
+  291.62 -351.05
+  281.37 -362.63
+  274.34 -374.30
+  266.06 -386.91
+  256.70 -402.59
+  241.13 -426.30
+  221.96 -450.66
+  196.87 -487.90
+endline
+
+
+
+
+endscrap

@@ -1,0 +1,269 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -1000 -500 1500 2000
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {393.706 1 1.0} {590.5540000000001 0} D35___20161012__2-th_p.xvi 0 {}
+
+
+
+scrap D35_20161012__2_SP1 -projection plan -scale [0 0 393.7 393.7 0.0 0.0 10 10 m]
+
+point 370.706 323.1840000000001 station -name 3
+
+area water
+endarea
+
+area water
+endarea
+
+line wall
+  385.5 608.5
+  385.5 608.5 389.5 563.0 393.5 552.0
+  397.5 541.0 404.5 520.5 406.5 505.0
+  408.5 489.5 410.5 467.0 412.0 460.0
+  413.5 453.0 414.0 451.0 413.5 430.5
+  413.0 410.0 409.0 406.5 405.5 394.5
+  402.0 382.5 391.0 357.0 383.0 352.0
+  375.0 347.0 359.5 329.0 355.5 322.0
+  351.5 315.0 346.5 308.0 346.5 308.0
+  smooth off
+endline
+
+point 387.0 586.0 altitude -align left
+
+line wall
+  431.0 604.5
+  431.0 604.5 428.0 609.5 425.0 620.0
+  smooth off
+endline
+
+line pit -reverse on -clip off
+  321.5 293.0
+  321.5 293.0 337.0 282.5 355.5 309.0
+  374.0 335.5 389.5 322.5 388.5 300.5
+  387.5 278.5 381.0 261.5 377.0 253.5
+  373.0 245.5 367.0 233.0 353.5 233.5
+  340.0 234.0 330.0 236.0 322.0 242.5
+  smooth off
+endline
+
+line water-flow
+endline
+
+area water
+  l45-502-554
+endarea
+
+line rock-edge -clip off
+  483.0 279.0
+  801.0 279.0
+endline
+
+line rock-edge -clip off
+  483.0 279.0
+  430.0 332.0
+endline
+
+point 843.0 278.0 label -text [Voute mouillante de la béquille] -align right
+
+line border -id l45-502-554 -close on -subtype invisible
+  465.0 593.0
+  456.0 593.0 363.0 600.0 363.0 585.0
+  363.0 570.0 361.0 384.0 361.0 384.0
+  smooth off
+  361.0 384.0 379.0 310.0 430.0 302.0
+  481.0 294.0 535.0 514.0 535.0 514.0
+  smooth off
+  535.0 514.0 474.0 593.0 465.0 593.0
+endline
+
+line water-flow -clip off
+  377.0 723.0
+  377.0 723.0 384.0 693.0 390.0 675.0
+  396.0 657.0 403.0 648.0 402.0 630.0
+  smooth off
+endline
+
+line border -subtype presumed -clip off
+endline
+
+line rock-edge -clip off
+endline
+
+point 1002.0 813.0 label -text [C3 ] -align right
+
+line border -subtype presumed -clip off
+  425.0 620.0
+  425.0 620.0 419.5 645.0 417.0 660.0
+  414.5 675.0 400.5 713.5 398.0 720.5
+  smooth off
+endline
+
+line border -reverse on -subtype presumed -clip off
+  385.5 608.5
+  385.5 608.5 375.5 661.0 371.0 673.0
+  366.5 685.0 357.0 713.0 357.0 713.0
+  smooth off
+endline
+
+point 994.5 956.0 label -text [30 m exploré: arrêt sur siphon plongeable] -align right
+
+line rock-edge -clip off
+  638.0 949.0
+  953.0 956.0
+endline
+
+area water
+endarea
+
+line rock-edge -clip off
+  414.5 730.5
+  638.0 949.0
+endline
+
+line rock-edge -clip off
+  644.0 808.0
+  963.0 812.0
+endline
+
+line rock-edge -clip off
+  450.0 619.5
+  644.0 808.0
+endline
+
+point 668.5 459.5 label -align right -text [Pas de CA: 12/10/2016]
+
+line rock-edge -clip off
+  485.0 459.5
+  649.5 459.5
+endline
+
+line wall
+  392.5 288.5
+  392.5 288.5 400.5 321.5 403.0 326.5
+  405.5 331.5 421.0 363.0 421.0 367.5
+  421.0 372.0 425.0 403.0 428.5 404.0
+  432.0 405.0 436.5 419.0 454.5 409.0
+  472.5 399.0 479.0 409.0 476.5 417.0
+  474.0 425.0 477.5 445.5 476.0 449.5
+  474.5 453.5 463.0 486.0 462.0 495.5
+  461.0 505.0 456.5 536.0 457.5 547.0
+  458.5 558.0 458.79 568.27 431.0 604.5
+  smooth off
+endline
+
+point 395.16600000000005 329.7240000000001 station -name 2
+
+point 435.80600000000004 458.4740000000001 station -name 1
+
+point 393.706 590.5540000000001 station -name 0
+
+endscrap
+
+
+
+scrap D35_20161012__2_SP2 -projection plan -scale [0 0 393.7 393.7 0.0 0.0 10 10 m]
+
+line water-flow -clip off
+  66.0 467.0
+  66.0 467.0 87.5 425.5 90.0 417.0
+  92.5 408.5 108.5 388.0 108.5 388.0
+  smooth off
+endline
+
+line rock-edge -clip off
+endline
+
+point 834.5 122.0 label -text C4
+
+line floor-step -reverse on
+  226.5 319.5
+  226.5 319.5 309.0 274.0 310.0 228.5
+  smooth off
+endline
+
+line wall -reverse on
+  106.5 436.0
+  105.5 433.0 122.5 402.0 133.0 390.0
+  143.5 378.0 149.5 353.5 196.5 336.0
+  243.5 318.5 248.5 313.0 268.0 304.5
+  287.5 296.0 301.5 294.0 315.5 297.0
+  329.5 300.0 338.5 293.0 346.5 308.0
+  smooth off
+endline
+
+point 274.5 163.0 altitude -align bottom-left
+
+line wall
+  341.0 97.0
+  341.0 97.0 320.5 108.0 314.5 114.0
+  308.5 120.0 292.5 142.0 288.5 148.5
+  284.5 155.0 219.24 233.66 213.5 242.0
+  208.0 250.0 148.0 306.5 141.5 323.5
+  135.0 340.5 104.0 364.0 100.0 372.0
+  96.0 380.0 80.5 411.0 71.5 416.0
+  smooth off
+endline
+
+line rock-edge -clip off
+  513.0 118.0
+  805.0 120.0
+endline
+
+line rock-edge -clip off
+endline
+
+line rock-edge -clip off
+  406.0 226.0
+  513.0 118.0
+endline
+
+line wall
+  336.5 226.0
+  336.5 226.0 359.0 222.5 365.5 230.5
+  372.0 238.5 385.5 242.0 387.0 254.5
+  388.5 267.0 390.5 282.0 392.5 288.5
+  smooth off
+endline
+
+point -555.5 -365.0 label -text Bassin -align bottom-left
+
+line rock-edge -clip off
+  -512.0 -318.0
+  96.0 296.0
+endline
+
+area water
+  l30-193-366
+endarea
+
+line border -id l30-193-366 -close on -subtype invisible
+  157.0 386.0
+  157.0 386.0 91.0 395.5 95.5 357.0
+  100.0 318.5 114.5 336.5 123.5 314.5
+  132.5 292.5 312.0 76.0 312.0 76.0
+  smooth off
+  312.0 76.0 362.5 114.5 364.0 153.5
+  365.5 192.5 217.0 293.5 192.5 363.5
+  168.34 432.54 157.0 386.0 157.0 386.0
+  smooth off
+endline
+
+line wall
+  379.5 118.5
+  379.5 118.5 357.0 133.0 349.0 141.5
+  341.0 150.0 329.5 166.5 328.0 172.0
+  326.5 177.5 316.5 195.0 317.5 201.5
+  318.5 208.0 306.0 215.0 313.0 229.0
+  320.0 243.0 321.0 227.55 336.5 226.0
+  smooth off
+endline
+
+point 359.016 128.19400000000007 station -name 6
+
+point 294.146 147.9240000000001 station -name 5
+
+point 310.526 231.2940000000001 station -name 4
+
+endscrap
+
+

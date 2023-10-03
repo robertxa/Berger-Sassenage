@@ -1,0 +1,151 @@
+%!PS
+%%BoundingBox: -47 -30 42 26 
+%%HiResBoundingBox: -46.82 -29.21 41.10002 25.77864 
+%%Creator: MetaPost 1.209
+%%CreationDate: 2016.12.13:2120
+%%Pages: 1
+%%BeginProlog
+%%EndProlog
+%%Page: 1 1
+ 0.00002 0.00018 0.00114 setrgbcolor
+newpath -46.82 3.96 moveto
+-39.26 -29.21 lineto
+-20.41 -21.01 lineto
+-20.41 -21.01 -18.79 5.18 -22.3 7.88 curveto
+-25.81 10.57 -46.82 3.96 -46.82 3.96 curveto
+ closepath fill
+0 0 0 THsetpatterncolor
+ 0.00002 0.00015 0.00002 setrgbcolor
+newpath -46.82 3.96 moveto
+-39.26 -29.21 lineto
+-20.41 -21.01 lineto
+-20.41 -21.01 -18.79 5.18 -22.3 7.88 curveto
+-25.81 10.57 -46.82 3.96 -46.82 3.96 curveto
+ closepath fill
+ 0.00002 0.00018 0.00114 setrgbcolor
+newpath -18.34 2.34 moveto
+-18.74 1.67 -18.83 -0.09 -18.83 -0.09 curveto
+-18.83 -0.09 -17.84 -0.4 -17.44 0.23 curveto
+-17.03 0.86 -16.76 0.72 -17.08 1.71 curveto
+-17.39 2.7 -17.93 3.02 -18.34 2.34 curveto closepath fill
+ 0 0 0 setrgbcolor 0 0.25 dtransform truncate idtransform setlinewidth pop
+ [] 0 setdash 1 setlinejoin 10 setmiterlimit
+newpath -18.34 2.34 moveto
+-18.74 1.67 -18.83 -0.09 -18.83 -0.09 curveto
+-18.83 -0.09 -17.84 -0.4 -17.44 0.23 curveto
+-17.03 0.86 -16.76 0.72 -17.08 1.71 curveto
+-17.39 2.7 -17.93 3.02 -18.34 2.34 curveto closepath stroke
+ 0.00002 0.00018 0.00114 setrgbcolor
+newpath -15.46 5.72 moveto
+-15.5 5.36 -15.77 4.59 -15.23 4.59 curveto
+-14.69 4.59 -13.97 4.73 -14.02 5.09 curveto
+-14.06 5.45 -14.33 6.08 -14.33 6.08 curveto
+-14.33 6.08 -15.41 6.08 -15.46 5.72 curveto closepath fill
+ 0 0 0 setrgbcolor
+newpath -15.46 5.72 moveto
+-15.5 5.36 -15.77 4.59 -15.23 4.59 curveto
+-14.69 4.59 -13.97 4.73 -14.02 5.09 curveto
+-14.06 5.45 -14.33 6.08 -14.33 6.08 curveto
+-14.33 6.08 -15.41 6.08 -15.46 5.72 curveto closepath stroke
+ 0.00002 0.00018 0.00114 setrgbcolor
+newpath -12.4 3.78 moveto
+-12.4 3.78 -14.42 2.25 -13.43 1.89 curveto
+-12.44 1.53 -11.41 1.4 -11.54 1.8 curveto
+-11.68 2.21 -11.41 3.15 -11.5 3.42 curveto
+-11.59 3.69 -12.4 3.78 -12.4 3.78 curveto closepath fill
+ 0 0 0 setrgbcolor
+newpath -12.4 3.78 moveto
+-12.4 3.78 -14.42 2.25 -13.43 1.89 curveto
+-12.44 1.53 -11.41 1.4 -11.54 1.8 curveto
+-11.68 2.21 -11.41 3.15 -11.5 3.42 curveto
+-11.59 3.69 -12.4 3.78 -12.4 3.78 curveto closepath stroke
+ 0.00002 0.00018 0.00114 setrgbcolor
+newpath -5.15 15.08 moveto
+-5.87 14.85 -5.96 13.91 -5.51 13.91 curveto
+-5.06 13.91 -4.43 13.37 -4.48 13.64 curveto
+-4.52 13.91 -3.98 14.49 -4.03 14.76 curveto
+-4.07 15.03 -4.03 15.12 -4.39 15.12 curveto
+-4.75 15.12 -4.43 15.3 -5.15 15.08 curveto closepath fill
+ 0 0 0 setrgbcolor
+newpath -5.15 15.08 moveto
+-5.87 14.85 -5.96 13.91 -5.51 13.91 curveto
+-5.06 13.91 -4.43 13.37 -4.48 13.64 curveto
+-4.52 13.91 -3.98 14.49 -4.03 14.76 curveto
+-4.07 15.03 -4.03 15.12 -4.39 15.12 curveto
+-4.75 15.12 -4.43 15.3 -5.15 15.08 curveto closepath stroke
+ 0.00002 0.00018 0.00114 setrgbcolor
+newpath 16 19.98 moveto
+15.82 19.8 15.28 19.71 15.5 19.62 curveto
+15.73 19.53 16.04 18.81 16.04 18.81 curveto
+16.04 18.81 16.53 18.17 16.49 18.9 curveto
+16.4 20.84 16.18 20.16 16 19.98 curveto closepath fill
+ 0 0 0 setrgbcolor
+newpath 16 19.98 moveto
+15.82 19.8 15.28 19.71 15.5 19.62 curveto
+15.73 19.53 16.04 18.81 16.04 18.81 curveto
+16.04 18.81 16.53 18.17 16.49 18.9 curveto
+16.4 20.84 16.18 20.16 16 19.98 curveto closepath stroke
+ 0.00002 0.00018 0.00114 setrgbcolor
+newpath 7.13 18.36 moveto
+6.86 18.32 6.23 18 6.77 17.78 curveto
+7.31 17.55 7.94 17.15 8.17 17.46 curveto
+8.39 17.78 8.3 18.59 8.3 18.59 curveto
+8.3 18.59 7.4 18.41 7.13 18.36 curveto closepath fill
+ 0 0 0 setrgbcolor
+newpath 7.13 18.36 moveto
+6.86 18.32 6.23 18 6.77 17.78 curveto
+7.31 17.55 7.94 17.15 8.17 17.46 curveto
+8.39 17.78 8.3 18.59 8.3 18.59 curveto
+8.3 18.59 7.4 18.41 7.13 18.36 curveto closepath stroke
+ 0.00002 0.00018 0.00114 setrgbcolor
+newpath 0.43 16.02 moveto
+0.25 15.62 0.2 14.63 0.61 14.58 curveto
+1.01 14.54 2.45 14.27 2.41 15.08 curveto
+2.36 15.89 2.5 16.07 2.14 16.16 curveto
+1.78 16.25 0.61 16.43 0.43 16.02 curveto closepath fill
+ 0 0 0 setrgbcolor
+newpath 0.43 16.02 moveto
+0.25 15.62 0.2 14.63 0.61 14.58 curveto
+1.01 14.54 2.45 14.27 2.41 15.08 curveto
+2.36 15.89 2.5 16.07 2.14 16.16 curveto
+1.78 16.25 0.61 16.43 0.43 16.02 curveto closepath stroke
+ 0.00002 0.00018 0.00114 setrgbcolor
+newpath -4.48 25.43 moveto
+-5.02 25.16 -5.15 23.67 -4.75 23.67 curveto
+-4.34 23.67 -3.8 23.45 -3.85 23.94 curveto
+-3.89 24.44 -3.71 25.65 -3.71 25.65 curveto
+-3.71 25.65 -3.94 25.7 -4.48 25.43 curveto closepath fill
+ 0 0 0 setrgbcolor
+newpath -4.48 25.43 moveto
+-5.02 25.16 -5.15 23.67 -4.75 23.67 curveto
+-4.34 23.67 -3.8 23.45 -3.85 23.94 curveto
+-3.89 24.44 -3.71 25.65 -3.71 25.65 curveto
+-3.71 25.65 -3.94 25.7 -4.48 25.43 curveto closepath stroke
+ 0.00002 0.00018 0.00114 setrgbcolor
+newpath 28.33 15.26 moveto
+27.97 14.99 27.65 14.22 28.24 14.04 curveto
+28.82 13.86 29.23 13.1 29.54 13.55 curveto
+29.86 14 29.9 14.85 29.68 15.03 curveto
+29.45 15.21 28.96 15.39 28.96 15.39 curveto
+28.96 15.39 28.69 15.53 28.33 15.26 curveto closepath fill
+ 0 0 0 setrgbcolor
+newpath 28.33 15.26 moveto
+27.97 14.99 27.65 14.22 28.24 14.04 curveto
+28.82 13.86 29.23 13.1 29.54 13.55 curveto
+29.86 14 29.9 14.85 29.68 15.03 curveto
+29.45 15.21 28.96 15.39 28.96 15.39 curveto
+28.96 15.39 28.69 15.53 28.33 15.26 curveto closepath stroke
+ 0.00002 0.00018 0.00114 setrgbcolor
+newpath 40.34 19.22 moveto
+39.94 18.54 39.62 17.46 40.07 17.55 curveto
+40.52 17.64 40.79 17.42 40.93 17.91 curveto
+41.06 18.41 40.88 18.59 40.75 18.81 curveto
+40.61 19.04 40.75 19.89 40.34 19.22 curveto closepath fill
+ 0 0 0 setrgbcolor
+newpath 40.34 19.22 moveto
+39.94 18.54 39.62 17.46 40.07 17.55 curveto
+40.52 17.64 40.79 17.42 40.93 17.91 curveto
+41.06 18.41 40.88 18.59 40.75 18.81 curveto
+40.61 19.04 40.75 19.89 40.34 19.22 curveto closepath stroke
+showpage
+%%EOF

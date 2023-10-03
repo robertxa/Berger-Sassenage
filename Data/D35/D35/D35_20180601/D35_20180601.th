@@ -1,0 +1,76 @@
+encoding  utf-8
+# 2018.06.01 created by TopoDroid v 4.0.1a
+
+survey D35_20180601 -title "D35_20180601"
+input D35_20180601.th2
+
+map D35_20180601_MP
+  D35_20180601_SP1
+  D35_20180601_SP2
+  D35_20180601_SP3
+endmap
+
+  centerline
+    date 2018.06.01 
+    # declination 0.00 degrees
+    explo-team "Charles Buttin"
+    explo-team "Cedric Lachat"
+    explo-team "Raphael Lachat"
+    team "Charles Buttin"
+    team "Cedric Lachat"
+    team "Raphael Lachat"
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+    extend ignore
+    
+    extend right
+    0 1 8.025 56.0 75.20
+    extend ignore
+    1 . 1.15 103.33 12.60
+    1 . 0.99 123.63 69.10
+    1 . 1.630 226.37 4.81
+    1 . 7.83 53.65 -84.75
+    
+    extend left
+    1 2 4.53 12.25 10.83
+    extend ignore
+    2 . 1.1 102.94 11.94
+    2 . 0.82 69.15 77.89
+    2 . 2.060 157.19 -75.38
+    extend right
+    2 3 5.160 37.40 2.80
+   
+    extend ignore
+    3 . 0.68 115.26 8.76
+    3 . 1.51 5.48 -74.03
+    3 . 0.58 73.91 57.46
+    extend right
+    3 4 5.32 30.25 1.9
+    extend ignore
+    4 . 0.610 280.11 11.43
+    4 . 1.2 312.69 -67.71
+    4 . 1.170 331.05 56.72
+    extend right
+    4 5 4.762 27.31 -1.84
+    extend ignore
+    5 . 0.78 155.15 15.88
+    5 . 1.22 219.4 80.92
+    5 . 1.65 152.70 -33.94
+    extend right
+    5 6 10.892 107.7 -2.22
+    
+  endcenterline
+
+  ## input "D35_20180603C-1p.th2"
+  ## input "D35_20180603C-1s.th2"
+
+  ## map m1p -projection plan
+  ##   D35_20180603C-1p
+  ## endmap
+  ## map m1s -projection extended
+  ##   D35_20180603C-1s
+  ## endmap
+
+endsurvey
+

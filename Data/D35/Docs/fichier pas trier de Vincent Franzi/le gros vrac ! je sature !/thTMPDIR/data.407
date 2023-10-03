@@ -1,0 +1,42 @@
+%!PS
+%%BoundingBox: -1 -1 32 20 
+%%HiResBoundingBox: -0.35 -0.35 31.75 19.75508 
+%%Creator: MetaPost 1.209
+%%CreationDate: 2016.12.13:2120
+%%Pages: 1
+%%BeginProlog
+%%EndProlog
+%%Page: 1 1
+gsave newpath 0 0 moveto
+31.4 0 lineto
+31.4 19.40508 lineto
+0 19.40508 lineto
+ closepath clip
+ 1 1 1 setrgbcolor
+newpath 0 0 moveto
+31.4 0 lineto
+31.4 19.40508 lineto
+0 19.40508 lineto
+ closepath fill
+ 0.8 0.8 0.8 setrgbcolor 0 1 dtransform truncate idtransform setlinewidth pop
+ [] 0 setdash 1 setlinecap 1 setlinejoin 10 setmiterlimit
+newpath 0 3.88095 moveto
+4.97429 5.65576 9.93564 7.76192 15.7 7.76192 curveto stroke
+newpath 15.7 11.64316 moveto
+9.93658 11.64316 6.04034 17.67941 0 15.52412 curveto stroke
+ 1 0 0 setrgbcolor 0 0.5 dtransform truncate idtransform setlinewidth pop
+newpath 17.84013 14.70255 moveto
+17.84013 16.03596 19.84026 16.03596 19.84026 14.70255 curveto
+19.84026 13.77173 18.8402 13.13336 18.8402 12.20255 curveto stroke
+ 0 1.2 dtransform truncate idtransform setlinewidth pop
+newpath 18.8402 10.7026 moveto 0 0 rlineto stroke
+grestore
+ 0 0 0 setrgbcolor 0 0.7 dtransform truncate idtransform setlinewidth pop
+ [] 0 setdash 1 setlinejoin 10 setmiterlimit
+newpath 0 0 moveto
+31.4 0 lineto
+31.4 19.40508 lineto
+0 19.40508 lineto
+ closepath stroke
+showpage
+%%EOF

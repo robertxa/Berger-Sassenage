@@ -1,0 +1,59 @@
+%!PS
+%%BoundingBox: -21 -19 -8 3 
+%%HiResBoundingBox: -20.415 -18.55064 -8.605 2.655 
+%%Creator: MetaPost 1.209
+%%CreationDate: 2016.12.13:2120
+%%Pages: 1
+%%BeginProlog
+%%EndProlog
+%%Page: 1 1
+ 0 0 0 setrgbcolor 0.175
+ 0 dtransform exch truncate exch idtransform pop setlinewidth [] 0 setdash
+ 1 setlinecap 1 setlinejoin 10 setmiterlimit
+newpath -13.36 -18.39 moveto
+-13.22293 -17.39946 lineto stroke
+newpath -11.75099 -18.36575 moveto
+-11.8744 -17.37341 lineto stroke
+ 0 0.175 dtransform truncate idtransform setlinewidth pop
+newpath -10.18256 -18.00279 moveto
+-10.50266 -17.05542 lineto stroke
+newpath -8.73 -17.31 moveto
+-9.24577 -16.4533 lineto stroke
+ 0 0.25 dtransform truncate idtransform setlinewidth pop
+newpath -13.36 -18.39 moveto
+-13.36 -18.39 -11 -18.73 -8.73 -17.31 curveto stroke
+ 0.175 0 dtransform exch truncate exch idtransform pop setlinewidth
+newpath -13.28 2.53 moveto
+-13.16086 1.53712 lineto stroke
+newpath -14.76453 2.31924 moveto
+-14.60674 1.33179 lineto stroke
+ 0 0.175 dtransform truncate idtransform setlinewidth pop
+newpath -16.24106 2.05925 moveto
+-16.04861 1.07796 lineto stroke
+newpath -17.70477 1.73451 moveto
+-17.45973 0.76501 lineto stroke
+newpath -19.13614 1.29134 moveto
+-18.77917 0.35724 lineto stroke
+newpath -20.29 0.42 moveto
+-19.33011 0.13965 lineto stroke
+ 0 0.25 dtransform truncate idtransform setlinewidth pop
+newpath -13.28 2.53 moveto
+-13.28 2.53 -20.11 1.72 -20.29 0.42 curveto stroke
+ 0 0.175 dtransform truncate idtransform setlinewidth pop
+newpath -13.59 -2.91 moveto
+-13.86356 -3.87184 lineto stroke
+ 0.175 0 dtransform exch truncate exch idtransform pop setlinewidth
+newpath -14.85838 -2.70865 moveto
+-14.9065 -3.70747 lineto stroke
+newpath -16.14508 -2.71852 moveto
+-16.08418 -3.71664 lineto stroke
+newpath -17.42548 -2.84952 moveto
+-17.28375 -3.8394 lineto stroke
+ 0 0.175 dtransform truncate idtransform setlinewidth pop
+newpath -18.67 -3.14 moveto
+-17.8281 -3.67946 lineto stroke
+ 0 0.25 dtransform truncate idtransform setlinewidth pop
+newpath -13.59 -2.91 moveto
+-15.32 -2.37 -18.67 -3 -18.67 -3.14 curveto stroke
+showpage
+%%EOF

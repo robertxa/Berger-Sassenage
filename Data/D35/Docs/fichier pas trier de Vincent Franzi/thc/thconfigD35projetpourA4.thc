@@ -1,0 +1,221 @@
+encoding  utf-8
+source D35projet
+select D35projetMP@D35projet
+select D35projetME@D35projet
+
+
+
+#export model -fmt survex -o debut2016.3d
+#export model -o debut2016.lox
+#export model -fmt kml -o debut2016.kml
+#export model -o D35_20170107---.plt
+#export atlas -projection plan -o Topo_D35_plan_20170107atlas--.pdf -layout-map-header 15 15 center -layout local
+export map -projection plan -o Topo_D35_plan_20170511---1_5000.pdf -layout-map-header 85 85 center -layout local
+export map -fmt svg -projection plan -o Topo_D35_plan_20170511---1_5000.svg -layout-map-header 85 85 center -layout local
+
+#export atlas -projection extended  -o Topo_D35_coupe_20170107atlas.pdf -layout-map-header 80 80 center -layout local
+export map -projection extended  -o Topo_D35_coupe_20170511---1_5000.pdf -layout-map-header 100 100 sw -layout local
+export map -fmt svg -projection extended  -o Topo_D35_coupe_20170511---1_5000.svg -layout-map-header 100 100 sw -layout local
+#export map -proj extended -fmt xvi -layout-scale 1 100 -o 50a-85-th_e.xvi
+#export map -proj plan -fmt xvi -layout-scale 1 100 -o 50a-85-th_p.xvi
+#export map -proj plan -fmt kml -o exemple_map.kml
+
+
+layout local
+
+  code metapost
+  #fonts_setup(6,8,14,18,28);
+  fonts_setup(12,16,28,36,56);
+  
+  ##################north arrow#################################################################################
+  def s_northarrow (expr rot) =
+    begingroup
+      interim defaultscale:=0.5; % scale your north arrow here
+      T:=identity scaled defaultscale rotated -rot;
+      pickup pencircle scaled (0.08cm * defaultscale);
+      thdraw (-.4cm,-1.4cm)--(0,2.8cm)--(.4cm,-1.4cm)--cycle;
+      p:=fullcircle scaled 1.6cm;
+      thclean p; thdraw p;
+      p:=(0.95cm,0)--(0.65cm,0);
+      thdraw p; thdraw p xscaled -1;
+      pickup pencircle scaled (0.12cm * defaultscale);
+      p:=(0.28cm,0.42cm);
+      thdraw p--(p yscaled -1)--(p xscaled -1)--(p scaled -1);
+      label.rt(thTEX("geo") scaled 1.6, (.6cm,-1.6cm)) transformed T;
+    endgroup;
+  enddef;
+  ##########################################################################################################
+   #########connection carte ##############################################################################
+def l_arrow (expr P, Q) =
+  T:=identity;
+  pickup PenA;
+  thdraw P;
+  p := (-.2u,-.50u)--(0,0)--(.2u,-.50u);
+  if odd Q:
+    draw p rotated (angle(thdir(P,0))+90) shifted (point 0 of P);
+  fi;
+  if Q>1:
+    draw p rotated (angle(thdir(P,length P))-90) 
+         shifted (point infinity of P);
+  fi;
+enddef; 
+ 
+def l_mapconnection (expr P) =
+  thdrawoptions(dashed evenly scaled (1 * optical_zoom) withpen PenA);
+  #thdraw P dashed evenly scaled (2*optical_zoom);
+  l_arrow(P,3);
+  thdrawoptions();
+enddef;
+##################################################entrance######################################### 
+##################################################entrance#########################################
+def p_entrance (expr pos,theta,sc,al)=
+    U:=(.2u,.5u);
+    T:=identity aligned al rotated theta scaled sc shifted pos;
+    thfill (-.8u,-.4u)--(0,2.59u)--(.8u,-.4u)--cycle;
+enddef;
+####################################################
+  endcode
+  
+  language fr
+  map-comment FJS-Janvier2017
+  legend on
+  legend-columns 3
+  #legend-width 5 cm
+  scale-bar 500 m
+  #statistics carto off
+  #statistics explo off
+  #statistics explo all
+  #statistics topo-length on
+  #scale 1 4000 #scale atlas plan deux pages A4
+ # scale 1 3000 #scale atlas plan xx pages A4
+  scale 1 2500
+  base-scale 1 5000
+  
+  #size 10 18.7 cm
+  #overlap 1 cm #recouvrement pour atlas
+  #page-setup 21 29.7 21 29.7 0.1 0.1 cm
+###################  
+  page-setup 21 29.7 20.9999 29.6999  0.0001 0.00001 cm #paper-width,paper-height, page-width, page-height, left-margin and top-margin
+  size 19.9999 23.6999 cm
+  overlap 0.5 cm
+  nav-factor 20
+  nav-size 1 1
+  page-numbers off
+  exclude-pages on 1,3
+  code tex-atlas
+ \def\dopage{%
+     \vbox{%                         
+       \centerline{\framed{\mapbox}}         
+       \bigskip                             
+       \line{%                             
+         \vbox to \ht\navbox{                     
+           \hbox{\size[20]               
+             \ifpagenumbering\space(\the\pagenum)\fi     
+             \space\size[16]\the\pagename}              
+           \ifpagenumbering
+             \medskip                                    
+             \hbox{\qquad\qquad                          
+               \vtop{%
+                 \hbox to 0pt{\hss\showpointer\pointerN\hss}
+                 \hbox to 0pt{\llap{\showpointer\pointerW\hskip0.7em}%
+                   \raise1pt\hbox to 0pt{\hss$\updownarrow$\hss}%
+                   \raise1pt\hbox to 0pt{\hss$\leftrightarrow$\hss}%
+                   \rlap{\hskip0.7em\showpointer\pointerE}}
+                   \hbox to 0pt{\hss\showpointer\pointerS\hss}
+               }\qquad\qquad
+               \vtop{
+                 \def\arr{$\uparrow$}
+                 \showpointerlist\pointerU
+                 \def\arr{$\downarrow$}
+                 \showpointerlist\pointerD
+               }
+             }
+           \fi
+           \vss                                         
+           \ifscalebar\scalebar\fi
+           \vss 
+              
+           \ifnortharrow\northarrow\fi
+                                 
+         }\hss                                      
+         \box\navbox                                
+       }
+     }
+   }
+   
+
+###############
+  north grid
+  grid bottom
+  grid-origin 704900 5008774 1550 m #altitude grid origine à 0 pour afficher altitude niveau marin
+  #grid-origin 705200 5008500 0 m #altitude grid origine à 0 pour afficher altitude niveau marin
+  #origin 704060 5009550 1540 m
+  origin 704200 5009650 1540 m
+  grid-size  250 250 100 m
+  #grid-coords all
+  rotate 315
+  #map-header 50 80 center
+  #color map-bg [82 82 82]
+  color map-bg [100 100 100]
+  symbol-colour point water-flow [0 0 0] 
+  symbol-colour point spring [0 0 0]
+  symbol-colour point sink [0 0 0]
+  symbol-colour area water [0 0 0]
+  symbol-colour area sump [0 0 0]
+  symbol-colour point continuation [100 0 0]
+  #[11 56 100] bleu
+  #symbol-colour point air-draught -subtype winter [100 0 0]
+  symbol-colour line wall [10 10 10]
+ 
+  symbol-colour group cave-centerline [10 10 10] #couleur gris clair des centerlines
+  
+  color map-fg altitude #attribue couleur à lacrte en fonction de l'altitude
+  
+  #color preview-below [69] #defini couleur de la sous map non décalé
+  color preview-below [90] #defini couleur de la sous map non décalé
+  #symbol-hide point cave-station
+  symbol-hide group cave-centerline   #rend invisible centerline : ligne imaginaire entre point topo
+  #symbol-hide point label
+  transparency on
+  #opacity 50
+  #surface-opacity 50
+  
+  symbol-hide point stalagmite
+  symbol-hide point sink
+  symbol-hide point label
+  symbol-hide line label
+  symbol-hide point entrance
+  symbol-hide point water-flow
+  symbol-hide line map-connection
+  symbol-hide point altitude
+  symbol-hide point air-draught
+  symbol-hide point dig
+  symbol-hide point continuation
+  symbol-hide line floor-step
+  symbol-hide line floor-meander
+  symbol-hide line pitch
+  symbol-hide line border
+  #symbol-hide point passage-gradient
+  symbol-hide line rock-border
+  symbol-hide line rock-edge
+  symbol-hide point spring
+  symbol-hide point gradient
+  symbol-hide point label
+  symbol-hide area water
+  symbol-hide area sump
+  symbol-hide point soda-straw
+  symbol-hide point moonmilk
+  symbol-hide point flowstone
+  symbol-hide point crystal
+  symbol-hide line border
+  symbol-hide line water-flow
+  symbol-hide line wall
+  symbol-hide point stalactite
+  symbol-hide point stalactites
+  symbol-hide point pillar
+  symbol-hide point clay
+  symbol-hide point camp
+  symbol-hide point clay
+  
+  
+endlayout

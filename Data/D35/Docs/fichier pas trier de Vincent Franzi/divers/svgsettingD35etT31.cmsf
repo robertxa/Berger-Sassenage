@@ -1,0 +1,69 @@
+<SVGSettings SVGExporter="1.0">
+  <MapSettings>
+    <ViewAngle>
+      <Float>0</Float>
+    </ViewAngle>
+    <Scale>
+      <Float>1</Float>
+    </Scale>
+    <PaperOffset>
+      <Vector2D>4.2215,3.506</Vector2D>
+    </PaperOffset>
+    <CaveOffset>
+      <Vector3D>0,0,0</Vector3D>
+    </CaveOffset>
+    <AI10Compatible>
+      <Boolean>False</Boolean>
+    </AI10Compatible>
+    <PlanView>
+      <Boolean>False</Boolean>
+    </PlanView>
+    <Selective>
+      <Boolean>False</Boolean>
+    </Selective>
+    <GridSpacing>
+      <Float>65.6167979002625</Float>
+    </GridSpacing>
+    <PaperSize>
+      <Vector2D>11.69015748031496,8.27007874015747968</Vector2D>
+    </PaperSize>
+    <PaperMagrin>
+      <Vector2D>0.499999999999999936,0.499999999999999936</Vector2D>
+    </PaperMagrin>
+    <USUnits>
+      <Boolean>False</Boolean>
+    </USUnits>
+  </MapSettings>
+  <CheckBoxes>
+    <Section Name="delta35etT31topodu27" Enabled="False">
+      <Survey Name="fonjuillet2014" Enabled="False">
+        <Shot Name="D35A - D35B" Enabled="False"/>
+        <Shot Name="D35B - D35C" Enabled="False"/>
+        <Shot Name="D35C - D35D" Enabled="False"/>
+        <Shot Name="D35D - D35E" Enabled="False"/>
+        <Shot Name="D35E - D35F" Enabled="False"/>
+        <Shot Name="D35F - D35G" Enabled="False"/>
+        <Shot Name="D35G - D35H" Enabled="False"/>
+        <Shot Name="D35H - D35I" Enabled="False"/>
+        <Shot Name="D35I - D35J" Enabled="False"/>
+        <Shot Name="D35J - D35K" Enabled="False"/>
+        <Shot Name="D35K - EntreeD35" Enabled="False"/>
+      </Survey>
+      <Survey Name="topodu12092013" Enabled="False">
+        <Shot Name="B - C" Enabled="False"/>
+        <Shot Name="C - D" Enabled="False"/>
+        <Shot Name="D - E" Enabled="False"/>
+        <Shot Name="E - F" Enabled="False"/>
+        <Shot Name="F - G" Enabled="False"/>
+        <Shot Name="G - H" Enabled="False"/>
+        <Shot Name="H - I" Enabled="False"/>
+        <Shot Name="I - J" Enabled="False"/>
+        <Shot Name="J - K" Enabled="False"/>
+        <Shot Name="K - L" Enabled="False"/>
+        <Shot Name="L - M" Enabled="False"/>
+        <Shot Name="M - N" Enabled="False"/>
+        <Shot Name="N - entreeT31" Enabled="False"/>
+      </Survey>
+    </Section>
+  </CheckBoxes>
+</SVGSettings>

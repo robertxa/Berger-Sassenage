@@ -1,0 +1,21 @@
+%!PS
+%%BoundingBox: -94 -65 -20 -59 
+%%HiResBoundingBox: -93.0087 -64.21289 -20.5 -59.37 
+%%Creator: MetaPost 1.209
+%%CreationDate: 2016.12.13:2120
+%%Pages: 1
+%*Font: cmss10 6.97382 9.96265 30:eb20000080001c493c
+%%BeginProlog
+%%EndProlog
+%%Page: 1 1
+ 0 0 0 setrgbcolor
+-93.0087 -64.21289 moveto
+(Puits) cmss10 6.97382 fshow
+-75.76779 -64.21289 moveto
+(du) cmss10 6.97382 fshow
+-66.2369 -64.21289 moveto
+(collecteur:) cmss10 6.97382 fshow
+-31.9294 -64.21289 moveto
+(P47) cmss10 6.97382 fshow
+showpage
+%%EOF

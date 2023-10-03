@@ -1,0 +1,25 @@
+%!PS
+%%BoundingBox: -179 -27 -28 65 
+%%HiResBoundingBox: -178.8981 -26.5289 -28.53 64.32693 
+%%Creator: MetaPost 1.209
+%%CreationDate: 2016.12.13:2120
+%%Pages: 1
+%*Font: cmss10 6.97382 9.96265 2f:ff50000008000065ce
+%%BeginProlog
+%%EndProlog
+%%Page: 1 1
+ 0 0 0 setrgbcolor
+-66.6925 -25.1729 moveto
+(Shunt) cmss10 6.97382 fshow
+-47.16571 -25.1729 moveto
+(siphon) cmss10 6.97382 fshow
+-178.8981 59.09654 moveto
+(1300) cmss10 6.97382 fshow
+-162.62581 59.09654 moveto
+(lps) cmss10 6.97382 fshow
+-152.3587 59.09654 moveto
+(12/10/2016) cmss10 6.97382 fshow
+-115.1649 59.09654 moveto
+(18:45) cmss10 6.97382 fshow
+showpage
+%%EOF

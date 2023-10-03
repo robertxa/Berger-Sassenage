@@ -1,0 +1,27 @@
+%!PS
+%%BoundingBox: -30 3 6 12 
+%%HiResBoundingBox: -29.7924 3.61333 5.83667 11.40144 
+%%Creator: MetaPost 1.209
+%%CreationDate: 2016.12.13:2120
+%%Pages: 1
+%*Font: cmss10 6.97382 9.96265 33:c2000004
+%*Font: cmss10 3.985 9.96265 30:c
+%%BeginProlog
+%%EndProlog
+%%Page: 1 1
+ 0 0 0 setrgbcolor
+-29.7924 6.55855 moveto
+(P3) cmss10 6.97382 fshow
+newpath 5.83667 4.03 moveto
+5.83667 4.1405 5.79277 4.24649 5.71463 4.32463 curveto
+5.63649 4.40277 5.5305 4.44667 5.42 4.44667 curveto
+5.3095 4.44667 5.2035 4.40277 5.12537 4.32463 curveto
+5.04723 4.24649 5.00333 4.1405 5.00333 4.03 curveto
+5.00333 3.9195 5.04723 3.8135 5.12537 3.73537 curveto
+5.2035 3.65723 5.3095 3.61333 5.42 3.61333 curveto
+5.5305 3.61333 5.63649 3.65723 5.71463 3.73537 curveto
+5.79277 3.8135 5.83667 3.9195 5.83667 4.03 curveto closepath fill
+-2.9876 4.4675 moveto
+(1000) cmss10 3.985 fshow
+showpage
+%%EOF

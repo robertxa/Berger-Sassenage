@@ -1,0 +1,26 @@
+%!PS
+%%BoundingBox: -5 -16 5 13 
+%%HiResBoundingBox: -4.38016 -15.21 4.28 12.93752 
+%%Creator: MetaPost 1.209
+%%CreationDate: 2016.12.13:2120
+%%Pages: 1
+%%BeginProlog
+%%EndProlog
+%%Page: 1 1
+ 0 0 0 setrgbcolor 0.175
+ 0 dtransform exch truncate exch idtransform pop setlinewidth [] 0 setdash
+ 1 setlinecap 1 setlinejoin 10 setmiterlimit
+newpath 1.33 -7.72 moveto
+1.42 12.85 lineto stroke
+ 0 0.5 dtransform truncate idtransform setlinewidth pop
+newpath -4.12 -10.87 moveto
+-4.12 -10.87 -4.25 -12.17 -3.58 -12.58 curveto
+-2.9 -12.98 -1.82 -14.29 -0.97 -14.2 curveto
+-0.11 -14.11 0.88 -14.02 1.15 -14.2 curveto
+1.42 -14.38 2.32 -14.96 2.32 -14.96 curveto stroke
+newpath -1.1 -7.45 moveto
+-1.1 -7.45 0.07 -8.26 0.83 -8.26 curveto
+1.6 -8.26 2.72 -8.3 3.49 -9.25 curveto
+4.25 -10.19 3.94 -13.3 4.03 -13.93 curveto stroke
+showpage
+%%EOF

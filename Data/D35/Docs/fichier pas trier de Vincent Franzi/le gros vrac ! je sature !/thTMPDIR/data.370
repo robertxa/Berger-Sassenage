@@ -1,0 +1,46 @@
+%!PS
+%%BoundingBox: -113 -45 -20 46 
+%%HiResBoundingBox: -112.9569 -44.60945 -20.78 45.44145 
+%%Creator: MetaPost 1.209
+%%CreationDate: 2016.12.13:2120
+%%Pages: 1
+%*Font: cmss10 6.97382 9.96265 29:b3fd4228016004ef9f79
+%*Font: csss10 6.97382 9.96265 b8:8000000000004
+%%BeginProlog
+%%EndProlog
+%%Page: 1 1
+ 0 0 0 setrgbcolor
+-37.8909 40.59856 moveto
+(R4) cmss10 6.97382 fshow
+-112.9569 -43.25345 moveto
+(100) cmss10 6.97382 fshow
+-100.1715 -43.25345 moveto
+(m) cmss10 6.97382 fshow
+-92.3066 -43.25345 moveto
+(explo) cmss10 6.97382 fshow
+-77.429 -43.25345 moveto
+(r) cmss10 6.97382 fshow
+-75.0463 -43.25345 moveto
+(\351) csss10 6.97382 fshow
+-71.9468 -43.25345 moveto
+(:) cmss10 6.97382 fshow
+-67.685 -43.25345 moveto
+(a) cmss10 6.97382 fshow
+-64.52739 -43.25345 moveto
+(rr) cmss10 6.97382 fshow
+-59.9556 -43.25345 moveto
+(^) cmss10 6.97382 fshow
+-59.76189 -43.25345 moveto
+(et) cmss10 6.97382 fshow
+-51.81949 -43.25345 moveto
+(sur) cmss10 6.97382 fshow
+-40.8357 -43.25345 moveto
+(siphon) cmss10 6.97382 fshow
+-71.7278 -24.04346 moveto
+(1) cmss10 6.97382 fshow
+-65.9163 -24.04346 moveto
+(lps) cmss10 6.97382 fshow
+-55.6492 -24.04346 moveto
+(10/12/2016) cmss10 6.97382 fshow
+showpage
+%%EOF

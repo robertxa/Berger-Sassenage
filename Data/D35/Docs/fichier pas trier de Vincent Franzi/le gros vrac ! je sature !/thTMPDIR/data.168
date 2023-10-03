@@ -1,0 +1,62 @@
+%!PS
+%%BoundingBox: -6 2 4 13 
+%%HiResBoundingBox: -5.225 2.775 3.22661 12.63663 
+%%Creator: MetaPost 1.209
+%%CreationDate: 2016.12.13:2120
+%%Pages: 1
+%%BeginProlog
+%%EndProlog
+%%Page: 1 1
+ 0 0 0 setrgbcolor 0 0.175 dtransform truncate idtransform setlinewidth pop
+ [] 0 setdash 1 setlinecap 1 setlinejoin 10 setmiterlimit
+newpath 2.62 2.9 moveto
+1.62015 2.88396 lineto stroke
+newpath 2.39278 4.21869 moveto
+1.41396 4.01411 lineto stroke
+newpath 2.18939 5.54134 moveto
+1.19255 5.46213 lineto stroke
+newpath 2.11766 6.87894 moveto
+1.11818 6.84732 lineto stroke
+newpath 2.10925 8.2184 moveto
+1.1097 8.2478 lineto stroke
+newpath 2.63414 9.39888 moveto
+1.87228 10.04662 lineto stroke
+newpath 3.02919 10.59868 moveto
+2.214 10.01955 lineto stroke
+newpath 1.91669 11.3317 moveto
+1.33481 10.51845 lineto stroke
+newpath 0.90285 12.20341 moveto
+0.36237 11.36209 lineto stroke
+newpath -0.34355 12.38576 moveto
+0.2324 11.56831 lineto stroke
+newpath -0.77 11.16 moveto
+0.22868 11.10905 lineto stroke
+ 0 0.25 dtransform truncate idtransform setlinewidth pop
+newpath 2.62 2.9 moveto
+2.62 3.22 2.44 3.96 2.28 4.77 curveto
+2.13 5.58 2.06 7.94 2.13 8.55 curveto
+2.19 9.16 2.76 9.29 3.05 10.1 curveto
+3.34 10.91 2.35 10.8 1.52 11.68 curveto
+0.69 12.56 -0.71 13.19 -0.77 11.16 curveto stroke
+ 0 0.175 dtransform truncate idtransform setlinewidth pop
+newpath -0.77 11.16 moveto
+0.22519 11.25331 lineto stroke
+newpath -0.77856 9.78029 moveto
+0.22115 9.75734 lineto stroke
+newpath -1.11063 8.45491 moveto
+-0.22249 7.99536 lineto stroke
+newpath -1.88768 7.3167 moveto
+-1.08986 6.71385 lineto stroke
+newpath -2.83347 6.32274 moveto
+-2.21411 5.53766 lineto stroke
+newpath -3.94812 5.50964 moveto
+-3.38173 4.68553 lineto stroke
+newpath -5.1 4.75 moveto
+-4.56778 3.90337 lineto stroke
+ 0 0.25 dtransform truncate idtransform setlinewidth pop
+newpath -0.77 11.16 moveto
+-0.77 11.16 -0.75 10.96 -0.78 9.72 curveto
+-0.8 8.48 -1.65 7.7 -2.1 7.02 curveto
+-2.55 6.35 -5.1 4.75 -5.1 4.75 curveto stroke
+showpage
+%%EOF

@@ -1,0 +1,66 @@
+%!PS
+%%BoundingBox: -123 -119 119 46 
+%%HiResBoundingBox: -122.46742 -118.44298 118.19128 45.8129 
+%%Creator: MetaPost 1.209
+%%CreationDate: 2016.12.13:2120
+%%Pages: 1
+%*Font: cmss10 13.9475 9.96265 12:8000003329008000a001d13ed8
+%*Font: cmss10 3.985 9.96265 30:814
+%*Font: cmss10 6.97382 9.96265 30:a040040080005d493c
+%%BeginProlog
+%%EndProlog
+%%Page: 1 1
+ 0 0 0 setrgbcolor
+gsave [0.45828 -0.88881 0.88881 0.45828 -122.46742 -59.45197 
+] concat 0 0 moveto
+(R) cmss10 13.9475 fshow grestore
+gsave [0.57596 -0.8175 0.8175 0.57596 -109.24005 -82.23781 ] concat 0 0 moveto
+(i) cmss10 13.9475 fshow grestore
+gsave [0.69551 -0.71855 0.71855 0.69551 -98.58443 -95.84816 ] concat 0 0 moveto
+(v) cmss10 13.9475 fshow grestore
+gsave [0.84659 -0.53227 0.53227 0.84659 -82.9479 -109.50188 ] concat 0 0 moveto
+(i) cmss10 13.9475 fshow grestore
+gsave [0.97972 -0.20041 0.20041 0.97972 -67.11432 -117.04532 
+] concat 0 0 moveto
+(\022) cmss10 13.9475 fshow grestore
+gsave [0.97972 -0.20041 0.20041 0.97972 -66.73476 -117.12296 
+] concat 0 0 moveto
+(e) cmss10 13.9475 fshow grestore
+gsave [0.99487 0.10135 -0.10135 0.99487 -44.39409 -117.92682 
+] concat 0 0 moveto
+(r) cmss10 13.9475 fshow grestore
+gsave [0.99338 0.11504 -0.11504 0.99338 -24.8406 -115.8393 ] concat 0 0 moveto
+(e) cmss10 13.9475 fshow grestore
+gsave [0.98865 0.15028 -0.15028 0.98865 13.1157 -110.9233 ] concat 0 0 moveto
+(-) cmss10 13.9475 fshow grestore
+gsave [0.9653 0.26112 -0.26112 0.9653 50.61853 -103.98073 ] concat 0 0 moveto
+(1) cmss10 13.9475 fshow grestore
+gsave [0.71585 0.69826 -0.69826 0.71585 75.33072 -91.35028 ] concat 0 0 moveto
+(0) cmss10 13.9475 fshow grestore
+gsave [0.73068 0.68274 -0.68274 0.73068 93.86505 -73.4913 ] concat 0 0 moveto
+(0) cmss10 13.9475 fshow grestore
+gsave [0.7751 0.63184 -0.63184 0.7751 112.78589 -56.3759 ] concat 0 0 moveto
+(0) cmss10 13.9475 fshow grestore
+newpath -63.57333 0.52 moveto
+-63.57333 0.63051 -63.61723 0.7365 -63.69537 0.81464 curveto
+-63.77351 0.89278 -63.8795 0.93668 -63.99 0.93668 curveto
+-64.10051 0.93668 -64.2065 0.89278 -64.28464 0.81464 curveto
+-64.36278 0.7365 -64.40668 0.63051 -64.40668 0.52 curveto
+-64.40668 0.4095 -64.36278 0.30351 -64.28464 0.22537 curveto
+-64.2065 0.14723 -64.10051 0.10333 -63.99 0.10333 curveto
+-63.8795 0.10333 -63.77351 0.14723 -63.69537 0.22537 curveto
+-63.61723 0.30351 -63.57333 0.4095 -63.57333 0.52 curveto closepath fill
+-70.5926 -0.7862 moveto
+(970) cmss10 3.985 fshow
+-10.98 40.97 moveto
+(Escalade) cmss10 6.97382 fshow
+16.3536 40.97 moveto
+(de) cmss10 6.97382 fshow
+25.3809 40.97 moveto
+(2009) cmss10 6.97382 fshow
+7.92 -79.52289 moveto
+(P) cmss10 6.97382 fshow
+12.1818 -79.52289 moveto
+(ateaugoire) cmss10 6.97382 fshow
+showpage
+%%EOF

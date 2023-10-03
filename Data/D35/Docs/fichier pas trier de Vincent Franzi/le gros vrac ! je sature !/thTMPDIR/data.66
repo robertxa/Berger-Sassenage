@@ -1,0 +1,54 @@
+%!PS
+%%BoundingBox: -14 -12 116 35 
+%%HiResBoundingBox: -13.3651 -11.18695 115.7023 34.05145 
+%%Creator: MetaPost 1.209
+%%CreationDate: 2016.12.13:2120
+%%Pages: 1
+%*Font: cmss10 3.985 9.96265 31:cac000010000989178
+%*Font: csss10 6.97382 9.96265 e9:8
+%*Font: cmss10 6.97382 9.96265 28:c40000064080005e4f3c
+%%BeginProlog
+%%EndProlog
+%%Page: 1 1
+ 0 0 0 setrgbcolor
+newpath -4.35333 -6.97 moveto
+-4.35333 -6.8595 -4.39723 -6.75351 -4.47537 -6.67537 curveto
+-4.55351 -6.59723 -4.6595 -6.55333 -4.77 -6.55333 curveto
+-4.88051 -6.55333 -4.9865 -6.59723 -5.06464 -6.67537 curveto
+-5.14278 -6.75351 -5.18668 -6.8595 -5.18668 -6.97 curveto
+-5.18668 -7.0805 -5.14278 -7.1865 -5.06464 -7.26463 curveto
+-4.9865 -7.34277 -4.88051 -7.38667 -4.77 -7.38667 curveto
+-4.6595 -7.38667 -4.55351 -7.34277 -4.47537 -7.26463 curveto
+-4.39723 -7.1865 -4.35333 -7.0805 -4.35333 -6.97 curveto closepath fill
+-13.3651 -8.2762 moveto
+(1279) cmss10 3.985 fshow
+23.26 -9.44345 moveto
+(Puits) cmss10 6.97382 fshow
+40.5009 -9.44345 moveto
+(non) cmss10 6.97382 fshow
+53.5188 -9.44345 moveto
+(descendu) cmss10 6.97382 fshow
+82.2278 -9.44345 moveto
+(\(mini) cmss10 6.97382 fshow
+99.7399 -9.44345 moveto
+(actif) cmss10 6.97382 fshow
+112.99019 -9.44345 moveto
+(\)) cmss10 6.97382 fshow
+22.5 29.20856 moveto
+(Entr) cmss10 6.97382 fshow
+35.1692 29.20856 moveto
+(\351) csss10 6.97382 fshow
+38.2687 29.20856 moveto
+(e) cmss10 6.97382 fshow
+43.6928 29.20856 moveto
+(m) cmss10 6.97382 fshow
+49.2331 29.20856 moveto
+(\351) csss10 6.97382 fshow
+52.3326 29.20856 moveto
+(andre) cmss10 6.97382 fshow
+70.6971 29.20856 moveto
+(F) cmss10 6.97382 fshow
+74.4746 29.20856 moveto
+(rance-Islande) cmss10 6.97382 fshow
+showpage
+%%EOF

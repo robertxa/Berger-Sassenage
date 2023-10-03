@@ -1,0 +1,43 @@
+encoding  utf-8
+source D35_20171222A.th
+
+
+#export model -fmt survex -o debut2016.3d
+#export model -o debut2016.lox
+#export model -fmt kml -o debut2016.kml
+export model -o D35_20170720A.plt
+#export map -projection plan -o debut2016.pdf
+#export map -projection plan -o entree-60.pdf -layout-map-header 0 100 center -layout local
+#export map -projection extended  -o entree-60coupedeveloppe.pdf -layout-map-header 0 0 center -layout local
+export map -proj extended -fmt xvi -layout-scale 1 100 -o D35_20171222-th_e.xvi
+export map -proj plan -fmt xvi -layout-scale 1 100 -o D35_20171222-th_p.xvi
+#export map -proj plan -fmt kml -o exemple_map.kml
+
+
+layout local
+  language fr
+  legend on
+  scale 1 200
+  base-scale 1 200
+  north grid
+  grid bottom
+  grid-size 50 50 50 m
+  #grid-coords all
+  #rotate 270
+  #map-header 50 80 center
+  color map-bg [75 75 75]
+  symbol-colour point water-flow [11 56 100] 
+  symbol-colour point spring [11 56 100]
+  symbol-colour point sink [11 56 100]
+  symbol-colour area water [11 56 100]
+  symbol-colour area sump [11 56 100] 
+ 
+  symbol-colour group cave-centerline [90 90 90] #couleur gris clair des centerlines
+  
+  color map-fg altitude
+  #symbol-hide point cave-station
+  #symbol-hide group cave-centerline   #rend invisible centerline : ligne imaginaire entre point topo
+  transparency on
+  #opacity 50
+  #surface-opacity 50
+endlayout

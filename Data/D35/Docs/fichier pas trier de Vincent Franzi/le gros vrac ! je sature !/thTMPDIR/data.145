@@ -1,0 +1,39 @@
+%!PS
+%%BoundingBox: -28 -22 106 4 
+%%HiResBoundingBox: -27.47891 -21.27289 105.7012 3.36145 
+%%Creator: MetaPost 1.209
+%%CreationDate: 2016.12.13:2120
+%%Pages: 1
+%*Font: cmss10 6.97382 9.96265 2f:f7d0000410000206cc
+%*Font: cmss10 3.985 9.96265 31:c
+%%BeginProlog
+%%EndProlog
+%%Page: 1 1
+ 0 0 0 setrgbcolor
+29.66 -1.48145 moveto
+(Le) cmss10 6.97382 fshow
+38.8616 -1.48145 moveto
+(totem) cmss10 6.97382 fshow
+-27.47891 -21.27289 moveto
+(R10) cmss10 6.97382 fshow
+newpath 4.05667 -1.44 moveto
+4.05667 -1.3295 4.01277 -1.22351 3.93463 -1.14537 curveto
+3.85649 -1.06723 3.7505 -1.02333 3.64 -1.02333 curveto
+3.5295 -1.02333 3.42351 -1.06723 3.34537 -1.14537 curveto
+3.26723 -1.22351 3.22333 -1.3295 3.22333 -1.44 curveto
+3.22333 -1.5505 3.26723 -1.6565 3.34537 -1.73463 curveto
+3.42351 -1.81277 3.5295 -1.85667 3.64 -1.85667 curveto
+3.7505 -1.85667 3.85649 -1.81277 3.93463 -1.73463 curveto
+4.01277 -1.6565 4.05667 -1.5505 4.05667 -1.44 curveto closepath fill
+4.265 -2.7462 moveto
+(1212) cmss10 3.985 fshow
+29.57 -13.04346 moveto
+(700) cmss10 6.97382 fshow
+42.35541 -13.04346 moveto
+(lps) cmss10 6.97382 fshow
+52.6224 -13.04346 moveto
+(08/08/2016) cmss10 6.97382 fshow
+89.81631 -13.04346 moveto
+(18:15) cmss10 6.97382 fshow
+showpage
+%%EOF

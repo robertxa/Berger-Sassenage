@@ -1,0 +1,54 @@
+encoding  utf-8
+survey 20161022fromagere
+  #import 20160711fromagere.plt #coordonnees de l'entree base sur une prise de mesure GPS
+  import 20161022fromagere.plt #coordonnees de l'entree pour avoir une jonction en bas du P31 de -680m cote from en match parfait avec la topo depuis D35
+  input 20160711fromagere.th2
+  input 20160711fromagere-e.th2
+  
+map fromagereMP
+  fromagereSP1
+  fromagereSP2
+  fromagereSP3
+  fromagereSP4
+  fromagereSP5
+  fromagereSP6
+  fromagereSP7
+  fromagereSP8
+  fromagereSP9
+  fromagereSP10
+  fromagereSP11
+  fromagereSP12
+  fromagereSP13
+  fromagereSP14
+  fromagereSP15
+  fromagereSP16
+  fromagereSP17
+  fromagereSP18
+  fromagereSP19
+  fromagereSP19bis
+  
+  #fromagereSP20
+  #fromagereSP21
+  #fromagereSP22
+  #fromagereSP23
+  #fromagereSP24
+  fromagereSP25
+  fromagereSP27bis
+endmap
+
+map fromagerebloc-1MP
+  fromagereSP26
+endmap
+
+map fromageredecaleMP
+  fromagereMP
+  break
+  fromagerebloc-1MP [-20 0 m] above
+endmap
+
+map fromagereME
+  fromagereSE1
+endmap
+
+endsurvey
+

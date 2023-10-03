@@ -1,0 +1,346 @@
+%!PS
+%%BoundingBox: -26 -45 -3 53 
+%%HiResBoundingBox: -25.505 -44.245 -3.425 52.135 
+%%Creator: MetaPost 1.209
+%%CreationDate: 2016.12.13:2120
+%%Pages: 1
+%%BeginProlog
+%%EndProlog
+%%Page: 1 1
+ 0.00002 0.00018 0.00102 setrgbcolor
+newpath -9.84 11.5 moveto
+-9.84 11.5 -17.47 17 -19.55 12.83 curveto
+-21.63 8.67 -23.03 -6.45 -19.22 -6.88 curveto
+-15.41 -7.32 -6 -7.74 -6 -7.74 curveto
+-9.84 11.5 lineto
+ closepath fill
+0 0 0 THsetpatterncolor
+ 0.00002 0.00015 0.00002 setrgbcolor
+newpath -9.84 11.5 moveto
+-9.84 11.5 -17.47 17 -19.55 12.83 curveto
+-21.63 8.67 -23.03 -6.45 -19.22 -6.88 curveto
+-15.41 -7.32 -6 -7.74 -6 -7.74 curveto
+-9.84 11.5 lineto
+ closepath fill
+ 0.00002 0.00018 0.00102 setrgbcolor
+newpath -15.11 -11.27 moveto
+-15.21 -12.17 lineto
+-14.89 -12.84 lineto
+-14.26 -11.9 lineto
+ closepath fill
+ 0 0 0 setrgbcolor 0 0.25 dtransform truncate idtransform setlinewidth pop
+ [] 0 setdash 1 setlinejoin 10 setmiterlimit
+newpath -15.11 -11.27 moveto
+-15.21 -12.17 lineto
+-14.89 -12.84 lineto
+-14.26 -11.9 lineto
+ closepath stroke
+ 0.00002 0.00018 0.00102 setrgbcolor
+newpath -12.72 -8.35 moveto
+-13.22 -9.21 lineto
+-12.77 -9.88 lineto
+-12.01 -9.39 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath -12.72 -8.35 moveto
+-13.22 -9.21 lineto
+-12.77 -9.88 lineto
+-12.01 -9.39 lineto
+ closepath stroke
+ 0.00002 0.00018 0.00102 setrgbcolor
+newpath -16.33 -18.75 moveto
+-16.55 -19.65 lineto
+-15.96 -20.23 lineto
+-15.11 -19.19 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath -16.33 -18.75 moveto
+-16.55 -19.65 lineto
+-15.96 -20.23 lineto
+-15.11 -19.19 lineto
+ closepath stroke
+ 0 0.175 dtransform truncate idtransform setlinewidth pop 1 setlinecap
+newpath -22.73 43.59 moveto
+-22.47 42.79 lineto stroke
+newpath -24.93 48.88 moveto
+-24.71 48.34 lineto stroke
+ 0.175 0 dtransform exch truncate exch idtransform pop setlinewidth
+newpath -10.54 27.91 moveto
+-10.61 27.02 lineto stroke
+newpath -13.75 30.73 moveto
+-13.9 29.98 lineto stroke
+newpath -7.7 27.54 moveto
+-7.58 26.92 lineto stroke
+ 0 0.175 dtransform truncate idtransform setlinewidth pop
+newpath -9.57 22.76 moveto
+-8.97 23.07 lineto stroke
+newpath -11.91 21.31 moveto
+-11.37 20.86 lineto stroke
+newpath -15.05 24.96 moveto
+-14.76 25.54 lineto stroke
+newpath -12.17 17.6 moveto
+-11.8 18.09 lineto stroke
+newpath -11.48 24.77 moveto
+-10.94 24.73 lineto stroke
+ 0.00002 0.00018 0.00102 setrgbcolor
+newpath -25.22 52.01 moveto
+-25.17 51.23 lineto
+-24.68 50.9 lineto
+-24.44 51.56 lineto
+ closepath fill
+ 0 0 0 setrgbcolor 0 0.25 dtransform truncate idtransform setlinewidth pop
+newpath -25.22 52.01 moveto
+-25.17 51.23 lineto
+-24.68 50.9 lineto
+-24.44 51.56 lineto
+ closepath stroke
+ 0.00002 0.00018 0.00102 setrgbcolor
+newpath -25.38 49.08 moveto
+-25.22 48.24 lineto
+-24.58 47.8 lineto
+-24.34 48.54 lineto
+-24.7 49.53 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath -25.38 49.08 moveto
+-25.22 48.24 lineto
+-24.58 47.8 lineto
+-24.34 48.54 lineto
+-24.7 49.53 lineto
+ closepath stroke
+ 0.00002 0.00018 0.00102 setrgbcolor
+newpath -7.33 -40.7 moveto
+-8.05 -41.87 lineto
+-7.42 -42.55 lineto
+-7.42 -42.55 -6.07 -42.5 -6.07 -42.23 curveto
+-6.07 -41.96 -7.33 -40.7 -7.33 -40.7 curveto closepath fill
+ 0 0 0 setrgbcolor
+newpath -7.33 -40.7 moveto
+-8.05 -41.87 lineto
+-7.42 -42.55 lineto
+-7.42 -42.55 -6.07 -42.5 -6.07 -42.23 curveto
+-6.07 -41.96 -7.33 -40.7 -7.33 -40.7 curveto closepath stroke
+ 0.00002 0.00018 0.00102 setrgbcolor
+newpath -4.85 -42.68 moveto
+-5.3 -43.27 lineto
+-5.35 -43.94 lineto
+-4.41 -44.12 lineto
+-3.55 -43.81 lineto
+-3.86 -42.91 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath -4.85 -42.68 moveto
+-5.3 -43.27 lineto
+-5.35 -43.94 lineto
+-4.41 -44.12 lineto
+-3.55 -43.81 lineto
+-3.86 -42.91 lineto
+ closepath stroke
+ 0.00002 0.00018 0.00102 setrgbcolor
+newpath -14.12 31.57 moveto
+-14.62 30.07 lineto
+-13.98 28.97 lineto
+-12.92 29.89 lineto
+-13.09 31.52 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath -14.12 31.57 moveto
+-14.62 30.07 lineto
+-13.98 28.97 lineto
+-12.92 29.89 lineto
+-13.09 31.52 lineto
+ closepath stroke
+ 0.00002 0.00018 0.00102 setrgbcolor
+newpath -11.2 28.48 moveto
+-11.79 26.81 lineto
+-11.28 25.66 lineto
+-9.18 26.22 lineto
+-9.34 27.24 lineto
+-9.88 28.97 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath -11.2 28.48 moveto
+-11.79 26.81 lineto
+-11.28 25.66 lineto
+-9.18 26.22 lineto
+-9.34 27.24 lineto
+-9.88 28.97 lineto
+ closepath stroke
+ 0.00002 0.00018 0.00102 setrgbcolor
+newpath -15.32 26.59 moveto
+-15.85 23.82 lineto
+-14.06 24.96 lineto
+-13.67 26.02 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath -15.32 26.59 moveto
+-15.85 23.82 lineto
+-14.06 24.96 lineto
+-13.67 26.02 lineto
+ closepath stroke
+ 0.00002 0.00018 0.00102 setrgbcolor
+newpath -13.37 28.49 moveto
+-13.58 27.39 lineto
+-12.36 27.65 lineto
+-11.86 29.19 lineto
+-12.58 29.15 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath -13.37 28.49 moveto
+-13.58 27.39 lineto
+-12.36 27.65 lineto
+-11.86 29.19 lineto
+-12.58 29.15 lineto
+ closepath stroke
+ 0.00002 0.00018 0.00102 setrgbcolor
+newpath -10.01 23.48 moveto
+-10.66 22.42 lineto
+-9.76 21.87 lineto
+-8.29 22.75 lineto
+-8.04 24.44 lineto
+-9 23.91 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath -10.01 23.48 moveto
+-10.66 22.42 lineto
+-9.76 21.87 lineto
+-8.29 22.75 lineto
+-8.04 24.44 lineto
+-9 23.91 lineto
+ closepath stroke
+ 0.00002 0.00018 0.00102 setrgbcolor
+newpath -8.96 20.4 moveto
+-9.06 19.32 lineto
+-8.47 19.23 lineto
+-7.64 20.07 lineto
+-7.72 21.23 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath -8.96 20.4 moveto
+-9.06 19.32 lineto
+-8.47 19.23 lineto
+-7.64 20.07 lineto
+-7.72 21.23 lineto
+ closepath stroke
+ 0.00002 0.00018 0.00102 setrgbcolor
+newpath -23.04 44.98 moveto
+-23.04 44.98 -24.23 44.43 -23.4 42.83 curveto
+-22.62 41.31 -22.08 41.05 -22.08 41.05 curveto
+-22.08 41.05 -21.47 42.61 -21.62 43.29 curveto
+-22.06 45.22 -23.04 44.98 -23.04 44.98 curveto closepath fill
+ 0 0 0 setrgbcolor
+newpath -23.04 44.98 moveto
+-23.04 44.98 -24.23 44.43 -23.4 42.83 curveto
+-22.62 41.31 -22.08 41.05 -22.08 41.05 curveto
+-22.08 41.05 -21.47 42.61 -21.62 43.29 curveto
+-22.06 45.22 -23.04 44.98 -23.04 44.98 curveto closepath stroke
+ 0.00002 0.00018 0.00102 setrgbcolor
+newpath -12.66 18.14 moveto
+-12.58 16.89 lineto
+-11.39 17.55 lineto
+-11.12 18.53 lineto
+-12.02 18.9 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath -12.66 18.14 moveto
+-12.58 16.89 lineto
+-11.39 17.55 lineto
+-11.12 18.53 lineto
+-12.02 18.9 lineto
+ closepath stroke
+ 0.00002 0.00018 0.00102 setrgbcolor
+newpath -9.62 16.82 moveto
+-9.48 18.25 lineto
+-8.57 17.66 lineto
+-8.66 17.21 lineto
+-9.03 16.54 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath -9.62 16.82 moveto
+-9.48 18.25 lineto
+-8.57 17.66 lineto
+-8.66 17.21 lineto
+-9.03 16.54 lineto
+ closepath stroke
+ 0.00002 0.00018 0.00102 setrgbcolor
+newpath -10.92 20.01 moveto
+-10.69 20.41 lineto
+-11 21.3 lineto
+-12.26 21.85 lineto
+-12.55 21.27 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath -10.92 20.01 moveto
+-10.69 20.41 lineto
+-11 21.3 lineto
+-12.26 21.85 lineto
+-12.55 21.27 lineto
+ closepath stroke
+ 0.00002 0.00018 0.00102 setrgbcolor
+newpath -11.78 23.71 moveto
+-11.98 22.51 lineto
+-10.65 22.95 lineto
+-10.31 24.19 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath -11.78 23.71 moveto
+-11.98 22.51 lineto
+-10.65 22.95 lineto
+-10.31 24.19 lineto
+ closepath stroke
+ 0.00002 0.00018 0.00102 setrgbcolor
+newpath -11.74 25.13 moveto
+-12.13 24.25 lineto
+-10.13 24.45 lineto
+-9.92 25.52 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath -11.74 25.13 moveto
+-12.13 24.25 lineto
+-10.13 24.45 lineto
+-9.92 25.52 lineto
+ closepath stroke
+ 0.00002 0.00018 0.00102 setrgbcolor
+newpath -8.06 25.55 moveto
+-8.66 24.84 lineto
+-7.35 24.57 lineto
+-6.44 24.56 lineto
+-6.12 25.09 lineto
+-6.65 25.68 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath -8.06 25.55 moveto
+-8.66 24.84 lineto
+-7.35 24.57 lineto
+-6.44 24.56 lineto
+-6.12 25.09 lineto
+-6.65 25.68 lineto
+ closepath stroke
+ 0.00002 0.00018 0.00102 setrgbcolor
+newpath -7.96 28.12 moveto
+-8.53 27.06 lineto
+-7.27 26.34 lineto
+-6.71 27.36 lineto
+-7.23 28.21 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath -7.96 28.12 moveto
+-8.53 27.06 lineto
+-7.27 26.34 lineto
+-6.71 27.36 lineto
+-7.23 28.21 lineto
+ closepath stroke
+ 0.00002 0.00018 0.00102 setrgbcolor
+newpath -7.15 19.49 moveto
+-7.29 18.77 lineto
+-6.19 18.9 lineto
+-6.14 19.83 lineto
+ closepath fill
+ 0 0 0 setrgbcolor
+newpath -7.15 19.49 moveto
+-7.29 18.77 lineto
+-6.19 18.9 lineto
+-6.14 19.83 lineto
+ closepath stroke
+showpage
+%%EOF

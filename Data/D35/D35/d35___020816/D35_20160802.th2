@@ -1,0 +1,433 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -2500 -1200 10000 15000
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {629.923 1 1.0} {472.446 0} d35___020816-th_p.xvi 0 {}
+
+
+
+scrap D35_20160802_SP1 -projection plan -scale [0 0 393.7 393.7 0 0 10 10 m]
+
+point 481.0 159.0 altitude -align bottom-left
+
+line pit -clip off
+  568.0 340.75
+  568.0 340.75 480.75 307.25 475.0 281.5
+  469.25 255.75 486.5 207.25 500.5 196.75
+  514.5 186.25 533.0 188.25 543.25 172.75
+  553.5 157.25 566.5 133.25 592.25 128.0
+  618.0 122.75 626.75 122.25 634.25 146.5
+  641.75 170.75 638.75 171.75 637.5 198.75
+  636.25 225.75 639.25 232.5 646.25 245.0
+  653.25 257.5 664.75 274.5 665.5 284.25
+  666.25 294.0 666.0 338.5 661.25 350.75
+  smooth off
+endline
+
+point 622.703 322.666 station -name 14
+
+point 541.4830000000001 200.28600000000003 station -name 15
+
+line wall
+  467.0 202.5
+  467.0 202.5 451.0 274.0 467.0 292.5
+  smooth off
+endline
+
+line wall -reverse on
+  532.0 117.0
+  532.0 117.0 505.5 127.0 495.5 139.5
+  485.5 152.0 478.0 164.5 474.5 177.0
+  471.0 189.5 471.5 188.5 467.0 202.5
+  smooth off
+endline
+
+line wall
+endline
+
+line wall -reverse on
+  496.5 318.0
+  515.0 329.0 515.0 332.5 519.0 337.5
+  523.0 342.5 539.5 346.5 544.0 351.5
+  548.5 356.5 568.5 351.5 578.5 355.0
+  smooth off
+endline
+
+line map-connection
+  727.0 949.0
+  7188.0 5868.0
+endline
+
+point 965.25 -125.75 label -scale m -text [Puits Bonbonstand: P35] -align right
+
+line rock-edge -clip off
+  709.0 120.0
+  942.0 -116.0
+endline
+
+line wall
+  532.0 117.0
+  532.0 117.0 552.0 104.0 571.0 104.0
+  590.0 104.0 607.0 94.0 619.0 98.0
+  631.0 102.0 654.0 91.0 662.0 109.0
+  670.0 127.0 640.0 199.0 648.0 224.0
+  656.0 249.0 665.0 257.0 671.5 276.0
+  smooth off
+endline
+
+line wall
+endline
+
+point 541.013 193.086 station -name 16
+
+endscrap
+
+
+
+scrap D35_20160802_SP2 -projection plan -scale [0 0 393.7 393.7 0 0 10 10 m]
+
+line wall -reverse on
+  589.5 429.5
+  589.5 429.5 586.0 421.0 590.0 416.5
+  594.0 412.0 592.85 397.7 602.25 405.75
+  605.75 408.75 606.75 414.5 602.25 423.0
+  smooth off
+endline
+
+line wall -reverse on
+  578.5 355.0
+  578.5 355.0 583.5 354.0 589.5 359.5
+  595.5 365.0 596.5 371.0 593.0 378.5
+  589.5 386.0 582.5 389.0 579.0 397.5
+  575.5 406.0 581.0 404.5 572.5 411.5
+  564.0 418.5 562.0 415.5 560.0 421.5
+  smooth off
+endline
+
+line wall
+endline
+
+line wall
+  671.5 276.0
+  671.5 276.0 674.5 280.0 674.0 293.0
+  673.5 306.0 678.0 306.5 673.5 321.0
+  669.0 335.5 674.5 347.0 672.5 355.0
+  670.5 363.0 661.0 367.5 658.5 369.5
+  656.0 371.5 643.5 389.0 649.5 409.0
+  655.5 429.0 671.0 413.0 683.5 419.0
+  smooth off
+endline
+
+point 623.423 309.996 station -name 7
+
+endscrap
+
+
+
+scrap D35_20160802_SP3 -projection plan -scale [0 0 393.7 393.7 0 0 10 10 m]
+
+point 1194.5 395.5 label -scale m -text [100 lps 02/08/16 19:00] -align right
+
+point 720.5 360.5 air-draught -orientation 181.9 -subtype summer -align center
+
+line rock-edge -clip off
+  756.0 394.0
+  864.0 394.0
+  1159.0 394.0
+endline
+
+point 695.283 459.036 station -name 5
+
+line wall
+  701.0 463.0
+  701.0 463.0 689.75 463.0 687.25 462.0
+  684.75 461.0 665.0 458.5 654.0 457.0
+  643.0 455.5 630.0 447.5 626.0 448.5
+  622.0 449.5 623.0 451.5 612.0 450.0
+  601.0 448.5 594.0 450.0 594.0 450.0
+  smooth off
+endline
+
+line wall
+  683.5 419.0
+  683.5 419.0 690.0 421.5 692.5 428.5
+  695.0 435.5 690.0 440.0 692.5 443.0
+  695.0 446.0 705.5 444.0 705.5 444.0
+  smooth off
+endline
+
+line wall -reverse on
+  602.25 423.0
+  602.25 423.0 595.25 436.0 591.75 441.0
+  smooth off
+endline
+
+point 644.423 443.06600000000003 station -name 6
+
+endscrap
+
+
+
+scrap D35_20160802_SP4 -projection plan -scale [0 0 393.7 393.7 0 0 10 10 m]
+
+point 729.863 463.00600000000003 station -name 3
+
+line wall
+endline
+
+line wall
+  705.5 444.0
+  705.5 444.0 721.5 443.5 730.75 442.75
+  740.0 442.0 748.75 438.75 755.25 441.25
+  761.75 443.75 765.25 454.0 764.25 458.75
+  763.25 463.5 744.0 469.5 739.5 471.0
+  735.0 472.5 723.0 475.25 716.75 476.0
+  710.5 476.75 696.0 478.75 696.0 478.75
+  smooth off
+endline
+
+point 711.383 452.536 station -name 4
+
+endscrap
+
+
+
+scrap D35_20160802_SP5 -projection plan -scale [0 0 393.7 393.7 0 0 10 10 m]
+
+point 644.193 462.646 station -name 1
+
+line rock-edge -clip off
+  638.75 490.5
+  550.0 482.75
+endline
+
+line rock-edge -clip off
+  786.0 556.5
+  700.75 556.25
+endline
+
+line rock-edge -clip off
+  638.75 490.5
+  700.75 556.25
+endline
+
+point 938.0 555.5 label -scale m -text imp -align right
+
+line rock-edge -clip off
+  726.5 494.25
+  786.0 556.5
+  915.0 556.5
+endline
+
+line wall
+  619.5 476.0
+  619.5 476.0 604.25 474.75 602.25 477.0
+  600.25 479.25 584.75 475.0 580.5 478.75
+  576.25 482.5 570.0 476.25 568.5 477.0
+  567.0 477.75 554.0 476.0 547.5 479.0
+  smooth off
+endline
+
+line wall
+  696.0 478.75
+  696.0 478.75 703.5 480.75 706.25 483.75
+  709.0 486.75 709.75 483.25 712.75 485.25
+  smooth off
+endline
+
+point 629.923 472.446 station -name 0
+
+line map-connection
+  463.0 548.0
+  -1539.0 2212.0
+endline
+
+point 551.0 459.5 altitude -scale xs -align bottom-left
+
+line wall
+  714.5 493.0
+  713.5 497.0 704.0 490.5 704.0 490.5
+  smooth off
+  704.0 490.5 697.25 491.25 689.75 490.25
+  682.25 489.25 683.0 485.5 680.75 486.25
+  678.5 487.0 675.25 482.0 668.0 482.25
+  660.75 482.5 644.5 482.25 639.5 481.25
+  634.5 480.25 627.45 479.44 619.5 476.0
+  smooth off
+endline
+
+line wall
+  621.25 445.75
+  621.25 445.75 613.25 447.5 611.0 455.25
+  608.75 463.0 609.5 462.75 603.5 465.25
+  597.5 467.75 595.25 463.0 591.25 465.5
+  587.25 468.0 578.25 470.75 572.5 469.25
+  566.75 467.75 558.75 460.0 555.0 465.25
+  551.25 470.5 544.75 468.75 544.5 470.75
+  smooth off
+endline
+
+line wall
+  621.25 445.75
+  626.0 438.5 677.5 463.5 685.5 464.25
+  693.5 465.0 701.0 463.0 701.0 463.0
+  smooth off
+endline
+
+point 684.153 468.356 station -name 2
+
+endscrap
+
+
+
+scrap D35_20160802_SP6 -projection plan -scale [0 0 393.7 393.7 0 0 10 10 m]
+
+point 582.6030000000001 551.6560000000001 station -name 9
+
+line pit -clip on
+  557.0 438.0
+  557.0 438.0 570.0 425.25 598.5 455.0
+  smooth off
+endline
+
+line wall
+  560.0 421.5
+  560.0 421.5 553.5 422.5 561.5 436.5
+  569.5 450.5 565.5 486.5 564.5 496.0
+  563.5 505.5 562.5 504.0 553.0 508.0
+  543.5 512.0 538.0 513.0 535.0 521.5
+  532.0 530.0 528.0 550.0 523.0 559.0
+  smooth off
+endline
+
+point 957.25 670.5 label -scale m -text [Puits Ouarkatzelschawf: P9] -align right
+
+line rock-edge -clip off
+  724.0 671.0
+  931.0 671.0
+endline
+
+line rock-edge -clip off
+  603.25 551.5
+  724.0 671.0
+endline
+
+line wall
+  629.5 542.5
+  629.5 542.5 593.0 547.0 586.0 552.0
+  579.0 557.0 573.0 560.5 558.5 569.0
+  smooth off
+endline
+
+line wall
+  589.5 429.5
+  589.5 429.5 589.75 429.5 591.75 441.0
+  smooth off
+endline
+
+line wall
+  594.0 450.0
+  588.49 460.28 589.5 467.5 598.5 477.5
+  607.5 487.5 602.5 502.0 609.5 514.5
+  616.5 527.0 619.5 541.0 629.5 542.5
+  smooth off
+endline
+
+point 577.703 438.156 station -name 8
+
+area water
+endarea
+
+endscrap
+
+
+
+scrap D35_20160802_SP5bis -projection plan -scale [0 0 393.7 393.7 0 0 10 10 m]
+
+line wall
+endline
+
+endscrap
+
+
+
+scrap D35_20160802_SP7 -projection plan -scale [0 0 393.7 393.7 0 0 10 10 m]
+
+point 465.17300000000006 629.2760000000001 station -name 11
+
+line wall
+  504.5 681.5
+  503.65 691.79 490.0 693.5 482.0 700.0
+  smooth off
+endline
+
+line wall
+endline
+
+point 516.0 600.0 moonmilk -orientation 31.8 -align top-right
+
+line wall
+  558.5 569.0
+  558.5 569.0 543.0 575.5 531.0 583.0
+  519.0 590.5 504.5 595.5 495.5 606.0
+  486.5 616.5 472.5 630.5 471.0 639.0
+  469.5 647.5 461.5 659.0 462.0 669.0
+  462.5 679.0 467.5 682.5 475.0 681.5
+  482.5 680.5 497.53 678.58 504.5 681.5
+  smooth off
+endline
+
+line pit -clip on
+  413.25 651.5
+  413.25 651.5 448.5 595.5 486.25 655.75
+  smooth off
+endline
+
+line wall -reverse on
+  523.0 559.0
+  523.0 559.0 521.5 570.0 504.0 579.5
+  486.5 589.0 479.5 592.0 468.5 599.0
+  457.5 606.0 447.5 611.0 446.5 622.5
+  445.5 634.0 440.5 650.0 437.5 656.5
+  smooth off
+endline
+
+point 518.8330000000001 580.676 station -name 10
+
+endscrap
+
+
+
+scrap D35_20160802_SP8 -projection plan -scale [0 0 393.7 393.7 0 0 10 10 m]
+
+line label -text [Réseau de la peur] -scale xl
+  -1514.0 1318.0
+  -1514.0 1318.0 -846.0 319.0 -737.0 176.0
+  -616.42 17.81 -92.0 -491.0 134.0 -634.0
+  smooth off
+endline
+
+point 312.81300000000005 711.556 station -name 13
+
+line wall
+  318.0 703.0
+  327.5 701.5 394.0 684.5 412.5 680.0
+  431.0 675.5 434.5 667.0 437.5 656.5
+  smooth off
+endline
+
+point 454.75 714.25 altitude -align top-right
+
+line wall
+  482.0 700.0
+  482.0 700.0 454.0 717.5 432.5 721.0
+  411.0 724.5 337.5 725.5 320.0 727.0
+endline
+
+point 440.033 706.5160000000001 station -name 12
+
+line wall
+endline
+
+endscrap
+
+

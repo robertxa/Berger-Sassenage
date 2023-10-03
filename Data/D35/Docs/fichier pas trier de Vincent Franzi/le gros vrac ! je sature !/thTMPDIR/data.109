@@ -1,0 +1,51 @@
+%!PS
+%%BoundingBox: -43 -25 79 27 
+%%HiResBoundingBox: -42.51396 -24.76695 78.3773 26.44627 
+%%Creator: MetaPost 1.209
+%%CreationDate: 2016.12.13:2120
+%%Pages: 1
+%*Font: cmss10 11.52007 9.96265 52:80013132d
+%*Font: csss10 11.51991 9.96265 b8:8000000000004
+%*Font: cmss10 6.97382 9.96265 2f:f17000000000000448
+%%BeginProlog
+%%EndProlog
+%%Page: 1 1
+ 0 0 0 setrgbcolor
+gsave [0.99693 -0.07816 0.07816 0.99693 -42.51396 18.47072 ] concat 0 0 moveto
+(R) cmss10 11.52007 fshow grestore
+gsave [0.99617 -0.08737 0.08737 0.99617 -35.12381 17.88623 ] concat 0 0 moveto
+(\351) csss10 11.51991 fshow grestore
+gsave [0.99544 -0.09525 0.09525 0.99544 -30.04617 17.44008 ] concat 0 0 moveto
+(s) cmss10 11.52007 fshow grestore
+gsave [0.99445 -0.10507 0.10507 0.99445 -25.67798 17.02504 ] concat 0 0 moveto
+(e) cmss10 11.52007 fshow grestore
+gsave [0.9927 -0.12045 0.12045 0.9927 -20.63011 16.4965 ] concat 0 0 moveto
+(a) cmss10 11.52007 fshow grestore
+gsave [0.98883 -0.1491 0.1491 0.98883 -15.21498 15.85321 ] concat 0 0 moveto
+(u) cmss10 11.52007 fshow grestore
+gsave [0.96066 -0.2777 0.2777 0.96066 -5.96716 14.15276 ] concat 0 0 moveto
+(d) cmss10 11.52007 fshow grestore
+gsave [0.97697 -0.21332 0.21332 0.97697 -0.05492 12.47765 ] concat 0 0 moveto
+(e) cmss10 11.52007 fshow grestore
+gsave [0.98825 -0.15277 0.15277 0.98825 8.90634 10.70227 ] concat 0 0 moveto
+(l) cmss10 11.52007 fshow grestore
+gsave [0.99167 -0.1287 0.1287 0.99167 11.69418 10.25662 ] concat 0 0 moveto
+(a) cmss10 11.52007 fshow grestore
+gsave [0.99632 -0.08545 0.08545 0.99632 21.12724 9.12636 ] concat 0 0 moveto
+(p) cmss10 11.52007 fshow grestore
+gsave [0.99783 -0.06566 0.06566 0.99783 27.11554 8.6187 ] concat 0 0 moveto
+(e) cmss10 11.52007 fshow grestore
+gsave [0.99881 -0.0486 0.0486 0.99881 32.27345 8.27747 ] concat 0 0 moveto
+(u) cmss10 11.52007 fshow grestore
+gsave [0.99922 -0.03915 0.03915 0.99922 38.24574 7.99742 ] concat 0 0 moveto
+(r) cmss10 11.52007 fshow grestore
+9.22 -23.02345 moveto
+(100) cmss10 6.97382 fshow
+22.0054 -23.02345 moveto
+(lps) cmss10 6.97382 fshow
+32.2724 -23.02345 moveto
+(02/08/16) cmss10 6.97382 fshow
+62.4924 -23.02345 moveto
+(19:00) cmss10 6.97382 fshow
+showpage
+%%EOF

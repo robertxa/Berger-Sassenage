@@ -1,0 +1,25 @@
+%!PS
+%%BoundingBox: 12 7 97 15 
+%%HiResBoundingBox: 12.87 7.85 96.03319 14.0489 
+%%Creator: MetaPost 1.209
+%%CreationDate: 2016.12.13:2120
+%%Pages: 1
+%*Font: cmss10 6.97382 9.96265 27:8024500000c81036a7ce
+%%BeginProlog
+%%EndProlog
+%%Page: 1 1
+ 0 0 0 setrgbcolor
+12.87 9.20601 moveto
+(Puits) cmss10 6.97382 fshow
+30.1109 9.20601 moveto
+(du) cmss10 6.97382 fshow
+39.6418 9.20601 moveto
+(P) cmss10 6.97382 fshow
+43.9036 9.20601 moveto
+(apillon) cmss10 6.97382 fshow
+65.27069 9.20601 moveto
+(Zombi:) cmss10 6.97382 fshow
+88.0907 9.20601 moveto
+(P8) cmss10 6.97382 fshow
+showpage
+%%EOF

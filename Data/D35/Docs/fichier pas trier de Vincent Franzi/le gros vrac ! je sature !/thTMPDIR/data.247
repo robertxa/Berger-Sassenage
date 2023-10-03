@@ -1,0 +1,30 @@
+%!PS
+%%BoundingBox: 0 -8 22 9 
+%%HiResBoundingBox: 0.86458 -7.31 21.0742 8.14973 
+%%Creator: MetaPost 1.209
+%%CreationDate: 2016.12.13:2120
+%%Pages: 1
+%%BeginProlog
+%%EndProlog
+%%Page: 1 1
+ 0.00002 0.00018 0.00122 setrgbcolor
+newpath 20.5 3.85 moveto
+19.87 -7.31 lineto
+19.87 -7.31 17.17 -7.31 16.72 -6.86 curveto
+16.27 -6.41 -0.88 -2 1.01 3.58 curveto
+2.9 9.16 4.79 8.53 5.96 7.36 curveto
+7.13 6.19 18.97 3.94 20.41 5.29 curveto
+21.85 6.64 20.5 3.85 20.5 3.85 curveto
+ closepath fill
+0 0 0 THsetpatterncolor
+ 0.00002 0.00015 0.00002 setrgbcolor
+newpath 20.5 3.85 moveto
+19.87 -7.31 lineto
+19.87 -7.31 17.17 -7.31 16.72 -6.86 curveto
+16.27 -6.41 -0.88 -2 1.01 3.58 curveto
+2.9 9.16 4.79 8.53 5.96 7.36 curveto
+7.13 6.19 18.97 3.94 20.41 5.29 curveto
+21.85 6.64 20.5 3.85 20.5 3.85 curveto
+ closepath fill
+showpage
+%%EOF

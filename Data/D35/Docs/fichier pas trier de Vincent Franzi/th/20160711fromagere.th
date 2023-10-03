@@ -1,0 +1,44 @@
+encoding  utf-8
+survey 20160711fromagere
+ 
+  
+  import 20160711fromagere.plt
+  input 20160711fromagere.th2
+  input 20160711fromagere-e.th2
+  
+map fromagereMP
+  #fromagereSP1
+  #fromagereSP2
+  fromagereSP3
+  fromagereSP4
+  fromagereSP5
+  fromagereSP6
+  fromagereSP7
+  fromagereSP8
+  fromagereSP9
+  fromagereSP10
+  fromagereSP11
+  fromagereSP12
+  fromagereSP13
+  fromagereSP14
+  fromagereSP15
+  fromagereSP16
+  fromagereSP17
+  fromagereSP18
+  fromagereSP19
+  fromagereSP20
+  fromagereSP21
+  fromagereSP22
+  fromagereSP23
+  fromagereSP24
+  fromagereSP25
+  fromagereSP26
+  fromagereSP27
+endmap
+
+map fromagereME
+  fromagereSE1
+endmap
+
+endsurvey
+

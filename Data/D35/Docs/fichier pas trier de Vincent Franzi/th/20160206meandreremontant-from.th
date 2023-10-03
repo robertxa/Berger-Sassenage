@@ -1,0 +1,76 @@
+# 2017.02.06 created by TopoDroid v 3.3.0
+
+survey meandreremontant -title "meandreremontant"
+
+  centerline
+    date 2017.02.06 
+    # declination 0.00 degrees
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+    extend left
+    A64 - 0.49 208.5 0.0
+    extend right
+    A64 - 0.49 28.5 0.0
+    extend vertical
+    A64 - 8.02 0.0 90.0
+    extend right
+    A64 meandrerem2 6.98 298.5 16.7
+    extend left
+    meandrerem2 - 0.49 209.4 0.0
+    extend right
+    meandrerem2 - 0.49 29.4 0.0
+    extend vertical
+    meandrerem2 - 7.01 0.0 90.0
+    extend right
+    meandrerem2 meandrerem3 8.11 299.4 7.1
+    extend left
+    meandrerem3 - 0.49 213.5 0.0
+    extend right
+    meandrerem3 - 0.49 33.5 0.0
+    extend vertical
+    meandrerem3 - 6.00 0.0 90.0
+    extend right
+    meandrerem3 meandrerem4 7.57 303.5 7.6
+    extend left
+    meandrerem4 - 0.49 225.9 0.0
+    extend right
+    meandrerem4 - 0.49 45.9 0.0
+    extend vertical
+    meandrerem4 - 5.00 0.0 90.0
+    extend right
+    meandrerem4 meandrerem5 7.36 315.9 15.8
+    extend vertical
+    meandrerem5 - 0.49 184.4 0.0
+    meandrerem5 - 0.49 4.4 0.0
+    meandrerem5 - 3.99 0.0 90.0
+    extend right
+    meandrerem5 meandrerem6 9.54 274.4 6.0
+    extend left
+    meandrerem6 - 0.49 218.3 0.0
+    extend right
+    meandrerem6 - 0.49 38.3 0.0
+    extend vertical
+    meandrerem6 - 3.99 0.0 90.0
+    extend right
+    meandrerem6 meandrerem7 8.45 308.3 13.7
+    extend left
+    meandrerem7 - 0.49 239.0 0.0
+    extend right
+    meandrerem7 - 0.49 59.0 0.0
+    extend vertical
+    meandrerem7 - 3.99 0.0 90.0
+    extend right
+    meandrerem7 meandrerem8 10.40 329.0 5.5
+    extend left
+    meandrerem8 - 0.49 232.5 0.0
+    extend right
+    meandrerem8 - 0.49 52.5 0.0
+    extend vertical
+    meandrerem8 - 3.99 0.0 90.0
+    extend right
+    meandrerem8 meandrerem9 9.26 322.5 12.5
+    meandrerem9 meandrerem10 6.77 344.6 17.2
+  endcenterline
+
+endsurvey
