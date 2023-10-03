@@ -1,0 +1,191 @@
+encoding  utf-8
+survey LaitiereMutante
+
+  centerline
+    cs UTM31
+    fix LM 704237 5010430 1506
+    station LM "Gouffre de la Laitière Mutante" entrance
+    date 2011.10.02
+      team "Vincent Franzi"
+      team "Julien Mazille"
+    units lenght meters
+    units compass deg
+    units clino deg
+    calibrate length 0 0.3  # A revoir ?
+    data normal from to length compass clino left up down right
+    #Laitiere mutante
+    #SURVEY NAME: galeriedelaboue
+    #SURVEY DATE: 2 10 2011  COMMENT:3 points topo pour visualiser la LM avec le reseau
+    #SURVEY TEAM: 
+    #Vincent FRANZI & Julien MAZILLE
+    #DECLINATION:    0.45  FORMAT: DMMDUDLRADLN  CORRECTIONS:  0.00 0.00 0.00
+      #FROM           TO   LENGTH  BEARING      INC     LEFT       UP     DOWN    RIGHT   FLAGS  COMMENTS
+         LM         AF23     0.00     0.00     0.00     0.00     0.00     0.00     0.00  #| #
+         AA1          AA2    73.82   105.40     0.70     0.00   160.76     2.95    34.78  #AA = galerie de la boue
+         AA2          AA3    52.82    78.20     1.00    21.98   147.64     3.28    19.69
+         AA3          AA3b     0.00     0.00     0.00     8.20   147.64     3.28    20.34  #arrivée d'eau ( gouttant du plafond)
+  endcenterline
+
+  centerline
+    
+    date 2011.10.02
+      team "Vincent Franzi"
+      team "Julien Mazille"
+    
+    units lenght meters
+    units compass deg
+    units clino deg
+    calibrate length 0 0.3  # A revoir ?
+    data normal from to length compass clino left up down right
+      #Laitiere mutante
+      #SURVEY NAME: Explorationdesanci
+      #SURVEY DATE: 2 10 2011  COMMENT:Explo des anciens (réseau des puits remontant)
+      #SURVEY TEAM: Vincent Franzi Julien Mazille
+      #DECLINATION:    0.45  FORMAT: DMMDUDLRADLNF  CORRECTIONS:  0.00 0.00 0.00  CORRECTIONS2:  0.00 0.00
+      #FROM                   TO   LENGTH  BEARING      INC     LEFT       UP     DOWN    RIGHT   FLAGS  COMMENTS
+                 AA2                  AB1    28.22   191.20    -0.60     0.00   147.64     3.28     0.00
+                 AB1                  AB2    25.92   233.10    50.10     1.64     1.64     1.64     1.64
+                 AB2                  AB3    14.11   152.40    33.10     0.00    17.06    24.61     2.62
+                 AB3                  AB4    31.17   146.30     5.30     0.00     9.84    13.78     2.62
+                 AB4                  AB5     9.19   214.70    83.00     1.64     3.28     3.28     1.64
+                 AB5                  AB6    18.70   133.00     1.10     2.30    11.48    16.40     1.64
+                 AB6                  AB7    20.67   162.00    62.40     3.28     3.28     6.56     6.56
+                 AB7                  AB8    19.36   151.30   -13.90     0.66     1.64    10.83     0.66
+                 AB8                  AB9    11.81   277.30    14.50     1.97     7.22    19.69     1.97
+                 AB9                 AB10    37.07   275.60    -1.60     1.31     4.27     8.20     1.31  #silex ponctuels
+                AB10                 AB11     8.86   107.20   -49.80     3.28     9.84     9.84     3.28
+                AB11                AB'12    14.11   103.10    -9.80     1.31    11.15     9.84     1.31
+               AB'12                AB'12b     0.00     0.00     0.00     3.28     3.28     3.28     3.28
+                AB11                 AB12    24.93   135.40    -3.20     1.31    11.15     9.84     1.31
+                AB12                 AB13    10.17   350.10     3.90     1.31     1.64     1.64     1.31
+                AB13                 AB14    19.03   139.80    45.70     3.28    68.90     3.28     0.00
+                AB14                 AB15    16.73   110.90     3.50     2.62    39.37    18.37     0.00  #corde tête de puits
+                AB15                 AB16    11.48   187.60   -15.50     0.00     9.19     5.58     2.30
+                AB16                 AB17    11.81   116.10   -16.80     2.95     1.64    11.48     0.00
+                AB17                 AB18     7.87   149.30   -15.80     0.00     2.95     7.87     3.28
+                AB18                 AB19    12.80   219.90     8.70     1.97    10.50     4.92     0.00
+                AB19                 AB20    27.23   146.40    -0.50     0.00     3.28     5.25     3.94
+                AB20                 AB21    54.46   126.30     3.80     3.28     7.55     4.92     0.00
+                AB21                 AB22    18.70   143.90   -10.90     0.00    54.46     5.58     4.92
+                AB22                 AB23     8.53   204.90     8.80     0.00     8.20     8.53     1.97
+                AB23                AB'24    16.73   109.10     1.80     2.30    13.12     5.25     0.00
+               AB'24                AB'24b     0.00     0.00     0.00     0.98     3.28     3.28     0.98  #| #
+                AB23                 AB24    10.50   289.90    79.50     1.64     6.56     6.56     1.64
+                AB24                 AB25    24.28   281.00     4.60     0.98     1.97    16.40     1.64  #corde tête de puits
+                AB25                 AB26    37.40   289.90     2.10     1.97    16.40     1.97     0.00
+                AB26                 AB27    15.42   148.00   -15.20    32.81    60.70     0.00    23.62
+                AB27                 AB28    95.80   242.90    87.50    13.12    13.12    13.12    13.12  #base du puits
+                AB28                 AB29     7.87   260.60    43.90    32.81    58.40    98.75    23.62  #corde tête de puits
+                AB29                 AB30    11.81   229.00    -7.40     1.64     0.00     1.97     2.62  #laminoire sur interstrate
+                AB30                 AB31    15.42   228.90    48.50     4.92     1.64     1.31     0.00
+                AB31                 AB32     7.55    17.00   -17.10     0.00    52.49     4.27     4.27  #aiguillage
+                AB32                 AB33    51.51   272.40    -9.80     2.62    30.51     4.59     0.00
+                AB33                 AB33b     0.00     0.00     0.00     3.28     6.56     0.00     3.28
+                AB31                AB'32    26.57   126.50   -14.40     0.00    52.49     4.27     4.27
+               AB'32                AB'33    38.06   119.40    78.50     3.28     6.56     6.56     3.28  #jonction à la base du puits (sol argileux)
+               AB'33                AB'33b     0.00     0.00     0.00     1.64    22.97    37.40     1.97  # corde tête de puits
+
+  endcenterline
+
+  centerline
+    
+    date 2011.10.02
+      team "Vincent Franzi"
+      team "Julien Mazille"
+    
+    units lenght meters
+    units compass deg
+    units clino deg
+    calibrate length 0 0.3  # A revoir ?
+    data normal from to length compass clino left up down right
+    #Laitiere mutante
+    #SURVEY NAME: Exploration2010
+    #SURVEY DATE: 2 10 2011  COMMENT:Exloration et inventions de la laiti�re mutante par les jeunes
+    #SURVEY TEAM: Vincent Franzi Julien Mazille
+    #DECLINATION:    0.45  FORMAT: DMMDLRUDADLNF  CORRECTIONS:  0.00 0.00 0.00  CORRECTIONS2:  0.00 0.00
+    #FROM                   TO   LENGTH  BEARING      INC     LEFT       UP     DOWN    RIGHT   FLAGS  COMMENTS
+               AB'33                  AF1     9.51   137.60   -16.40     1.64    22.97    37.40     1.97  #corde tête de puits
+                 AF1                  AF2    26.25   139.20    46.70     2.30    27.23     6.56     0.00
+                 AF2                  AF3    42.98    82.60    58.20    16.40    16.40    16.40    16.40  #base du puits
+                 AF3                  AF4    18.37    70.20    30.90     0.00    90.88     8.86     4.59  #corde tête de puits
+                 AF4                  AF5    16.08   294.30     5.90     3.28    65.62     4.92     0.00
+                 AF5                  AF6    71.52    17.90    74.10     3.28     9.84     9.84     3.28
+                 AF6                  AF7    38.71    80.70    62.60     9.84     3.28     3.28     9.84
+                 AF7                  AF8    83.99    77.90    85.80     9.84     6.56     6.56     9.84
+                 AF8                  AF9    53.81    86.10    76.30    13.12     9.84     9.84    13.12
+                 AF9                 AF10     4.92   232.00    86.20     9.84     6.56     6.56     9.84
+                AF10                 AF11    14.44   141.50   -19.30    13.12     6.56    31.17     3.61  #corde tête de puits
+                AF11                 AF12    22.64   129.70    22.60     2.30    13.12    39.37     0.00
+                AF12                 AF13    18.70    82.80    50.50     3.28     1.64     1.64     3.28
+                AF13                  AG1    13.78   117.60    19.00     0.00     0.00     0.00     0.00  #|L#
+                 AG1                  AG2    13.78    46.90   -12.20    19.03     0.00     4.27     0.00  #|L#
+                 AG2                  AG3    13.78    13.00    -2.00    15.42     0.00     5.91     0.00  #|L#
+                 AG3                  AG4     7.22   257.00    -1.00    29.86     0.00     4.59     0.00  #|L#
+                 AG4                 AF13    19.69   233.30     2.20    19.03     0.00     5.58     0.00  #|L#
+                AF13                 AF14    82.02    51.60    66.40     6.56    26.25    26.25    32.81
+                AF14                 AF15    42.98     1.30    74.00    13.12     3.28    82.02     0.00
+                AF15                 AF16    30.51    14.50    58.60     9.84     9.84    31.17     0.00
+                AF16                 AF17   108.60   345.00    80.80    13.12     3.28    39.37     0.00
+                AF17                 AF18    34.78    60.70    71.00     3.28    16.40    16.40     9.84
+                AF18                 AF19    37.40    10.90    73.80     0.00     6.56     0.00     6.56
+                AF19                 AF20    34.78   276.90    80.20     9.84     0.00    19.69     9.84
+                AF20                 AF21     8.86   300.50    58.10     0.33     0.33     1.64     9.84
+                AF21                 AF22     5.91   224.70     2.80     1.97     0.66     1.64     0.00
+                AF22                 AF23    10.83    54.40    78.40     0.00    10.83     0.00     1.97
+                AF23                 AF23b     0.00     0.00     0.00     0.00     0.00     4.92     2.62
+  endcenterline
+
+  centerline
+    
+    date 2011.10.02
+      team "Vincent Franzi"
+      team "Julien Mazille"
+    
+    units lenght meters
+    units compass deg
+    units clino deg
+    calibrate length 0 0.3  # A revoir ?
+    data normal from to length compass clino #left up down right
+    #Laitiere mutante
+    #SURVEY NAME: dimension
+    #SURVEY DATE: 2 11 2011  COMMENT:
+    #SURVEY TEAM: Vincent FRANZI Julien Mazille
+    #DECLINATION:    0.00  FORMAT: DMMDUDRLALDNF  CORRECTIONS:  0.00 0.00 0.00  CORRECTIONS2:  0.00 0.00
+    #FROM                   TO   LENGTH  BEARING      INC     LEFT       UP     DOWN    RIGHT   FLAGS  COMMENTS
+
+                #AF14                  P14    14.44   286.00     0.00     0.00     0.00     0.00     0.00  #|X#
+                #AF14                 P'14    25.59   228.20     0.00     0.00     0.00     0.00     0.00  #|X#
+                #AF14                P''14    19.03   355.00     0.00     0.00     0.00     0.00     0.00  #|X#
+                #AF15                  P15    10.50   352.00     0.00     0.00     0.00     0.00     0.00  #|X#
+                #AF15                 P'15    10.83   258.00     0.00     0.00     0.00     0.00     0.00  #|X#
+                #AF15                P''15    31.82   185.00     0.00     0.00     0.00     0.00     0.00  #|X#
+                #AF16                  P16     5.91   311.00     0.00     0.00     0.00     0.00     0.00  #|X#
+                #AF16                 P'16    14.76   238.00     0.00     0.00     0.00     0.00     0.00  #|X#
+                #AF16                P''16    45.93   192.00     0.00     0.00     0.00     0.00     0.00  #|X#
+                #AF17                  P17     5.58    52.00     0.00     0.00     0.00     0.00     0.00  #|X#
+                #AF17                 P'17    21.00   147.00     0.00     0.00     0.00     0.00     0.00  #|X#
+                #AF17                P''17    17.39   353.00     0.00     0.00     0.00     0.00     0.00  #|X#
+                #AF18                  P18     6.23    80.00     0.00     0.00     0.00     0.00     0.00  #|X#
+                #AF18                 P'18     7.22   350.00     0.00     0.00     0.00     0.00     0.00  #|X#
+                #AF18                P''18     8.53   243.00     0.00     0.00     0.00     0.00     0.00  #|X#
+                #AF19                  P19     9.84   253.00     0.00     0.00     0.00     0.00     0.00  #|X#
+                #AF19                 P'19    27.89   143.00     0.00     0.00     0.00     0.00     0.00  #|X#  PUITS parall�le
+                AF14                  .    14.44   286.00     0.00     
+                AF14                 .    25.59   228.20     0.00     
+                AF14                .    19.03   355.00     0.00     
+                AF15                  .    10.50   352.00     0.00     
+                AF15                 .    10.83   258.00     0.00     
+                AF15                .    31.82   185.00     0.00     
+                AF16                  .     5.91   311.00     0.00     
+                AF16                 .    14.76   238.00     0.00     
+                AF16                .    45.93   192.00     0.00     
+                AF17                  .     5.58    52.00     0.00     
+                AF17                 .    21.00   147.00     0.00     
+                AF17                .    17.39   353.00     0.00     
+                AF18                  .     6.23    80.00     0.00     
+                AF18                 .     7.22   350.00     0.00     
+                AF18                .     8.53   243.00     0.00     
+                AF19                  .     9.84   253.00     0.00     
+                AF19                 P'19    27.89   143.00     0.00     #|X#  PUITS parall�le
+  endcenterline
+endsurvey

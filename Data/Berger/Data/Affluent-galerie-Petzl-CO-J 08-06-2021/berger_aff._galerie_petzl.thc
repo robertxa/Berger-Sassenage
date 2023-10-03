@@ -1,0 +1,15 @@
+encoding  utf-8
+# 2021.08.08 created by TopoDroid v 5.1.40
+
+source "berger_aff._galerie_petzl.th"
+
+layout topodroid
+  legend on
+  symbol-hide group centerline
+  symbol-show point station
+  debug station-names
+endlayout
+
+export map -layout topodroid -o berger_aff._galerie_petzl-p.pdf -proj plan 
+
+export map -layout topodroid -o berger_aff._galerie_petzl-s.pdf -proj extended

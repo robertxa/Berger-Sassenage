@@ -1,0 +1,57 @@
+BERGER
+SURVEY NAME: Amontberger
+SURVEY DATE: 9 20 2014  COMMENT:
+SURVEY TEAM: 
+
+DECLINATION:    0.00  FORMAT: DMMDLRUDLADNF  CORRECTIONS:  0.00 0.00 0.00  CORRECTIONS2:  0.00 0.00
+
+                FROM                   TO   LENGTH  BEARING      INC     LEFT       UP     DOWN    RIGHT   FLAGS  COMMENTS
+
+        grdgalerie34         AmontBerger2    46.77   285.73    18.54    19.69    82.02     0.00    19.69
+        AmontBerger2         AmontBerger3   110.15   307.09     2.58    19.69    82.02     0.00    19.69
+        AmontBerger3         AmontBerger4   224.43   269.82     1.27    19.69    82.02     0.00    19.69
+        AmontBerger4         AmontBerger5   115.93   223.85     3.68    19.69    82.02     0.00    19.69
+        AmontBerger5         AmontBerger6   112.45   246.87    -1.26    19.69    82.02     0.00    19.69
+        AmontBerger6         AmontBerger7   183.62   290.36     1.55    19.69    82.02     0.00    19.69
+        AmontBerger7         AmontBerger8   257.73   259.77    -1.65    19.69    82.02     0.00    16.40
+        AmontBerger8         AmontBerger9   129.68   196.46     1.10    19.69    82.02     0.00    16.40
+        AmontBerger9        AmontBerger10   157.30   173.16    -0.90    19.69    82.02     0.00    16.40
+       AmontBerger10        AmontBerger11    79.30   231.82     5.38    19.69    82.02     0.00    19.69
+       AmontBerger11        AmontBerger12    89.91   265.84     0.00    16.40    82.02     0.00    16.40
+       AmontBerger12        AmontBerger13   157.58   287.14    -0.90    16.40    82.02     0.00    16.40
+       AmontBerger13        AmontBerger14    76.08   276.25    -1.87    16.40    98.43     0.00    16.40
+       AmontBerger14        AmontBerger15    95.99   320.02     2.96    16.40   114.83     0.00    16.40
+       AmontBerger15        AmontBerger16    81.05   281.40     3.51    16.40   131.23     0.00    16.40
+       AmontBerger16        AmontBerger17   127.99   307.71     6.67    16.40   114.83     0.00    16.40
+       AmontBerger17        AmontBerger18   135.39   317.33     4.20    16.40   114.83     0.00    16.40
+       AmontBerger18        AmontBerger19   265.74   285.22     0.53    16.40    98.43     0.00    16.40
+       AmontBerger19        AmontBerger20    89.37   248.39     6.37    16.40    98.43     0.00    16.40
+       AmontBerger20        AmontBerger21    94.86   300.10    -1.50    16.40    82.02     0.00    16.40
+       AmontBerger21        AmontBerger22   172.70   340.59     1.64    16.40    82.02     0.00    16.40
+       AmontBerger22        AmontBerger23    78.17    78.50     1.82    16.40    82.02     0.00    16.40
+       AmontBerger23        AmontBerger24    72.18   347.81    -1.97    16.40    82.02     0.00    13.12
+       AmontBerger24        AmontBerger25    84.01   269.91     1.69    13.12    78.74     0.00    13.12
+       AmontBerger25        AmontBerger26   128.57   294.13     1.10    13.12    75.46     0.00    13.12
+       AmontBerger26        AmontBerger27    63.89   268.40    -2.22    13.12    72.18     0.00    13.12
+       AmontBerger27        AmontBerger28    81.11   246.21     1.75    13.12    68.90     0.00    13.12
+       AmontBerger28        AmontBerger29    84.43   328.75     1.68    13.12    65.62     0.00    13.12
+       AmontBerger29        AmontBerger30    57.89   297.22    -2.45    13.12    62.34     0.00    13.12
+       AmontBerger30        AmontBerger31    82.40    13.83     1.72    13.12    62.34     0.00    13.12
+       AmontBerger31        AmontBerger32   246.43    31.02     1.15    13.12    59.06     0.00    13.12
+       AmontBerger32        AmontBerger33    30.38   326.22     4.68    13.12    55.77     0.00    13.12
+       AmontBerger33        AmontBerger34   129.94    26.14     0.00     9.84    52.49     0.00    13.12
+       AmontBerger34        AmontBerger35    87.91     8.04     1.62     9.84    49.21     0.00    13.12
+       AmontBerger35        AmontBerger36   102.19   350.44     1.39     9.84    45.93     0.00    13.12
+       AmontBerger36        AmontBerger37   104.34   337.07     5.45     9.84    39.37     0.00     9.84
+       AmontBerger37        AmontBerger38   117.38   355.13     4.85     9.84    36.09     0.00     9.84
+       AmontBerger38        AmontBerger39    84.37    21.66    17.08     9.84    32.81     0.00     9.84
+       AmontBerger39        AmontBerger40   128.49    96.98    -3.32     9.84    29.53     0.00     9.84
+       AmontBerger40        AmontBerger41    94.09    32.00     6.05     6.56    26.25     0.00     9.84
+       AmontBerger41        AmontBerger42    93.31    76.37    -1.52     6.56    22.97     0.00     9.84
+       AmontBerger42        AmontBerger43    63.19    29.23    -9.03     6.56    19.69     0.00     6.56
+       AmontBerger43        AmontBerger44    65.06    31.79     4.37     6.56     0.00     0.00     6.56
+       AmontBerger44        AmontBerger45    48.98    55.01    -5.81     6.56     0.00     0.00     6.56
+       AmontBerger45        AmontBerger46    74.53    24.86    44.29     6.56     0.00     0.00     6.56
+       AmontBerger46        AmontBerger47    28.91    81.34    30.95     6.56     0.00     0.00     6.56
+
+

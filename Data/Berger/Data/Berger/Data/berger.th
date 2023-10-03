@@ -1,0 +1,11 @@
+encoding  utf-8
+survey berger -title "BERGER"
+
+#import "Berger20141030.plt"
+#import "sornin.plt"
+#import "D35.plt"
+
+  input "BERGER_juillet_2014.th"
+
+endsurvey
+
