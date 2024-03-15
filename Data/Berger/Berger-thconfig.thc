@@ -1,17 +1,20 @@
 encoding  utf-8
-source "Sornin.th"
+source Berger.th
 
-input "_config/config.thc"
+input "../../_config/config.thc"
 
-select sorninMP@reseau_sornin
-select sorninME@reseau_sornin
+#select sorninMP@reseau_sornin
+#select sorninME@reseau_sornin
 
 #----- dav
-export map -projection plan -o Outputs/topo_sornin_planTEST-XR.pdf -layout-map-header 0 0 center -layout local -layout mylegend
+#export map -projection plan -o Outputs/topo_sornin_planTEST-XR.pdf -layout-map-header 0 0 center -layout local -layout mylegend
 export map -projection extended  -o Outputs/topo_sornin_coupeTest-XR.pdf -layout-map-header 90 80 center -layout local -layout mylegend
-export model -output Outputs/systeme_sornin-XR.dxf
-export model -output Outputs/systeme_sornin-XR.lox
-export model -output Outputs/systeme_sornin-XR.kml
+
+export map -projection extended  -o Outputs/topo_sornin_coupeTest-XR.dxf -layout-map-header 90 80 center -layout local -layout mylegend
+export model  -o Outputs/topo_sornin_modelTest-XR.dxf
+
+#export model -output Outputs/systeme_sornin-XR.lox
+#export model -output Outputs/systeme_sornin-XR.kml
 #------
 
 #export survey-list -o Outputs/statistic_D35_From.txt
@@ -75,6 +78,9 @@ layout local
   #fonts_setup(6,8,14,18,28);
   fonts_setup(12,16,28,36,56);
  # fonts_setup(8,11,18,24,37);
+
+ debug station-names
+ grid-coords border
   
   ##################north arrow#################################################################################
   def s_northarrow (expr rot) =

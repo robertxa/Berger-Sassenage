@@ -1,0 +1,57 @@
+encoding  utf-8
+survey reseau_sornin  -title "Réseau du Sornin"
+
+  #surface
+    #cs UTM31
+    #grid 724331 5024546 2.326295 2.326295 2053 3528  # fonction initialement commenter
+    #grid-units m                                     # fonction initialement commenter
+    #bitmap "../surface/carrepourcomplexbergerNetB.png" [0 0 701825 5004931 5184 4992 710828 5013634]
+  #endsurface
+
+  #****************************
+  # Import des fichiers MAPS :
+  #****************************
+
+  #input Berger-map.th
+  
+  # Import du MNT
+  #input ../../Data/surface/DEM-Berger.th
+
+  #----------------------------------------
+  # assemblage Berger
+  #----------------------------------------
+
+  input Data/Berger/Data/BERGER_juillet_2014.th
+  ##input Data/Affluent-galerie-Petzl-CO-J 08-06-2021/Data/berger_aff._galerie_petzl.th
+  #  # equate ??@Berger ??@berger_aff_galerie_petzl  # Jonction à Trouver !!!
+  input Data/Laitiere-Mutante/Data/Laitieremutante.th
+  #  #equate AA1@LaitiereMutante AA1@Berger
+  #  equate AA2@LaitiereMutante AmontBerger25@Berger
+  
+  input Data/Cairn/data/Cairn.th
+  input Data/Puits-des-Benjamins/data/Benjamins.th
+  input Data/Puits-des-fourmis/data/fourmis.th
+
+
+
+
+  #input Data/Fiances/Data/Fiances.th
+  #input Data/GrandeOurse/Data/GrandeOurse.th
+  #input Data/JeanNoir/Data/JeanNoir.th
+
+  #input Data/A2/Data/A2.th   # A REVOIR
+  #input Data/A6/Data/A6.th   # A REVOIR
+  #input Data/Cadoux/Data/Cadoux.th
+  #input Data/LC11ESB01/Data/LC11ESB01.th
+  #input Data/P2/data/P2.th
+  #input Data/S3/Data/S3.th
+  #input Data/Tri/Data/Tri.th
+  #input Data/Regie/Data/Regie.th
+
+  #input Data/Rhododendrons/Data/Rhododendrons.th
+  #input Data/ChevalVapeur/Data/ChevalVapeur.th
+  #input Data/P60/Data/P60.th
+  #input Data/P125_ou_Sanglier/Data/P125.th 
+
+endsurvey
+
