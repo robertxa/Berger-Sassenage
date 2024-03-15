@@ -15,7 +15,7 @@ survey reseau_sornin  -title "Réseau du Sornin"
   input sornin-map.th
   
   # Import du MNT
-  input Data/surface/DEM-Berger.th
+  #input Data/surface/DEM-Berger.th
 
   #----------------------------------------
   # assemblage Fromagère - D35
