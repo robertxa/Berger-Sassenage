@@ -1,0 +1,477 @@
+# 2024.03.15 created by TopoDroid v 6.2.16
+
+survey haut_puits_du_lac -title "haut puits du lac"
+
+  # input "haut_puits_du_lac-1p.th2"
+  # input "haut_puits_du_lac-1s.th2"
+
+  # map m1p -projection plan
+  #   haut_puits_du_lac-1p
+  # endmap
+  # map m1s -projection extended
+  #   haut_puits_du_lac-1s
+  # endmap
+
+  centerline
+    date 2022.06.22 
+    # team Arnaud Rufray et Barnabé FOURGOUS 
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+    extend right
+    ARBF0 ARBF1 3.43 330.6 -17.9
+    # extend auto
+    ARBF0 . 2.57 37.8 -56.0
+    ARBF0 . 2.61 39.9 -9.7
+    ARBF0 . 9.10 339.4 -49.8
+    extend right
+    ARBF1 ARBF2 8.97 337.9 -49.7
+    # extend auto
+    ARBF1 . 3.50 352.6 58.7
+    ARBF1 . 1.78 43.7 -9.6
+    ARBF1 . 0.29 226.5 0.8
+    extend right
+    ARBF2 ARBF3 4.60 18.4 -65.9
+    # extend auto
+    ARBF2 . 7.75 224.9 69.5
+    ARBF2 . 13.23 268.5 -86.4
+    ARBF2 . 0.20 96.8 19.7
+    ARBF2 . 4.19 230.7 9.9
+    extend right
+    ARBF3 ARBF4 20.46 78.8 -53.7
+    # extend auto
+    ARBF3 . 11.53 246.5 73.0
+    ARBF3 . 12.05 41.1 -71.3
+    ARBF3 . 7.59 264.6 -1.9
+    ARBF3 . 45.02 288.0 -22.6
+    ARBF3 . 8.96 312.2 -20.9
+    ARBF3 . 7.68 279.5 -9.5
+    ARBF3 . 0.38 112.4 7.5
+    extend right
+    ARBF4 ARBF5 9.09 116.2 7.3
+    # extend auto
+    ARBF4 . 8.45 144.9 75.0
+    ARBF4 . 3.49 192.4 -44.1
+    ARBF4 . 0.18 30.5 1.1
+    ARBF4 . 3.41 190.6 0.9
+    extend right
+    ARBF5 ARBF6 4.85 82.5 12.2
+    # extend auto
+    ARBF5 . 10.56 47.3 81.5
+    ARBF5 . 2.12 174.7 -61.3
+    ARBF5 . 2.44 3.6 19.1
+    ARBF5 . 1.23 194.6 7.5
+    extend right
+    ARBF6 ARBF7 19.71 109.0 -26.0
+    # extend auto
+    ARBF6 . 15.18 84.3 71.6
+    ARBF6 . 1.63 163.8 -60.2
+    ARBF6 . 1.84 27.5 38.1
+    ARBF6 . 0.70 198.8 3.5
+    extend right
+    ARBF7 ARBF8 14.55 136.7 40.2
+    # extend auto
+    ARBF7 . 19.73 66.5 85.5
+    ARBF7 . 1.36 144.9 -85.3
+    ARBF7 . 3.38 45.2 7.3
+    ARBF7 . 2.98 217.5 10.8
+    extend right
+    ARBF8 ARBF9 10.45 77.0 0.2
+    # extend auto
+    ARBF8 . 8.40 49.6 61.4
+    ARBF8 . 2.64 38.4 -54.6
+    ARBF8 . 3.04 31.5 4.3
+    ARBF8 . 1.18 213.7 3.2
+    extend right
+    ARBF9 ARBF10 19.58 115.3 1.2
+    # extend auto
+    ARBF9 . 5.71 134.7 76.0
+    ARBF9 . 2.15 173.1 -47.5
+    ARBF9 . 5.22 36.8 3.3
+    ARBF9 . 3.71 206.2 -1.6
+    extend right
+    ARBF10 ARBF11 14.22 110.8 7.4
+    # extend auto
+    ARBF10 . 5.05 158.8 86.5
+    ARBF10 . 1.27 171.9 -72.3
+    ARBF10 . 6.17 49.2 16.8
+    ARBF10 . 2.92 224.6 7.1
+    extend right
+  # pt 1 : salle méga soutirage 
+    ARBF11 ARBF12 13.85 87.4 17.8
+    # extend auto
+    ARBF11 . 15.67 161.0 77.8
+    ARBF11 . 1.04 36.3 -61.7
+    ARBF11 . 8.93 166.4 3.9
+    ARBF11 . 9.79 346.0 8.0
+    ARBF11 . 8.02 354.0 57.9
+    ARBF11 . 9.22 358.5 76.7
+    ARBF11 . 13.14 124.7 83.6
+    ARBF11 . 25.21 147.1 64.2
+    ARBF11 . 24.62 157.2 42.5
+    ARBF11 . 12.43 167.4 29.4
+    extend right
+    ARBF12 ARBF13 6.76 134.2 32.4
+    # extend auto
+    ARBF12 . 2.29 63.5 8.7
+    ARBF12 . 19.71 169.4 75.7
+    ARBF12 . 8.71 229.4 -32.0
+    ARBF12 . 15.37 223.7 5.3
+    ARBF12 . 15.60 225.9 2.3
+    extend right
+    ARBF13 ARBF14 10.93 33.7 14.5
+    # extend auto
+    ARBF13 . 16.18 88.8 83.9
+    ARBF13 . 1.22 62.1 -85.0
+    ARBF13 . 9.91 323.9 23.5
+    extend right
+    ARBF14 ARBF15 33.30 54.0 -20.8
+    # extend auto
+    ARBF14 . 7.54 196.3 84.3
+    ARBF14 . 2.94 127.9 -53.2
+    ARBF14 . 7.32 337.6 6.4
+    extend right
+    ARBF15 ARBF16 13.00 33.0 -28.7
+    # extend auto
+    ARBF15 . 1.94 321.7 43.7
+    ARBF15 . 3.03 323.0 -44.3
+    ARBF15 . 5.34 320.9 -14.2
+    ARBF15 . 3.75 125.8 -39.7
+    extend right
+    ARBF16 ARBF17 11.54 62.7 -19.1
+    # extend auto
+    ARBF16 . 1.27 149.9 26.8
+    ARBF16 . 2.40 145.1 -29.6
+    ARBF16 . 0.20 353.1 18.5
+    ARBF16 . 4.88 150.8 -8.1
+    extend right
+    ARBF12 ARBF18 11.54 329.2 -4.5
+    # extend auto
+    ARBF18 . 1.98 80.2 83.8
+    ARBF18 . 0.50 118.8 -54.5
+    ARBF18 . 2.54 306.3 2.3
+    ARBF18 . 3.80 112.2 7.1
+    extend right
+    ARBF18 ARBF19 23.25 22.8 3.9
+    # extend auto
+    ARBF19 . 4.30 56.5 67.1
+    ARBF19 . 2.41 83.8 -30.7
+    ARBF19 . 1.16 276.5 47.9
+    ARBF19 . 4.48 93.3 1.3
+    extend right
+    ARBF19 ARBF20 14.15 11.4 -4.6
+    # extend auto
+    ARBF20 . 3.61 110.3 60.2
+    ARBF20 . 3.57 113.9 -44.5
+    ARBF20 . 0.16 274.4 13.0
+    ARBF20 . 5.20 121.0 -0.2
+    extend right
+    ARBF20 ARBF21 14.06 39.2 -22.9
+    # extend auto
+    ARBF21 . 5.28 159.8 52.6
+    ARBF21 . 1.97 203.6 -36.1
+    ARBF21 . 0.16 14.5 -7.6
+    ARBF21 . 4.36 201.6 9.1
+    extend right
+    ARBF21 ARBF22 21.29 112.5 -31.6
+    # extend auto
+    ARBF22 . 5.46 196.3 58.3
+    ARBF22 . 2.94 213.1 -30.6
+    ARBF22 . 9.69 198.7 10.0
+    ARBF22 . 0.66 18.7 2.0
+    extend right
+    ARBF22 ARBF23 27.45 124.1 -38.7
+    # extend auto
+    ARBF23 . 4.35 300.8 82.0
+    ARBF23 . 1.49 305.1 -84.3
+    ARBF23 . 5.32 335.0 4.9
+    extend right
+    ARBF23 ARBF24 31.09 34.0 -19.7
+    # extend auto
+    ARBF24 . 1.36 63.0 73.5
+    ARBF24 . 0.76 57.8 -85.9
+    ARBF23 . 2.98 334.3 0.5
+    ARBF23 . 2.46 147.2 10.6
+    extend right
+    ARBF24 ARBF25 22.81 46.2 -22.1
+    # extend auto
+    ARBF25 . 4.76 344.3 83.4
+    ARBF25 . 1.44 282.4 -83.2
+    ARBF25 . 6.80 157.9 5.2
+    ARBF25 . 6.68 309.7 2.3
+    extend right
+    ARBF25 ARBF26 7.96 3.2 -5.8
+    # extend auto
+    ARBF26 . 4.99 46.3 76.6
+    ARBF26 . 1.26 358.0 -77.2
+    ARBF26 . 2.74 304.2 4.8
+    ARBF26 . 4.62 109.5 0.0
+    extend right
+    ARBF26 ARBF27 20.43 22.9 -19.7
+    # extend auto
+    ARBF27 . 15.97 57.2 74.9
+    ARBF27 . 1.41 128.9 -84.4
+    ARBF27 . 4.13 307.3 11.3
+    ARBF27 . 15.06 98.9 3.2
+    extend right
+  # pt 2 centre salle
+    ARBF27 ARBF28 6.49 87.4 -1.1
+    # extend auto
+    ARBF28 . 9.46 302.7 -6.3
+    ARBF28 . 9.24 308.3 12.2
+    ARBF28 . 10.09 312.5 29.8
+    ARBF28 . 9.79 316.7 44.2
+    ARBF28 . 12.37 324.5 59.7
+    ARBF28 . 13.44 338.8 68.2
+    ARBF28 . 16.89 335.9 71.1
+    ARBF28 . 21.19 18.9 79.3
+    ARBF28 . 20.52 67.1 65.5
+    ARBF28 . 18.31 76.6 56.5
+    ARBF28 . 16.32 86.2 51.9
+    ARBF28 . 13.91 94.9 46.2
+    ARBF28 . 10.85 81.9 26.5
+    ARBF28 . 0.62 86.2 6.7
+    ARBF28 . 8.80 93.2 11.6
+    extend right
+    ARBF28 ARBF29 13.54 17.2 -27.4
+    # extend auto
+    ARBF29 . 10.60 84.8 80.9
+    ARBF29 . 1.23 103.8 -78.0
+    ARBF29 . 7.17 304.2 9.2
+    ARBF29 . 5.06 128.6 4.3
+    extend right
+    ARBF29 ARBF30 15.53 37.9 -33.9
+    # extend auto
+    ARBF30 . 12.12 9.9 69.1
+    ARBF30 . 1.86 336.9 -64.0
+    ARBF30 . 9.05 339.6 20.3
+    ARBF30 . 3.10 133.4 43.8
+    extend right
+    ARBF30 ARBF31 28.88 23.2 -35.5
+    # extend auto
+    ARBF31 . 3.86 64.5 76.2
+    ARBF31 . 1.84 292.5 37.1
+    ARBF31 . 3.35 106.6 16.5
+    ARBF31 . 0.90 120.1 -45.3
+    extend right
+    ARBF31 ARBF32 10.20 32.6 -2.2
+    # extend auto
+    ARBF32 . 3.26 82.6 74.0
+    ARBF32 . 1.14 71.2 -79.1
+    ARBF32 . 1.47 301.0 14.1
+    ARBF32 . 2.39 144.2 7.6
+    extend vertical
+    ARBF32 ARBF33 9.16 94.1 -0.2
+    # extend auto
+    ARBF33 . 13.87 60.9 80.7
+    ARBF33 . 1.27 117.2 -76.0
+    ARBF33 . 2.28 329.6 32.2
+    ARBF33 . 12.47 340.8 55.0
+    ARBF33 . 2.71 145.6 14.4
+    extend right
+    ARBF33 ARBF34 31.94 49.0 0.2
+    # extend auto
+    ARBF34 . 1.31 1.6 78.6
+    ARBF34 . 0.68 320.1 -78.0
+    ARBF34 . 3.11 305.4 -3.5
+    ARBF34 . 2.16 304.8 19.5
+    ARBF34 . 1.23 103.1 25.8
+    ARBF34 . 1.47 120.0 -12.1
+    extend right
+    ARBF34 ARBF35 20.53 7.2 -3.9
+    # extend auto
+    ARBF35 . 2.42 330.2 80.2
+    ARBF35 . 1.20 337.2 -80.0
+    ARBF35 . 4.62 265.7 -0.2
+    ARBF35 . 5.16 266.4 18.6
+    ARBF35 . 4.01 277.0 53.7
+    ARBF35 . 2.68 336.9 71.4
+    ARBF35 . 1.25 83.5 39.5
+    extend right
+    ARBF35 ARBF36 14.40 345.0 -6.4
+    # extend auto
+    ARBF36 . 4.56 346.2 78.4
+    ARBF36 . 1.24 347.2 -77.9
+    ARBF36 . 4.84 276.6 4.2
+    ARBF36 . 5.20 277.9 35.2
+    ARBF36 . 4.36 291.1 67.0
+    ARBF36 . 4.62 21.2 82.1
+    ARBF36 . 4.42 58.8 56.0
+    ARBF36 . 2.91 74.2 31.0
+    ARBF36 . 3.12 87.9 4.9
+    extend right
+    ARBF36 ARBF37 1.48 358.5 17.4
+    # extend auto
+    ARBF37 . 5.10 357.3 76.7
+    ARBF37 . 1.13 40.1 -85.5
+    ARBF37 . 4.66 248.6 8.8
+    ARBF37 . 3.53 69.6 -0.6
+    extend right
+    ARBF37 ARBF38 10.23 355.0 -50.0
+    # extend auto
+    ARBF38 . 14.88 11.5 74.1
+    ARBF38 . 1.92 353.6 -85.8
+    ARBF38 . 0.28 308.6 1.6
+    ARBF38 . 1.30 117.8 3.8
+    extend right
+    ARBF38 ARBF39 6.28 33.8 -27.8
+    # extend auto
+    ARBF39 . 13.87 357.0 81.0
+    ARBF39 . 1.21 314.0 -82.3
+    ARBF39 . 1.18 41.2 -77.5
+    ARBF39 . 14.22 9.0 75.7
+    ARBF39 . 1.28 23.3 -80.4
+    ARBF39 . 0.30 301.6 -0.3
+    ARBF39 . 0.64 124.5 6.1
+    extend right
+    ARBF39 ARBF40 7.88 15.3 -1.1
+    # extend auto
+    ARBF39 . 1.76 65.4 74.4
+    ARBF39 . 1.62 147.4 -55.4
+    ARBF39 . 0.34 317.4 39.5
+    ARBF39 . 1.89 147.8 5.3
+    extend right
+    ARBF40 ARBF41 12.99 66.2 -2.2
+    # extend auto
+    ARBF41 . 14.14 322.9 51.5
+    ARBF41 . 2.17 309.0 -42.1
+    ARBF41 . 10.01 320.1 22.3
+    ARBF41 . 0.36 134.6 5.0
+    extend right
+    ARBF41 ARBF42 14.72 14.9 -6.4
+    # extend auto
+    ARBF42 . 10.69 319.9 62.3
+    ARBF42 . 1.62 288.6 -56.0
+    ARBF42 . 13.12 288.4 32.0
+    ARBF42 . 5.77 285.6 19.0
+    ARBF42 . 0.37 106.1 17.8
+    extend right
+  # perte
+    ARBF42 ARBF43 10.28 357.9 -9.5
+    # extend auto
+    ARBF43 . 9.72 25.0 82.0
+    ARBF43 . 1.54 111.9 -74.6
+    ARBF43 . 9.15 306.2 47.9
+    ARBF43 . 1.21 302.3 41.6
+    ARBF43 . 5.19 113.8 56.1
+    ARBF43 . 3.05 122.8 11.5
+    extend right
+    ARBF43 ARBF44 18.18 9.2 22.7
+    # extend auto
+    ARBF44 . 1.55 258.5 87.6
+    ARBF44 . 1.13 334.4 -81.6
+    ARBF44 . 2.45 266.9 10.8
+    ARBF44 . 3.70 90.8 -1.9
+    extend right
+    ARBF44 ARBF45 15.71 358.4 -1.4
+    # extend auto
+    ARBF45 . 3.50 64.0 82.4
+    ARBF45 . 1.24 296.8 -82.2
+    ARBF45 . 3.72 271.8 8.3
+    ARBF45 . 5.66 119.0 -3.3
+    extend right
+    ARBF45 ARBF46 25.75 18.8 -9.9
+    # extend auto
+    ARBF46 . 7.77 125.1 30.4
+    ARBF46 . 4.92 133.8 -26.9
+    ARBF46 . 9.33 133.4 1.8
+    ARBF46 . 3.16 316.0 -20.5
+    extend right
+    ARBF46 ARBF47 15.27 35.4 -17.4
+    # extend auto
+    ARBF47 . 5.78 34.0 80.2
+    ARBF47 . 0.95 309.4 -65.6
+    ARBF47 . 8.81 307.4 8.9
+    ARBF47 . 6.74 129.4 1.2
+    extend right
+  # pt 3
+    ARBF47 ARBF48 21.56 19.5 -11.2
+    # extend auto
+    ARBF48 . 2.92 80.4 76.6
+    ARBF48 . 4.67 300.9 19.2
+    ARBF48 . 10.23 120.0 1.8
+    ARBF48 . 20.53 116.0 -28.7
+    ARBF48 . 0.71 175.5 -81.7
+    extend right
+    ARBF48 ARBF49 15.03 20.5 -2.1
+    # extend auto
+    ARBF49 . 0.16 55.0 84.7
+    ARBF49 . 1.02 2.3 -82.3
+    ARBF49 . 2.21 282.8 -5.5
+    ARBF49 . 2.89 90.1 -13.8
+    extend right
+    ARBF49 ARBF50 10.57 13.1 4.2
+    # extend auto
+    ARBF50 . 1.92 289.1 79.6
+    ARBF50 . 0.34 341.8 -61.7
+    ARBF50 . 2.66 239.5 7.8
+    ARBF50 . 2.99 68.8 2.9
+    extend right
+    ARBF50 ARBF51 14.34 321.4 13.9
+    # extend auto
+    ARBF51 . 2.42 144.7 86.1
+    ARBF51 . 4.44 246.5 30.6
+    ARBF51 . 5.72 82.4 11.9
+    ARBF51 . 1.51 76.7 -53.7
+    ARBF51 . 3.96 13.8 16.4
+    extend right
+    ARBF51 ARBF52 14.81 13.5 16.1
+    # extend auto
+    ARBF52 . 3.02 358.0 89.3
+    ARBF52 . 4.40 286.4 32.6
+    ARBF52 . 1.31 122.4 6.2
+    ARBF52 . 1.06 298.0 -61.4
+    extend right
+    ARBF52 ARBF53 14.60 27.8 -8.3
+    # extend auto
+    ARBF53 . 3.65 108.4 55.9
+    ARBF53 . 5.59 126.7 4.0
+    ARBF53 . 2.04 322.0 19.6
+    ARBF53 . 2.17 129.5 -38.8
+    ARBF53 . 15.56 65.5 -28.9
+    extend right
+    ARBF53 ARBF54 15.07 65.2 -28.8
+    # extend auto
+    ARBF54 . 6.24 334.8 -1.6
+    ARBF54 . 11.68 16.7 -9.5
+    ARBF54 . 0.21 119.0 2.8
+    ARBF54 . 2.56 337.2 71.6
+    ARBF54 . 1.68 304.9 -88.9
+    ARBF54 . 6.07 321.1 4.5
+    ARBF54 . 21.02 47.9 -49.2
+    extend right
+  # bas puis par galerie the chatiere
+    ARBF54 ARBF55 21.00 51.7 -49.2
+    ARBF48 ARBF56 10.92 63.7 -33.4
+    # extend auto
+    ARBF56 . 4.63 35.1 1.0
+    ARBF56 . 6.29 61.4 -17.3
+    ARBF56 . 16.53 159.1 -4.6
+    ARBF56 . 9.30 121.9 -13.0
+    ARBF56 . 5.47 79.5 75.1
+    ARBF56 . 0.79 122.1 -69.4
+    extend right
+    ARBF56 ARBF57 17.37 72.8 -34.7
+    # extend auto
+    ARBF57 . 1.34 93.5 -17.6
+    ARBF57 . 2.60 171.2 -14.7
+    ARBF57 . 10.69 213.4 5.5
+    ARBF57 . 6.58 302.4 18.7
+    ARBF57 . 3.31 349.2 -3.7
+    ARBF57 . 2.45 231.1 77.6
+    ARBF57 . 1.71 80.2 -86.7
+    extend right
+    ARBF57 ARBF58 11.29 351.7 -7.4
+    # extend auto
+    ARBF58 . 1.96 183.6 9.6
+    ARBF58 . 1.25 261.7 14.0
+    ARBF58 . 3.26 329.4 5.4
+    ARBF58 . 5.79 45.5 1.0
+    ARBF58 . 5.63 86.4 -1.8
+    ARBF58 . 5.22 119.1 -1.9
+    ARBF58 . 6.13 150.6 -1.0
+    ARBF58 . 2.00 215.2 86.5
+    ARBF58 . 1.07 277.5 -85.7
+  endcenterline
+
+endsurvey

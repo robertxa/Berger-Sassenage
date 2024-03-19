@@ -1,0 +1,16 @@
+encoding  utf-8
+
+# Copyright (C) 2022 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+survey siphon-jaune-et-rouge -title "Siphon Jaune et Rouge"
+	# Pour importer les différentes données de différents fichiers topos : 
+	input Data/siphon-jaune-et-rouge.th
+	
+
+	# Import des maps
+	#input siphon-jaune-et-rouge-maps.th
+ 
+ endsurvey
+ 

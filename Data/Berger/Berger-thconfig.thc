@@ -7,7 +7,8 @@ input "../../_config/config.thc"
 #select sorninME@reseau_sornin
 
 #----- dav
-#export map -projection plan -o Outputs/topo_sornin_planTEST-XR.pdf -layout-map-header 0 0 center -layout local -layout mylegend
+export map -projection plan -o Outputs/topo_sornin_planTEST-XR.pdf -layout-map-header 0 0 center -layout local -layout mylegend
+
 export map -projection extended  -o Outputs/topo_sornin_coupeTest-XR.pdf -layout-map-header 90 80 center -layout local -layout mylegend
 
 export map -projection extended  -o Outputs/topo_sornin_coupeTest-XR.dxf -layout-map-header 90 80 center -layout local -layout mylegend

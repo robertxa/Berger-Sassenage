@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<VisualTopo>
+	<Version>5.16</Version>
+	<Lignes>10</Lignes>
+	<Cavite>
+		<Nom>GOUFFRE BERGER ESCALADE ET GALERIE DU SIPHON ROUGE ET JAUNE</Nom>
+		<Club>ASV GSM LIONEL REVIL LAUSSAC PB</Club>
+		<Entree>0</Entree>
+		<Toporobot>0</Toporobot>
+		<Couleur>0,0,0</Couleur>
+	</Cavite>
+	<Mesures>
+		<Param InstrDist="Deca" UnitDir="Degd" InstrPte="Clino" UnitPte="Degd" Declin="0.0000" SensDir="Dir" SensPte="Dir" SensLar="Dir" DimPt="Inc" Coul="Std" Date="09/07/2022" DeclinAuto="M">
+			<Visee Dep="0" Arr="0" Long="0.00" Az="0.00" Pte="0.00" G="5.07" D="0.00" H="4.12" B="0.00" Ref="1" Suiv="2">
+				<Commentaire>O =PTRC2 POUR POSITIONEMENT</Commentaire>
+			</Visee>
+			<Visee Dep="0" Arr="PTRC2" Long="0.00" Az="0.00" Pte="0.00" G="5.07" D="0.00" H="4.12" B="0.00" Ref="1" Suiv="3">
+				<Commentaire>PTRC2VIRAGE A DROITE JUSTE AVANT R3 AVANT TOBOGAN REMONTANT VERS LAC</Commentaire>
+			</Visee>
+			<Visee Dep="PTRC2" Arr="1" Long="2.96" Az="90.70" Pte="11.70" G="1.77" D="1.07" H="7.91" B="0.00" Exc="E" Ref="2" Suiv="4">
+				<Commentaire>SUR BLOC TRIANGULAIRE AU SOL AVANT E3</Commentaire>
+			</Visee>
+			<Visee Dep="1" Arr="2" Long="2.69" Az="92.10" Pte="17.20" G="0.50" D="1.90" H="5.99" B="0.00" Exc="E" Ref="3" Suiv="5">
+				<Commentaire>PIED R3 DEVANT PASSAGE AVAL SOUS BLOC ANCIENE PERTE IMP2N2TRABLE</Commentaire>
+			</Visee>
+			<Visee Dep="2" Arr="3" Long="11.85" Az="99.60" Pte="56.80" G="2.01" D="0.00" H="2.38" B="1.53" Ref="4" Suiv="6">
+				<Commentaire>SOMMET E8</Commentaire>
+			</Visee>
+			<Visee Dep="3" Arr="4" Long="3.18" Az="59.40" Pte="-23.70" G="0.00" D="1.98" H="4.36" B="0.97" Ref="5" Suiv="7">
+				<Commentaire>PAROIS GAUCHE AU PIED D4UNE CHEMIN2E, escalade de damien _ metres ça queute</Commentaire>
+			</Visee>
+			<Visee Dep="4" Arr="5" Long="12.21" Az="130.70" Pte="-32.40" G="3.40" D="0.81" H="5.20" B="0.00" Ref="6" Suiv="8">
+				<Commentaire>SUR GROS BLOC</Commentaire>
+			</Visee>
+			<Visee Dep="5" Arr="6" Long="9.41" Az="91.60" Pte="-7.70" G="3.95" D="0.00" H="2.50" B="1.40" Ref="7" Suiv="9">
+				<Commentaire>SUR BLOC A DROITE 3 M AVANT NIVEAU DU PLAN D4EAU DU SIPHON POINT REF SI UN JOUR ça plonge</Commentaire>
+			</Visee>
+			<Visee Dep="6" Arr="7" Long="11.20" Az="43.30" Pte="-8.00" G="2.00" D="2.00" H="1.00" B="0.00" Ref="8">
+				<Commentaire>AU BOUT DU PLAN D4EAU DU SIPHON </Commentaire>
+			</Visee>
+		</Param>
+	</Mesures>
+	<Configuration>
+		<Application Position="2,3,-32000,-32000,-1,-1,142,123,1582,882">
+			<Toolbar>1</Toolbar>
+			<Statusbar>1</Statusbar>
+			<Commentaires>1</Commentaires>
+		</Application>
+		<Calcul Position="2,3,-1,-1,-8,-31,26,26,1656,659">
+			<Entree0>1</Entree0>
+			<Bissectrices>1</Bissectrices>
+			<Perpendiculaires>0</Perpendiculaires>
+			<Hauteurs>1</Hauteurs>
+			<Boucles>0</Boucles>
+			<Controles>1</Controles>
+			<Nord>2</Nord>
+			<Commentaires>0</Commentaires>
+			<Calcul>1</Calcul>
+			<Active>1</Active>
+		</Calcul>
+		<ExportDxf>
+			<Topo>0</Topo>
+			<Equidistance>100</Equidistance>
+			<Theta>0</Theta>
+			<Phi>0</Phi>
+			<Cheminement Couleur="1">1</Cheminement>
+			<Points Couleur="6">1</Points>
+			<Stations Couleur="7">1</Stations>
+			<Largeurs Couleur="4">1</Largeurs>
+			<Hauteurs Couleur="4">0</Hauteurs>
+			<ContoursLargeurs Couleur="3">0</ContoursLargeurs>
+			<ContoursHauteurs Couleur="3">0</ContoursHauteurs>
+			<Profondeurs Couleur="2">0</Profondeurs>
+			<Echelle Couleur="7">1</Echelle>
+			<Quadrillage Couleur="9">0</Quadrillage>
+			<Radiales Couleur="9">1</Radiales>
+			<Contours3D Couleur="3">0</Contours3D>
+		</ExportDxf>
+		<ExportSvg>
+			<Topo>0</Topo>
+			<Equidistance>100</Equidistance>
+			<Theta>0</Theta>
+			<Phi>0</Phi>
+			<Cheminement Couleur="165,42,0">1</Cheminement>
+			<Points Couleur="127,127,127">1</Points>
+			<Stations Couleur="0,0,255">1</Stations>
+			<Largeurs Couleur="0,147,0">1</Largeurs>
+			<Hauteurs Couleur="0,147,0">0</Hauteurs>
+			<ContoursLargeurs Couleur="0,0,139">0</ContoursLargeurs>
+			<ContoursHauteurs Couleur="0,0,139">0</ContoursHauteurs>
+			<Profondeurs Couleur="255,0,0">1</Profondeurs>
+			<Echelle Couleur="0,0,0">1</Echelle>
+			<Quadrillage Couleur="127,127,127">0</Quadrillage>
+			<Radiales Couleur="60,179,113">1</Radiales>
+			<Remplissage Couleur="255,173,91">0</Remplissage>
+			<Fond Couleur="192,192,192">0</Fond>
+			<Contours3D Couleur="0,0,139">0</Contours3D>
+		</ExportSvg>
+		<ExportKml>
+			<TypeCouleur>0</TypeCouleur>
+		</ExportKml>
+		<ExportShp>
+			<Coordonnees>0</Coordonnees>
+			<TypeFichier>0</TypeFichier>
+			<Forme3D>0</Forme3D>
+		</ExportShp>
+		<Colonnes>
+			<Départ>88</Départ>
+			<Arrivée>88</Arrivée>
+			<DepTopofil>72</DepTopofil>
+			<ArrTopofil>72</ArrTopofil>
+			<Longueur>72</Longueur>
+			<Azimut>72</Azimut>
+			<Pente>72</Pente>
+			<Gauche>72</Gauche>
+			<Droite>72</Droite>
+			<Haut>72</Haut>
+			<Bas>72</Bas>
+			<Inverse>16</Inverse>
+			<Exclusion>24</Exclusion>
+			<Detail>16</Detail>
+			<Section>16</Section>
+			<ComPhot>32</ComPhot>
+			<Separ1>3</Separ1>
+			<X>72</X>
+			<Y>72</Y>
+			<Z>72</Z>
+			<LDev>72</LDev>
+			<Dist>72</Dist>
+			<Separ2>3</Separ2>
+			<Commentaire>0</Commentaire>
+			<Photo>0</Photo>
+		</Colonnes>
+	</Configuration>
+</VisualTopo>

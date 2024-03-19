@@ -1,0 +1,16 @@
+encoding  utf-8
+
+# Copyright (C) 2022 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+survey amont_lac_des_bouzes -title "Gouffre des amont_lac_des_bouzes - FLT5"
+	# Pour importer les différentes données de différents fichiers topos : 
+	input Data/amont_lac_des_bouzes.th
+	
+
+	# Import des maps
+	#input amont_lac_des_bouzes-maps.th
+ 
+ endsurvey
+ 

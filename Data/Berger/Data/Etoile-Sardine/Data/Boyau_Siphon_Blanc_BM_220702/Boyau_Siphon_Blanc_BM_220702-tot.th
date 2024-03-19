@@ -1,0 +1,18 @@
+encoding  utf-8
+
+# Copyright (C) 2022 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+survey Boyau_Siphon_Blanc_BM_220702 -title "Boyau du Siphon_Blanc"
+	# Pour importer les différentes données de différents fichiers topos : 
+	input Data/Boyau_Siphon_Blanc_BM_220702.th
+	
+	#input Data/Boyau_Siphon_Blanc_BM_220702-2p.th2
+	#input Data/Boyau_Siphon_Blanc_BM_220702-2s.th2
+
+	# Import des maps
+	#input Boyau_Siphon_Blanc_BM_220702-maps.th
+ 
+ endsurvey
+ 

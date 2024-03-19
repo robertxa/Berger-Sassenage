@@ -1,0 +1,42 @@
+encoding utf-8
+
+survey amont-riviere-or -title "Amont de la Rivière d'Or"
+
+  centerline
+    date 2022.07.09 #09/07/2022
+      team "Lionel Revil"
+      team "Damien Gruel"
+      #LIONEL REVIL ET DAMIEN GRUEL
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino left right up down
+0             PTRC1                        0.00    0.00    0.00   2.80   1.80  16.17   0.00    #  PRTC1 AU SOL DEVANT LA VASQUE
+PTRC1         AVALRIVIEREOR               28.74  111.90   -1.30   1.50   1.50  15.00   1.50    # VISéE DE POSITIONEMENT
+PTRC1         VASQUE                       4.01  203.60    0.30   1.40   1.50   0.00   0.60    # VERS LA VASQUE VISéE DE POSITIONEMENT
+PTRC1         1                            8.40  298.50   22.00   1.70   0.00  13.50   1.00    #  COULéE DE CALCITE
+1             2                            9.97  281.60   29.90   0.30   0.70   6.90   0.80    #  COULéE DE CALCITE
+2             3                            5.47  284.00   41.60   0.00   1.92   3.47   0.20    #  R2
+3             4                            5.62  300.40   10.90   1.12   0.37   1.76   0.25    # 
+4             5                            3.73  287.30    2.80   0.66   0.56   1.65   0.40    #  PASSAGE etroit dans coulée de calcite
+5             6                            7.00  293.10   22.90   0.96   0.00   0.91   0.80    #  sortie quatre patte sur coulée
+6             7                            3.18  300.90   -2.10   2.46   0.00   1.17   0.50    #  EMBRANCHEMENT BOUCLE A DROITE
+7             8                            4.68  197.40    6.30   1.95   0.00   0.73   0.71    #  SOL CALCITE
+8             9                            9.48  229.30    8.60   1.64   2.38   2.86   0.70    #  EMBRANCHEMENT BOUCLE DE DROITE
+9             10                          14.23  228.30   22.70   1.98   0.50   0.62   0.00    #  TALUS D4ARGILE SOLIDE
+10            11                           9.16  209.20    3.70   0.95   0.00   0.23   0.45    #  LAMINOIRE REMPLISSAGE ARGILE DURE
+11            12                           6.67  185.00   -5.50   2.00   0.45   0.60   0.77    #  ARGILE SOL
+12            13                           5.16  204.90   -2.90   0.58   0.70   0.28   0.78     
+13            14                           7.99  195.30    0.50   2.97   0.00   1.12   0.89     
+14            15                           2.45  154.10  -21.20   1.30   1.80   2.27   0.00    #  EMBRANCHEMENT AMONT DéPART R2
+15            16                           7.13  268.30   34.30   1.88   0.00   0.90   0.74     
+16            17                           2.19  194.00    4.60   1.00   2.00   1.40   0.44     
+17            18                           6.42  307.70   22.00   1.00   1.20   1.00   0.00    #  OBSTUCTION INFRANCHISSABLE ARGILE SOLIDE
+15            19                           6.09  190.10   -3.00   1.43   0.88   1.00   0.00    #  SUITE BRANCHE PRINCIPALE
+19            20                           7.40  162.50  -15.90   0.94   3.80   1.23   1.60    #  SOMMET PUITS
+20            21                           7.90  193.80  -65.00   1.54   0.94   6.87   0.00    #  BAS P7
+21            22                           6.58  137.40  -17.70   1.53   0.95   1.62   0.88    #  GALERIE BAS DU PUITS
+22            23                           7.04  152.40  -29.60   0.30   0.30   0.40   0.00    #  OBSTRUCTION D'ARGILE SOLIDE PAS DE COURANT D'AIR
+  endcenterline
+
+endsurvey

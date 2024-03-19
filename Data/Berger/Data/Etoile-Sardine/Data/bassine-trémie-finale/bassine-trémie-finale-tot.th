@@ -1,0 +1,19 @@
+encoding  utf-8
+
+# Copyright (C) 2022 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+survey bassine-tremie-finale -title "Bassine vers trémie finale"
+	# Pour importer les différentes données de différents fichiers topos : 
+	input Data/debut/Berger_Galerie_Maud_BM_220715.th
+	
+	input Data/suite/3_eme_etage_bassine_vers_tremie_finale.th
+		equate ptrc4@3_eme_etage_bassine_vers_tremie_finale 6@Berger_Galerie_Maud_BM_220715
+	
+
+	# Import des maps
+	#input bassine-trémie-finale-maps.th
+ 
+ endsurvey
+ 

@@ -15,7 +15,7 @@ survey reseau_sornin  -title "Réseau du Sornin"
   input sornin-map.th
   
   # Import du MNT
-  #input Data/surface/DEM-Berger.th
+  input Data/surface/DEM-Berger.th
 
   #----------------------------------------
   # assemblage Fromagère - D35
@@ -58,6 +58,9 @@ survey reseau_sornin  -title "Réseau du Sornin"
   input Data/Berger/Data/Berger/Data/BERGER_juillet_2014.th
   #input Data/Berger/Data/Affluent-galerie-Petzl-CO-J 08-06-2021/Data/berger_aff._galerie_petzl.th
     # equate ??@Berger ??@berger_aff_galerie_petzl  # Jonction à Trouver !!!
+  ## Réseau de l'Etoile Sardine
+  input Data/Berger/Data/Etoile-Sardine/Etoile-Sardine-tot.th
+    equate 0@fossile_haut_grande_cascade.fossile_haut_grande_cascade.Etoile-Sardine Berger94@Berger
   input Data/Berger/Data/Laitiere-Mutante/Data/Laitieremutante.th
     #equate AA1@LaitiereMutante AA1@Berger
     equate AA2@LaitiereMutante AmontBerger25@Berger

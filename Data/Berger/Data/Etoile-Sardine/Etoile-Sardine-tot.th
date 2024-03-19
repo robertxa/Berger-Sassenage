@@ -1,0 +1,43 @@
+encoding  utf-8
+
+# Copyright (C) 2022 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+survey Etoile-Sardine -title "Réseau de l'Etoile-Sardine"
+	# Pour importer les différentes données de différents fichiers topos : 
+	
+	input Data/fossile_haut_grande_cascade/fossile_haut_grande_cascade-tot.th
+
+	input Data/Boyau_Siphon_Blanc_BM_220702/Boyau_Siphon_Blanc_BM_220702-tot.th
+		equate A188@Boyau_Siphon_Blanc_BM_220702.Boyau_Siphon_Blanc_BM_220702 188@fossile_haut_grande_cascade.fossile_haut_grande_cascade
+
+	input Data/aval-riviere-or/aval-riviere-or-tot.th
+		equate 169@fossile_haut_grande_cascade.fossile_haut_grande_cascade 0@aval-riviere-or.aval-riviere-or
+	input Data/amont-riviere-or/amont-riviere-or-tot.th
+		equate PTRC1@amont-riviere-or.amont-riviere-or 9.29@aval-riviere-or.aval-riviere-or
+
+	input Data/siphon-jaune-et-rouge/siphon-jaune-et-rouge-tot.th
+		equate PTRC2@siphon-jaune-et-rouge.siphon-jaune-et-rouge PTRC2@aval-riviere-or.aval-riviere-or
+
+	input Data/Branche-aval/Branche-aval-tot.th
+		equate A6@Branche-aval.Branche-aval	6@aval-riviere-or.aval-riviere-or
+		equate 51@Branche-aval.Branche-aval	1@aval-riviere-or.aval-riviere-or
+	
+	input Data/amont-lac-bouzes/amont_lac_des_bouzes-tot.th
+		equate 0@amont_lac_des_bouzes.amont_lac_des_bouzes ARBF2@haut_puits_du_lac.haut_puits_du_lac
+
+	input Data/lac-vers-bassine/haut_puits_du_lac-tot.th
+		equate 44@aval-riviere-or.aval-riviere-or ARBF0@haut_puits_du_lac.haut_puits_du_lac
+
+	input Data/bassine-trémie-finale/bassine-trémie-finale-tot.th
+		equate D1@Berger_Galerie_Maud_BM_220715.bassine-tremie-finale ARBF55@haut_puits_du_lac.haut_puits_du_lac
+
+	input Data/escalade-coulee/escalade-coulee-tot.th
+		equate PTR2@Escalade_grande_coulee_calcite_BM_220715.escalade-coulee ARBF28@haut_puits_du_lac.haut_puits_du_lac
+	
+	# Import des maps
+	#input Etoile-Sardine-maps.th
+ 
+ endsurvey
+ 

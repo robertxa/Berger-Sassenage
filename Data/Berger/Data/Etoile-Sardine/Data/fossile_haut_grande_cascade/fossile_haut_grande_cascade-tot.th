@@ -1,0 +1,17 @@
+encoding  utf-8
+
+# Copyright (C) 2022 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+survey fossile_haut_grande_cascade -title "Fossile haut de la grande cascade"
+	# Pour importer les différentes données de différents fichiers topos : 
+	input Data/fossile_haut_grande_cascade.th
+	
+
+
+	# Import des maps
+	#input fossile_haut_grande_cascade-maps.th
+ 
+ endsurvey
+ 

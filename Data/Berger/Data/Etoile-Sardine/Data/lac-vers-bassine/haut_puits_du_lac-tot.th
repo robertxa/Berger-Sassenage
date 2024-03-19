@@ -1,0 +1,16 @@
+encoding  utf-8
+
+# Copyright (C) 2022 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+survey haut_puits_du_lac -title "Haut du puits du Lac"
+	# Pour importer les différentes données de différents fichiers topos : 
+	input Data/haut_puits_du_lac.th
+	
+
+	# Import des maps
+	#input haut_puits_du_lac-maps.th
+ 
+ endsurvey
+ 

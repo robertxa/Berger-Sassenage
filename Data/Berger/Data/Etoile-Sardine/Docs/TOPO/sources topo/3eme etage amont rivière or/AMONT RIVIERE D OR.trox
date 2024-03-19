@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<VisualTopo>
+	<Version>5.16</Version>
+	<Lignes>28</Lignes>
+	<Cavite>
+		<Nom>BERGER AMONT RIVIERE D OR</Nom>
+		<Club>ASV LIONEL REVIL ET DAMIEN GRUEL</Club>
+		<Entree>0</Entree>
+		<Toporobot>0</Toporobot>
+		<Couleur>0,0,0</Couleur>
+	</Cavite>
+	<Mesures>
+		<Param InstrDist="Deca" UnitDir="Degd" InstrPte="Clino" UnitPte="Degd" Declin="0.0000" SensDir="Dir" SensPte="Dir" SensLar="Dir" DimPt="Inc" Coul="Std" Date="09/07/2022" DeclinAuto="M">
+			<Visee Dep="0" Arr="0" Long="0.00" Az="0.00" Pte="0.00" G="2.80" D="1.80" H="16.17" B="0.00" Ref="1" Suiv="2"/>
+			<Visee Dep="0" Arr="PTRC1" Long="0.00" Az="0.00" Pte="0.00" G="2.80" D="1.80" H="16.17" B="0.00" Ref="1" Suiv="3">
+				<Commentaire>PRTC1 AU SOL DEVANT LA VASQUE</Commentaire>
+			</Visee>
+			<Visee Dep="PTRC1" Arr="AVALRIVIEREOR" Long="28.74" Az="111.90" Pte="-1.30" G="1.50" D="1.50" H="15.00" B="1.50" Exc="E" Ref="2">
+				<Commentaire>VIS2E DE POSITIONEMENT</Commentaire>
+			</Visee>
+			<Visee Dep="PTRC1" Arr="VASQUE" Long="4.01" Az="203.60" Pte="0.30" G="1.40" D="1.50" H="0.00" B="0.60" Exc="E" Ref="2">
+				<Commentaire>VERS LA VASQUE VIS2E DE POSITIONEMENT</Commentaire>
+			</Visee>
+			<Visee Dep="PTRC1" Arr="1" Long="8.40" Az="298.50" Pte="22.00" G="1.70" D="0.00" H="13.50" B="1.00" Ref="2" Suiv="6">
+				<Commentaire>COUL2E DE CALCITE</Commentaire>
+			</Visee>
+			<Visee Dep="1" Arr="2" Long="9.97" Az="281.60" Pte="29.90" G="0.30" D="0.70" H="6.90" B="0.80" Ref="5" Suiv="7">
+				<Commentaire>COUL2E DE CALCITE</Commentaire>
+			</Visee>
+			<Visee Dep="2" Arr="3" Long="5.47" Az="284.00" Pte="41.60" G="0.00" D="1.92" H="3.47" B="0.20" Ref="6" Suiv="8">
+				<Commentaire>R2</Commentaire>
+			</Visee>
+			<Visee Dep="3" Arr="4" Long="5.62" Az="300.40" Pte="10.90" G="1.12" D="0.37" H="1.76" B="0.25" Ref="7" Suiv="9"/>
+			<Visee Dep="4" Arr="5" Long="3.73" Az="287.30" Pte="2.80" G="0.66" D="0.56" H="1.65" B="0.40" Ref="8" Suiv="10">
+				<Commentaire>PASSAGE etroit dans coulée de calcite</Commentaire>
+			</Visee>
+			<Visee Dep="5" Arr="6" Long="7.00" Az="293.10" Pte="22.90" G="0.96" D="0.00" H="0.91" B="0.80" Ref="9" Suiv="11">
+				<Commentaire>sortie quatre patte sur coulée</Commentaire>
+			</Visee>
+			<Visee Dep="6" Arr="7" Long="3.18" Az="300.90" Pte="-2.10" G="2.46" D="0.00" H="1.17" B="0.50" Ref="10" Suiv="12">
+				<Commentaire>EMBRANCHEMENT BOUCLE A DROITE</Commentaire>
+			</Visee>
+			<Visee Dep="7" Arr="8" Long="4.68" Az="197.40" Pte="6.30" G="1.95" D="0.00" H="0.73" B="0.71" Ref="11" Suiv="13">
+				<Commentaire>SOL CALCITE</Commentaire>
+			</Visee>
+			<Visee Dep="8" Arr="9" Long="9.48" Az="229.30" Pte="8.60" G="1.64" D="2.38" H="2.86" B="0.70" Ref="12" Suiv="14">
+				<Commentaire>EMBRANCHEMENT BOUCLE DE DROITE</Commentaire>
+			</Visee>
+			<Visee Dep="9" Arr="10" Long="14.23" Az="228.30" Pte="22.70" G="1.98" D="0.50" H="0.62" B="0.00" Ref="13" Suiv="15">
+				<Commentaire>TALUS D4ARGILE SOLIDE</Commentaire>
+			</Visee>
+			<Visee Dep="10" Arr="11" Long="9.16" Az="209.20" Pte="3.70" G="0.95" D="0.00" H="0.23" B="0.45" Ref="14" Suiv="16">
+				<Commentaire>LAMINOIRE REMPLISSAGE ARGILE DURE</Commentaire>
+			</Visee>
+			<Visee Dep="11" Arr="12" Long="6.67" Az="185.00" Pte="-5.50" G="2.00" D="0.45" H="0.60" B="0.77" Ref="15" Suiv="17">
+				<Commentaire>ARGILE SOL</Commentaire>
+			</Visee>
+			<Visee Dep="12" Arr="13" Long="5.16" Az="204.90" Pte="-2.90" G="0.58" D="0.70" H="0.28" B="0.78" Ref="16" Suiv="18"/>
+			<Visee Dep="13" Arr="14" Long="7.99" Az="195.30" Pte="0.50" G="2.97" D="0.00" H="1.12" B="0.89" Ref="17" Suiv="19"/>
+			<Visee Dep="14" Arr="15" Long="2.45" Az="154.10" Pte="-21.20" G="1.30" D="1.80" H="2.27" B="0.00" Ref="18" Suiv="20">
+				<Commentaire>EMBRANCHEMENT AMONT D2PART R2</Commentaire>
+			</Visee>
+			<Visee Dep="15" Arr="16" Long="7.13" Az="268.30" Pte="34.30" G="1.88" D="0.00" H="0.90" B="0.74" Ref="19" Suiv="21"/>
+			<Visee Dep="16" Arr="17" Long="2.19" Az="194.00" Pte="4.60" G="1.00" D="2.00" H="1.40" B="0.44" Ref="20" Suiv="22"/>
+			<Visee Dep="17" Arr="18" Long="6.42" Az="307.70" Pte="22.00" G="1.00" D="1.20" H="1.00" B="0.00" Ref="21">
+				<Commentaire>OBSTUCTION INFRANCHISSABLE ARGILE SOLIDE</Commentaire>
+			</Visee>
+			<Visee Dep="15" Arr="19" Long="6.09" Az="190.10" Pte="-3.00" G="1.43" D="0.88" H="1.00" B="0.00" Ref="19" Suiv="24">
+				<Commentaire>SUITE BRANCHE PRINCIPALE</Commentaire>
+			</Visee>
+			<Visee Dep="19" Arr="20" Long="7.40" Az="162.50" Pte="-15.90" G="0.94" D="3.80" H="1.23" B="1.60" Ref="23" Suiv="25">
+				<Commentaire>SOMMET PUITS</Commentaire>
+			</Visee>
+			<Visee Dep="20" Arr="21" Long="7.90" Az="193.80" Pte="-65.00" G="1.54" D="0.94" H="6.87" B="0.00" Ref="24" Suiv="26">
+				<Commentaire>BAS P7</Commentaire>
+			</Visee>
+			<Visee Dep="21" Arr="22" Long="6.58" Az="137.40" Pte="-17.70" G="1.53" D="0.95" H="1.62" B="0.88" Ref="25" Suiv="27">
+				<Commentaire>GALERIE BAS DU PUITS</Commentaire>
+			</Visee>
+			<Visee Dep="22" Arr="23" Long="7.04" Az="152.40" Pte="-29.60" G="0.30" D="0.30" H="0.40" B="0.00" Ref="26">
+				<Commentaire>OBSTRUCTION D4ARGILE SOLIDE PAS DE COURANT D AIRE</Commentaire>
+			</Visee>
+		</Param>
+	</Mesures>
+	<Configuration>
+		<Application Position="2,3,-1,-1,-1,-1,142,123,1582,882">
+			<Toolbar>1</Toolbar>
+			<Statusbar>1</Statusbar>
+			<Commentaires>1</Commentaires>
+		</Application>
+		<Calcul Position="2,3,-1,-1,-8,-31,52,52,1686,689">
+			<Entree0>1</Entree0>
+			<Bissectrices>1</Bissectrices>
+			<Perpendiculaires>0</Perpendiculaires>
+			<Hauteurs>1</Hauteurs>
+			<Boucles>1</Boucles>
+			<Controles>1</Controles>
+			<Nord>0</Nord>
+			<Commentaires>0</Commentaires>
+			<Calcul>1</Calcul>
+			<Active>1</Active>
+		</Calcul>
+		<ExportDxf>
+			<Topo>0</Topo>
+			<Equidistance>100</Equidistance>
+			<Theta>0</Theta>
+			<Phi>0</Phi>
+			<Cheminement Couleur="1">1</Cheminement>
+			<Points Couleur="6">1</Points>
+			<Stations Couleur="7">1</Stations>
+			<Largeurs Couleur="4">1</Largeurs>
+			<Hauteurs Couleur="4">0</Hauteurs>
+			<ContoursLargeurs Couleur="3">0</ContoursLargeurs>
+			<ContoursHauteurs Couleur="3">0</ContoursHauteurs>
+			<Profondeurs Couleur="2">0</Profondeurs>
+			<Echelle Couleur="7">1</Echelle>
+			<Quadrillage Couleur="9">0</Quadrillage>
+			<Radiales Couleur="9">1</Radiales>
+			<Contours3D Couleur="3">0</Contours3D>
+		</ExportDxf>
+		<ExportSvg>
+			<Topo>0</Topo>
+			<Equidistance>100</Equidistance>
+			<Theta>0</Theta>
+			<Phi>0</Phi>
+			<Cheminement Couleur="165,42,0">1</Cheminement>
+			<Points Couleur="127,127,127">1</Points>
+			<Stations Couleur="0,0,255">1</Stations>
+			<Largeurs Couleur="0,147,0">1</Largeurs>
+			<Hauteurs Couleur="0,147,0">0</Hauteurs>
+			<ContoursLargeurs Couleur="0,0,139">0</ContoursLargeurs>
+			<ContoursHauteurs Couleur="0,0,139">0</ContoursHauteurs>
+			<Profondeurs Couleur="255,0,0">1</Profondeurs>
+			<Echelle Couleur="0,0,0">1</Echelle>
+			<Quadrillage Couleur="127,127,127">0</Quadrillage>
+			<Radiales Couleur="60,179,113">1</Radiales>
+			<Remplissage Couleur="255,173,91">0</Remplissage>
+			<Fond Couleur="192,192,192">0</Fond>
+			<Contours3D Couleur="0,0,139">0</Contours3D>
+		</ExportSvg>
+		<ExportKml>
+			<TypeCouleur>0</TypeCouleur>
+		</ExportKml>
+		<ExportShp>
+			<Coordonnees>0</Coordonnees>
+			<TypeFichier>0</TypeFichier>
+			<Forme3D>0</Forme3D>
+		</ExportShp>
+		<Colonnes>
+			<Départ>88</Départ>
+			<Arrivée>88</Arrivée>
+			<DepTopofil>72</DepTopofil>
+			<ArrTopofil>72</ArrTopofil>
+			<Longueur>72</Longueur>
+			<Azimut>72</Azimut>
+			<Pente>72</Pente>
+			<Gauche>72</Gauche>
+			<Droite>72</Droite>
+			<Haut>72</Haut>
+			<Bas>72</Bas>
+			<Inverse>16</Inverse>
+			<Exclusion>24</Exclusion>
+			<Detail>16</Detail>
+			<Section>16</Section>
+			<ComPhot>32</ComPhot>
+			<Separ1>3</Separ1>
+			<X>72</X>
+			<Y>72</Y>
+			<Z>72</Z>
+			<LDev>72</LDev>
+			<Dist>72</Dist>
+			<Separ2>3</Separ2>
+			<Commentaire>0</Commentaire>
+			<Photo>0</Photo>
+		</Colonnes>
+	</Configuration>
+</VisualTopo>
