@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<VisualTopo>
+	<Version>5.21</Version>
+	<Verification>1</Verification>
+	<Lignes>63</Lignes>
+	<Cavite>
+		<Entree>0</Entree>
+		<Toporobot>0</Toporobot>
+		<Couleur>0,0,0</Couleur>
+	</Cavite>
+	<Mesures>
+		<Param InstrDist="Topof" Etal="1.000" UnitDir="Degd" InstrPte="Vulc" UnitPte="Degd" Declin="0.0000" SensDir="Dir" SensPte="Dir" SensLar="Dir" DimPt="Arr" Coul="Std" Date="20/06/2023" DeclinAuto="M">
+			<Visee Dep="term2023" Arr="term2023" DepTop="0.0" ArrTop="0.0" Az="0.00" Pte="0.00" G="1.50" D="1.50" H="1.00" B="0.50" Inv="I" Ref="1" Suiv="1"/>
+			<Visee Arr="a1" DepTop="12394.0" ArrTop="13143.0" Az="48.00" Pte="94.00" G="3.00" D="0.00" H="2.00" B="2.00" Inv="I" Ref="1" Suiv="3"/>
+			<Visee Arr="a2" DepTop="13143.0" ArrTop="14123.0" Az="339.00" Pte="95.00" G="0.00" D="5.00" H="15.00" B="2.00" Ref="2" Suiv="4"/>
+			<Visee Arr="a3" DepTop="14123.0" ArrTop="16639.0" Az="98.00" Pte="98.00" G="2.00" D="2.00" H="6.00" B="0.00" Ref="3" Suiv="5"/>
+			<Visee Arr="a4" DepTop="16612.0" ArrTop="17242.0" Az="127.00" Pte="118.00" G="2.00" D="1.00" H="15.00" B="0.00" Ref="4" Suiv="6"/>
+			<Visee Arr="a5" DepTop="17242.0" ArrTop="17619.0" Az="75.00" Pte="124.00" G="2.00" D="2.00" H="2.00" B="2.00" Ref="5" Suiv="7"/>
+			<Visee Arr="a6" DepTop="0.0" ArrTop="200.0" Az="0.00" Pte="180.00" Ref="6" Suiv="8"/>
+			<Visee Arr="a7" DepTop="17619.0" ArrTop="19356.0" Az="147.00" Pte="84.00" G="1.00" D="1.00" H="2.00" B="4.00" Ref="7" Suiv="9"/>
+			<Visee Arr="a8" DepTop="18356.0" ArrTop="19576.0" Az="79.00" Pte="109.00" G="0.00" D="2.00" H="5.00" B="2.00" Inv="I" Ref="8" Suiv="10"/>
+			<Visee Arr="PJ1" DepTop="19576.0" ArrTop="21155.0" Az="115.00" Pte="110.00" Ref="9" Suiv="18"/>
+			<Visee Dep="siphon3" Arr="siphon3" DepTop="0.0" ArrTop="0.0" Az="0.00" Pte="0.00" G="1.50" D="1.50" H="0.50" Ref="12"/>
+			<Visee Arr="b2" DepTop="21155.0" ArrTop="22589.0" Az="26.00" Pte="90.00" G="2.00" D="2.00" B="1.00" Ref="13" Suiv="11" InvV1V2="1"/>
+			<Visee Arr="b3" DepTop="22589.0" ArrTop="24225.0" Az="4.00" Pte="90.00" G="2.00" D="2.00" B="0.20" Ref="14" Suiv="12" InvV1V2="1"/>
+			<Visee Arr="b4" DepTop="24225.0" ArrTop="25031.0" Az="340.00" Pte="82.00" G="0.00" D="2.00" H="1.00" B="2.00" Ref="15" Suiv="13" InvV1V2="1"/>
+			<Visee Arr="b5" DepTop="25031.0" ArrTop="25697.0" Az="88.00" Pte="108.00" G="2.00" D="2.00" H="1.50" B="1.00" Ref="16" Suiv="14" InvV1V2="1">
+				<Commentaire>depart shunt qui boucle a PJ1</Commentaire>
+			</Visee>
+			<Visee Arr="b6" DepTop="25697.0" ArrTop="26715.0" Az="114.00" Pte="102.00" G="4.00" D="0.00" H="1.20" B="0.50" Ref="17" Suiv="15" InvV1V2="1">
+				<Commentaire>depart shunt vers B7</Commentaire>
+			</Visee>
+			<Visee Arr="b7" DepTop="26715.0" ArrTop="27723.0" Az="21.00" Pte="89.00" G="1.00" D="1.00" H="2.00" B="0.80" Ref="18" Suiv="16" InvV1V2="1"/>
+			<Visee Arr="PJ1" DepTop="30044.0" ArrTop="30904.0" Az="343.00" Pte="90.00" G="0.00" D="3.00" H="3.00" B="1.50" Inv="I" Ref="10" Suiv="17" InvV1V2="1"/>
+			<Visee Arr="b8" DepTop="27723.0" ArrTop="29184.0" Az="56.00" Pte="95.00" G="5.00" D="0.00" H="2.00" B="0.80" Ref="10" Suiv="20"/>
+			<Visee Arr="b9" DepTop="30904.0" ArrTop="32950.0" Az="354.00" Pte="91.00" G="0.00" D="2.00" H="4.00" B="2.00" Ref="19" Suiv="21">
+				<Commentaire>grosse galerie rive gauche en hauteur qui boucle a a3</Commentaire>
+			</Visee>
+			<Visee Arr="b10" DepTop="32950.0" ArrTop="33935.0" Az="62.00" Pte="95.00" G="0.00" D="2.00" H="5.00" B="1.50" Ref="20" Suiv="22"/>
+			<Visee Arr="b11" DepTop="33935.0" ArrTop="34450.0" Az="127.00" Pte="98.00" G="2.00" D="0.00" H="5.00" B="1.50" Ref="21" Suiv="23"/>
+			<Visee Arr="b12" DepTop="34450.0" ArrTop="35657.0" Az="89.00" Pte="93.00" G="0.00" D="2.00" H="6.00" B="1.50" Ref="22" Suiv="24"/>
+			<Visee Arr="b13" DepTop="35657.0" ArrTop="36377.0" Az="84.00" Pte="89.00" G="2.00" D="0.00" H="6.00" B="1.50" Ref="23" Suiv="25"/>
+			<Visee Arr="b14" DepTop="36377.0" ArrTop="37610.0" Az="15.00" Pte="93.00" G="0.00" D="2.00" H="8.00" B="1.50" Ref="24" Suiv="26"/>
+			<Visee Arr="b15" DepTop="37610.0" ArrTop="38605.0" Az="64.00" Pte="64.00" G="0.00" D="2.00" H="10.00" B="1.50" Ref="25" Suiv="27"/>
+			<Visee Arr="b16" DepTop="38605.0" ArrTop="39026.0" Az="97.00" Pte="82.00" G="2.00" D="0.50" H="10.00" B="2.00" Ref="26" Suiv="28"/>
+			<Visee Arr="b17" DepTop="39026.0" ArrTop="40709.0" Az="46.00" Pte="119.00" G="1.00" D="1.50" H="2.00" B="1.00" Ref="27" Suiv="29"/>
+			<Visee Arr="b18" DepTop="41354.0" ArrTop="42026.0" Az="15.00" Pte="98.00" G="1.00" D="1.00" H="5.00" B="1.50" Ref="28" Suiv="30"/>
+			<Visee Arr="b19" DepTop="42026.0" ArrTop="42926.0" Az="62.00" Pte="114.00" G="1.00" D="1.00" H="10.00" B="1.50" Ref="29" Suiv="31"/>
+			<Visee Arr="b20" DepTop="43230.0" ArrTop="44241.0" Az="83.00" Pte="103.00" G="1.00" D="2.00" H="10.00" B="1.70" Ref="30" Suiv="32"/>
+			<Visee Arr="b21" DepTop="44241.0" ArrTop="45999.0" Az="92.00" Pte="104.00" G="10.00" D="0.00" H="15.00" B="1.70" Ref="31" Suiv="33"/>
+			<Visee Arr="b22" DepTop="45999.0" ArrTop="47499.0" Az="60.00" Pte="96.00" G="0.00" D="2.00" H="2.00" B="1.50" Ref="32" Suiv="34"/>
+			<Visee Arr="b23" DepTop="47574.0" ArrTop="49551.0" Az="339.00" Pte="148.00" G="0.00" D="3.00" H="5.00" Ref="33" Suiv="35"/>
+			<Visee Arr="SortieS2" DepTop="0.0" ArrTop="1200.0" Az="339.00" Pte="90.00" G="0.00" D="1.20" H="5.00" Ref="34" Suiv="37"/>
+		</Param>
+		<Param InstrDist="Topof" Etal="100.000" UnitDir="Degd" InstrPte="Prof" Declin="0.0000" SensDir="Dir" SensPte="Dir" SensLar="Dir" DimPt="Dep" Coul="Std" Date="14/09/2020" DeclinAuto="M">
+			<Visee Dep="SortieS2" Arr="x1" DepTop="100.0" ArrTop="105.0" Az="0.00" Pte="0.00" G="0.00" D="1.20" H="6.00" B="0.00" Ref="35" Suiv="38"/>
+			<Visee Arr="x2" DepTop="91.0" ArrTop="100.0" Az="30.00" Pte="-4.00" G="1.00" D="1.00" H="1.50" Ref="37" Suiv="39"/>
+			<Visee Arr="x3" DepTop="75.0" ArrTop="91.0" Az="0.00" Pte="-3.00" G="1.00" D="1.00" H="1.50" Ref="38" Suiv="40"/>
+			<Visee Arr="DepartS2" DepTop="65.0" ArrTop="75.0" Az="310.00" Pte="0.00" G="1.00" D="1.00" H="1.50" Ref="39" Suiv="42"/>
+		</Param>
+		<Param InstrDist="Deca" UnitDir="Degd" InstrPte="Deniv" Declin="0.0000" SensDir="Dir" SensPte="Dir" SensLar="Dir" DimPt="Dep" Coul="Std" Date="14/09/2020" DeclinAuto="M">
+			<Visee Dep="DepartS2" Arr="x4" Long="5.00" Az="300.00" Pte="0.00" G="0.00" D="3.00" Ref="40" Suiv="43"/>
+			<Visee Arr="x5" Long="20.00" Az="0.00" Pte="0.00" G="0.00" D="3.00" H="3.00" B="0.00" Ref="42" Suiv="44"/>
+			<Visee Arr="x6" Long="20.00" Az="10.00" Pte="0.00" G="5.00" D="5.00" H="15.00" Ref="43" Suiv="45"/>
+			<Visee Arr="x7" Long="20.00" Az="0.00" Pte="0.00" G="1.00" D="1.00" H="1.00" Ref="44" Suiv="46"/>
+			<Visee Arr="x8" Long="20.00" Az="330.00" Pte="0.00" G="1.00" D="1.50" H="1.50" Ref="45" Suiv="47"/>
+			<Visee Arr="x9" Long="30.00" Az="0.00" Pte="0.00" G="3.00" D="3.00" H="3.00" Ref="46" Suiv="48"/>
+			<Visee Arr="x10" Long="25.00" Az="10.00" Pte="0.00" G="3.00" D="3.00" H="8.00" Ref="47" Suiv="49"/>
+			<Visee Arr="SortieS1" Long="40.00" Az="0.00" Pte="0.00" G="3.00" D="3.00" H="8.00" Ref="48" Suiv="51"/>
+		</Param>
+		<Param InstrDist="Topof" Etal="100.000" UnitDir="Degd" InstrPte="Prof" Declin="0.0000" SensDir="Dir" SensPte="Dir" SensLar="Dir" DimPt="Arr" Coul="Std" Date="14/09/2020" DeclinAuto="M">
+			<Visee Dep="SortieS1" Arr="x11" DepTop="40.0" ArrTop="60.0" Az="0.00" Pte="-9.00" G="2.00" D="2.00" H="5.00" Ref="49" Suiv="52"/>
+			<Visee Arr="x12" DepTop="0.0" ArrTop="40.0" Az="0.00" Pte="-12.00" G="2.00" D="2.00" H="3.00" Ref="51" Suiv="53"/>
+			<Visee Arr="x13" DepTop="290.0" ArrTop="310.0" Az="0.00" Pte="-8.00" G="2.00" D="2.00" H="3.00" Ref="52" Suiv="54"/>
+			<Visee Arr="cloche" DepTop="240.0" ArrTop="290.0" Az="10.00" Pte="0.00" G="10.00" D="2.00" H="3.00" Ref="53" Suiv="55"/>
+			<Visee Arr="x15" DepTop="215.0" ArrTop="240.0" Az="60.00" Pte="-12.00" G="2.00" D="2.00" H="3.00" Ref="54" Suiv="56"/>
+			<Visee Arr="x16" DepTop="140.0" ArrTop="215.0" Az="60.00" Pte="-15.00" G="2.00" D="2.00" H="3.00" Ref="55" Suiv="57"/>
+			<Visee Arr="x17" DepTop="130.0" ArrTop="140.0" Az="30.00" Pte="-11.00" G="2.00" D="2.00" H="3.00" Ref="56" Suiv="58"/>
+			<Visee Arr="x18" DepTop="110.0" ArrTop="130.0" Az="0.00" Pte="-11.00" G="2.00" D="2.00" H="3.00" Ref="57" Suiv="59"/>
+			<Visee Arr="x19" DepTop="90.0" ArrTop="110.0" Az="10.00" Pte="-9.00" G="2.00" D="2.00" H="3.00" Ref="58" Suiv="60"/>
+			<Visee Arr="x20" DepTop="60.0" ArrTop="90.0" Az="30.00" Pte="-11.00" G="2.00" D="2.00" H="3.00" Ref="59" Suiv="61"/>
+			<Visee Arr="x21" DepTop="50.0" ArrTop="60.0" Az="0.00" Pte="-11.00" G="2.00" D="2.00" H="3.00" Ref="60" Suiv="62"/>
+			<Visee Arr="0" DepTop="0.0" ArrTop="50.0" Az="340.00" Pte="0.00" G="2.00" D="2.00" H="3.00" Ref="61"/>
+		</Param>
+	</Mesures>
+	<Configuration>
+		<Application Position="2,3,-1,-1,-1,-1,525,26,1051,551">
+			<Toolbar>1</Toolbar>
+			<Statusbar>1</Statusbar>
+			<Commentaires>1</Commentaires>
+		</Application>
+		<Calcul Position="0,1,-1,-1,-8,-31,0,0,402,230">
+			<Entree0>1</Entree0>
+			<Bissectrices>1</Bissectrices>
+			<Perpendiculaires>0</Perpendiculaires>
+			<Hauteurs>1</Hauteurs>
+			<Boucles>0</Boucles>
+			<Controles>1</Controles>
+			<Nord>2</Nord>
+			<Commentaires>0</Commentaires>
+			<Calcul>1</Calcul>
+			<Active>0</Active>
+		</Calcul>
+		<ExportDxf>
+			<Topo>0</Topo>
+			<Equidistance>100</Equidistance>
+			<Theta>0</Theta>
+			<Phi>0</Phi>
+			<Cheminement Couleur="1">1</Cheminement>
+			<Points Couleur="6">1</Points>
+			<Stations Couleur="7">1</Stations>
+			<Largeurs Couleur="4">1</Largeurs>
+			<Hauteurs Couleur="4">0</Hauteurs>
+			<ContoursLargeurs Couleur="3">0</ContoursLargeurs>
+			<ContoursHauteurs Couleur="3">0</ContoursHauteurs>
+			<Profondeurs Couleur="2">0</Profondeurs>
+			<Echelle Couleur="7">1</Echelle>
+			<Quadrillage Couleur="9">0</Quadrillage>
+			<Radiales Couleur="9">1</Radiales>
+			<Contours3D Couleur="3">0</Contours3D>
+		</ExportDxf>
+		<ExportSvg>
+			<Topo>0</Topo>
+			<Equidistance>100</Equidistance>
+			<Theta>0</Theta>
+			<Phi>0</Phi>
+			<Cheminement Couleur="165,42,0">1</Cheminement>
+			<Points Couleur="127,127,127">1</Points>
+			<Stations Couleur="0,0,255">1</Stations>
+			<Largeurs Couleur="0,147,0">1</Largeurs>
+			<Hauteurs Couleur="0,147,0">0</Hauteurs>
+			<ContoursLargeurs Couleur="0,0,139">0</ContoursLargeurs>
+			<ContoursHauteurs Couleur="0,0,139">0</ContoursHauteurs>
+			<Profondeurs Couleur="255,0,0">1</Profondeurs>
+			<Echelle Couleur="0,0,0">1</Echelle>
+			<Quadrillage Couleur="127,127,127">0</Quadrillage>
+			<Radiales Couleur="60,179,113">1</Radiales>
+			<Remplissage Couleur="255,173,91">0</Remplissage>
+			<Fond Couleur="192,192,192">0</Fond>
+			<Contours3D Couleur="0,0,139">0</Contours3D>
+		</ExportSvg>
+		<ExportKml>
+			<TypeCouleur>0</TypeCouleur>
+			<TypeKml>1</TypeKml>
+			<Altitudes>0</Altitudes>
+		</ExportKml>
+		<ExportShp>
+			<Coordonnees>0</Coordonnees>
+			<TypeFichier>0</TypeFichier>
+			<Forme3D>0</Forme3D>
+		</ExportShp>
+		<Colonnes>
+			<Départ>88</Départ>
+			<Arrivée>88</Arrivée>
+			<DepTopofil>72</DepTopofil>
+			<ArrTopofil>72</ArrTopofil>
+			<Longueur>72</Longueur>
+			<Azimut>72</Azimut>
+			<Pente>72</Pente>
+			<Gauche>72</Gauche>
+			<Droite>72</Droite>
+			<Haut>72</Haut>
+			<Bas>72</Bas>
+			<Inverse>16</Inverse>
+			<Exclusion>24</Exclusion>
+			<Detail>16</Detail>
+			<Section>16</Section>
+			<ComPhot>32</ComPhot>
+			<Separ1>3</Separ1>
+			<X>72</X>
+			<Y>72</Y>
+			<Z>72</Z>
+			<LDev>72</LDev>
+			<Dist>72</Dist>
+			<Separ2>3</Separ2>
+			<Commentaire>0</Commentaire>
+			<Photo>0</Photo>
+		</Colonnes>
+		<Plan Position="0,1,-1,-1,-8,-31,26,26,1210,401">
+			<Cheminement>1</Cheminement>
+			<Points>1</Points>
+			<Stations>1</Stations>
+			<Largeurs>1</Largeurs>
+			<ContoursLargeurs>0</ContoursLargeurs>
+			<Hauteurs>0</Hauteurs>
+			<ContoursHauteurs>0</ContoursHauteurs>
+			<Cube>0</Cube>
+			<Contours3D>0</Contours3D>
+			<Epaisseurs>0</Epaisseurs>
+			<Echelle>1</Echelle>
+			<Zoom>1</Zoom>
+			<Maillage>0</Maillage>
+			<Courbes>0</Courbes>
+			<Profondeurs>0</Profondeurs>
+			<Marqueurs>1</Marqueurs>
+			<Radiales>0</Radiales>
+			<Remplissage>1</Remplissage>
+			<Exclues>0</Exclues>
+			<Dilatation>1.00</Dilatation>
+			<Equidistance>25</Equidistance>
+			<Quadrillage>0</Quadrillage>
+			<TypeCouleur>0</TypeCouleur>
+			<DateMin>0</DateMin>
+			<DateMax>0</DateMax>
+			<Impression>
+				<Type>0</Type>
+				<Pages>1</Pages>
+				<Echelle>0</Echelle>
+			</Impression>
+			<Active>0</Active>
+		</Plan>
+		<Coupe Position="2,3,-1,-1,-8,-31,52,52,1236,427">
+			<Cheminement>1</Cheminement>
+			<Points>1</Points>
+			<Stations>1</Stations>
+			<Largeurs>0</Largeurs>
+			<ContoursLargeurs>0</ContoursLargeurs>
+			<Hauteurs>1</Hauteurs>
+			<ContoursHauteurs>0</ContoursHauteurs>
+			<Cube>0</Cube>
+			<Contours3D>0</Contours3D>
+			<Epaisseurs>0</Epaisseurs>
+			<Echelle>1</Echelle>
+			<Zoom>0</Zoom>
+			<Maillage>0</Maillage>
+			<Courbes>0</Courbes>
+			<Profondeurs>0</Profondeurs>
+			<Marqueurs>1</Marqueurs>
+			<Radiales>0</Radiales>
+			<Remplissage>0</Remplissage>
+			<Exclues>0</Exclues>
+			<Dilatation>1.00</Dilatation>
+			<Sens>0</Sens>
+			<TypeCouleur>0</TypeCouleur>
+			<DateMin>0</DateMin>
+			<DateMax>0</DateMax>
+			<Impression>
+				<Type>0</Type>
+				<Pages>1</Pages>
+				<Echelle>0</Echelle>
+			</Impression>
+			<Active>1</Active>
+		</Coupe>
+	</Configuration>
+</VisualTopo>

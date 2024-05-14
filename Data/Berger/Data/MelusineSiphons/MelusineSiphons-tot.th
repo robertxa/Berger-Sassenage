@@ -1,0 +1,20 @@
+encoding  utf-8
+
+# Copyright (C) 2024 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+survey MelusineSiphons -title "Siphons Amont Melusine"
+	# Pour importer les différentes données de différents fichiers topos : 
+	
+	input Data/S1-S2/S1-S2-tot.th
+
+	#input Data/Boyau_Siphon_Blanc_BM_220702/Boyau_Siphon_Blanc_BM_220702-tot.th
+	#	equate A188@Boyau_Siphon_Blanc_BM_220702.Boyau_Siphon_Blanc_BM_220702 188@fossile_haut_grande_cascade.fossile_haut_grande_cascade
+
+	
+	# Import des maps
+	#input MelusineSiphons-maps.th
+ 
+ endsurvey
+ 

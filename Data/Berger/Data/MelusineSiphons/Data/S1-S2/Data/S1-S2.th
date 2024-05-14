@@ -1,0 +1,190 @@
+
+
+survey S1-S2 -title "Siphons amont Mélusine"
+
+  centerline
+    date 2023.06.20
+      team "Damien Vignoles" 
+      team "Emmanuel Tessanne"
+    explo-date 2023.06.20
+      explo-team "Damien Vignoles" 
+      explo-team "Emmanuel Tessanne"
+
+    units length meters
+    units counter centimeters
+    units compass clino degrees
+    #calibrate counter 0.5 0
+    calibrate clino 90 -1
+
+#    data normal from to length compass clino
+  
+#     Trou gouffre Berger le renouveau,0.00000,0.00000,0.00,LT2
+# Club adeline oc�ane Rudy Edouard Emmanuel Damien
+# Entree 0
+# Toporobot 0
+# Couleur 0,0,0
+
+# Param Topof 100.000 Degd Prof 0.0000 Dir,Dir,Dir Dep Std 14/09/2020 M
+
+# 0          0                0.0       0.0    0.00    0.00      .      .      .      .
+# 0          SortieS2         0.0      15.0    0.00    0.00      .      .      .      .
+# SortieS2   1              100.0     105.0    0.00    0.00      .      .      .      .
+# .          2               91.0     100.0   30.00   -4.00      .      .      .      .
+# .          3               75.0      91.0    0.00   -3.00      .      .      .      .
+# .          DepartS2        65.0      75.0  310.00    0.00      .      .      .      .
+
+# Param Deca Degd Deniv 0.0000 Dir,Dir,Dir Dep Std 14/09/2020 M
+
+# DepartS2   4                         5.00  300.00    0.00      .      .      .      .
+# .          5                        20.00    0.00    0.00   0.00      .      .      .
+# .          6                        20.00   10.00    0.00      .      .      .      .
+# .          7                        20.00    0.00    0.00      .      .      .      .
+# .          8                        20.00  330.00    0.00      .      .      .      .
+# .          9                        30.00    0.00    0.00      .      .      .      .
+# .          10                       25.00   10.00    0.00      .      .      .      .
+# .          SortieS1                 40.00    0.00    0.00      .      .      .      .
+
+# Param Topof 100.000 Degd Prof 0.0000 Dir,Dir,Dir Dep Std 14/09/2020 M
+
+# SortieS1   11              40.0      60.0    0.00   -9.00      .      .      .      .
+# .          12               0.0      40.0    0.00  -12.00      .      .      .      .
+# .          13             290.0     310.0    0.00   -8.00      .      .      .      .
+# .          cloche         240.0     290.0   10.00    0.00      .      .      .      .
+# .          15             215.0     240.0   60.00  -12.00      .      .      .      .
+# .          16             140.0     215.0   60.00  -15.00      .      .      .      .
+# .          17             130.0     140.0   30.00  -11.00      .      .      .      .
+# .          18             110.0     130.0    0.00  -11.00      .      .      .      .
+# .          19              90.0     110.0   10.00   -9.00      .      .      .      .
+# .          20              60.0      90.0   30.00  -11.00      .      .      .      .
+# .          21              50.0      60.0    0.00  -11.00      .      .      .      .
+# .          DS1              0.0      50.0  340.00    0.00      .      .      .      .
+
+    data normal from to fromcount tocount compass clino left right up down
+
+#Param Topof 1.000 Degd Vulc Degd 0.0000 Dir,Dir,Dir Arr Std 20/06/2023 M
+extend right
+term2023   term2023b         0.0       0.0    0.00    0.00   1.50   1.50   1.00   0.50 # terminus 2023
+term2023          a1           12394.0   13143.0   48.00   94.00   3.00   0.00   2.00   2.00
+a1          a2           13143.0   14123.0  339.00   95.00   0.00   5.00  15.00   2.00
+a2          a3           14123.0   16639.0   98.00   98.00   2.00   2.00   6.00   0.00
+a3          a4           16612.0   17242.0  127.00  118.00   2.00   1.00  15.00   0.00
+a4          a5           17242.0   17619.0   75.00  124.00   2.00   2.00   2.00   2.00
+a5          a6               0.0     200.0    0.00  180.00      .      .      .      .
+a6          a7           17619.0   19356.0  147.00   84.00   1.00   1.00   2.00   4.00
+a7          a8           18356.0   19576.0   79.00  109.00   0.00   2.00   5.00   2.00
+a8          PJ1          19576.0   21155.0  115.00  110.00      .      .      .      .
+extend right
+siphon3    siphon3b          0.0       0.0    0.00    0.00   1.50   1.50   0.50      .
+siphon3          b2           21155.0   22589.0   26.00   90.00   2.00   2.00      .   1.00
+b2          b3           22589.0   24225.0    4.00   90.00   2.00   2.00      .   0.20
+b3          b4           24225.0   25031.0  340.00   82.00   0.00   2.00   1.00   2.00
+b4          b5           25031.0   25697.0   88.00  108.00   2.00   2.00   1.50   1.00 # depart shunt qui boucle a PJ1
+b5          b6           25697.0   26715.0  114.00  102.00   4.00   0.00   1.20   0.50 # depart shunt vers B7
+b6          b7           26715.0   27723.0   21.00   89.00   1.00   1.00   2.00   0.80
+b7          PJ1          30044.0   30904.0  343.00   90.00   0.00   3.00   3.00   1.50
+extend right
+PJ1         b8           27723.0   29184.0   56.00   95.00   5.00   0.00   2.00   0.80
+b8          b9           30904.0   32950.0  354.00   91.00   0.00   2.00   4.00   2.00 # grosse galerie rive gauche en hauteur qui boucle à a3
+b9          b10          32950.0   33935.0   62.00   95.00   0.00   2.00   5.00   1.50
+b10          b11          33935.0   34450.0  127.00   98.00   2.00   0.00   5.00   1.50
+b11          b12          34450.0   35657.0   89.00   93.00   0.00   2.00   6.00   1.50
+b12          b13          35657.0   36377.0   84.00   89.00   2.00   0.00   6.00   1.50
+b13          b14          36377.0   37610.0   15.00   93.00   0.00   2.00   8.00   1.50
+b14          b15          37610.0   38605.0   64.00   64.00   0.00   2.00  10.00   1.50
+b15          b16          38605.0   39026.0   97.00   82.00   2.00   0.50  10.00   2.00
+b16          b17          39026.0   40709.0   46.00  119.00   1.00   1.50   2.00   1.00
+b17          b18          41354.0   42026.0   15.00   98.00   1.00   1.00   5.00   1.50
+b18          b19          42026.0   42926.0   62.00  114.00   1.00   1.00  10.00   1.50
+b19          b20          43230.0   44241.0   83.00  103.00   1.00   2.00  10.00   1.70
+b20          b21          44241.0   45999.0   92.00  104.00  10.00   0.00  15.00   1.70
+b21          b22          45999.0   47499.0   60.00   96.00   0.00   2.00   2.00   1.50
+b22          b23          47574.0   49551.0  339.00  148.00   0.00   3.00   5.00      .
+b23          SortieS2         0.0    1200.0  339.00   90.00   0.00   1.20   5.00      .
+
+endcenterline
+
+centerline
+    date 2020.09.14
+      team "Damien Vignoles" 
+      team "Emmanuel Tessanne"
+    explo-date 2020.09.14
+      explo-team "Damien Vignoles" 
+      explo-team "Emmanuel Tessanne"
+
+    units length meters
+    units counter meters
+    units compass clino degrees
+    #calibrate counter 0.5 0
+    calibrate clino 0 -90
+
+    data diving from to fromcount tocount compass fromdepth todepth left right up down
+#Param Topof 100.000 Degd Prof 0.0000 Dir,Dir,Dir Dep Std 14/09/2020 M
+
+SortieS2   x1             100.0     105.0    0.00    0  0.00   0.00   1.20   6.00   0.00
+x1          x2              91.0     100.0   30.00   0  -4.00   1.00   1.00   1.50      .
+x2          x3              75.0      91.0    0.00   -4 -3.00   1.00   1.00   1.50      .
+x3          DepartS2        65.0      75.0  310.00   -3  0.00   1.00   1.00   1.50      .
+
+endcenterline
+
+centerline
+    date 2020.09.14
+      team "Damien Vignoles" 
+      team "Emmanuel Tessanne"
+    explo-date 2020.09.14
+      explo-team "Damien Vignoles" 
+      explo-team "Emmanuel Tessanne"
+
+    units length meters
+    #units counter meters
+    units compass clino degrees
+    #calibrate counter 0.5 0
+    #calibrate clino 0 -90
+
+    data diving from to length compass fromdepth todepth left right up down
+#Param Deca Degd Deniv 0.0000 Dir,Dir,Dir Dep Std 14/09/2020 M
+
+DepartS2   x4                        5.00  300.00    0  0.00   0.00   3.00      .      .
+x4          x5                       20.00    0.00    0 0.00   0.00   3.00   3.00   0.00
+x5          x6                       20.00   10.00    0 0.00   5.00   5.00  15.00      .
+x6          x7                       20.00    0.00    0 0.00   1.00   1.00   1.00      .
+x7          x8                       20.00  330.00    0 0.00   1.00   1.50   1.50      .
+x8          x9                       30.00    0.00    0 0.00   3.00   3.00   3.00      .
+x9          x10                      25.00   10.00    0 0.00   3.00   3.00   8.00      .
+x10         SortieS1                 40.00    0.00    0 0.00   3.00   3.00   8.00      .
+
+endcenterline
+
+centerline
+    date 2020.09.14
+      team "Damien Vignoles" 
+      team "Emmanuel Tessanne"
+    explo-date 2020.09.14
+      explo-team "Damien Vignoles" 
+      explo-team "Emmanuel Tessanne"
+
+    units length meters
+    units counter meters
+    units compass clino degrees
+    #calibrate counter 0.5 0
+    #calibrate clino 0 -90
+
+    data diving from to fromcount tocount compass fromdepth todepth left right up down
+#Param Topof 100.000 Degd Prof 0.0000 Dir,Dir,Dir Arr Std 14/09/2020 M
+
+SortieS1   x11             40.0      60.0    0.00   0 -9.00   2.00   2.00   5.00      .
+x11          x12              0.0      40.0    0.00  -9 -12.00   2.00   2.00   3.00      .
+x12          x13            290.0     310.0    0.00   -12 -8.00   2.00   2.00   3.00      .
+x13          cloche         240.0     290.0   10.00    -8 0.00  10.00   2.00   3.00      .
+cloche          x15            215.0     240.0   60.00  0 -12.00   2.00   2.00   3.00      .
+x15          x16            140.0     215.0   60.00  -12  -15.00   2.00   2.00   3.00      .
+x16          x17            130.0     140.0   30.00  -15  -11.00   2.00   2.00   3.00      .
+x17          x18            110.0     130.0    0.00  -11  -11.00   2.00   2.00   3.00      .
+x18          x19             90.0     110.0   10.00   -11 -9.00   2.00   2.00   3.00      .
+x19          x20             60.0      90.0   30.00  -9 -11.00   2.00   2.00   3.00      .
+x20          x21             50.0      60.0    0.00  -11  -11.00   2.00   2.00   3.00      .
+x21          0                0.0      50.0  340.00   -11  0.00   2.00   2.00   3.00      .
+
+  endcenterline
+
+endsurvey

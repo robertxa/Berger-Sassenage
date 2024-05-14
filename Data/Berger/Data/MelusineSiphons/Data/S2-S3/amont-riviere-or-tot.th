@@ -1,0 +1,16 @@
+encoding  utf-8
+
+# Copyright (C) 2022 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+survey amont-riviere-or -title "Amont de la Rivière d'Or"
+	# Pour importer les différentes données de différents fichiers topos : 
+	input Data/amont-riviere-or.th
+	
+
+	# Import des maps
+	#input amont-riviere-or-maps.th
+ 
+ endsurvey
+ 
