@@ -17,6 +17,10 @@ export model -output Outputs/systeme_sornin-XR.kml
 #export survey-list -o Outputs/statistic_D35_From.txt
 #export model -o Outputs/sornin.plt
 
+# export de la base de données
+export database -o Outputs/database.sql
+
+
 #export map -fmt esri -o Outputs/shape
 
 #Stqtistic

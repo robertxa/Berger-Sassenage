@@ -61,6 +61,10 @@ survey reseau_sornin  -title "Réseau du Sornin"
   ## Réseau de l'Etoile Sardine
   input Data/Berger/Data/Etoile-Sardine/Etoile-Sardine-tot.th
     equate 0@fossile_haut_grande_cascade.fossile_haut_grande_cascade.Etoile-Sardine Berger94@Berger
+  # Siphons amont Mélusine
+  input Data/Berger/Data/MelusineSiphons/MelusineSiphons-tot.th
+    equate 0@S1-S2.S1-S2.MelusineSiphons F47@Berger
+
   input Data/Berger/Data/Laitiere-Mutante/Data/Laitieremutante.th
     #equate AA1@LaitiereMutante AA1@Berger
     equate AA2@LaitiereMutante AmontBerger25@Berger
