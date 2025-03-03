@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: "Parrot"
+    given-names: "David"
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+  - family-names: "Robert"
+    given-names: "Xavier"
+    orcid: "https://orcid.org/0000-0002-0567-7497"
+title: "Base de données topographiques du système karstique Berger-Fromagère-Sassenage (Engins, Vercors, 38, France)"
+DOI: 10.5281/zenodo.14959914
+date-released: 2025-02-28
+repository-code: "https://github.com/robertxa/Berger-Sassenage"

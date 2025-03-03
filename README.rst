@@ -61,5 +61,7 @@ David Parrot, Xavier Robert (xavier.robert@ird.fr)
 
 How to cite
 -----------
-
+.. image:: https://zenodo.org/badge/699850414.svg
+  :target: https://doi.org/10.5281/zenodo.14959913
+  
 Robert, X. & Parrot, D., Base de données Topographiques du système karstiques Berger-Fromagère-Sassenage (Engins, Vercors, 38, France), https://github.com/robertxa/Berger-Sassenage, 2023. 
